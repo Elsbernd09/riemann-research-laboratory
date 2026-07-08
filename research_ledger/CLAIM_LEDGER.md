@@ -73,3 +73,45 @@ A proposed claim invalidated by a counterexample, hidden assumption, circularity
 **Statement:** Numerical positivity of finitely many Li coefficients does not establish positivity for all Li coefficients.
 
 **Purpose:** Prevent finite computation from being mislabeled as a universal theorem.
+
+---
+
+## CL-0005
+
+**Status:** KNOWN THEOREM
+
+**Statement:** The completed Riemann xi-function satisfies the functional-equation symmetry xi(s) = xi(1-s) and conjugation symmetry xi(conjugate(s)) = conjugate(xi(s)).
+
+**Project claim?:** No.
+
+---
+
+## CL-0006
+
+**Status:** KNOWN THEOREM
+
+**Statement:** A generic nonreal zero beta + i gamma of xi generates the symmetry orbit consisting of rho, 1-rho, conjugate(rho), and 1-conjugate(rho), with coincidences possible on symmetry loci.
+
+**Project claim?:** No.
+
+---
+
+## CL-0007
+
+**Status:** HEURISTIC
+
+**Statement:** A finite factor-ratio perturbation replacing selected zero factors may provide a useful controlled model for comparing the finite-scale response of zero-sensitive RH diagnostics.
+
+**Project claim?:** Not currently a theorem.
+
+**Largest danger:** The resulting synthetic entire or meromorphic model may not preserve the arithmetic structures required by some diagnostics.
+
+---
+
+## CL-0008
+
+**Status:** FAILED CLAIM PREVENTION RULE
+
+**Statement:** A symmetry-preserving synthetic zero multiset is not automatically the zero set of a modified zeta function with an Euler product, Dirichlet series, or prime interpretation.
+
+**Purpose:** Prevent synthetic analytic models from being mislabeled as arithmetic zeta functions.

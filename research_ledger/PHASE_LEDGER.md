@@ -2,28 +2,60 @@
 
 ## Phase 0A — Repository and Research Constitution
 
-Status: ACTIVE
+Status: COMPLETE
 
-### Objective
+### What we built
 
-Create the minimal reproducible research structure and freeze the initial scientific question before implementing numerical experiments.
+A reproducible repository structure, claim-status protocol, phase ledger, and research constitution.
 
-### Research question
-
-How does a controlled, functional-equation-symmetric displacement of hypothetical zeros away from the critical line propagate quantitatively through different RH diagnostics?
-
-### Current mathematical claim supported
+### Mathematical claim supported
 
 None.
 
-Repository initialization does not constitute mathematical evidence.
+### What remains unproved
+
+All project-specific mathematical claims.
+
+### Largest weakness at completion
+
+The synthetic zero perturbation had not been mathematically specified.
+
+---
+
+## Phase 0B — Zero Surgery Specification
+
+Status: ACTIVE
+
+### What we built
+
+A three-level taxonomy:
+
+1. zero-orbit surgery;
+2. canonical-product surgery;
+3. arithmetic-structural surgery.
+
+We specified the symmetry-preserving quartet
+
+\[
+Q_{\delta,\gamma}.
+\]
+
+We identified Question ZS-001 concerning zero-count conservation and orbit degeneration.
+
+### Mathematical claim supported
+
+Only standard xi-function symmetry facts are currently used.
+
+No new theorem is claimed.
 
 ### What remains unproved
 
-Everything specific to the proposed synthetic-zero stability program.
+Whether finite factor-ratio surgery provides a useful or mathematically natural comparison model for the selected diagnostics.
 
-No detection law, asymptotic scale, inequality, conjecture, or theorem has been established.
+Whether a zero-count-preserving perturbation model should replace pair-to-quartet surgery.
 
 ### Largest current weakness
 
-The program has not yet demonstrated that the proposed cross-diagnostic perturbation question is absent from the existing literature or that the synthetic zero models preserve enough analytic structure to support meaningful conclusions.
+The critical-line symmetry orbit has two distinct points while a generic off-critical orbit has four.
+
+The naive pair-to-quartet operation therefore changes zero count and may contaminate diagnostic-response measurements.
