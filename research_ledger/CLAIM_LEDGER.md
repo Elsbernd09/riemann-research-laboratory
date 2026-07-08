@@ -147,3 +147,39 @@ A proposed claim invalidated by a counterexample, hidden assumption, circularity
 **Failure:** The quartet converges as a multiset to a doubled critical-line pair. A pair-to-quartet response therefore contains a zeroth-order multiplicity jump.
 
 **Disposition:** Model A rejected as the primary perturbation model.
+
+---
+
+## CL-0012
+
+**Status:** FAILED CLAIM
+
+**Statement:** Raw quadratic susceptibilities from unrelated diagnostic kernels can be ranked directly as universal measures of off-critical sensitivity.
+
+**Failure:** Native kernel scale and normalization may differ across diagnostic families.
+
+**Disposition:** Direct universal ranking by raw susceptibility rejected.
+
+---
+
+## CL-0013
+
+**Status:** FAILED CLAIM
+
+**Statement:** Dividing susceptibility by the absolute baseline pair contribution produces an intrinsic sensitivity metric.
+
+**Failure:** Additive shifts of the kernel preserve the second derivative and hence susceptibility while changing the proposed denominator.
+
+**Disposition:** Baseline-magnitude normalization rejected as intrinsic.
+
+---
+
+## CL-0014
+
+**Status:** HEURISTIC
+
+**Statement:** Separating native response, response orientation, derivative-shape geometry, and logarithmic curvature may provide a more honest comparison of RH-related diagnostic kernels than a single universal sensitivity scalar.
+
+**Project claim?:** Not currently a theorem.
+
+**Required next step:** Apply the formalism to a mathematically standard diagnostic kernel and determine whether the decomposition yields nontrivial structure.

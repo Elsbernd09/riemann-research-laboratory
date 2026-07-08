@@ -125,3 +125,81 @@ Whether an intrinsic normalization exists for comparing different diagnostic fam
 ### Largest current weakness
 
 Raw response magnitudes across different diagnostics are not directly comparable because normalization and baseline scale may dominate the measured susceptibility.
+
+
+---
+
+## Phase 0D — Normalization and Susceptibility Signature
+
+Status: COMPLETE
+
+### What we built
+
+We tested several cross-diagnostic normalization strategies.
+
+Baseline-value normalization was rejected because cancellation can create artificial singularities.
+
+Absolute-pair normalization was rejected as intrinsic because additive kernel shifts preserve susceptibility while changing the denominator.
+
+We retained:
+
+\[
+\Omega_f
+=
+\frac{|\Re f''|}{|f''|}
+\]
+
+as a response-orientation coefficient,
+
+\[
+\mathcal K_f
+=
+\frac{ff''}{(f')^2}
+\]
+
+as a local multiplicative-scale-invariant shape quantity,
+
+and
+
+\[
+\mathcal C_f
+=
+\frac{f''}{f}
+-
+\left(\frac{f'}{f}\right)^2
+\]
+
+as logarithmic curvature.
+
+The primary comparison object is now the susceptibility signature
+
+\[
+\Sigma_f
+=
+(
+\chi_f,
+\Omega_f,
+\mathcal K_f,
+\mathcal C_f
+).
+\]
+
+### Mathematical claim supported
+
+The stated scaling and additive-shift properties follow by direct differentiation and algebra.
+
+No RH-related theorem is claimed.
+
+### What remains unproved
+
+Whether the susceptibility signature reveals mathematically useful structure for any standard RH diagnostic family.
+
+Whether the formalism or an equivalent formulation already exists in the literature.
+
+Whether the chosen components are the correct long-term invariants.
+
+### Largest current weakness
+
+The project has not yet analyzed a single concrete standard RH diagnostic kernel.
+
+Until that happens, the framework remains methodology rather than substantive analytic-number-theory research.
