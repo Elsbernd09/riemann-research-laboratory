@@ -395,7 +395,7 @@ The main mathematical risk is that the global Li zero sum requires a summation i
 
 ## Phase 1C — Local-to-Global Li Response Audit
 
-Status: ACTIVE
+Status: COMPLETE
 
 ### What we discovered
 
@@ -455,3 +455,62 @@ Any implication for RH.
 The finite factor ratio contains negative zero multiplicities and is generally rational.
 
 The project still lacks an admissible entire or arithmetic deformation corresponding to its signed response model.
+
+
+---
+
+## Phase 1D — Reflection-Mediated Li Bridge Validation
+
+Status: COMPLETE
+
+### What we built
+
+We independently validated the identity
+
+\[
+g_n(z)
+=
+f_n(1-z),
+\]
+
+where \(g_n\) is the finite-factor derivative-side kernel and \(f_n\) is the standard Li zero kernel used in the project.
+
+We validated the single-factor derivative formula symbolically for fixed integer indices as an adversarial check of the written general proof.
+
+We compared the standard and inverse-phase orbit responses using arbitrary-precision arithmetic.
+
+We deliberately removed reflection symmetry and observed that the response equality generally broke.
+
+### Mathematical claim supported
+
+The project promotes the reflection-invariant finite Li response proposition to PROVED IN PROJECT.
+
+For every finite signed point measure \(\nu\) invariant under
+
+\[
+z\mapsto1-z
+\]
+
+and supported away from \(0\) and \(1\),
+
+\[
+\int g_n\,d\nu
+=
+\int f_n\,d\nu.
+\]
+
+### What remains unproved or unaudited
+
+Originality relative to the literature.
+
+Necessity of reflection invariance for broader classes of response identities.
+
+Any realization of the signed perturbation as an entire arithmetic deformation.
+
+Any implication for RH.
+
+### Largest current weakness
+
+The current bridge is exact for a finite signed response and corresponding rational factor.
+
+The project still lacks a natural entire-function deformation preserving enough xi-like structure to make the perturbation more than a response-functional model.

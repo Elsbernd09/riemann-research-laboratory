@@ -246,11 +246,13 @@ A proposed claim invalidated by a counterexample, hidden assumption, circularity
 
 ## CL-0020
 
-**Status:** PROJECT CONJECTURE CANDIDATE — NOT YET ACTIVATED
+**Status:** PROVED IN PROJECT
 
 **Statement:** For every finite reflection-invariant signed point measure avoiding 0 and 1, the finite-factor Li-type derivative response equals the signed response of the standard Li zero kernel.
 
-**Reason not activated:** Direct proof has been written but independent symbolic and numerical validation has not yet been completed.
+**Proof status:** The result follows from the pointwise reflection identity g_n(z) = f_n(1-z) and invariance of the finite signed measure under z -> 1-z. The single-factor derivative kernel, reflection identity, and orbit-level response have undergone symbolic and arbitrary-precision computational validation.
+
+**Originality status:** Unresolved. The project does not claim this identity is new in the literature.
 
 ---
 

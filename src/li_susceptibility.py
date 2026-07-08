@@ -200,3 +200,115 @@ def scaled_li_susceptibility(
     gamma_mp = validate_gamma(gamma)
 
     return gamma_mp**2 * li_susceptibility_exact(n, gamma_mp)
+
+
+def li_inverse_phase_kernel(z: mp.mpc, n: int) -> mp.mpc:
+    """Return g_n(z) = 1 - (1 - 1/z)^(-n).
+
+    This is the single-factor kernel produced by the Li-type derivative
+    functional centered at s = 1.
+    """
+    validate_n(n)
+    z = mp.mpc(z)
+
+    if z == 0:
+        raise ZeroDivisionError("Kernel is singular at z = 0")
+
+    base = 1 - 1 / z
+
+    if base == 0:
+        raise ZeroDivisionError(
+            "Inverse-phase Li kernel is singular at z = 1"
+        )
+
+    return 1 - base ** (-n)
+
+
+def reflected_li_kernel(z: mp.mpc, n: int) -> mp.mpc:
+    """Return f_n(1-z)."""
+    validate_n(n)
+    z = mp.mpc(z)
+
+    reflected = 1 - z
+
+    if reflected == 0:
+        raise ZeroDivisionError(
+            "Reflected Li kernel is singular when z = 1"
+        )
+
+    return li_kernel(reflected, n)
+
+
+def orbit_response_from_kernel(
+    delta: Number,
+    gamma: Number,
+    n: int,
+    kernel,
+) -> mp.mpf:
+    """Evaluate the signed orbit response for a supplied kernel."""
+    validate_n(n)
+    gamma_mp = validate_gamma(gamma)
+    delta_mp = mp.mpf(delta)
+
+    total = mp.mpc(0)
+
+    for epsilon in (-1, 1):
+        for eta in (-1, 1):
+            z = mp.mpc(
+                mp.mpf("0.5") + epsilon * delta_mp,
+                eta * gamma_mp,
+            )
+            total += kernel(z, n)
+
+    for eta in (-1, 1):
+        z = mp.mpc(mp.mpf("0.5"), eta * gamma_mp)
+        total -= 2 * kernel(z, n)
+
+    return total
+
+
+def reflection_invariant_zero_response(
+    delta: Number,
+    gamma: Number,
+    n: int,
+) -> mp.mpc:
+    """Return the orbit response using the standard Li zero kernel."""
+    return orbit_response_from_kernel(
+        delta,
+        gamma,
+        n,
+        li_kernel,
+    )
+
+
+def reflection_invariant_derivative_response(
+    delta: Number,
+    gamma: Number,
+    n: int,
+) -> mp.mpc:
+    """Return the orbit response using the inverse-phase kernel."""
+    return orbit_response_from_kernel(
+        delta,
+        gamma,
+        n,
+        li_inverse_phase_kernel,
+    )
+
+
+def asymmetric_signed_response(
+    points_and_weights: list[tuple[mp.mpc, int]],
+    n: int,
+    kernel,
+) -> mp.mpc:
+    """Evaluate a finite signed response on an arbitrary point measure.
+
+    The input is a list of (point, integer weight) pairs.
+    """
+    validate_n(n)
+
+    total = mp.mpc(0)
+
+    for point, weight in points_and_weights:
+        total += int(weight) * kernel(mp.mpc(point), n)
+
+    return total

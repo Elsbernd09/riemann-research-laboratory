@@ -93,3 +93,87 @@ def test_invalid_n_rejected() -> None:
 def test_zero_kernel_singularity_rejected() -> None:
     with pytest.raises(ZeroDivisionError):
         li_kernel(mp.mpc(0), 1)
+
+
+def test_inverse_phase_equals_reflected_kernel() -> None:
+    from src.li_susceptibility import (
+        li_inverse_phase_kernel,
+        reflected_li_kernel,
+    )
+
+    z = mp.mpc("0.7", "14.134725141734693790")
+
+    for n in [1, 2, 5, 20, 100]:
+        left = li_inverse_phase_kernel(z, n)
+        right = reflected_li_kernel(z, n)
+
+        denominator = max(
+            abs(left),
+            abs(right),
+            mp.mpf("1e-100"),
+        )
+        relative_error = abs(left - right) / denominator
+
+        assert relative_error < mp.mpf("1e-70")
+
+
+def test_reflection_invariant_orbit_bridge() -> None:
+    from src.li_susceptibility import (
+        reflection_invariant_derivative_response,
+        reflection_invariant_zero_response,
+    )
+
+    cases = [
+        ("0.01", "14.134725141734693790", 1),
+        ("0.05", "50", 5),
+        ("0.1", "100", 20),
+        ("0.2", "250", 100),
+    ]
+
+    for delta, gamma, n in cases:
+        left = reflection_invariant_zero_response(
+            delta,
+            gamma,
+            n,
+        )
+        right = reflection_invariant_derivative_response(
+            delta,
+            gamma,
+            n,
+        )
+
+        denominator = max(
+            abs(left),
+            abs(right),
+            mp.mpf("1e-100"),
+        )
+        relative_error = abs(left - right) / denominator
+
+        assert relative_error < mp.mpf("1e-70")
+
+
+def test_asymmetric_measure_generically_breaks_bridge() -> None:
+    from src.li_susceptibility import (
+        asymmetric_signed_response,
+        li_inverse_phase_kernel,
+        li_kernel,
+    )
+
+    measure = [
+        (mp.mpc("0.6", "14"), 1),
+        (mp.mpc("0.5", "14"), -1),
+    ]
+
+    f_response = asymmetric_signed_response(
+        measure,
+        20,
+        li_kernel,
+    )
+
+    g_response = asymmetric_signed_response(
+        measure,
+        20,
+        li_inverse_phase_kernel,
+    )
+
+    assert abs(f_response - g_response) > mp.mpf("1e-20")
