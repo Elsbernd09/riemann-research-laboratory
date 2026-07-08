@@ -202,3 +202,82 @@ TARGETED BACKWARD-CITATION STRIKE SEARCH COMPLETE.
 Further action:
 
 Search the exact mathematical combination rather than broad Li sensitivity language.
+
+## Campaign Q4-EXACT-001
+
+**Date:** 2026-07-08
+
+**Audit question:** Q4 — narrowed Li zero-coordinate response question
+
+**Campaign type:** Exact-combination PA-4 strike search
+
+## Surviving originality-sensitive object
+
+The infinitesimal second variation of the fixed Li zero kernel under symmetry-preserving horizontal zero displacement, its quarter-turn horizontal-versus-vertical contrast, and the simultaneous n/gamma -> c scaling of that response.
+
+## Trigger A — Shift derivative of Li coefficients
+
+Search for derivatives with respect to a in Li coefficients attached to shifted products such as
+
+\[
+F(s-a)F(s+a).
+\]
+
+Primary danger:
+
+\[
+\left.
+\frac{d^2}{da^2}
+\lambda_n(F(s-a)F(s+a))
+\right|_{a=0}.
+\]
+
+## Trigger B — Zero-coordinate variation
+
+Search for derivatives, Hessians, Taylor expansions, or second variations of Li-type sums with respect to rho, Re(rho), beta, or finite multiset coordinates.
+
+## Trigger C — Horizontal versus vertical deformation
+
+Search for comparisons between real symmetric shifts and imaginary symmetric shifts, including
+
+\[
+F(s-a)F(s+a)
+\]
+
+versus
+
+\[
+F(s-ia)F(s+ia).
+\]
+
+## Trigger D — Coupled n/height scaling
+
+Search for simultaneous asymptotics in Li index and zero height, especially
+
+\[
+n/\gamma\to c.
+\]
+
+## Trigger E — Logarithmic shift variation
+
+Search for symmetric-shift second derivatives
+
+\[
+\left.
+\partial_a^2
+\log[F(s-a)F(s+a)]
+\right|_{a=0}
+=
+2(\log F)''(s)
+\]
+
+when explicitly connected to Li or zero-response questions.
+
+## PA-4 rule
+
+A paper receives PA-4 review if it contains a materially equivalent form of the project's surviving combination.
+
+Individual standard ingredients do not trigger PA-4 by themselves.
+
+**Status:** SEARCH IN PROGRESS
+
