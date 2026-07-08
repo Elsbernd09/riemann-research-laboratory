@@ -1051,3 +1051,130 @@ where R is the normalized fourth-order cancellation ratio.
 **Priority:** HIGH.
 
 **Status:** OPEN.
+
+---
+
+## CL-0087
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** For a fully aligned resonant finite orbit family,
+\[
+6c_{k_1}^4K_{\mathrm{agg}}
+=
+\sum_j
+w_j(-1)^{k_j+1}
+A_{k_j},
+\]
+where
+\[
+A_k=c_k^6\sqrt{c_k^2+4}.
+\]
+
+**Interpretation:** Multi-orbit fourth-order resonance reduces exactly to a signed weighted-moment problem.
+
+---
+
+## CL-0088
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** No positive-weight fully aligned resonant family supported on a single blind-scale parity can cancel at fourth order.
+
+---
+
+## CL-0089
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Every mixed-parity resonant index family admits strictly positive real weights that cancel the fourth-order coefficient exactly.
+
+**Interpretation:** Arbitrary continuous weight tuning makes exact cancellation a codimension-one linear condition.
+
+---
+
+## CL-0090
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** For fixed mixed-parity indices and normalized positive weights, exact fourth-order cancellation lies on a codimension-one affine slice of the weight simplex and has simplex Lebesgue measure zero.
+
+---
+
+## CL-0091
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** A transverse perturbation of an exactly cancelling weight vector restores the fourth-order aggregate coefficient linearly in the perturbation size.
+
+---
+
+## CL-0092
+
+**Status:** FAILED CLAIM PREVENTION RULE
+
+**Statement:** Exact cancellation found by unconstrained optimization over positive real orbit weights must not be presented as a rigid multi-orbit resonance discovery.
+
+**Reason:** Mixed-parity cancellation is one linear weight constraint and is always continuously tunable.
+
+---
+
+## CL-0093
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Equal-weight three-orbit exact fourth-order cancellation reduces to
+\[
+A_r=A_p+A_q
+\]
+with the unique-parity index satisfying
+\[
+r>\max(p,q).
+\]
+
+---
+
+## CL-0094
+
+**Status:** FAILED CLAIM PREVENTION RULE
+
+**Statement:** The large-index approximation
+\[
+(r+1/2)^7
+\approx
+(p+1/2)^7+(q+1/2)^7
+\]
+does not permit application of Fermat's Last Theorem to the exact blind-scale moment equation.
+
+---
+
+## CL-0095
+
+**Status:** PROJECT RESEARCH QUESTION
+
+**Statement:** Do there exist equal-weight three-orbit blind-scale indices of the required parity satisfying
+\[
+A_r=A_p+A_q?
+\]
+
+**Priority:** HIGH.
+
+**Status:** OPEN.
+
+---
+
+## CL-0096
+
+**Status:** PROJECT RESEARCH QUESTION
+
+**Statement:** If exact equal-weight three-orbit cancellation does not occur in a large search range, how small can the normalized signed defect
+\[
+D(p,q,r)
+=
+\frac{|A_r-A_p-A_q|}{A_r+A_p+A_q}
+\]
+be relative to the natural local spacing scale of the blind-scale moment sequence?
+
+**Priority:** HIGH.
+
+**Status:** OPEN.

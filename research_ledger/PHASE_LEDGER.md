@@ -1606,3 +1606,83 @@ The next structural question is whether three or more resonant orbit contributio
 All orbit-height ratios remain synthetic.
 
 No arithmetic connection to actual zeta zero-height ratios has been established.
+
+
+---
+
+## Phase 4E — Multi-Orbit Signed-Moment Reduction
+
+Status: COMPLETE
+
+### Exact reduction
+
+For a fully aligned resonant family, define
+
+\[
+A_k
+=
+c_k^6\sqrt{c_k^2+4}.
+\]
+
+Then the fourth-order aggregate coefficient satisfies
+
+\[
+6c_{k_1}^4K_{\mathrm{agg}}
+=
+\sum_j
+w_j(-1)^{k_j+1}A_{k_j}.
+\]
+
+Thus multi-orbit cancellation is exactly a signed weighted-moment problem separated by blind-scale parity.
+
+### Continuous weights
+
+Same-parity positive-weight families cannot cancel.
+
+Every mixed-parity index family admits positive real weights with exact cancellation.
+
+For normalized positive weights, the cancellation set is a codimension-one affine slice of the weight simplex.
+
+A transverse weight perturbation restores the fourth-order coefficient linearly.
+
+### Research correction
+
+Arbitrary positive real weight optimization is not a meaningful rigid-cancellation frontier.
+
+It can manufacture exact cancellation by solving one linear equation.
+
+### Equal-weight three-orbit frontier
+
+For three equal-weight orbits, exact cancellation requires
+
+\[
+A_r=A_p+A_q,
+\]
+
+where the unique-parity index obeys
+
+\[
+r>\max(p,q).
+\]
+
+At large indices,
+
+\[
+A_k
+\sim
+\pi^7(k+1/2)^7,
+\]
+
+which gives an asymptotic candidate geometry but not a Fermat equation.
+
+### Current frontier
+
+Search the equal-weight three-orbit equation using parity and monotonicity reductions.
+
+Near-cancellation must be judged using a normalized defect and compared against the natural local spacing scale of the sequence A_k.
+
+### Largest current weakness
+
+The rigid signed-moment problem remains entirely inside a synthetic blind-scale orbit model.
+
+No connection to actual zeta zero heights is established.
