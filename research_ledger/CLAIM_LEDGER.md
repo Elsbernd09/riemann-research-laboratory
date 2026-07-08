@@ -407,3 +407,35 @@ locally in delta.
 **Interpretation:** Validation of the proved scaling law and implementation.
 
 **Not evidence for:** RH, novelty, or comparative superiority over the Li diagnostic.
+
+---
+
+## CL-0033
+
+**Status:** PROJECT CONJECTURE CANDIDATE — FROZEN PRE-DERIVATION PREDICTION
+
+**Statement:** For the resolvent kernel r_a(z) = 1/(a-z), if gamma tends to infinity and (a-1/2)/gamma tends to c > 0, then gamma^3 times the quadratic susceptibility converges to a nontrivial profile depending on c.
+
+**Predicted profile type:** Rational in c.
+
+**Originality claim:** None.
+
+---
+
+## CL-0034
+
+**Status:** PROJECT CONJECTURE CANDIDATE — FROZEN PRE-DERIVATION PREDICTION
+
+**Statement:** For fixed real a > 1/2, the resolvent-kernel susceptibility is O_a(gamma^-4), with leading coefficient proportional to a-1/2.
+
+**Originality claim:** None.
+
+---
+
+## CL-0035
+
+**Status:** HEURISTIC — FROZEN TAXONOMY PREDICTION
+
+**Statement:** The phrase "phase coordinate" is too restrictive for a general susceptibility scaling taxonomy and should be replaced by "asymptotic similarity coordinate."
+
+**Test case:** Resolvent kernel r_a(z) = 1/(a-z).

@@ -878,3 +878,80 @@ Any implication for RH.
 The taxonomy has been inferred from exactly two kernel families.
 
 A third diagnostic must be selected before the project can claim that the framework has predictive rather than retrospective value.
+
+
+---
+
+## Phase 2C — Third-Family Out-of-Sample Prediction Freeze
+
+Status: COMPLETE
+
+### What we selected
+
+The third kernel family is the resolvent kernel
+
+\[
+r_a(z)
+=
+\frac1{a-z},
+\qquad
+a>\frac12.
+\]
+
+### Frozen pre-derivation predictions
+
+The project predicts the similarity coordinate
+
+\[
+\frac{a-\frac12}{\gamma}.
+\]
+
+Under
+
+\[
+\frac{a-\frac12}{\gamma}\to c>0,
+\]
+
+the project predicts a height exponent
+
+\[
+3
+\]
+
+and a rational limiting susceptibility profile.
+
+For fixed \(a\), the project predicts
+
+\[
+O_a(\gamma^{-4})
+\]
+
+decay with a leading coefficient proportional to
+
+\[
+a-\frac12.
+\]
+
+The project also predicts that the taxonomy must replace the phrase
+
+"phase coordinate"
+
+with
+
+"asymptotic similarity coordinate."
+
+### Mathematical claim supported
+
+None yet.
+
+This phase intentionally freezes predictions before exact derivation.
+
+### What remains unknown
+
+Whether any prediction is correct.
+
+The exact second derivative has not been derived in the project at the time of this commit.
+
+### Largest current risk
+
+The prediction may be largely dimensional analysis and may fail to reveal anything deeper than homogeneity of the resolvent kernel.
