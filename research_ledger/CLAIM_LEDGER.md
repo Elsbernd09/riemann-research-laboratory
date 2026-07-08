@@ -183,3 +183,23 @@ A proposed claim invalidated by a counterexample, hidden assumption, circularity
 **Project claim?:** Not currently a theorem.
 
 **Required next step:** Apply the formalism to a mathematically standard diagnostic kernel and determine whether the decomposition yields nontrivial structure.
+
+---
+
+## CL-0015
+
+**Status:** PROJECT CONJECTURE CANDIDATE — NOT YET ACTIVATED
+
+**Statement:** For the individual Li kernel, if gamma tends to infinity and n/gamma tends to c > 0, then gamma^2 times the quadratic susceptibility tends to -2c(c cos(c) + 2 sin(c)).
+
+**Reason not activated:** The derivation has not yet undergone independent symbolic and numerical verification, and originality is unresolved.
+
+---
+
+## CL-0016
+
+**Status:** COMPUTATIONAL OBSERVATION PREVENTION RULE
+
+**Statement:** Any future numerical scaling collapse matching the Li susceptibility profile is validation of the derived formula, not by itself evidence of a new theorem or progress toward RH.
+
+**Purpose:** Prevent reproduction of an analytically derived limit from being marketed as numerical discovery.

@@ -203,3 +203,120 @@ Whether the chosen components are the correct long-term invariants.
 The project has not yet analyzed a single concrete standard RH diagnostic kernel.
 
 Until that happens, the framework remains methodology rather than substantive analytic-number-theory research.
+
+
+---
+
+## Phase 1A — Exact Li-Kernel Susceptibility
+
+Status: ACTIVE
+
+### What we derived
+
+For
+
+\[
+f_n(z)
+=
+1-
+\left(
+1-\frac1z
+\right)^n,
+\]
+
+we derived
+
+\[
+f_n''(z)
+=
+n
+\left(
+1-\frac1z
+\right)^{n-2}
+\frac{2z-n-1}{z^4}.
+\]
+
+At
+
+\[
+\rho_\gamma
+=
+\frac12+i\gamma,
+\]
+
+with
+
+\[
+\theta_\gamma
+=
+2\arctan\left(\frac1{2\gamma}\right),
+\]
+
+the individual Li-kernel susceptibility is
+
+\[
+\chi_n^{\mathrm{Li}}(\gamma)
+=
+-
+\frac{
+2n
+}{
+\left(\gamma^2+\frac14\right)^2
+}
+\left[
+n\cos(n\theta_\gamma)
++
+2\gamma\sin(n\theta_\gamma)
+\right].
+\]
+
+For fixed \(n\),
+
+\[
+\chi_n^{\mathrm{Li}}(\gamma)
+=
+-\frac{6n^2}{\gamma^4}
++
+O_n(\gamma^{-6}).
+\]
+
+A candidate mesoscopic scaling proposition has been formulated:
+
+\[
+\frac n\gamma\to c
+\]
+
+implies
+
+\[
+\gamma^2
+\chi_n^{\mathrm{Li}}(\gamma)
+\to
+-2c(c\cos c+2\sin c).
+\]
+
+### Mathematical claim supported
+
+A manual algebraic derivation supports the exact susceptibility formula.
+
+The mesoscopic scaling result appears to follow directly from the exact formula.
+
+Neither has yet been promoted to PROVED IN PROJECT.
+
+### What remains unproved or unaudited
+
+Independent symbolic verification.
+
+Independent finite-difference verification.
+
+Precise proof formatting for the scaling limit.
+
+Current literature originality.
+
+Relevance of the individual-kernel scaling law to full Li coefficients or RH.
+
+### Largest current weakness
+
+The project has analyzed an individual Li zero kernel, not the globally regularized zero sum defining Li coefficients.
+
+No passage from local kernel susceptibility to a perturbation statement about the full Li coefficient sequence has been justified.
