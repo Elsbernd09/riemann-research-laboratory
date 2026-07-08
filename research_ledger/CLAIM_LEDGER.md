@@ -439,3 +439,74 @@ locally in delta.
 **Statement:** The phrase "phase coordinate" is too restrictive for a general susceptibility scaling taxonomy and should be replaced by "asymptotic similarity coordinate."
 
 **Test case:** Resolvent kernel r_a(z) = 1/(a-z).
+
+---
+
+## CL-0036
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** For the resolvent kernel r_a(z) = 1/(a-z), with d = a-1/2,
+\[
+\chi_a^{Res}(\gamma)
+=
+\frac{4d(d^2-3\gamma^2)}{(d^2+\gamma^2)^3}.
+\]
+
+**Proof status:** Direct differentiation and algebraic extraction of the real part.
+
+**Originality status:** No originality claim. The calculation is elementary.
+
+---
+
+## CL-0037
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** If gamma tends to infinity and (a-1/2)/gamma tends to c > 0, then
+\[
+\gamma^3\chi_a^{Res}(\gamma)
+\to
+\frac{4c(c^2-3)}{(c^2+1)^3}.
+\]
+
+**Frozen prediction result:** P-RES-001 PASS and P-RES-002 PASS.
+
+**Originality status:** Unresolved as a taxonomy example; no claim that the asymptotic calculation itself is new.
+
+---
+
+## CL-0038
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** For fixed real a > 1/2,
+\[
+\chi_a^{Res}(\gamma)
+\sim
+-12(a-1/2)\gamma^{-4}.
+\]
+
+**Frozen prediction result:** P-RES-004 PASS.
+
+---
+
+## CL-0039
+
+**Status:** HEURISTIC — SUPPORTED BY THIRD-FAMILY TEST
+
+**Statement:** "Asymptotic similarity coordinate" is a more general term than "phase coordinate" for the project susceptibility taxonomy.
+
+**Evidence:** The resolvent coordinate (a-1/2)/gamma controls an exact nonoscillatory rational profile and sign transition.
+
+**Status warning:** Methodological terminology, not a theorem.
+
+---
+
+## CL-0040
+
+**Status:** HEURISTIC
+
+**Statement:** A useful cross-diagnostic susceptibility taxonomy may need to record profile zeros and vanishing orders because parameter paths approaching a zero of the limiting profile can exhibit stronger decay than the generic family exponent.
+
+**Motivating example:** Resolvent fixed-a regime.

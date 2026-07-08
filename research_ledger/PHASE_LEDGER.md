@@ -955,3 +955,105 @@ The exact second derivative has not been derived in the project at the time of t
 ### Largest current risk
 
 The prediction may be largely dimensional analysis and may fail to reveal anything deeper than homogeneity of the resolvent kernel.
+
+
+---
+
+## Phase 2D — Resolvent Out-of-Sample Derivation
+
+Status: ACTIVE
+
+### Exact result
+
+For
+
+\[
+r_a(z)
+=
+\frac1{a-z},
+\]
+
+with
+
+\[
+d=a-\frac12,
+\]
+
+the quadratic susceptibility is
+
+\[
+\chi_a^{\mathrm{Res}}(\gamma)
+=
+\frac{
+4d(d^2-3\gamma^2)
+}{
+(d^2+\gamma^2)^3
+}.
+\]
+
+### Generic similarity law
+
+If
+
+\[
+d/\gamma\to c>0,
+\]
+
+then
+
+\[
+\gamma^3
+\chi_a^{\mathrm{Res}}(\gamma)
+\to
+\frac{
+4c(c^2-3)
+}{
+(c^2+1)^3
+}.
+\]
+
+### Frozen prediction score
+
+P-RES-001: PASS.
+
+P-RES-002: PASS.
+
+P-RES-003: PASS as methodological prediction.
+
+P-RES-004: PASS.
+
+### Taxonomy refinement
+
+The resolvent family exposes a distinction between:
+
+1. the generic family height exponent;
+2. profile vanishing at a boundary or interior coordinate;
+3. the decay rate of the parameter path toward that profile zero;
+4. the effective exponent observed in the resulting subregime.
+
+For fixed \(a\),
+
+\[
+d/\gamma\to0
+\]
+
+and
+
+\[
+\Psi_{\mathrm{Res}}(c)
+\sim-12c.
+\]
+
+This converts the generic exponent \(3\) into the fixed-\(a\) exponent \(4\).
+
+### Mathematical claim supported
+
+The exact susceptibility formula and both asymptotic regimes have direct analytic proofs.
+
+They have not yet undergone independent symbolic or arbitrary-precision validation.
+
+### Largest current weakness
+
+The third-family predictions were strongly informed by homogeneity and dimensional analysis.
+
+The successful scorecard supports the taxonomy as an organizing framework, but does not yet show that it extracts deep RH-specific structure.
