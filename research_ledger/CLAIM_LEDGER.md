@@ -510,3 +510,27 @@ locally in delta.
 **Statement:** A useful cross-diagnostic susceptibility taxonomy may need to record profile zeros and vanishing orders because parameter paths approaching a zero of the limiting profile can exhibit stronger decay than the generic family exponent.
 
 **Motivating example:** Resolvent fixed-a regime.
+
+---
+
+## CL-0041
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** The Phase 2E arbitrary-precision and symbolic validation suite independently reproduced the exact resolvent susceptibility, generic similarity profile, fixed-a boundary law, and profile zero at c = sqrt(3).
+
+**Interpretation:** Validation of the project derivation and frozen prediction scorecard.
+
+**Not evidence for:** RH or originality.
+
+---
+
+## CL-0042
+
+**Status:** HEURISTIC — SUPPORTED BY OUT-OF-SAMPLE TEST
+
+**Statement:** The susceptibility signature language has predictive organizing value across the three kernel families studied in the project.
+
+**Evidence:** Four qualitative predictions for the third family were frozen before derivation and all survived analytic and computational validation.
+
+**Limitation:** The predictions were guided by homogeneity and dimensional analysis. Broader mathematical significance remains unresolved.

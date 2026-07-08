@@ -961,7 +961,7 @@ The prediction may be largely dimensional analysis and may fail to reveal anythi
 
 ## Phase 2D — Resolvent Out-of-Sample Derivation
 
-Status: ACTIVE
+Status: COMPLETE
 
 ### Exact result
 
@@ -1057,3 +1057,108 @@ They have not yet undergone independent symbolic or arbitrary-precision validati
 The third-family predictions were strongly informed by homogeneity and dimensional analysis.
 
 The successful scorecard supports the taxonomy as an organizing framework, but does not yet show that it extracts deep RH-specific structure.
+
+
+---
+
+## Phase 2E — Resolvent Out-of-Sample Validation
+
+Status: COMPLETE
+
+### What we validated
+
+Independent symbolic differentiation validated
+
+\[
+r_a''(z)
+=
+2(a-z)^{-3}.
+\]
+
+The exact rational susceptibility formula was independently reduced and checked using arbitrary-precision arithmetic.
+
+The generic similarity profile
+
+\[
+\Psi_{\mathrm{Res}}(c)
+=
+\frac{
+4c(c^2-3)
+}{
+(c^2+1)^3
+}
+\]
+
+was validated.
+
+The fixed-\(a\) boundary law
+
+\[
+\gamma^4
+\chi_a^{\mathrm{Res}}(\gamma)
+\to
+-12
+\left(
+a-\frac12
+\right)
+\]
+
+was validated.
+
+The exact profile zero and susceptibility sign transition at
+
+\[
+c=\sqrt3
+\]
+
+were validated.
+
+### Frozen prediction result
+
+P-RES-001: PASS.
+
+P-RES-002: PASS.
+
+P-RES-003: PASS as methodological prediction.
+
+P-RES-004: PASS.
+
+Validated score:
+
+\[
+4/4.
+\]
+
+### Taxonomy state
+
+The susceptibility scaling framework has now survived a frozen third-family out-of-sample test inside the project.
+
+The term
+
+"asymptotic similarity coordinate"
+
+replaces the narrower term
+
+"phase coordinate"
+
+in the working taxonomy.
+
+Profile degeneracy is now recognized as a distinct structural issue because zeros and vanishing orders of the limiting profile can alter effective decay exponents on special parameter paths.
+
+### What remains unproved or unaudited
+
+Literature originality.
+
+A general theorem guaranteeing susceptibility signatures for a broad kernel class.
+
+A shared cost model across diagnostics.
+
+A transition from individual zero kernels to complete RH-equivalent criteria.
+
+Any implication for RH.
+
+### Largest current weakness
+
+The three-family taxonomy may still be a repackaging of elementary scaling and homogeneity principles.
+
+The next stage must perform a serious prior-art audit before the project presents the taxonomy as a potential mathematical contribution.
