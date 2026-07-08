@@ -229,3 +229,37 @@ A proposed claim invalidated by a counterexample, hidden assumption, circularity
 **Failure:** Its implicit tolerance was inconsistent with the explicitly declared relative-error threshold of 10^-70.
 
 **Disposition:** Automated tests now use the explicit project threshold.
+
+---
+
+## CL-0019
+
+**Status:** FAILED CLAIM
+
+**Statement:** The Li-type derivative functional applied to the single factor \(1-s/\rho\) produces the project kernel \(1-(1-1/\rho)^n\) at the same zero \(\rho\).
+
+**Failure:** The derivative functional produces \(1-(1-1/\rho)^{-n}\).
+
+**Disposition:** Termwise local bridge rejected.
+
+---
+
+## CL-0020
+
+**Status:** PROJECT CONJECTURE CANDIDATE — NOT YET ACTIVATED
+
+**Statement:** For every finite reflection-invariant signed point measure avoiding 0 and 1, the finite-factor Li-type derivative response equals the signed response of the standard Li zero kernel.
+
+**Reason not activated:** Direct proof has been written but independent symbolic and numerical validation has not yet been completed.
+
+---
+
+## CL-0021
+
+**Status:** HEURISTIC
+
+**Statement:** Symmetry-orbit aggregation may be a more natural unit of local analysis for RH-related zero diagnostics than an individual zero contribution.
+
+**Project claim?:** Not a theorem about RH.
+
+**Motivation:** The Li derivative-side and zero-side kernels agree under reflection-invariant orbit aggregation despite failing to agree term-by-term.

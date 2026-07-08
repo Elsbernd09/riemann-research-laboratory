@@ -389,3 +389,69 @@ Any cross-diagnostic comparison.
 The current exact result is local to a single analytic kernel contribution.
 
 The main mathematical risk is that the global Li zero sum requires a summation interpretation that prevents naive local-to-global perturbation arguments.
+
+
+---
+
+## Phase 1C — Local-to-Global Li Response Audit
+
+Status: ACTIVE
+
+### What we discovered
+
+The finite Li-type derivative functional applied to an individual zero factor does not produce the project's zero kernel at the same zero.
+
+Instead,
+
+\[
+g_n(\rho)
+=
+1-
+\left(
+1-\frac1\rho
+\right)^{-n}
+=
+f_n(1-\rho).
+\]
+
+Thus a naive termwise bridge fails.
+
+However, the project's signed orbit-splitting measure is invariant under
+
+\[
+\rho\mapsto1-\rho.
+\]
+
+For every finite reflection-invariant signed measure,
+
+\[
+\int g_n\,d\nu
+=
+\int f_n\,d\nu.
+\]
+
+This yields a candidate exact bridge between the finite-factor Li-type derivative response and the project's signed zero-kernel response.
+
+### Mathematical claim supported
+
+A direct algebraic proof supports the reflection-invariant finite response identity.
+
+The proposition has not yet been promoted to PROVED IN PROJECT.
+
+### What remains unproved or unaudited
+
+Independent symbolic validation.
+
+Arbitrary-precision numerical validation across nontrivial parameter families.
+
+Novelty.
+
+Any realization of the signed factor ratio as an entire arithmetic zeta-like deformation.
+
+Any implication for RH.
+
+### Largest current weakness
+
+The finite factor ratio contains negative zero multiplicities and is generally rational.
+
+The project still lacks an admissible entire or arithmetic deformation corresponding to its signed response model.
