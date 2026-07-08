@@ -768,3 +768,81 @@ locally in delta.
 **Statement:** Discovery of no PA-4 source in the uploaded search set is not equivalent to proof of novelty.
 
 **Purpose:** Prevent search incompleteness from being converted into a mathematical originality claim.
+
+---
+
+## CL-0064
+
+**Status:** PROJECT CONJECTURE CANDIDATE — ANALYTIC DERIVATION PENDING INDEPENDENT VALIDATION
+
+**Statement:** The positive nonzero zeros of the Li quadratic-response profile are exactly one root c_k in each interval ((k+1/2)pi,(k+1)pi), characterized by tan(c_k) = -c_k/2.
+
+**Originality status:** Unresolved.
+
+---
+
+## CL-0065
+
+**Status:** PROJECT CONJECTURE CANDIDATE — ANALYTIC DERIVATION PENDING INDEPENDENT VALIDATION
+
+**Statement:** For q=n/gamma in a fixed compact positive range,
+\[
+\chi_n^{Li}(\gamma)
+=
+\gamma^{-2}\Psi_{Li}(q)
++
+\gamma^{-4}K_{Li}(q)
++
+O_q(\gamma^{-6}),
+\]
+with
+\[
+K_{Li}(q)
+=
+q(q\cos q+2\sin q)
++
+\frac{q^2}{6}(-q\sin q+2\cos q).
+\]
+
+---
+
+## CL-0066
+
+**Status:** PROJECT CONJECTURE CANDIDATE — ANALYTIC DERIVATION PENDING INDEPENDENT VALIDATION
+
+**Statement:** Along exact matched paths n/gamma = c_k, where c_k is a positive Li response-profile zero,
+\[
+\gamma^4\chi_n^{Li}(\gamma)
+\to
+\frac{c_k^2(c_k^2+4)}{12}\cos c_k.
+\]
+
+**Interpretation:** The individual-kernel quadratic response gains two height-decay powers at an exact profile blind scale.
+
+---
+
+## CL-0067
+
+**Status:** PROJECT CONJECTURE CANDIDATE — ANALYTIC DERIVATION PENDING INDEPENDENT VALIDATION
+
+**Statement:** If n/gamma - c_k is asymptotic to beta gamma^{-r}, beta nonzero, then the effective Li quadratic-response exponent follows 2 + min(r,2), except when the displayed leading coefficient cancels at the critical rate r=2.
+
+---
+
+## CL-0068
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** The leading Li susceptibility profile has no unconstrained global magnitude maximizer on c > 0 because its magnitude is unbounded.
+
+**Interpretation:** Any optimal-response claim requires an external cost or admissible-coordinate constraint.
+
+---
+
+## CL-0069
+
+**Status:** FAILED CLAIM PREVENTION RULE
+
+**Statement:** Individual-kernel response blind scales must not be described as blind spots of the complete Li coefficient sequence without a global zero-sum theorem.
+
+**Purpose:** Preserve the distinction between local zero-kernel response and the full RH-equivalent diagnostic.

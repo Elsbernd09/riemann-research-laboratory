@@ -1263,3 +1263,114 @@ No literature conclusions were drawn in this phase.
 The current chat environment cannot execute a current July 2026 literature search.
 
 The search campaign must be run externally and the retained primary sources brought back into the repository for claim disposition.
+
+
+---
+
+## Phase 4A — Li Quadratic-Response Blind-Scale Theory
+
+Status: ACTIVE
+
+### What we derived
+
+The leading Li susceptibility profile
+
+\[
+\Psi_{\mathrm{Li}}(c)
+=
+-2c(c\cos c+2\sin c)
+\]
+
+has infinitely many positive simple zeros.
+
+There is exactly one root
+
+\[
+c_k
+\]
+
+in each interval
+
+\[
+\left(
+\left(k+\frac12\right)\pi,
+(k+1)\pi
+\right),
+\]
+
+and the roots satisfy
+
+\[
+\tan c_k=-c_k/2.
+\]
+
+A candidate two-term coupled susceptibility expansion was derived:
+
+\[
+\chi_n^{\mathrm{Li}}(\gamma)
+=
+\gamma^{-2}
+\Psi_{\mathrm{Li}}(q)
++
+\gamma^{-4}
+K_{\mathrm{Li}}(q)
++
+O_q(\gamma^{-6}),
+\qquad
+q=n/\gamma.
+\]
+
+At an exact profile zero,
+
+\[
+q=c_k,
+\]
+
+the generic gamma^-2 term vanishes and the gamma^-4 term survives.
+
+The exact candidate blind-scale coefficient is
+
+\[
+\frac{
+c_k^2(c_k^2+4)
+}{
+12
+}
+\cos c_k.
+\]
+
+### Near-blind transition hierarchy
+
+If
+
+\[
+n/\gamma-c_k
+\sim
+\beta\gamma^{-r},
+\]
+
+the candidate effective response exponent is
+
+\[
+2+\min(r,2),
+\]
+
+subject to a possible further coefficient cancellation at the critical approach rate r=2.
+
+### Negative result
+
+The profile magnitude is unbounded.
+
+There is no unconstrained globally optimal response coordinate.
+
+### Mathematical claim supported
+
+Direct analytic derivations support the blind-scale location theorem, two-term susceptibility expansion, exact matched blind-scale asymptotic, and near-blind transition hierarchy.
+
+These claims have not yet undergone independent symbolic or arbitrary-precision validation.
+
+### Largest current weakness
+
+The blind-scale theory remains local to the individual Li zero-kernel quadratic response.
+
+No global Li coefficient blind-scale theorem has been established.
