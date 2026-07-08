@@ -1,0 +1,14 @@
+{
+  "experiment_name": "explicit_formula_normalization_audit",
+  "mathematical_object": "exact removal of the critical-line exponential amplitude exp(L/2) from p_L''",
+  "precision_decimal_digits": 120,
+  "numerical_backend": "mpmath 1.3.0",
+  "random_seed": null,
+  "git_commit": "34a099b0583123507bcb5406c45c4c03156393fa",
+  "git_clean_at_metadata_capture": false,
+  "python_version": "3.9.6 (default, Apr 30 2025, 02:07:17) \n[Clang 17.0.0 (clang-1700.0.13.5)]",
+  "platform": "macOS-15.7.4-arm64-arm-64bit",
+  "runtime_seconds": 0.005476292000000001,
+  "output_csv": "results/explicit_formula_normalization_audit/normalization_results.csv",
+  "output_csv_sha256": "37deb99e8381500469cf98923f8d6b6f2ea22c96642664b9b0cbcb3a109003ba"
+}

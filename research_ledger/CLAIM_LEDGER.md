@@ -354,11 +354,13 @@ locally in delta.
 
 ## CL-0028
 
-**Status:** PROJECT CONJECTURE CANDIDATE — NOT YET ACTIVATED
+**Status:** PROVED IN PROJECT
 
 **Statement:** For the amplitude-normalized explicit-formula zero kernel p_L(z) = -exp(Lz)/z, if gamma tends to infinity and L gamma tends to c > 0, then gamma^3 times the normalized quadratic susceptibility tends to -4c cos(c) + 2(2-c^2) sin(c).
 
-**Reason not activated:** The exact derivative and asymptotic derivation have not yet undergone independent symbolic and arbitrary-precision validation.
+**Proof status:** The result follows from the exact second derivative, the limits gamma/rho_gamma -> -i, gamma^2/rho_gamma^2 -> -1, gamma^3/rho_gamma^3 -> i, and L gamma -> c. The derivative and scaling implementation have undergone symbolic and arbitrary-precision validation.
+
+**Originality status:** Unresolved. No claim is made that the scaling profile is new in the literature.
 
 ---
 
@@ -381,3 +383,27 @@ locally in delta.
 **Statement:** The scaling L gamma -> c for the explicit-formula zero kernel must not be described as the natural large-x prime-counting regime.
 
 **Purpose:** The scaling sends L -> 0 and x = exp(L) -> 1 from above. It is a phase-preserving individual-kernel regime, not a standard asymptotic prime-counting regime.
+
+---
+
+## CL-0031
+
+**Status:** FAILED CLAIM
+
+**Statement:** A wrong fixed exponential normalization exponent should necessarily destroy the leading explicit-formula mesoscopic scaling collapse.
+
+**Failure:** Under L gamma -> c, one has L -> 0, so the residual factor exp((1/2-a)L) tends to 1 for every fixed normalization exponent a.
+
+**Disposition:** Exact normalization is justified by critical-line amplitude factorization, not by uniqueness of the leading scaling collapse.
+
+---
+
+## CL-0032
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** Across the Phase 2B parameter grid, the scaled amplitude-normalized explicit-formula susceptibility converged numerically toward the analytically derived profile.
+
+**Interpretation:** Validation of the proved scaling law and implementation.
+
+**Not evidence for:** RH, novelty, or comparative superiority over the Li diagnostic.

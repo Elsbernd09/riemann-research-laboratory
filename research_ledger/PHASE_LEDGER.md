@@ -673,7 +673,7 @@ The project must now determine whether a diagnostic-specific distinction survive
 
 ## Phase 2A — Explicit-Formula Kernel Susceptibility
 
-Status: ACTIVE
+Status: COMPLETE
 
 ### What we derived
 
@@ -785,3 +785,96 @@ Any implication for RH.
 With only two kernel families, the proposed taxonomy may be a retrospective description tailored to the examples already analyzed.
 
 A third out-of-sample diagnostic family will eventually be required.
+
+
+---
+
+## Phase 2B — Explicit-Formula Susceptibility Validation
+
+Status: COMPLETE
+
+### What we built
+
+We implemented the individual explicit-formula zero kernel using arbitrary-precision arithmetic.
+
+We independently validated the second derivative symbolically and numerically.
+
+We recovered the exact quadratic susceptibility using the finite four-zero quarter-turn directional contrast.
+
+We validated exact removal of the critical-line exponential amplitude
+
+\[
+e^{L/2}.
+\]
+
+We ran a reproducible mesoscopic scaling campaign for
+
+\[
+L\gamma=c.
+\]
+
+We also identified that fixed normalization-exponent errors are asymptotically invisible at leading order because
+
+\[
+L\to0
+\]
+
+in the phase-preserving scaling regime.
+
+### Mathematical claim supported
+
+The explicit-formula mesoscopic susceptibility scaling law is now PROVED IN PROJECT:
+
+if
+
+\[
+\gamma_j\to\infty
+\]
+
+and
+
+\[
+L_j\gamma_j\to c>0,
+\]
+
+then
+
+\[
+\gamma_j^3
+e^{-L_j/2}
+\chi_{L_j}^{\mathrm{EF}}(\gamma_j)
+\to
+-4c\cos c
++
+2(2-c^2)\sin c.
+\]
+
+### Cross-diagnostic state
+
+The project now has two validated families:
+
+1. Li kernel:
+   phase coordinate \(n/\gamma\),
+   height exponent \(2\);
+
+2. explicit-formula kernel:
+   phase coordinate \(L\gamma\),
+   height exponent \(3\) after exact native amplitude removal.
+
+### What remains unproved or unaudited
+
+Originality.
+
+General validity of the proposed susceptibility scaling taxonomy.
+
+Whether the taxonomy survives a third out-of-sample diagnostic family.
+
+Any shared detection-cost comparison.
+
+Any implication for RH.
+
+### Largest current weakness
+
+The taxonomy has been inferred from exactly two kernel families.
+
+A third diagnostic must be selected before the project can claim that the framework has predictive rather than retrospective value.
