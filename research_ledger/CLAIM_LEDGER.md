@@ -720,3 +720,51 @@ locally in delta.
 **PA-4 identified in Q4-BC-001:** No.
 
 **Originality status:** Unresolved.
+
+---
+
+## CL-0060
+
+**Status:** FAILED CLAIM
+
+**Statement:** The scaling n proportional to zero height can be framed as project-originating Li sensitivity structure.
+
+**Failure:** Voros quantitatively connects Li-like index sensitivity to the height of RH-violating zeros.
+
+**Disposition:** The bare n-versus-height scale is treated as prior art.
+
+---
+
+## CL-0061
+
+**Status:** FAILED CLAIM
+
+**Statement:** Individual-zero Li sensitivity to off-critical displacement is absent from prior literature.
+
+**Failure:** Maślanka explicitly discusses how deviation from the critical line changes the modulus of an individual Li zero contribution and the Li index needed to feel the deviation.
+
+**Disposition:** Individual-zero sensitivity treated as prior art.
+
+---
+
+## CL-0062
+
+**Status:** PROJECT RESEARCH QUESTION — EXACT COMBINATION
+
+**Statement:** Is the combined theorem package consisting of fixed-Li-kernel quadratic zero-coordinate response, its horizontal-versus-vertical quarter-turn finite-configuration realization, and the explicit n/gamma coupled limiting profile already present in materially equivalent form?
+
+**Current highest prior-art grade:** PA-3.
+
+**PA-4 identified in Q4-EXACT-001:** No.
+
+**Originality status:** Unresolved.
+
+---
+
+## CL-0063
+
+**Status:** FAILED CLAIM PREVENTION RULE
+
+**Statement:** Discovery of no PA-4 source in the uploaded search set is not equivalent to proof of novelty.
+
+**Purpose:** Prevent search incompleteness from being converted into a mathematical originality claim.

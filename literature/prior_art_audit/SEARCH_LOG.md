@@ -281,3 +281,63 @@ Individual standard ingredients do not trigger PA-4 by themselves.
 
 **Status:** SEARCH IN PROGRESS
 
+
+### Q4-EXACT-001 result
+
+Shifted-product Li literature:
+
+PA-3.
+
+The horizontal quartet is exactly realized by zeros of F(s-a)F(s+a), but no second derivative of Li coefficients with respect to a at a=0 was identified.
+
+Voros 2022:
+
+PA-3.
+
+The index required to signal an RH-violating zero is quantitatively related to zero height. Therefore n-versus-zero-height sensitivity is prior-art territory.
+
+No quadratic zero-coordinate response profile under n/gamma -> c was identified.
+
+Maślanka 2022:
+
+PA-3.
+
+Explicitly analyzes how off-critical displacement changes the modulus of an individual Li zero contribution and why high zeros require very large Li indices for detection.
+
+No second zero-coordinate variation identified.
+
+Coffey:
+
+PA-2.
+
+Zero sums and derivative identities reviewed. A horizontal deviation parameter epsilon appears in zero estimates, but no Hessian or second variation in epsilon was identified.
+
+Generalized Li asymptotic literature:
+
+PA-2 to PA-3.
+
+No project-specific second response profile identified.
+
+Contemporary zero-response preprint:
+
+PA-2.
+
+Uses logarithmic derivative derivatives and perturbation stability but is not a Li zero-coordinate response theory.
+
+Several broad-search sources rejected as keyword noise.
+
+PA-4 triggers found:
+
+0 / 5.
+
+Highest grade:
+
+PA-3.
+
+Status:
+
+EXACT-COMBINATION STRIKE SEARCH COMPLETE.
+
+Further narrowed surviving object:
+
+Fixed-Li-kernel quadratic zero-coordinate response plus quarter-turn realization plus explicit coupled n/gamma limiting profile.
