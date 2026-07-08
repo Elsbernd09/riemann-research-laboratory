@@ -608,3 +608,53 @@ locally in delta.
 **Statement:** Does prior literature study the differential response of Li coefficients to finite symmetry-preserving displacement of hypothetical zero orbits?
 
 **Priority:** HIGH.
+
+---
+
+## CL-0051
+
+**Status:** FAILED CLAIM
+
+**Statement:** Broad quantitative sensitivity of Li-type coefficients to zero location is absent from established literature.
+
+**Failure:** Generalized Li and tau-Li literature explicitly connects coefficient behavior to off-critical zeros, half-plane zero location, and zero-free regions.
+
+**Disposition:** Broad novelty framing withdrawn.
+
+---
+
+## CL-0052
+
+**Status:** FAILED CLAIM
+
+**Statement:** Reflection-orbit aggregation in Li-type zero sums can be framed as a project-originating structural insight.
+
+**Failure:** Generalized Li literature explicitly pairs reflection-related zeros in Li-type criteria.
+
+**Disposition:** Reflection pairing is treated as prior structural context.
+
+---
+
+## CL-0053
+
+**Status:** FAILED CLAIM
+
+**Statement:** Critical-line phase representation of the Li zero kernel is project-originating.
+
+**Failure:** Prior literature expresses critical-line Li contributions through cosine and Chebyshev phase structure.
+
+**Disposition:** Phase representation treated as prior art.
+
+---
+
+## CL-0054
+
+**Status:** PROJECT RESEARCH QUESTION — NARROWED AFTER PRIOR-ART REVIEW
+
+**Statement:** Has the symmetry-preserving second variation of the fixed Li zero kernel under finite zero-orbit displacement, including the horizontal-versus-vertical four-zero contrast and coupled n/gamma scaling profile, been studied in materially equivalent form?
+
+**Status:** OPEN.
+
+**Current highest prior-art grade:** PA-3.
+
+**PA-4 source identified:** No.
