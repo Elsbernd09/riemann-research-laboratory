@@ -1269,7 +1269,7 @@ The search campaign must be run externally and the retained primary sources brou
 
 ## Phase 4A — Li Quadratic-Response Blind-Scale Theory
 
-Status: ACTIVE
+Status: COMPLETE
 
 ### What we derived
 
@@ -1374,3 +1374,64 @@ These claims have not yet undergone independent symbolic or arbitrary-precision 
 The blind-scale theory remains local to the individual Li zero-kernel quadratic response.
 
 No global Li coefficient blind-scale theorem has been established.
+
+
+---
+
+## Phase 4B — Li Blind-Scale Adversarial Validation
+
+Status: COMPLETE
+
+### What we validated
+
+The positive nonzero profile zeros were computed with arbitrary-precision monotone bisection and found in the analytically predicted intervals.
+
+The large-index blind-scale asymptotic was validated.
+
+Independent symbolic coefficient extraction reproduced the gamma^-2 and gamma^-4 coupled susceptibility profiles.
+
+Exact matched paths
+
+\[
+\gamma=n/c_k
+\]
+
+validated the gamma^-4 blind-scale law.
+
+Near-blind paths were enforced by solving
+
+\[
+n/\gamma-c_k
+=
+\beta\gamma^{-r}
+\]
+
+for gamma with integer n fixed.
+
+The transition exponents
+
+\[
+2.5,\ 3,\ 3.5,\ 4,\ 4
+\]
+
+were reproduced for
+
+\[
+r=1/2,\ 1,\ 3/2,\ 2,\ 3.
+\]
+
+### Mathematical claim supported
+
+The Li individual-kernel quadratic-response blind-scale hierarchy is now PROVED IN PROJECT.
+
+### Current research frontier
+
+The major unresolved question is whether the local blind-scale cancellation survives any mathematically controlled passage to a finite or truncated global Li zero sum.
+
+### Largest current weakness
+
+The present theorem concerns one kernel contribution and a synthetic finite orbit geometry.
+
+Global Li coefficients aggregate contributions from the entire zero multiset.
+
+Collective phase structure may erase, shift, or qualitatively alter the local blind-scale phenomenon.

@@ -459,3 +459,210 @@ def sixth_order_contrast_coefficient(
     )
 
     return mp.re(derivative) / 90
+
+
+def li_susceptibility_profile(c: Number) -> mp.mpf:
+    """Return Psi_Li(c) = -2c(c cos c + 2 sin c)."""
+    c_mp = mp.mpf(c)
+
+    if c_mp <= 0:
+        raise ValueError("c must satisfy c > 0")
+
+    return -2 * c_mp * (
+        c_mp * mp.cos(c_mp)
+        + 2 * mp.sin(c_mp)
+    )
+
+
+def li_susceptibility_correction_profile(
+    q: Number,
+) -> mp.mpf:
+    """Return the gamma^-4 correction profile K_Li(q)."""
+    q_mp = mp.mpf(q)
+
+    if q_mp <= 0:
+        raise ValueError("q must satisfy q > 0")
+
+    return (
+        mp.mpf(4) / 3
+        * q_mp**2
+        * mp.cos(q_mp)
+        +
+        (
+            2 * q_mp
+            -
+            q_mp**3 / 6
+        )
+        * mp.sin(q_mp)
+    )
+
+
+def li_profile_derivative(c: Number) -> mp.mpf:
+    """Return the first derivative of Psi_Li."""
+    c_mp = mp.mpf(c)
+
+    if c_mp <= 0:
+        raise ValueError("c must satisfy c > 0")
+
+    return mp.diff(
+        li_susceptibility_profile,
+        c_mp,
+    )
+
+
+def li_blind_scale(
+    k: int,
+    iterations: int = 600,
+) -> mp.mpf:
+    """Return the unique positive profile zero in interval I_k.
+
+    Uses monotone bisection on
+
+        tan(c) + c/2 = 0
+
+    over
+
+        ((k+1/2) pi, (k+1) pi).
+    """
+    if isinstance(k, bool) or not isinstance(k, int):
+        raise TypeError("k must be an integer")
+
+    if k < 0:
+        raise ValueError("k must satisfy k >= 0")
+
+    if iterations <= 0:
+        raise ValueError("iterations must satisfy iterations > 0")
+
+    epsilon = mp.mpf(10) ** (-(mp.mp.dps - 10))
+
+    left = (
+        (mp.mpf(k) + mp.mpf("0.5"))
+        * mp.pi
+        + epsilon
+    )
+
+    right = (
+        (mp.mpf(k) + 1)
+        * mp.pi
+        - epsilon
+    )
+
+    def equation(c: mp.mpf) -> mp.mpf:
+        return mp.tan(c) + c / 2
+
+    left_value = equation(left)
+    right_value = equation(right)
+
+    if not (
+        left_value < 0
+        and right_value > 0
+    ):
+        raise ArithmeticError(
+            "Blind-scale bisection interval "
+            "does not bracket the expected root"
+        )
+
+    for _ in range(iterations):
+        midpoint = (left + right) / 2
+        value = equation(midpoint)
+
+        if value < 0:
+            left = midpoint
+        else:
+            right = midpoint
+
+    return (left + right) / 2
+
+
+def li_blind_scale_asymptotic(
+    k: int,
+) -> mp.mpf:
+    """Return the three-term large-k blind-scale approximation."""
+    if isinstance(k, bool) or not isinstance(k, int):
+        raise TypeError("k must be an integer")
+
+    if k < 0:
+        raise ValueError("k must satisfy k >= 0")
+
+    a_k = (
+        mp.mpf(k) + mp.mpf("0.5")
+    ) * mp.pi
+
+    return (
+        a_k
+        + 2 / a_k
+        - mp.mpf(20) / (3 * a_k**3)
+    )
+
+
+def li_blind_scale_correction(
+    k: int,
+) -> mp.mpf:
+    """Return K_Li(c_k) using the root-simplified formula."""
+    c_k = li_blind_scale(k)
+
+    return (
+        c_k**2
+        * (c_k**2 + 4)
+        * mp.cos(c_k)
+        / 12
+    )
+
+
+def solve_near_blind_gamma(
+    n: int,
+    k: int,
+    beta: Number,
+    r: Number,
+) -> mp.mpf:
+    """Solve n/gamma - c_k = beta gamma^(-r).
+
+    This preserves integer n while enforcing the claimed near-blind
+    parameter path without integer-rounding contamination.
+    """
+    validate_n(n)
+
+    beta_mp = mp.mpf(beta)
+    r_mp = mp.mpf(r)
+
+    if beta_mp == 0:
+        raise ValueError("beta must be nonzero")
+
+    if r_mp <= 0:
+        raise ValueError("r must satisfy r > 0")
+
+    c_k = li_blind_scale(k)
+    n_mp = mp.mpf(n)
+
+    def equation(gamma: mp.mpf) -> mp.mpf:
+        return (
+            n_mp / gamma
+            - c_k
+            - beta_mp * gamma ** (-r_mp)
+        )
+
+    initial = n_mp / c_k
+
+    gamma = mp.findroot(
+        equation,
+        (
+            mp.mpf("0.9") * initial,
+            mp.mpf("1.1") * initial,
+        ),
+    )
+
+    if gamma <= 0:
+        raise ArithmeticError(
+            "Near-blind gamma solver returned nonpositive gamma"
+        )
+
+    residual = abs(equation(gamma))
+    tolerance = mp.mpf(10) ** (-(mp.mp.dps // 2))
+
+    if residual > tolerance:
+        raise ArithmeticError(
+            "Near-blind gamma solver residual exceeded tolerance: "
+            f"{residual}"
+        )
+
+    return gamma

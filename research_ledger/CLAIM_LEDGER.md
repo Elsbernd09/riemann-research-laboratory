@@ -773,7 +773,7 @@ locally in delta.
 
 ## CL-0064
 
-**Status:** PROJECT CONJECTURE CANDIDATE — ANALYTIC DERIVATION PENDING INDEPENDENT VALIDATION
+**Status:** PROVED IN PROJECT
 
 **Statement:** The positive nonzero zeros of the Li quadratic-response profile are exactly one root c_k in each interval ((k+1/2)pi,(k+1)pi), characterized by tan(c_k) = -c_k/2.
 
@@ -783,7 +783,7 @@ locally in delta.
 
 ## CL-0065
 
-**Status:** PROJECT CONJECTURE CANDIDATE — ANALYTIC DERIVATION PENDING INDEPENDENT VALIDATION
+**Status:** PROVED IN PROJECT
 
 **Statement:** For q=n/gamma in a fixed compact positive range,
 \[
@@ -808,7 +808,7 @@ q(q\cos q+2\sin q)
 
 ## CL-0066
 
-**Status:** PROJECT CONJECTURE CANDIDATE — ANALYTIC DERIVATION PENDING INDEPENDENT VALIDATION
+**Status:** PROVED IN PROJECT
 
 **Statement:** Along exact matched paths n/gamma = c_k, where c_k is a positive Li response-profile zero,
 \[
@@ -823,7 +823,7 @@ q(q\cos q+2\sin q)
 
 ## CL-0067
 
-**Status:** PROJECT CONJECTURE CANDIDATE — ANALYTIC DERIVATION PENDING INDEPENDENT VALIDATION
+**Status:** PROVED IN PROJECT
 
 **Statement:** If n/gamma - c_k is asymptotic to beta gamma^{-r}, beta nonzero, then the effective Li quadratic-response exponent follows 2 + min(r,2), except when the displayed leading coefficient cancels at the critical rate r=2.
 
@@ -846,3 +846,37 @@ q(q\cos q+2\sin q)
 **Statement:** Individual-kernel response blind scales must not be described as blind spots of the complete Li coefficient sequence without a global zero-sum theorem.
 
 **Purpose:** Preserve the distinction between local zero-kernel response and the full RH-equivalent diagnostic.
+
+---
+
+## CL-0070
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** Arbitrary-precision near-blind path experiments reproduced the predicted effective exponents 2.5, 3, 3.5, 4, and 4 for r = 1/2, 1, 3/2, 2, and 3 respectively.
+
+**Interpretation:** Validation of the analytically derived transition hierarchy and implementation.
+
+**Not evidence for:** RH or global Li coefficient blind spots.
+
+---
+
+## CL-0071
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Integer rounding can invalidate numerical tests of near-blind paths with approach rate r > 1 because rounding n introduces an O(gamma^-1) perturbation in n/gamma.
+
+**Disposition:** Near-blind experiments preserve integer n and solve implicitly for gamma.
+
+---
+
+## CL-0072
+
+**Status:** PROJECT RESEARCH QUESTION
+
+**Statement:** Can the individual-kernel blind-scale hierarchy be lifted to a controlled finite or truncated global Li zero sum without collective zero contributions destroying the profile cancellation?
+
+**Priority:** HIGH.
+
+**Status:** OPEN.
