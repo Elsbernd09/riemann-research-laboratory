@@ -1215,3 +1215,51 @@ None established.
 A current-literature prior-art campaign has not yet been completed.
 
 Until that campaign is performed, the mathematical originality of the project-specific construction and taxonomy remains unresolved.
+
+
+---
+
+## Phase 3B — Reproducible Prior-Art Search Campaign Design
+
+Status: COMPLETE
+
+### What we built
+
+The project translated the seven frozen prior-art questions into exact-object, mathematical-ancestor, and RH-application search families.
+
+A query matrix was created for:
+
+- Google Scholar;
+- arXiv;
+- MathSciNet;
+- zbMATH Open.
+
+A source-capture template now requires precise mathematical comparison between retained prior art and project claims.
+
+A terminology risk register was created for:
+
+- mesoscopic;
+- susceptibility;
+- scaling signature;
+- similarity coordinate;
+- zero surgery.
+
+### Important pre-search predictions
+
+The project expects strong prior art for the generic quarter-turn derivative filter.
+
+The project also expects the generic profile-degeneracy principle to be standard asymptotic analysis.
+
+The Li zero-displacement literature is treated as the highest-priority threat to project-specific framing.
+
+### Novelty status
+
+Unresolved.
+
+No literature conclusions were drawn in this phase.
+
+### Largest current weakness
+
+The current chat environment cannot execute a current July 2026 literature search.
+
+The search campaign must be run externally and the retained primary sources brought back into the repository for claim disposition.

@@ -570,3 +570,41 @@ locally in delta.
 **Statement:** After known analytic mechanisms are factored out, does the horizontal-versus-vertical zero-orbit contrast support a mathematically useful comparative classification of RH-related zero kernels that is not already subsumed by existing literature?
 
 **Status:** OPEN INSIDE PROJECT.
+
+---
+
+## CL-0047
+
+**Status:** PROJECT RESEARCH PROTOCOL
+
+**Statement:** Prior-art searches must include exact-object, mathematical-ancestor, and RH-application queries. Keyword absence using project terminology is not evidence of novelty.
+
+---
+
+## CL-0048
+
+**Status:** PROJECT PREDICTION — PRIOR-ART RISK
+
+**Statement:** The generic 4k+2 quarter-turn derivative-filter mechanism is expected to have strong prior art under roots-of-unity or cyclic Taylor-coefficient filtering.
+
+**Consequence if confirmed:** CL-0025 remains mathematically true but must be cited as a standard mechanism rather than framed as a project contribution.
+
+---
+
+## CL-0049
+
+**Status:** PROJECT PREDICTION — TERMINOLOGY RISK
+
+**Statement:** The project's use of "mesoscopic scaling" may conflict with established mesoscopic linear-statistics terminology in zeta-zero research.
+
+**Possible disposition:** Rename the project regime to coupled similarity scaling or parameter-height similarity scaling.
+
+---
+
+## CL-0050
+
+**Status:** PROJECT RESEARCH QUESTION
+
+**Statement:** Does prior literature study the differential response of Li coefficients to finite symmetry-preserving displacement of hypothetical zero orbits?
+
+**Priority:** HIGH.
