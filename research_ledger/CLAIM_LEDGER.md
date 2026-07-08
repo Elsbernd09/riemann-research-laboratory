@@ -349,3 +349,35 @@ locally in delta.
 **Failure:** The fourth-order terms in the horizontal and vertical symmetric Taylor expansions are identical and cancel exactly.
 
 **Disposition:** The contrast residual begins at sixth order, with subsequent surviving orders congruent to 2 modulo 4.
+
+---
+
+## CL-0028
+
+**Status:** PROJECT CONJECTURE CANDIDATE — NOT YET ACTIVATED
+
+**Statement:** For the amplitude-normalized explicit-formula zero kernel p_L(z) = -exp(Lz)/z, if gamma tends to infinity and L gamma tends to c > 0, then gamma^3 times the normalized quadratic susceptibility tends to -4c cos(c) + 2(2-c^2) sin(c).
+
+**Reason not activated:** The exact derivative and asymptotic derivation have not yet undergone independent symbolic and arbitrary-precision validation.
+
+---
+
+## CL-0029
+
+**Status:** HEURISTIC
+
+**Statement:** Parameterized RH-related zero kernels may admit a comparative susceptibility taxonomy based on a phase coordinate, a kernel-native normalization, a height-decay exponent, and a limiting profile.
+
+**Project claim?:** Methodological hypothesis only.
+
+**Required evidence:** At least two independently validated kernel families followed by a third family used as an adversarial out-of-sample test.
+
+---
+
+## CL-0030
+
+**Status:** FAILED CLAIM PREVENTION RULE
+
+**Statement:** The scaling L gamma -> c for the explicit-formula zero kernel must not be described as the natural large-x prime-counting regime.
+
+**Purpose:** The scaling sends L -> 0 and x = exp(L) -> 1 from above. It is a phase-preserving individual-kernel regime, not a standard asymptotic prime-counting regime.

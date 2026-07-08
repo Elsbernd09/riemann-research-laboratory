@@ -667,3 +667,121 @@ Any implication for RH.
 The strongest structural result is still generic complex analysis applied to the project response geometry.
 
 The project must now determine whether a diagnostic-specific distinction survives after the generic analytic mechanism is factored out.
+
+
+---
+
+## Phase 2A — Explicit-Formula Kernel Susceptibility
+
+Status: ACTIVE
+
+### What we derived
+
+For the individual explicit-formula zero kernel
+
+\[
+p_L(z)
+=
+-\frac{e^{Lz}}{z},
+\]
+
+we derived
+
+\[
+p_L''(z)
+=
+-e^{Lz}
+\left(
+\frac{L^2}{z}
+-
+\frac{2L}{z^2}
++
+\frac2{z^3}
+\right).
+\]
+
+The critical-line native amplitude is
+
+\[
+e^{L/2}.
+\]
+
+After exact removal of this amplitude, define
+
+\[
+\widetilde\chi_L^{\mathrm{EF}}
+=
+e^{-L/2}
+\chi_L^{\mathrm{EF}}.
+\]
+
+A candidate phase-preserving scaling result is:
+
+if
+
+\[
+L\gamma\to c>0,
+\]
+
+then
+
+\[
+\gamma^3
+\widetilde\chi_L^{\mathrm{EF}}(\gamma)
+\to
+-4c\cos c
++
+2(2-c^2)\sin c.
+\]
+
+### Cross-diagnostic comparison
+
+The Li kernel uses phase coordinate
+
+\[
+n/\gamma
+\]
+
+and height exponent \(2\).
+
+The explicit-formula kernel uses phase coordinate
+
+\[
+L\gamma
+\]
+
+and candidate height exponent \(3\) after native amplitude normalization.
+
+A provisional susceptibility scaling taxonomy
+
+\[
+(\Phi,\alpha,\Psi)
+\]
+
+has been formulated.
+
+### Mathematical claim supported
+
+A manual exact derivative calculation and asymptotic derivation support the explicit-formula scaling candidate.
+
+The result has not yet been promoted to PROVED IN PROJECT.
+
+### What remains unproved or unaudited
+
+Independent symbolic differentiation.
+
+Independent arbitrary-precision validation.
+
+Current literature originality.
+
+Usefulness of the proposed taxonomy.
+
+Whether a third RH-related kernel fits or destroys the taxonomy.
+
+Any implication for RH.
+
+### Largest current weakness
+
+With only two kernel families, the proposed taxonomy may be a retrospective description tailored to the examples already analyzed.
+
+A third out-of-sample diagnostic family will eventually be required.
