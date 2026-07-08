@@ -658,3 +658,65 @@ locally in delta.
 **Current highest prior-art grade:** PA-3.
 
 **PA-4 source identified:** No.
+
+---
+
+## CL-0055
+
+**Status:** FAILED CLAIM
+
+**Statement:** Coupling the Li index n to zero height is project-originating.
+
+**Failure:** Voros's saddle and Darboux analysis already couples large-n Li behavior to individual zero geometry and produces n/tau_k dependence.
+
+**Disposition:** Treat n-versus-zero geometry as prior asymptotic context.
+
+---
+
+## CL-0056
+
+**Status:** FAILED CLAIM
+
+**Statement:** Continuous response analysis of parameterized Li-type coefficients is absent from prior literature.
+
+**Failure:** Freitas differentiates a continuous Li-type coefficient family with respect to tau and derives a differential system.
+
+**Disposition:** The project must distinguish zero-coordinate variation from criterion-parameter variation.
+
+---
+
+## CL-0057
+
+**Status:** FAILED CLAIM
+
+**Statement:** Abstract multiset or signed zero-configuration language is project-originating infrastructure.
+
+**Failure:** Bombieri-Lagarias formulate Li-type criteria for arbitrary complex multisets with convergence and symmetry conditions.
+
+**Disposition:** Cite Bombieri-Lagarias as foundational multiset context.
+
+---
+
+## CL-0058
+
+**Status:** FAILED CLAIM
+
+**Statement:** The horizontal reflection-symmetric four-zero configuration H_{delta,gamma} is project-originating zero geometry.
+
+**Failure:** Shifted products F(s-a)F(s+a) in modified Li-criterion literature realize zeros 1/2 plus-or-minus a plus-or-minus i gamma from a critical-line conjugate pair.
+
+**Disposition:** Horizontal quartet geometry treated as prior structural context.
+
+---
+
+## CL-0059
+
+**Status:** PROJECT RESEARCH QUESTION — FURTHER NARROWED
+
+**Statement:** Has the infinitesimal second variation of the fixed Li zero kernel under symmetry-preserving horizontal zero displacement, its quarter-turn horizontal-versus-vertical contrast, and the simultaneous n/gamma -> c response scaling been studied in materially equivalent form?
+
+**Current highest prior-art grade:** PA-3.
+
+**PA-4 identified in Q4-BC-001:** No.
+
+**Originality status:** Unresolved.

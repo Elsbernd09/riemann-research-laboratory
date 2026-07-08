@@ -140,3 +140,65 @@ A source triggers PA-4 review if it contains a materially equivalent version of 
 
 **Status:** SEARCH IN PROGRESS
 
+
+### Q4-BC-001 result
+
+Voros:
+
+PA-3.
+
+Established large-n individual off-critical-zero asymptotics and explicit coupling between Li index and zero geometry.
+
+Freitas:
+
+PA-3.
+
+Established continuous parameter response and differential equations for a parameterized Li-type coefficient family. Differentiated criterion parameter, not zero coordinates.
+
+Bombieri-Lagarias:
+
+PA-3.
+
+Established arbitrary complex multiset framework and functional-equation symmetry context.
+
+Droll:
+
+PA-3.
+
+Established generalized tau-Li criteria and multiset-based zero-free-region analysis.
+
+Modified Li criterion paper:
+
+PA-3 with very strong structural overlap.
+
+The shifted product F(s-a)F(s+a) realizes exactly the horizontal quartet geometry H_{a,gamma} when the baseline function has a critical-line conjugate zero pair.
+
+Generalized Li asymptotics:
+
+PA-3.
+
+Established large-n asymptotics for tau-Li coefficients and shifted products.
+
+PA-4 trigger search:
+
+No second zero-coordinate variation identified.
+
+No critical-line orbit Taylor expansion in displacement identified.
+
+No horizontal-versus-vertical four-zero response identified.
+
+No 2 Re f_n'' zero-location susceptibility identified.
+
+No coupled n/gamma scaling of that second response identified.
+
+Highest grade:
+
+PA-3.
+
+Status:
+
+TARGETED BACKWARD-CITATION STRIKE SEARCH COMPLETE.
+
+Further action:
+
+Search the exact mathematical combination rather than broad Li sensitivity language.
