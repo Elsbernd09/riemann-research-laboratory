@@ -115,3 +115,35 @@ A proposed claim invalidated by a counterexample, hidden assumption, circularity
 **Statement:** A symmetry-preserving synthetic zero multiset is not automatically the zero set of a modified zeta function with an Euler product, Dirichlet series, or prime interpretation.
 
 **Purpose:** Prevent synthetic analytic models from being mislabeled as arithmetic zeta functions.
+
+---
+
+## CL-0009
+
+**Status:** HEURISTIC
+
+**Statement:** Symmetry-preserving double-orbit splitting suppresses odd powers of the horizontal displacement parameter in analytic zero-kernel responses, making quadratic response a natural local sensitivity scale.
+
+**Project claim?:** The Taylor mechanism is standard. Its usefulness for comparing RH diagnostics is unproved.
+
+---
+
+## CL-0010
+
+**Status:** PROJECT CONJECTURE CANDIDATE — NOT YET ACTIVATED
+
+**Statement:** Distinct RH-related zero diagnostics may exhibit quantitatively different asymptotic susceptibility scales under signed symmetry-breaking response.
+
+**Reason not activated:** Diagnostic families, normalization conventions, and prior art have not yet been sufficiently specified.
+
+---
+
+## CL-0011
+
+**Status:** FAILED CLAIM
+
+**Statement:** Replacing one simple critical-line conjugate pair by one generic off-line quartet defines a perturbative response that vanishes as the displacement tends to zero.
+
+**Failure:** The quartet converges as a multiset to a doubled critical-line pair. A pair-to-quartet response therefore contains a zeroth-order multiplicity jump.
+
+**Disposition:** Model A rejected as the primary perturbation model.
