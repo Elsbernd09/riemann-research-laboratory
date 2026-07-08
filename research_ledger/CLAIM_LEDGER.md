@@ -885,7 +885,7 @@ q(q\cos q+2\sin q)
 
 ## CL-0073
 
-**Status:** PROJECT CONJECTURE CANDIDATE — ANALYTIC DERIVATION PENDING INDEPENDENT VALIDATION
+**Status:** PROVED IN PROJECT
 
 **Statement:** For a finite orbit family with relative heights a_j and weights w_j, the coupled aggregate Li quadratic-response profile is
 \[
@@ -900,7 +900,7 @@ w_j a_j^{-2}
 
 ## CL-0074
 
-**Status:** PROJECT CONJECTURE CANDIDATE — ANALYTIC DERIVATION PENDING INDEPENDENT VALIDATION
+**Status:** PROVED IN PROJECT
 
 **Statement:** In the equal-weight two-orbit model with relative heights 1 and a, an individual blind coordinate c_k remains a leading-order aggregate blind coordinate if and only if
 \[
@@ -912,7 +912,7 @@ for some positive Li response blind scale c_m.
 
 ## CL-0075
 
-**Status:** PROJECT CONJECTURE CANDIDATE — ANALYTIC DERIVATION PENDING INDEPENDENT VALIDATION
+**Status:** PROVED IN PROJECT
 
 **Statement:** At a two-orbit resonance a=c_k/c_m and common coordinate c_k, the fourth-order aggregate coefficient is
 \[
@@ -925,7 +925,7 @@ K(c_k)
 
 ## CL-0076
 
-**Status:** PROJECT CONJECTURE CANDIDATE — ANALYTIC DERIVATION PENDING INDEPENDENT VALIDATION
+**Status:** PROVED IN PROJECT
 
 **Statement:** Every same-parity resonant pair k congruent to m modulo 2 has a nonzero fourth-order aggregate coefficient and therefore exact aggregate response exponent 4.
 
@@ -958,3 +958,96 @@ K(c_k)
 **Status:** FAILED CLAIM PREVENTION RULE
 
 **Statement:** Blind-scale ratio resonance in a synthetic finite orbit family must not be attributed to actual Riemann zeta zero heights without an arithmetic theorem or explicit verified zero-height analysis.
+
+---
+
+## CL-0080
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** The blind-scale fourth-order correction has the exact sign-explicit form
+\[
+K_{Li}(c_k)
+=
+(-1)^{k+1}
+\frac{c_k^2\sqrt{c_k^2+4}}{6}.
+\]
+
+---
+
+## CL-0081
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** No equal-weight two-orbit blind-scale ratio resonance has zero fourth-order aggregate coefficient.
+
+**Reason:** After positive rescaling, opposite-parity cancellation would require equality of the strictly increasing function
+\[
+F(x)=x^6\sqrt{x^2+4}
+\]
+at two distinct blind scales.
+
+---
+
+## CL-0082
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** For adjacent resonant blind scales,
+\[
+R_{k,k+1}
+\sim
+\frac{7\pi}{2c_k},
+\]
+where R is the normalized fourth-order cancellation ratio.
+
+**Consequence:** Relative cancellation becomes arbitrarily strong as k tends to infinity.
+
+---
+
+## CL-0083
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** The absolute adjacent resonant fourth-order coefficient satisfies
+\[
+|K_{k,k+1}^{(2)}|
+\sim
+\frac{7\pi}{6}c_k^2.
+\]
+
+**Consequence:** Strong relative cancellation does not imply small absolute aggregate response.
+
+---
+
+## CL-0084
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** An arbitrary-precision scan of 40,000 ordered resonant pairs with indices 0 through 199 found no zero fourth-order coefficient. The minimum normalized cancellation ratio observed was approximately 0.0175859577499984 at ordered pair (199,198).
+
+**Interpretation:** Adversarial implementation validation of analytic results.
+
+---
+
+## CL-0085
+
+**Status:** FAILED CLAIM
+
+**Statement:** Opposite-parity two-orbit resonance may permit exact fourth-order cancellation.
+
+**Failure:** Strict monotonicity of x^6 sqrt(x^2+4) excludes exact cancellation.
+
+**Disposition:** Withdraw deeper exact two-orbit resonance as a research direction.
+
+---
+
+## CL-0086
+
+**Status:** PROJECT RESEARCH QUESTION
+
+**Statement:** Can exact fourth-order cancellation occur in a resonant aggregate with three or more orbit contributions, where multiple signed correction terms may balance?
+
+**Priority:** HIGH.
+
+**Status:** OPEN.

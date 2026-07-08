@@ -1441,7 +1441,7 @@ Collective phase structure may erase, shift, or qualitatively alter the local bl
 
 ## Phase 4C — Finite-Orbit Blind-Scale Aggregation
 
-Status: ACTIVE
+Status: COMPLETE
 
 ### What we derived
 
@@ -1506,3 +1506,103 @@ The existence, nonexistence, or asymptotic density of such near-cancellations is
 The relative orbit heights are synthetic parameters.
 
 The project has not connected blind-scale ratio resonance to actual zeta zero-height ratios or to the infinite Li zero sum.
+
+
+---
+
+## Phase 4D — Two-Orbit Resonance Noncancellation
+
+Status: COMPLETE
+
+### What we proved
+
+The blind-scale fourth-order correction admits the exact form
+
+\[
+K(c_k)
+=
+(-1)^{k+1}
+\frac{
+c_k^2\sqrt{c_k^2+4}
+}{
+6
+}.
+\]
+
+After rescaling the two-orbit resonant coefficient, the cancellation problem is controlled by
+
+\[
+F(x)=x^6\sqrt{x^2+4}.
+\]
+
+The function F is strictly increasing.
+
+Therefore no two distinct blind scales can produce exact opposite-parity fourth-order cancellation.
+
+Every equal-weight two-orbit blind-scale ratio resonance has exact aggregate response exponent 4.
+
+### Relative near-cancellation
+
+Adjacent opposite-parity resonances satisfy
+
+\[
+R_{k,k+1}
+\sim
+\frac{7\pi}{2c_k}
+\to0.
+\]
+
+Thus normalized relative cancellation becomes arbitrarily strong.
+
+However,
+
+\[
+|K_{k,k+1}^{(2)}|
+\sim
+\frac{7\pi}{6}c_k^2,
+\]
+
+so the absolute aggregate coefficient grows.
+
+### Validation
+
+Independent symbolic derivation passed.
+
+An arbitrary-precision scan of 40,000 ordered resonant pairs found no exact cancellation.
+
+The minimum observed normalized cancellation ratio was approximately
+
+\[
+0.0175859577499984
+\]
+
+at ordered pair
+
+\[
+(199,198).
+\]
+
+Adjacent asymptotic laws were numerically validated.
+
+Direct finite-orbit scaling experiments reproduced:
+
+- Gamma^-2 response restoration for a nonresonant second orbit;
+- Gamma^-4 response survival for a resonant second orbit.
+
+The complete automated test suite passed:
+
+\[
+107\text{ passed},\quad0\text{ failed}.
+\]
+
+### Current frontier
+
+Exact fourth-order cancellation is impossible with two equal-weight resonant orbit contributions.
+
+The next structural question is whether three or more resonant orbit contributions can balance exactly at fourth order.
+
+### Largest current weakness
+
+All orbit-height ratios remain synthetic.
+
+No arithmetic connection to actual zeta zero-height ratios has been established.

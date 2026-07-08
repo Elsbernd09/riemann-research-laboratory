@@ -666,3 +666,143 @@ def solve_near_blind_gamma(
         )
 
     return gamma
+
+
+def li_blind_scale_correction_closed(
+    k: int,
+) -> mp.mpf:
+    """Return K_Li(c_k) in the sign-explicit closed form."""
+    c_k = li_blind_scale(k)
+
+    sign = mp.mpf(-1) ** (k + 1)
+
+    return (
+        sign
+        * c_k**2
+        * mp.sqrt(c_k**2 + 4)
+        / 6
+    )
+
+
+def li_resonant_height_ratio(
+    k: int,
+    m: int,
+) -> mp.mpf:
+    """Return the two-orbit blind-scale resonance ratio c_k / c_m."""
+    c_k = li_blind_scale(k)
+    c_m = li_blind_scale(m)
+
+    return c_k / c_m
+
+
+def li_two_orbit_aggregate_susceptibility(
+    n: int,
+    Gamma: Number,
+    a: Number,
+) -> mp.mpf:
+    """Equal-weight aggregate susceptibility at heights Gamma and a*Gamma."""
+    validate_n(n)
+
+    Gamma_mp = validate_gamma(Gamma)
+    a_mp = mp.mpf(a)
+
+    if a_mp <= 0:
+        raise ValueError("a must satisfy a > 0")
+
+    return (
+        li_susceptibility_exact(
+            n,
+            Gamma_mp,
+        )
+        +
+        li_susceptibility_exact(
+            n,
+            a_mp * Gamma_mp,
+        )
+    )
+
+
+def li_two_orbit_aggregate_profile(
+    c: Number,
+    a: Number,
+) -> mp.mpf:
+    """Return Psi(c) + a^-2 Psi(c/a)."""
+    c_mp = mp.mpf(c)
+    a_mp = mp.mpf(a)
+
+    if c_mp <= 0:
+        raise ValueError("c must satisfy c > 0")
+
+    if a_mp <= 0:
+        raise ValueError("a must satisfy a > 0")
+
+    return (
+        li_susceptibility_profile(c_mp)
+        +
+        a_mp**(-2)
+        * li_susceptibility_profile(
+            c_mp / a_mp
+        )
+    )
+
+
+def li_two_orbit_resonant_correction(
+    k: int,
+    m: int,
+) -> mp.mpf:
+    """Return the exact fourth-order coefficient at resonance c_k/c_m."""
+    c_k = li_blind_scale(k)
+    c_m = li_blind_scale(m)
+
+    return (
+        li_blind_scale_correction_closed(k)
+        +
+        (c_m / c_k) ** 4
+        * li_blind_scale_correction_closed(m)
+    )
+
+
+def li_resonance_monotone_transform(
+    c: Number,
+) -> mp.mpf:
+    """Return F(c) = c^6 sqrt(c^2 + 4)."""
+    c_mp = mp.mpf(c)
+
+    if c_mp <= 0:
+        raise ValueError("c must satisfy c > 0")
+
+    return (
+        c_mp**6
+        * mp.sqrt(c_mp**2 + 4)
+    )
+
+
+def li_resonant_cancellation_ratio(
+    k: int,
+    m: int,
+) -> mp.mpf:
+    """Return normalized cancellation ratio for a resonant pair."""
+    c_k = li_blind_scale(k)
+    c_m = li_blind_scale(m)
+
+    first = abs(
+        li_blind_scale_correction_closed(k)
+    )
+
+    second = (
+        (c_m / c_k) ** 4
+        * abs(
+            li_blind_scale_correction_closed(m)
+        )
+    )
+
+    numerator = abs(
+        li_two_orbit_resonant_correction(
+            k,
+            m,
+        )
+    )
+
+    denominator = first + second
+
+    return numerator / denominator

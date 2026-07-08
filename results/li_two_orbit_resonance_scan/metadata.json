@@ -1,0 +1,20 @@
+{
+  "experiment_name": "li_two_orbit_resonance_scan",
+  "implementation_note": "Blind scales and correction coefficients were precomputed once and cached before the pair scan.",
+  "precision_decimal_digits": 120,
+  "max_blind_scale_index": 199,
+  "ordered_pair_count": 40000,
+  "opposite_parity_ordered_pair_count": 20000,
+  "minimum_normalized_cancellation_ratio": "0.01758595774999839554646615075086566216923330879785015082992156795646176823011385416838575991379454046",
+  "minimum_pair": [
+    199,
+    198
+  ],
+  "git_commit_at_start": "8f7da7f8085c90c2bd66d679cb516329d17a1986",
+  "git_clean_at_start": false,
+  "python_version": "3.9.6 (default, Apr 30 2025, 02:07:17) \n[Clang 17.0.0 (clang-1700.0.13.5)]",
+  "platform": "macOS-15.7.4-arm64-arm-64bit",
+  "runtime_seconds": 2.582993708,
+  "output_csv": "results/li_two_orbit_resonance_scan/closest_relative_cancellations.csv",
+  "output_csv_sha256": "51cd79f8436aabef1048404df20f6b0f125a6128803f5c98646edade47fc9984"
+}
