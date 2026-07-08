@@ -1162,3 +1162,56 @@ Any implication for RH.
 The three-family taxonomy may still be a repackaging of elementary scaling and homogeneity principles.
 
 The next stage must perform a serious prior-art audit before the project presents the taxonomy as a potential mathematical contribution.
+
+
+---
+
+## Phase 3A — Prior-Art Audit Protocol and Novelty Quarantine
+
+Status: COMPLETE
+
+### Why this phase exists
+
+The project has accumulated exact analytic and computational results across three individual RH-related zero-kernel families.
+
+However, several central mechanisms resemble standard mathematics:
+
+- complex Taylor expansion;
+- harmonicity;
+- roots-of-unity filtering;
+- dimensional analysis;
+- similarity scaling.
+
+The project therefore freezes seven prior-art questions before drawing originality conclusions.
+
+### Audit targets
+
+Q1: quarter-turn finite-difference operator.
+
+Q2: derivative-order filter selecting orders congruent to 2 modulo 4.
+
+Q3: horizontal-versus-vertical displacement of functional-equation-symmetric zero quartets.
+
+Q4: Li coefficient response to hypothetical zero displacement.
+
+Q5: quadratic second-directional sensitivity of RH-related zero kernels.
+
+Q6: comparative scaling signatures for zero kernels or RH diagnostics.
+
+Q7: profile degeneracy and enhanced decay on special parameter paths.
+
+### Novelty status
+
+All originality-sensitive central claims are quarantined.
+
+No novelty conclusion has been reached.
+
+### Level IV RH consequence
+
+None established.
+
+### Largest current weakness
+
+A current-literature prior-art campaign has not yet been completed.
+
+Until that campaign is performed, the mathematical originality of the project-specific construction and taxonomy remains unresolved.

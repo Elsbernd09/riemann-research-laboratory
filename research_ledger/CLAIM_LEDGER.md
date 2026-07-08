@@ -534,3 +534,39 @@ locally in delta.
 **Evidence:** Four qualitative predictions for the third family were frozen before derivation and all survived analytic and computational validation.
 
 **Limitation:** The predictions were guided by homogeneity and dimensional analysis. Broader mathematical significance remains unresolved.
+
+---
+
+## CL-0043
+
+**Status:** FAILED CLAIM PREVENTION RULE
+
+**Statement:** The quarter-turn derivative filter must not be described as a project discovery before a prior-art audit.
+
+**Reason:** The mechanism strongly resembles standard roots-of-unity and complex finite-difference filtering.
+
+---
+
+## CL-0044
+
+**Status:** FAILED CLAIM PREVENTION RULE
+
+**Statement:** The susceptibility scaling signature language must not be called a novel taxonomy before the closest asymptotic-scaling and zero-kernel literature is identified.
+
+---
+
+## CL-0045
+
+**Status:** KNOWN PROJECT LIMITATION
+
+**Statement:** As of Phase 3A, the project has no established Level IV RH-relevant consequence such as a new equivalent criterion, zero-free region, positivity theorem, or exclusion of off-critical zeros.
+
+---
+
+## CL-0046
+
+**Status:** PROJECT RESEARCH QUESTION
+
+**Statement:** After known analytic mechanisms are factored out, does the horizontal-versus-vertical zero-orbit contrast support a mathematically useful comparative classification of RH-related zero kernels that is not already subsumed by existing literature?
+
+**Status:** OPEN INSIDE PROJECT.
