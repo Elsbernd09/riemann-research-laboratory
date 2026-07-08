@@ -1435,3 +1435,74 @@ The present theorem concerns one kernel contribution and a synthetic finite orbi
 Global Li coefficients aggregate contributions from the entire zero multiset.
 
 Collective phase structure may erase, shift, or qualitatively alter the local blind-scale phenomenon.
+
+
+---
+
+## Phase 4C — Finite-Orbit Blind-Scale Aggregation
+
+Status: ACTIVE
+
+### What we derived
+
+For a finite family of critical-line orbit heights
+
+\[
+a_j\Gamma,
+\]
+
+the aggregate quadratic response has leading coupled profile
+
+\[
+\Psi_{\mathbf a,\mathbf w}^{\mathrm{agg}}(c)
+=
+\sum_j
+w_j a_j^{-2}
+\Psi_{\mathrm{Li}}(c/a_j).
+\]
+
+Thus the individual blind-scale profile does not simply persist under aggregation.
+
+### Two-orbit resonance
+
+For equal-weight relative heights \(1\) and \(a\), an individual blind coordinate \(c_k\) remains aggregate-blind at leading order if and only if
+
+\[
+a=c_k/c_m
+\]
+
+for another individual profile zero \(c_m\).
+
+The project calls this blind-scale ratio resonance.
+
+### Fourth-order response
+
+At resonance,
+
+\[
+K_{k,m}^{(2)}
+=
+K(c_k)
++
+(c_m/c_k)^4K(c_m).
+\]
+
+Same-parity resonant pairs have correction terms of the same sign and therefore cannot cancel at fourth order.
+
+### Mathematical claim supported
+
+Direct finite-sum asymptotics support the aggregate profile and resonance theorems.
+
+The claims have not yet undergone independent symbolic or arbitrary-precision validation.
+
+### Current frontier
+
+Opposite-parity resonances may permit stronger fourth-order cancellation.
+
+The existence, nonexistence, or asymptotic density of such near-cancellations is unknown inside the project.
+
+### Largest current weakness
+
+The relative orbit heights are synthetic parameters.
+
+The project has not connected blind-scale ratio resonance to actual zeta zero-height ratios or to the infinite Li zero sum.

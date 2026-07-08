@@ -880,3 +880,81 @@ q(q\cos q+2\sin q)
 **Priority:** HIGH.
 
 **Status:** OPEN.
+
+---
+
+## CL-0073
+
+**Status:** PROJECT CONJECTURE CANDIDATE — ANALYTIC DERIVATION PENDING INDEPENDENT VALIDATION
+
+**Statement:** For a finite orbit family with relative heights a_j and weights w_j, the coupled aggregate Li quadratic-response profile is
+\[
+\Psi^{agg}_{a,w}(c)
+=
+\sum_j
+w_j a_j^{-2}
+\Psi_{Li}(c/a_j).
+\]
+
+---
+
+## CL-0074
+
+**Status:** PROJECT CONJECTURE CANDIDATE — ANALYTIC DERIVATION PENDING INDEPENDENT VALIDATION
+
+**Statement:** In the equal-weight two-orbit model with relative heights 1 and a, an individual blind coordinate c_k remains a leading-order aggregate blind coordinate if and only if
+\[
+a=c_k/c_m
+\]
+for some positive Li response blind scale c_m.
+
+---
+
+## CL-0075
+
+**Status:** PROJECT CONJECTURE CANDIDATE — ANALYTIC DERIVATION PENDING INDEPENDENT VALIDATION
+
+**Statement:** At a two-orbit resonance a=c_k/c_m and common coordinate c_k, the fourth-order aggregate coefficient is
+\[
+K(c_k)
++
+(c_m/c_k)^4 K(c_m).
+\]
+
+---
+
+## CL-0076
+
+**Status:** PROJECT CONJECTURE CANDIDATE — ANALYTIC DERIVATION PENDING INDEPENDENT VALIDATION
+
+**Statement:** Every same-parity resonant pair k congruent to m modulo 2 has a nonzero fourth-order aggregate coefficient and therefore exact aggregate response exponent 4.
+
+---
+
+## CL-0077
+
+**Status:** PROJECT RESEARCH QUESTION
+
+**Statement:** Do opposite-parity blind-scale resonances admit exact or asymptotically arbitrarily strong fourth-order cancellation?
+
+**Priority:** HIGH.
+
+**Status:** OPEN.
+
+---
+
+## CL-0078
+
+**Status:** FAILED CLAIM PREVENTION RULE
+
+**Statement:** A single-orbit blind scale must not be assumed to survive finite aggregation.
+
+**Reason:** A generic second orbit contributes a nonzero leading aggregate profile at the first orbit's blind coordinate.
+
+---
+
+## CL-0079
+
+**Status:** FAILED CLAIM PREVENTION RULE
+
+**Statement:** Blind-scale ratio resonance in a synthetic finite orbit family must not be attributed to actual Riemann zeta zero heights without an arithmetic theorem or explicit verified zero-height analysis.
