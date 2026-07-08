@@ -265,3 +265,33 @@ A proposed claim invalidated by a counterexample, hidden assumption, circularity
 **Project claim?:** Not a theorem about RH.
 
 **Motivation:** The Li derivative-side and zero-side kernels agree under reflection-invariant orbit aggregation despite failing to agree term-by-term.
+
+---
+
+## CL-0022
+
+**Status:** PROJECT CONJECTURE CANDIDATE — NOT YET ACTIVATED
+
+**Statement:** For every analytic conjugation-compatible kernel near the critical-line pair, the matched horizontal-minus-vertical four-zero contrast divided by twice the squared displacement converges to the project quadratic susceptibility.
+
+**Reason not activated:** A proof has been written but independent symbolic and numerical validation has not yet been completed.
+
+---
+
+## CL-0023
+
+**Status:** HEURISTIC
+
+**Statement:** Horizontal-versus-vertical zero-geometry contrast is a cleaner structural interpretation of the project susceptibility than doubled-orbit splitting because it compares two multiplicity-conserving reflection-invariant four-zero configurations.
+
+**Project claim?:** Methodological interpretation, not a theorem about RH.
+
+---
+
+## CL-0024
+
+**Status:** FAILED CLAIM PREVENTION RULE
+
+**Statement:** A finite degree-four entire zero factor with xi-like reflection symmetry is not thereby a Riemann xi-function or an arithmetic L-function.
+
+**Purpose:** Prevent finite analytic symmetry from being mislabeled as arithmetic structure.

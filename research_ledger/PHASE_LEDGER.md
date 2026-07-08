@@ -514,3 +514,75 @@ Any implication for RH.
 The current bridge is exact for a finite signed response and corresponding rational factor.
 
 The project still lacks a natural entire-function deformation preserving enough xi-like structure to make the perturbation more than a response-functional model.
+
+
+---
+
+## Phase 1E — Entire Finite-Factor Directional Repair
+
+Status: ACTIVE
+
+### What we built
+
+We replaced the rational signed-factor interpretation with a comparison between two degree-four reflection- and conjugation-invariant zero configurations.
+
+The horizontal configuration spreads four zeros away from the critical line.
+
+The vertical configuration spreads four zeros along the critical line.
+
+Both preserve total zero multiplicity.
+
+We derived the matched directional contrast
+
+\[
+\mathcal A_f(\delta,\gamma)
+=
+\sum_{\rho\in H_{\delta,\gamma}}f(\rho)
+-
+\sum_{\rho\in V_{\delta,\gamma}}f(\rho).
+\]
+
+For analytic conjugation-compatible \(f\),
+
+\[
+\mathcal A_f(\delta,\gamma)
+=
+2\delta^2\chi_f(\gamma)
++
+O(\delta^4).
+\]
+
+Thus
+
+\[
+\chi_f(\gamma)
+=
+\lim_{\delta\to0}
+\frac{
+\mathcal A_f(\delta,\gamma)
+}{
+2\delta^2
+}.
+\]
+
+### Mathematical claim supported
+
+A direct Taylor expansion supports the horizontal–vertical analytic contrast proposition.
+
+The result has not yet been promoted to PROVED IN PROJECT.
+
+### What remains unproved or unaudited
+
+Independent symbolic validation.
+
+Arbitrary-precision numerical validation.
+
+Originality.
+
+Whether the directional contrast has meaningful structure beyond standard harmonicity when applied to RH diagnostics.
+
+Any connection to a global xi-like deformation.
+
+### Largest current weakness
+
+The degree-four factors are entire finite models but remain analytically and arithmetically remote from the full Riemann xi-function.
