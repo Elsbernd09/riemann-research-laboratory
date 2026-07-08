@@ -209,7 +209,7 @@ Until that happens, the framework remains methodology rather than substantive an
 
 ## Phase 1A — Exact Li-Kernel Susceptibility
 
-Status: ACTIVE
+Status: COMPLETE
 
 ### What we derived
 
@@ -320,3 +320,72 @@ Relevance of the individual-kernel scaling law to full Li coefficients or RH.
 The project has analyzed an individual Li zero kernel, not the globally regularized zero sum defining Li coefficients.
 
 No passage from local kernel susceptibility to a perturbation statement about the full Li coefficient sequence has been justified.
+
+
+---
+
+## Phase 1B — Independent Li Susceptibility Validation
+
+Status: COMPLETE
+
+### What we built
+
+We implemented the individual Li zero kernel and its manually derived second derivative using arbitrary-precision arithmetic.
+
+We independently validated the derivative identity with symbolic differentiation.
+
+We compared the exact susceptibility formula with direct arbitrary-precision differentiation.
+
+We recovered the susceptibility from finite signed orbit responses divided by delta squared.
+
+We ran a reproducible mesoscopic scaling experiment and stored both CSV output and computational metadata.
+
+We also preserved two validation-system failures:
+
+1. an insufficient SymPy simplification route;
+2. an automated-test tolerance inconsistent with the declared numerical protocol.
+
+### Mathematical claim supported
+
+The project now treats the following scaling statement as PROVED IN PROJECT:
+
+If
+
+\[
+\gamma_j\to\infty
+\]
+
+and
+
+\[
+n_j/\gamma_j\to c>0,
+\]
+
+then
+
+\[
+\gamma_j^2
+\chi_{n_j}^{\mathrm{Li}}(\gamma_j)
+\to
+-2c(c\cos c+2\sin c).
+\]
+
+This statement concerns the individual Li kernel susceptibility defined by the project.
+
+No originality claim is made.
+
+### What remains unproved or unaudited
+
+Novelty relative to the literature.
+
+Any implication for RH.
+
+Any justified passage from individual-kernel susceptibility to the full globally interpreted Li coefficient sequence.
+
+Any cross-diagnostic comparison.
+
+### Largest current weakness
+
+The current exact result is local to a single analytic kernel contribution.
+
+The main mathematical risk is that the global Li zero sum requires a summation interpretation that prevents naive local-to-global perturbation arguments.

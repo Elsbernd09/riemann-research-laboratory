@@ -188,11 +188,13 @@ A proposed claim invalidated by a counterexample, hidden assumption, circularity
 
 ## CL-0015
 
-**Status:** PROJECT CONJECTURE CANDIDATE — NOT YET ACTIVATED
+**Status:** PROVED IN PROJECT
 
 **Statement:** For the individual Li kernel, if gamma tends to infinity and n/gamma tends to c > 0, then gamma^2 times the quadratic susceptibility tends to -2c(c cos(c) + 2 sin(c)).
 
-**Reason not activated:** The derivation has not yet undergone independent symbolic and numerical verification, and originality is unresolved.
+**Proof status:** The scaling limit follows from the exact susceptibility formula, the limit gamma theta_gamma -> 1, and n/gamma -> c. The exact derivative formula has been independently checked symbolically and numerically.
+
+**Originality status:** Unresolved. PROVED IN PROJECT means the project has established the statement internally; it does not mean the statement is novel in the literature.
 
 ---
 
@@ -203,3 +205,27 @@ A proposed claim invalidated by a counterexample, hidden assumption, circularity
 **Statement:** Any future numerical scaling collapse matching the Li susceptibility profile is validation of the derived formula, not by itself evidence of a new theorem or progress toward RH.
 
 **Purpose:** Prevent reproduction of an analytically derived limit from being marketed as numerical discovery.
+
+---
+
+## CL-0017
+
+**Status:** FAILED CLAIM
+
+**Statement:** The initial SymPy factor-and-together validator was sufficient to decide the symbolic derivative identity.
+
+**Failure:** The simplification route failed to expose an exact cancellation involving symbolic integer exponents.
+
+**Disposition:** Validator repaired with stronger symbolic simplification and fixed-integer adversarial fallback.
+
+---
+
+## CL-0018
+
+**Status:** FAILED CLAIM
+
+**Statement:** The default mpmath `almosteq` criterion was an appropriate automated-test implementation of the Phase 1B numerical validation standard.
+
+**Failure:** Its implicit tolerance was inconsistent with the explicitly declared relative-error threshold of 10^-70.
+
+**Disposition:** Automated tests now use the explicit project threshold.
