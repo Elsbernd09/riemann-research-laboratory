@@ -520,7 +520,7 @@ The project still lacks a natural entire-function deformation preserving enough 
 
 ## Phase 1E — Entire Finite-Factor Directional Repair
 
-Status: ACTIVE
+Status: COMPLETE
 
 ### What we built
 
@@ -586,3 +586,84 @@ Any connection to a global xi-like deformation.
 ### Largest current weakness
 
 The degree-four factors are entire finite models but remain analytically and arithmetically remote from the full Riemann xi-function.
+
+
+---
+
+## Phase 1F — Quarter-Turn Directional Contrast Validation
+
+Status: COMPLETE
+
+### What we built
+
+We refined the horizontal-versus-vertical contrast expansion.
+
+The original \(O(\delta^4)\) contrast remainder was not sharp.
+
+The quarter-turn relation between horizontal and vertical displacement cancels derivative orders congruent to zero modulo four.
+
+Only derivative orders
+
+\[
+4k+2
+\]
+
+survive.
+
+For conjugation-compatible analytic kernels,
+
+\[
+\mathcal A_f(\delta,\gamma)
+=
+8
+\sum_{k\ge0}
+\frac{
+\delta^{4k+2}
+}{
+(4k+2)!
+}
+\Re
+f^{(4k+2)}
+\left(
+\frac12+i\gamma
+\right).
+\]
+
+Hence
+
+\[
+\mathcal A_f(\delta,\gamma)
+=
+2\delta^2\chi_f(\gamma)
++
+\frac{\delta^6}{90}
+\Re
+f^{(6)}
+\left(
+\frac12+i\gamma
+\right)
++
+O(\delta^{10}).
+\]
+
+### Mathematical claim supported
+
+The quarter-turn directional contrast expansion is now PROVED IN PROJECT.
+
+The Li-kernel sixth-order residual law is also PROVED IN PROJECT.
+
+### What remains unproved or unaudited
+
+Novelty relative to the literature.
+
+Whether the higher derivative hierarchy contains arithmetic information rather than only generic analytic geometry.
+
+Whether comparison with a second RH-related diagnostic produces a nontrivial distinction.
+
+Any implication for RH.
+
+### Largest current weakness
+
+The strongest structural result is still generic complex analysis applied to the project response geometry.
+
+The project must now determine whether a diagnostic-specific distinction survives after the generic analytic mechanism is factored out.

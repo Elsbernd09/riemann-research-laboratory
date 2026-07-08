@@ -295,3 +295,57 @@ A proposed claim invalidated by a counterexample, hidden assumption, circularity
 **Statement:** A finite degree-four entire zero factor with xi-like reflection symmetry is not thereby a Riemann xi-function or an arithmetic L-function.
 
 **Purpose:** Prevent finite analytic symmetry from being mislabeled as arithmetic structure.
+
+---
+
+## CL-0025
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** For the matched horizontal-minus-vertical analytic contrast, only even derivative orders congruent to 2 modulo 4 survive. Under conjugation compatibility,
+\[
+\mathcal A_f(\delta,\gamma)
+=
+8
+\sum_{k\ge0}
+\frac{\delta^{4k+2}}{(4k+2)!}
+\Re f^{(4k+2)}(1/2+i\gamma)
+\]
+within the common Taylor convergence range.
+
+**Proof status:** Derived from the symmetric Taylor expansions and the factor \(1-(-1)^m\). Symbolically validated through derivative order 14 and numerically validated for the Li kernel.
+
+**Originality status:** The underlying quarter-turn/root-of-unity filtering mechanism is standard. No literature novelty claim is made.
+
+---
+
+## CL-0026
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** The Li-kernel directional contrast satisfies
+\[
+\mathcal A_{f_n}(\delta,\gamma)
+=
+2\delta^2\chi_n^{\mathrm{Li}}(\gamma)
++
+\frac{\delta^6}{90}
+\Re f_n^{(6)}(1/2+i\gamma)
++
+O(\delta^{10})
+\]
+locally in delta.
+
+**Originality status:** Unresolved as a project-specific formulation. No claim of novelty is made.
+
+---
+
+## CL-0027
+
+**Status:** FAILED CLAIM
+
+**Statement:** The natural next correction to the horizontal-minus-vertical directional contrast is generically fourth order in delta.
+
+**Failure:** The fourth-order terms in the horizontal and vertical symmetric Taylor expansions are identical and cancel exactly.
+
+**Disposition:** The contrast residual begins at sixth order, with subsequent surviving orders congruent to 2 modulo 4.

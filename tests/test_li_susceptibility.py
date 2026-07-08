@@ -177,3 +177,108 @@ def test_asymmetric_measure_generically_breaks_bridge() -> None:
     )
 
     assert abs(f_response - g_response) > mp.mpf("1e-20")
+
+
+def test_horizontal_and_vertical_configurations_have_four_points() -> None:
+    from src.li_susceptibility import (
+        horizontal_zero_configuration,
+        vertical_zero_configuration,
+    )
+
+    horizontal = horizontal_zero_configuration(
+        "0.1",
+        "14",
+    )
+
+    vertical = vertical_zero_configuration(
+        "0.1",
+        "14",
+    )
+
+    assert len(horizontal) == 4
+    assert len(vertical) == 4
+
+
+def test_directional_contrast_recovers_susceptibility() -> None:
+    from src.li_susceptibility import (
+        horizontal_vertical_contrast,
+        li_susceptibility_exact,
+    )
+
+    n = 20
+    gamma = mp.mpf("50")
+    delta = mp.mpf("1e-15")
+
+    contrast = horizontal_vertical_contrast(
+        delta,
+        gamma,
+        n,
+    )
+
+    estimate = contrast / (2 * delta**2)
+    target = li_susceptibility_exact(n, gamma)
+
+    denominator = max(
+        abs(estimate),
+        abs(target),
+        mp.mpf("1e-100"),
+    )
+
+    relative_error = abs(estimate - target) / denominator
+
+    assert relative_error < mp.mpf("1e-45")
+
+
+def test_directional_contrast_has_sixth_order_leading_error() -> None:
+    from src.li_susceptibility import (
+        horizontal_vertical_contrast,
+        li_susceptibility_exact,
+        sixth_order_contrast_coefficient,
+    )
+
+    n = 20
+    gamma = mp.mpf("50")
+    delta = mp.mpf("1e-8")
+
+    contrast = horizontal_vertical_contrast(
+        delta,
+        gamma,
+        n,
+    )
+
+    chi = li_susceptibility_exact(n, gamma)
+
+    scaled_residual = (
+        contrast
+        -
+        2 * delta**2 * chi
+    ) / delta**6
+
+    target = sixth_order_contrast_coefficient(
+        n,
+        gamma,
+    )
+
+    denominator = max(
+        abs(scaled_residual),
+        abs(target),
+        mp.mpf("1e-100"),
+    )
+
+    relative_error = abs(
+        scaled_residual - target
+    ) / denominator
+
+    assert relative_error < mp.mpf("1e-20")
+
+
+def test_vertical_configuration_rejects_delta_ge_gamma() -> None:
+    from src.li_susceptibility import (
+        vertical_zero_configuration,
+    )
+
+    with pytest.raises(ValueError):
+        vertical_zero_configuration(
+            "14",
+            "14",
+        )

@@ -312,3 +312,150 @@ def asymmetric_signed_response(
         total += int(weight) * kernel(mp.mpc(point), n)
 
     return total
+
+
+def horizontal_zero_configuration(
+    delta: Number,
+    gamma: Number,
+) -> list[mp.mpc]:
+    """Return H_{delta,gamma}, the four-point horizontal configuration."""
+    delta_mp = mp.mpf(delta)
+    gamma_mp = validate_gamma(gamma)
+
+    if delta_mp <= 0:
+        raise ValueError("delta must satisfy delta > 0")
+
+    return [
+        mp.mpc(
+            mp.mpf("0.5") + epsilon * delta_mp,
+            eta * gamma_mp,
+        )
+        for epsilon in (-1, 1)
+        for eta in (-1, 1)
+    ]
+
+
+def vertical_zero_configuration(
+    delta: Number,
+    gamma: Number,
+) -> list[mp.mpc]:
+    """Return V_{delta,gamma}, the four-point vertical configuration."""
+    delta_mp = mp.mpf(delta)
+    gamma_mp = validate_gamma(gamma)
+
+    if delta_mp <= 0:
+        raise ValueError("delta must satisfy delta > 0")
+
+    if delta_mp >= gamma_mp:
+        raise ValueError("delta must satisfy delta < gamma")
+
+    return [
+        mp.mpc(
+            mp.mpf("0.5"),
+            eta * (gamma_mp + epsilon * delta_mp),
+        )
+        for epsilon in (-1, 1)
+        for eta in (-1, 1)
+    ]
+
+
+def finite_configuration_kernel_sum(
+    points: list[mp.mpc],
+    n: int,
+    kernel=li_kernel,
+) -> mp.mpc:
+    """Return the sum of a kernel over a finite point configuration."""
+    validate_n(n)
+
+    return mp.fsum(
+        kernel(point, n)
+        for point in points
+    )
+
+
+def horizontal_configuration_sum(
+    delta: Number,
+    gamma: Number,
+    n: int,
+) -> mp.mpc:
+    """Return the Li-kernel sum over H_{delta,gamma}."""
+    return finite_configuration_kernel_sum(
+        horizontal_zero_configuration(delta, gamma),
+        n,
+    )
+
+
+def vertical_configuration_sum(
+    delta: Number,
+    gamma: Number,
+    n: int,
+) -> mp.mpc:
+    """Return the Li-kernel sum over V_{delta,gamma}."""
+    return finite_configuration_kernel_sum(
+        vertical_zero_configuration(delta, gamma),
+        n,
+    )
+
+
+def horizontal_vertical_contrast(
+    delta: Number,
+    gamma: Number,
+    n: int,
+) -> mp.mpf:
+    """Return sum_H f_n - sum_V f_n."""
+    value = (
+        horizontal_configuration_sum(delta, gamma, n)
+        -
+        vertical_configuration_sum(delta, gamma, n)
+    )
+
+    imaginary_residual = abs(mp.im(value))
+    tolerance = mp.mpf(10) ** (-(mp.mp.dps // 2))
+
+    if imaginary_residual > tolerance:
+        raise ArithmeticError(
+            "Horizontal-vertical contrast should be real under "
+            "conjugation symmetry; "
+            f"imaginary residual={imaginary_residual}"
+        )
+
+    return mp.re(value)
+
+
+def li_kernel_derivative(
+    z: mp.mpc,
+    n: int,
+    order: int,
+) -> mp.mpc:
+    """Numerically differentiate the original Li kernel to a given order."""
+    validate_n(n)
+
+    if isinstance(order, bool) or not isinstance(order, int):
+        raise TypeError("order must be an integer")
+
+    if order < 0:
+        raise ValueError("order must satisfy order >= 0")
+
+    z = mp.mpc(z)
+
+    return mp.diff(
+        lambda w: li_kernel(w, n),
+        z,
+        order,
+    )
+
+
+def sixth_order_contrast_coefficient(
+    n: int,
+    gamma: Number,
+) -> mp.mpf:
+    """Return Re f_n^(6)(rho_gamma) / 90."""
+    rho = critical_line_point(gamma)
+
+    derivative = li_kernel_derivative(
+        rho,
+        n,
+        6,
+    )
+
+    return mp.re(derivative) / 90
