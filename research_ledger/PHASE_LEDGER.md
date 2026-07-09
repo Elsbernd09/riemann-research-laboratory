@@ -2083,3 +2083,109 @@ Separately derive a deterministic discrepancy formula tied to the zero-counting 
 The current experiment reaches only the first 500 computed critical-line zero ordinates, through height approximately 811.
 
 No discrete convergence theorem is established.
+
+
+---
+
+## Phase 5D — Exact Window-Response Discrepancy Decomposition
+
+Status: COMPLETE
+
+### Exact finite-dataset identity
+
+For the empirical counting function
+
+\[
+N_D(T)
+=
+\#\{\gamma_j\le T\},
+\]
+
+the project defines
+
+\[
+E_D(T)
+=
+N_D(T)-M(T),
+\]
+
+where
+
+\[
+M'(T)
+=
+\frac{1}{2\pi}\log(T/(2\pi)).
+\]
+
+The discrete zero-window response admits an exact Stieltjes decomposition into an exact smooth-density response and an empirical counting remainder.
+
+### Phase 5C residual decomposition
+
+The finite-height profile benchmark uses the leading Li susceptibility profile inside the smooth density integral.
+
+Thus
+
+\[
+\mathcal W_n-S_{\mathrm{profile}}
+=
+R_{\mathrm{count}}
++
+R_{\mathrm{kernel}}.
+\]
+
+The two terms separately represent:
+
+- empirical counting fluctuation;
+- local Li-kernel asymptotic truncation.
+
+### Candidate scale hierarchy
+
+The validated susceptibility expansion predicts normalized smooth kernel remainder scale
+
+\[
+O(H^{-2}).
+\]
+
+Under a logarithmic counting-remainder scale, the normalized counting contribution is predicted at
+
+\[
+O(H^{-1}).
+\]
+
+### Endpoint correction
+
+Because Phase 5C uses zero ordinates as left window anchors and includes the left endpoint, the exact discrete statistic contains an atom contribution
+
+\[
+\chi_n^{Li}(H).
+\]
+
+This contribution must be separately quantified.
+
+### Frozen predictions
+
+P-DEC-001:
+
+Exact numerical decomposition closes.
+
+P-DEC-002:
+
+Counting remainder dominates kernel remainder in RMS size for dense windows.
+
+P-DEC-003:
+
+Kernel remainder exhibits steeper height decay than counting remainder.
+
+P-DEC-004:
+
+Removing the left atom improves agreement slightly but does not explain most high-occupancy residual.
+
+### Current frontier
+
+Compute every discrepancy component independently on the frozen Phase 5C windows and grade the four predictions.
+
+### Largest current weakness
+
+The O(H^-1) counting-remainder scale is conditional on a logarithmic-size remainder heuristic or known classical-type scale.
+
+The project has not proved a new bound for zero-counting error.

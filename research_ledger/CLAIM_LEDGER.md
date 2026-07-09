@@ -1598,3 +1598,149 @@ reduces exactly to
 **Priority:** CRITICAL.
 
 **Status:** OPEN.
+
+---
+
+## CL-0132
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** For the frozen finite zero dataset, the discrete Li window response admits the exact Stieltjes decomposition
+\[
+\mathcal W_n
+=
+S_{\mathrm{exact}}
++
+R_{\mathrm{count}},
+\]
+where the counting remainder is expressed through the empirical counting remainder E_D, endpoint terms, and an E_D-weighted susceptibility derivative integral.
+
+**Scope:** Finite empirical counting function.
+
+---
+
+## CL-0133
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** The Phase 5C finite-height profile discrepancy decomposes exactly as
+\[
+\mathcal W_n-S_{\mathrm{profile}}
+=
+R_{\mathrm{count}}
++
+R_{\mathrm{kernel}}.
+\]
+
+---
+
+## CL-0134
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Under the validated compact-range two-term susceptibility expansion and fixed relative-window geometry, the normalized smooth kernel truncation has candidate scale
+\[
+\frac H{\log H}R_{\mathrm{kernel}}
+=
+O(H^{-2}).
+\]
+
+---
+
+## CL-0135
+
+**Status:** HEURISTIC SCALE PREDICTION
+
+**Statement:** If the empirical or classical zero-counting remainder is on a logarithmic scale, the normalized counting contribution has candidate scale
+\[
+\frac H{\log H}R_{\mathrm{count}}
+=
+O(H^{-1}).
+\]
+
+**Not a new zero-counting theorem.**
+
+---
+
+## CL-0136
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** The counting remainder satisfies the computable certificate
+\[
+|R_{\mathrm{count}}|
+\le
+|f(H)|\Delta N_D(H)
++
+|f(B)||E_D(B)|
++
+|f(H)||E_D(H)|
++
+\|E_D\|_\infty
+\int_H^B|f'(t)|dt.
+\]
+
+---
+
+## CL-0137
+
+**Status:** PROJECT EXPERIMENTAL CORRECTION
+
+**Statement:** Because the Phase 5C window anchors H are dataset zero ordinates and the discrete statistic uses [H,B], the exact decomposition contains an explicit left-endpoint atom
+\[
+R_{\mathrm{atom}}
+=
+\chi_n^{Li}(H).
+\]
+
+---
+
+## CL-0138
+
+**Status:** PROJECT PREDICTION
+
+**Prediction ID:** P-DEC-001.
+
+**Statement:** The numerical discrepancy decomposition will close to arbitrary-precision quadrature tolerance.
+
+---
+
+## CL-0139
+
+**Status:** PROJECT PREDICTION
+
+**Prediction ID:** P-DEC-002.
+
+**Statement:** Counting-remainder RMS will generally exceed kernel-remainder RMS in dense and high-occupancy tested windows.
+
+---
+
+## CL-0140
+
+**Status:** PROJECT PREDICTION
+
+**Prediction ID:** P-DEC-003.
+
+**Statement:** Normalized kernel-remainder magnitude will exhibit a steeper height-decay trend than normalized counting-remainder magnitude.
+
+---
+
+## CL-0141
+
+**Status:** PROJECT PREDICTION
+
+**Prediction ID:** P-DEC-004.
+
+**Statement:** Removing the explicit left-endpoint atom will improve smooth-model agreement slightly but will not explain most high-occupancy finite-height residual.
+
+---
+
+## CL-0142
+
+**Status:** PROJECT RESEARCH QUESTION
+
+**Statement:** Does the Phase 5C residual decompose empirically according to the candidate asymptotic hierarchy counting fluctuation O(H^-1) versus smooth kernel truncation O(H^-2) after H/log H normalization?
+
+**Priority:** CRITICAL.
+
+**Status:** OPEN.
