@@ -1686,3 +1686,122 @@ Near-cancellation must be judged using a normalized defect and compared against 
 The rigid signed-moment problem remains entirely inside a synthetic blind-scale orbit model.
 
 No connection to actual zeta zero heights is established.
+
+
+---
+
+## Phase 4F — Equal-Weight Three-Orbit Search
+
+Status: COMPLETE
+
+### Search
+
+The project searched the rigid equal-weight equation
+
+\[
+A_r=A_p+A_q
+\]
+
+subject to the required blind-scale parity and ordering constraints.
+
+The search reached blind-scale index 2999 and recorded 3,357,233 candidate records at the full checkpoint.
+
+Binary search in the opposite-parity moment subsequence replaced cubic triple enumeration.
+
+### Strongest candidate
+
+The strongest parity-local candidate was
+
+\[
+(p,q,r)=(1995,2225,2350).
+\]
+
+Its global normalized defect was approximately
+
+\[
+4.4321\times10^{-11}.
+\]
+
+Its parity-local spacing defect was approximately
+
+\[
+1.49203844\times10^{-7}.
+\]
+
+### Search prediction score
+
+The four frozen qualitative predictions all passed.
+
+### Limitation
+
+No exact equality was certified.
+
+Finite search does not prove global nonexistence.
+
+---
+
+## Phase 4G — Three-Orbit High-Precision and Extreme-Value Audit
+
+Status: COMPLETE
+
+### High-precision audit
+
+The top 15 candidates were independently recomputed at 500 decimal digits.
+
+The strongest candidate remained nonzero and its normalized defects were stable to extreme relative accuracy.
+
+### Extreme-value benchmark
+
+The full search contained
+
+\[
+M=3,357,233
+\]
+
+candidate records.
+
+Under the declared crude iid Uniform(0,1/2) benchmark, the expected minimum parity-local defect is approximately
+
+\[
+1.4893\times10^{-7}.
+\]
+
+The observed minimum was approximately
+
+\[
+1.4920\times10^{-7}.
+\]
+
+The observed-to-expected ratio was
+
+\[
+1.00182443666\ldots.
+\]
+
+The crude benchmark probability of obtaining a minimum no larger than the observed value was approximately
+
+\[
+0.632791065.
+\]
+
+### Research conclusion
+
+The search found no evidence of anomalous equal-weight three-orbit additive resonance in the searched range.
+
+The extremely small global normalized defect was explained as non-anomalous after parity-local spacing normalization and search-multiplicity comparison under the declared heuristic benchmark.
+
+### Mathematical claim supported
+
+Negative computational result:
+
+No additive blind-scale moment conjecture is promoted from the Phase 4F search.
+
+### Current weakness
+
+The extreme-value benchmark is heuristic.
+
+No deterministic distribution theorem for parity-local defects has been proved.
+
+### Strategic frontier
+
+The project must decide whether to continue studying synthetic finite-orbit signed-moment spacing or redirect toward actual zeta zero data and controlled truncated Li zero sums.

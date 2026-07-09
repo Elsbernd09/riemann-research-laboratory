@@ -1,0 +1,17 @@
+{
+  "experiment_name": "li_three_orbit_equal_weight_search",
+  "precision_decimal_digits": 100,
+  "max_blind_scale_index": 2999,
+  "admissible_pair_locations_searched": 2188179,
+  "prediction_file": "conjectures/THREE_ORBIT_EQUAL_WEIGHT_PREDICTIONS.md",
+  "prediction_file_sha256": "75d61c4a8057b6cb8c3461b235e0760fc0e7f3e3eb77e055bb08845982be59aa",
+  "git_commit_at_start": "b6cd63836dc6c1bb4e06837c1f2cfd877ccea32f",
+  "git_clean_at_start": true,
+  "python_version": "3.9.6 (default, Apr 30 2025, 02:07:17) \n[Clang 17.0.0 (clang-1700.0.13.5)]",
+  "platform": "macOS-15.7.4-arm64-arm-64bit",
+  "runtime_seconds": 183.86508141599998,
+  "candidate_csv": "results/li_three_orbit_equal_weight_search/best_candidates.csv",
+  "checkpoint_csv": "results/li_three_orbit_equal_weight_search/range_checkpoints.csv",
+  "candidate_csv_sha256": "b464ece139d6e85356f61831b4dca391675f7b005021460e9a17139835a93ba6",
+  "checkpoint_csv_sha256": "8d0d626c66fffb6654851455d9203d14a394f454457fefa594c6fe9f68730d16"
+}

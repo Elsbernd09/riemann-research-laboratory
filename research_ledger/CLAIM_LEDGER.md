@@ -1178,3 +1178,132 @@ be relative to the natural local spacing scale of the blind-scale moment sequenc
 **Priority:** HIGH.
 
 **Status:** OPEN.
+
+---
+
+## CL-0097
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** The strongest equal-weight three-orbit parity-local candidate through blind-scale index 2999 was
+\[
+(p,q,r)=(1995,2225,2350).
+\]
+
+**Global normalized defect:**
+approximately
+\[
+4.4321\times10^{-11}.
+\]
+
+**Parity-local defect:**
+approximately
+\[
+1.49203844\times10^{-7}.
+\]
+
+---
+
+## CL-0098
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** A 500-decimal-digit independent recomputation preserved the strongest Phase 4F candidate and its normalized defects to extreme relative accuracy and confirmed a nonzero signed residual.
+
+**Interpretation:** The best candidate is not a low-precision numerical artifact.
+
+**Not evidence for:** exact equality or RH.
+
+---
+
+## CL-0099
+
+**Status:** HEURISTIC
+
+**Statement:** Under an iid Uniform(0,1/2) benchmark for parity-local defects, the expected minimum among 3,357,233 candidate records is approximately
+\[
+1.4893\times10^{-7}.
+\]
+
+The observed minimum divided by this benchmark is
+
+\[
+1.00182443666\ldots.
+\]
+
+**Warning:** Dependence and uniformity have not been proved.
+
+---
+
+## CL-0100
+
+**Status:** HEURISTIC
+
+**Statement:** Under the same crude iid benchmark,
+\[
+P(
+\min E
+\le
+E_{\min,\mathrm{obs}}
+)
+\approx
+0.632791065.
+\]
+
+**Interpretation:** The best observed three-orbit candidate is not anomalously close under the declared simple benchmark.
+
+**This is not a rigorous p-value.**
+
+---
+
+## CL-0101
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** No exact equal-weight three-orbit blind-scale moment relation was certified in the Phase 4F search through index 2999.
+
+**Limitation:** Finite numerical search does not prove global nonexistence.
+
+---
+
+## CL-0102
+
+**Status:** FAILED CLAIM
+
+**Statement:** The tiny global normalized defect of the best three-orbit candidate is by itself evidence of anomalous additive blind-scale resonance.
+
+**Failure:** After parity-local spacing normalization and multiple-search comparison, the observed minimum is approximately equal to the crude benchmark expected minimum.
+
+**Disposition:** No additive-resonance conjecture is promoted from the Phase 4F candidate.
+
+---
+
+## CL-0103
+
+**Status:** FAILED CLAIM PREVENTION RULE
+
+**Statement:** A very small global normalized signed-moment defect must not be interpreted without comparison to parity-admissible local spacing and search multiplicity.
+
+---
+
+## CL-0104
+
+**Status:** PROJECT RESEARCH QUESTION
+
+**Statement:** Can the parity-local defect distribution for blind-scale moment pair sums be analyzed analytically, replacing the crude iid Uniform(0,1/2) benchmark with a deterministic equidistribution, discrepancy, or spacing theorem?
+
+**Priority:** MEDIUM.
+
+**Status:** OPEN.
+
+---
+
+## CL-0105
+
+**Status:** PROJECT RESEARCH QUESTION
+
+**Statement:** Should the project continue deeper into synthetic finite-orbit additive resonance, or redirect toward a controlled bridge to actual zeta zero data and truncated Li zero sums?
+
+**Priority:** CRITICAL STRATEGIC DECISION.
+
+**Status:** OPEN.
