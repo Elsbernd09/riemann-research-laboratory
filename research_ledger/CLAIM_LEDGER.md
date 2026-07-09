@@ -1414,3 +1414,57 @@ reduces exactly to
 **Priority:** CRITICAL.
 
 **Status:** OPEN.
+
+---
+
+## CL-0114
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** The first-500-zero dataset spans ordinates from approximately 14.1347251417 to 811.1843588465.
+
+---
+
+## CL-0115
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** Among complete audited relative-height windows in the first-500-zero dataset, occupancy ranged from 1 to 170 zeros.
+
+---
+
+## CL-0116
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** The occupancy audit found 29 complete windows with at least 10 zeros, 18 with at least 25 zeros, and 10 with at least 50 zeros.
+
+---
+
+## CL-0117
+
+**Status:** PROJECT EXPERIMENTAL PROTOCOL
+
+**Statement:** Phase 5C stratifies actual-zero windows by occupancy and treats windows with at least 25 zeros as primary continuum-profile tests, with windows containing at least 50 zeros forming the strongest initial subset.
+
+---
+
+## CL-0118
+
+**Status:** FAILED CLAIM PREVENTION RULE
+
+**Statement:** Poor agreement in very sparse zero windows must not be treated as a decisive falsification of the smooth-density continuum approximation.
+
+**Reason:** The continuum model suppresses discrete zero fluctuations and is not expected to describe one-zero or few-zero windows accurately.
+
+---
+
+## CL-0119
+
+**Status:** PROJECT RESEARCH QUESTION
+
+**Statement:** At accessible zero heights, how much of the discrepancy between discrete window susceptibility and the frozen asymptotic profile is explained by retaining the finite-height logarithmic zero-density factor?
+
+**Priority:** HIGH.
+
+**Status:** OPEN.

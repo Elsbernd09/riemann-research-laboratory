@@ -1,0 +1,18 @@
+{
+  "zero_dataset_count": 500,
+  "first_gamma": "14.1347251417346937904572519835624702707842571156992431756856",
+  "last_gamma": "811.184358846506260337884327464880022077034539630994047703906",
+  "eta_values": [
+    "0.05",
+    "0.1",
+    "0.2",
+    "0.5"
+  ],
+  "complete_window_record_count": 40,
+  "minimum_complete_window_occupancy": 1,
+  "maximum_complete_window_occupancy": 170,
+  "windows_with_at_least_10_zeros": 29,
+  "windows_with_at_least_25_zeros": 18,
+  "windows_with_at_least_50_zeros": 10,
+  "interpretation": "Occupancy audit determines whether the first-500-zero dataset supports initial discrete window-response tests. Truncated windows are excluded from occupancy summaries."
+}

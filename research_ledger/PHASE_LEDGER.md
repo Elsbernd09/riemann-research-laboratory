@@ -1897,3 +1897,80 @@ Generate a reproducible finite zeta-zero data set and test the frozen window-pro
 The continuum profile is heuristic.
 
 Discrete zero fluctuations and finite-height corrections may dominate at computationally accessible heights.
+
+
+---
+
+## Phase 5B — Finite Zeta-Zero Data Generation and Occupancy Audit
+
+Status: COMPLETE
+
+### Dataset
+
+The project generated a finite computational dataset containing 500 critical-line zeta zero ordinates returned by the selected mpmath backend.
+
+The ordinates span approximately
+
+\[
+14.1347
+\]
+
+through
+
+\[
+811.1844.
+\]
+
+Per-ordinate direct zeta residual evaluation was performed under the declared numerical gate.
+
+### Occupancy audit
+
+The project audited relative-height windows for
+
+\[
+\eta=0.05,\ 0.10,\ 0.20,\ 0.50.
+\]
+
+Among complete windows, occupancy ranged from 1 to 170 zeros.
+
+There were:
+
+\[
+29
+\]
+
+complete windows with at least 10 zeros,
+
+\[
+18
+\]
+
+with at least 25 zeros,
+
+and
+
+\[
+10
+\]
+
+with at least 50 zeros.
+
+### Phase decision
+
+The first-500-zero dataset is sufficient for an initial Phase 5C comparison.
+
+The project will stratify comparisons by window occupancy.
+
+Dense and high-occupancy windows are the primary continuum-profile tests.
+
+### Finite-height diagnostic
+
+Because the dataset reaches heights only through approximately 811, Phase 5C will compare the frozen leading profile with a finite-height smooth-density benchmark retaining the full logarithmic density factor.
+
+The frozen prediction remains the official P-ZETA-002 target.
+
+### Largest current weakness
+
+The accessible heights are low relative to the asymptotic regime.
+
+Finite-height corrections and discrete zero fluctuations may remain substantial.
