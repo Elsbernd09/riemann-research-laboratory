@@ -224,7 +224,7 @@ def load_transfer_lookup() -> dict[
     for row in rows:
         key = (
             int(row["window_number"]),
-            int(row["n"]),
+            int(mp.mpf(row["requested_c"])),
         )
 
         if key in lookup:
@@ -615,7 +615,7 @@ def main() -> None:
 
             transfer_key = (
                 window_number,
-                n,
+                int(c_requested),
             )
 
             if (
