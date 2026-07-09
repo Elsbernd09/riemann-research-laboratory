@@ -3112,3 +3112,68 @@ No asymptotic orthogonality theorem.
 
 No RH consequence.
 
+
+---
+
+## Phase 5I — Sign-Chamber Geometry of Signed Response Channels
+
+Status: PROTOCOL FROZEN
+
+### Trigger
+
+Phase 5H rejected the strong interior-alignment hypothesis and instead found frequent, quantitatively material cancellation among
+
+\[
+R_{\mathrm{atom}},
+\qquad
+R_{\mathrm{end}},
+\qquad
+R_{\mathrm{int}}.
+\]
+
+### Research question
+
+Are extreme scalar cancellation and deterministic-certificate looseness concentrated in particular sign chambers or near chamber transitions in the frozen c-grid?
+
+### Frozen population
+
+The existing 360 Phase 5H signed-transfer points.
+
+No new zero windows are selected after inspection.
+
+### Frozen objects
+
+Eight non-boundary sign chambers.
+
+Boundary tolerance:
+
+\[
+10^{-50}.
+\]
+
+Extreme cancellation:
+
+\[
+C_{\mathrm{scalar}}<0.25.
+\]
+
+Extreme certificate looseness:
+
+bottom quartile of \(T_{\sup}\).
+
+### Frozen predictions
+
+P-CHM-001 through P-CHM-007.
+
+### Interpretive restrictions
+
+Same-sign cancellation equal to one is algebraic.
+
+Mixed-sign concentration of extreme cancellation is partly definition-driven.
+
+The potentially informative finite-data questions concern variation among mixed chambers, chamber enrichment, transition frequency, and transition proximity.
+
+### RH consequence
+
+None.
+

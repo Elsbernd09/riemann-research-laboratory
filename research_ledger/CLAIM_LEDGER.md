@@ -3478,3 +3478,136 @@ R_{\mathrm{int}}.
 
 The project will not reinterpret the small observed kappa values as evidence for strong alignment.
 
+
+---
+
+## CL-0257
+
+**Status:** PHASE 5I DEFINITION
+
+**Statement:** Phase 5I classifies each non-boundary signed response triple
+
+\[
+(R_{\mathrm{atom}},R_{\mathrm{end}},R_{\mathrm{int}})
+\]
+
+into one of eight sign chambers.
+
+The frozen zero-sign tolerance is
+
+\[
+10^{-50}.
+\]
+
+---
+
+## CL-0258
+
+**Status:** PROVED IN PROJECT — ELEMENTARY
+
+**Statement:** If
+
+\[
+R_{\mathrm{atom}},
+R_{\mathrm{end}},
+R_{\mathrm{int}}
+\]
+
+all have the same sign and are nonzero, then
+
+\[
+C_{\mathrm{scalar}}=1.
+\]
+
+**Proof:** Equality holds in the scalar triangle inequality for same-sign real summands.
+
+---
+
+## CL-0259
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-CHM-001.
+
+**Statement:** All 360 Phase 5H points occupy exactly one of the eight non-boundary sign chambers under the \(10^{-50}\) tolerance.
+
+---
+
+## CL-0260
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-CHM-002.
+
+**Statement:** Every same-sign chamber point satisfies
+
+\[
+|C_{\mathrm{scalar}}-1|<10^{-45}.
+\]
+
+---
+
+## CL-0261
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-CHM-003.
+
+**Statement:** At least 95 percent of points with
+
+\[
+C_{\mathrm{scalar}}<0.25
+\]
+
+lie in mixed-sign chambers.
+
+---
+
+## CL-0262
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-CHM-004.
+
+**Statement:** Among mixed-sign chambers with at least 10 points, the range of conditional extreme-cancellation rates exceeds 0.25.
+
+---
+
+## CL-0263
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-CHM-005.
+
+**Statement:** At least one sign chamber has bottom-quartile deterministic-certificate-looseness enrichment exceeding 1.5.
+
+---
+
+## CL-0264
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-CHM-006.
+
+**Statement:** Mean chamber-transition count across the 18 frozen windows exceeds 5 transitions per 19 adjacent c-grid steps.
+
+---
+
+## CL-0265
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-CHM-007.
+
+**Statement:** Median scalar cancellation is lower for points within one c-grid step of a chamber transition than for points at least three c-grid steps from the nearest transition.
+
+---
+
+## CL-0266
+
+**Status:** FAILURE-PREVENTION RULE
+
+**Statement:** Sign-chamber classification is derived from the response components themselves.
+
+Algebraic consequences of the sign labels must not be presented as independent empirical evidence.
+
