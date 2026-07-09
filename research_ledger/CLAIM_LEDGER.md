@@ -1468,3 +1468,133 @@ reduces exactly to
 **Priority:** HIGH.
 
 **Status:** OPEN.
+
+---
+
+## CL-0120
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** Mean frozen-profile correlation increased from approximately 0.995056 to 0.997805 to 0.998216 when restricting actual-zero window comparisons to occupancy thresholds of at least 10, 25, and 50 zeros respectively.
+
+**Interpretation:** More highly populated tested windows exhibited stronger profile-shape agreement.
+
+**Not evidence for:** asymptotic convergence.
+
+---
+
+## CL-0121
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** In the occupancy-at-least-50 subset, the frozen smooth-density window profile achieved mean correlation approximately 0.998216 and mean sign agreement 0.9925 against the normalized discrete actual-zero response.
+
+---
+
+## CL-0122
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** In the occupancy-at-least-50 subset, the frozen leading profile had mean NRMSE approximately 0.304070, while the finite-height logarithmic-density benchmark had mean NRMSE approximately 0.036257.
+
+**Interpretation:** The finite-height benchmark reduced mean NRMSE by a factor of approximately 8.39.
+
+---
+
+## CL-0123
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** For all reported occupancy thresholds, the nearest-root protocol found every recorded empirical response root closer to a window-profile root than to an individual Li blind scale.
+
+**High-occupancy empirical root count:** 60.
+
+---
+
+## CL-0124
+
+**Status:** PROJECT PREDICTION SCORE
+
+**Prediction:** P-ZETA-001.
+
+**Result:** PASS.
+
+**Statement:** Positive-width actual-zero windows smear individual Li response blind scales in the tested finite data.
+
+---
+
+## CL-0125
+
+**Status:** PROJECT PREDICTION SCORE
+
+**Prediction:** P-ZETA-002.
+
+**Result:** PASS WITH FINITE-HEIGHT AMPLITUDE QUALIFICATION.
+
+**Statement:** The frozen H/log H smooth-density profile reproduced high-occupancy curve shape and sign structure strongly, but retained substantial amplitude error at accessible heights.
+
+---
+
+## CL-0126
+
+**Status:** PROJECT PREDICTION SCORE
+
+**Prediction:** P-ZETA-003.
+
+**Result:** PASS.
+
+**Statement:** Empirical response-zero locations preferred window-profile roots over individual blind scales under the frozen nearest-root comparison protocol.
+
+---
+
+## CL-0127
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** The finite actual-zero experiment supports a response-profile transformation from the individual profile Psi_Li to the positive-width smooth window profile Phi_eta at the level of curve shape and response-zero geometry.
+
+**Scope:** First-500-zero computational dataset.
+
+**Not a theorem of:** discrete convergence.
+
+---
+
+## CL-0128
+
+**Status:** FAILED CLAIM PREVENTION RULE
+
+**Statement:** High correlation between discrete actual-zero response and the smooth-density window profile must not be described as proof of a discrete asymptotic theorem.
+
+---
+
+## CL-0129
+
+**Status:** FAILED CLAIM PREVENTION RULE
+
+**Statement:** The actual-zero window response experiment must not be described as evidence that RH is true.
+
+**Reason:** The experiment studies a project-defined response statistic on a finite computational critical-line zero dataset.
+
+---
+
+## CL-0130
+
+**Status:** PROJECT RESEARCH QUESTION
+
+**Statement:** As the zero-height range and window occupancy increase, does the frozen leading-profile NRMSE decrease relative to the finite-height benchmark in a manner consistent with the predicted logarithmic asymptotic correction?
+
+**Priority:** CRITICAL.
+
+**Status:** OPEN.
+
+---
+
+## CL-0131
+
+**Status:** PROJECT RESEARCH QUESTION
+
+**Statement:** Can the discrepancy between the discrete actual-zero window response and the smooth-density benchmark be decomposed into an explicit finite-height deterministic term plus a fluctuation term tied to zeta zero-counting error?
+
+**Priority:** CRITICAL.
+
+**Status:** OPEN.

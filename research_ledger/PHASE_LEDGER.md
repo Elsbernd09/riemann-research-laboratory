@@ -1974,3 +1974,112 @@ The frozen prediction remains the official P-ZETA-002 target.
 The accessible heights are low relative to the asymptotic regime.
 
 Finite-height corrections and discrete zero fluctuations may remain substantial.
+
+
+---
+
+## Phase 5C — Actual Zeta-Zero Window Response Test
+
+Status: COMPLETE
+
+### Experiment
+
+The project evaluated the exact finite Li quadratic-response sum over complete windows of the first-500-zero computational data set.
+
+The normalized discrete response
+
+\[
+\frac H{\log H}
+\mathcal W_n(H,\eta)
+\]
+
+was compared with:
+
+1. the frozen Phase 5A smooth-density profile;
+2. a finite-height benchmark retaining the logarithmic zero-density factor.
+
+### Occupancy trend
+
+Frozen-profile mean correlation increased from approximately
+
+\[
+0.995056
+\]
+
+to
+
+\[
+0.997805
+\]
+
+to
+
+\[
+0.998216
+\]
+
+across occupancy thresholds of at least 10, 25, and 50 zeros.
+
+### High-occupancy frozen-profile result
+
+For occupancy at least 50:
+
+- window count: 10;
+- empirical response-root count: 60;
+- mean frozen correlation: approximately 0.998216;
+- mean frozen sign agreement: 0.9925;
+- mean frozen NRMSE: approximately 0.304070.
+
+The frozen profile reproduced curve shape and sign geometry strongly but retained substantial amplitude discrepancy.
+
+### Finite-height result
+
+For occupancy at least 50, retaining the full logarithmic density factor reduced mean NRMSE to approximately
+
+\[
+0.036257.
+\]
+
+This is an improvement factor of approximately
+
+\[
+8.39.
+\]
+
+### Root geometry
+
+At all reported occupancy thresholds, every empirical response root was closer to a window-profile root than to an individual Li blind scale under the protocol nearest-root metric.
+
+### Frozen prediction score
+
+P-ZETA-001:
+
+PASS.
+
+P-ZETA-002:
+
+PASS WITH FINITE-HEIGHT AMPLITUDE QUALIFICATION.
+
+P-ZETA-003:
+
+PASS.
+
+### Main research interpretation
+
+The individual profile does not remain pointwise intact under positive-width actual-zero aggregation.
+
+The aggregate response exhibits a window-level profile consistent with similarity-coordinate averaging under the smooth zero-density model.
+
+At accessible heights, finite-height logarithmic-density corrections are essential for amplitude accuracy.
+
+### Current frontier
+
+Scale the actual-zero experiment to higher zero heights and directly test whether the frozen leading profile closes the amplitude gap with increasing height.
+
+Separately derive a deterministic discrepancy formula tied to the zero-counting error term.
+
+### Largest current weakness
+
+The current experiment reaches only the first 500 computed critical-line zero ordinates, through height approximately 811.
+
+No discrete convergence theorem is established.
