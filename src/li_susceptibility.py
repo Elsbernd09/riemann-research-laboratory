@@ -888,3 +888,61 @@ def li_window_finite_height_profile(
             * mp.log(H_mp)
         )
     )
+
+
+def li_susceptibility_gamma_derivative(
+    n: int,
+    gamma: Number,
+) -> mp.mpf:
+    """Exact derivative d/dgamma of the Li quadratic susceptibility."""
+    validate_n(n)
+    gamma_mp = validate_gamma(gamma)
+
+    n_mp = mp.mpf(n)
+
+    D = (
+        gamma_mp**2
+        + mp.mpf("0.25")
+    )
+
+    theta = theta_gamma(
+        gamma_mp
+    )
+
+    phase = n_mp * theta
+
+    sine = mp.sin(phase)
+    cosine = mp.cos(phase)
+
+    A = (
+        n_mp * cosine
+        +
+        2 * gamma_mp * sine
+    )
+
+    A_prime = (
+        n_mp**2
+        / D
+        * sine
+        +
+        2 * sine
+        -
+        2
+        * n_mp
+        * gamma_mp
+        / D
+        * cosine
+    )
+
+    return (
+        8
+        * n_mp
+        * gamma_mp
+        / D**3
+        * A
+        -
+        2
+        * n_mp
+        / D**2
+        * A_prime
+    )
