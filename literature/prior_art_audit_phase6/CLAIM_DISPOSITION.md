@@ -852,3 +852,107 @@ Disposition:
 Q_eta is currently best described as a comparative conditioning or relative-sensitivity descriptor.
 
 The Phase 5G root-Q separation is not independent evidence of a new transfer-stability phenomenon.
+
+---
+
+## OA-6-030
+
+Object:
+
+Vanishing leading term exposing a different asymptotic order or making higher-order terms dominant.
+
+Current disposition:
+
+STANDARD DEGENERACY PHENOMENON / BROAD PRIOR ART.
+
+Evidence:
+
+Degenerate perturbation and exponentially small splitting literature explicitly studies the failure of non-degeneracy conditions, vanishing leading terms, and the resulting change in asymptotic response order.
+
+Disposition:
+
+The project must not claim that leading-response vanishing or order change under degeneracy is unprecedented.
+
+---
+
+## OA-6-031
+
+Object:
+
+Comparison of a number-theoretic main term with a transferred error contribution.
+
+Current disposition:
+
+CONCEPTUAL PRIOR ART IDENTIFIED.
+
+Restricted Goldbach work contains explicit transfer inequalities and conditions under which a positive main term dominates the transferred error.
+
+PA grade:
+
+PA-2 for Q13.
+
+Disposition:
+
+Broad main-term versus transfer-error language is not originality-sensitive.
+
+---
+
+## OA-6-032
+
+Object:
+
+Li-susceptibility aggregate response roots with nonzero discrepancy-transfer capacity.
+
+Current disposition:
+
+ORIGINALITY UNRESOLVED — PRECISION Q13 OBJECT.
+
+The specific construction is:
+
+\[
+\Phi_\eta(c)=0
+\]
+
+for the smooth positive-width aggregate of the local Li zero-coordinate susceptibility, while potentially
+
+\[
+\mathcal L_\eta(c)>0.
+\]
+
+Then
+
+\[
+Q_\eta(c)
+=
+\frac{|\Phi_\eta(c)|}{\mathcal L_\eta(c)}
+=
+0.
+\]
+
+No inspected Q13 source has been identified that constructs this exact Li-susceptibility profile/root and deterministic transfer-envelope comparison.
+
+No novelty conclusion follows.
+
+---
+
+## OA-6-033
+
+Object:
+
+Interpretation of profile roots.
+
+Current disposition:
+
+TERMINOLOGY NARROWING REQUIRED.
+
+Prohibited broad language:
+
+- discovery of degeneracy sensitivity;
+- discovery that cancellation increases relative error;
+- discovery that vanishing main terms expose fluctuations.
+
+Permitted project-specific language:
+
+"For the positive-width aggregate of the local Li zero-coordinate susceptibility, the smooth-density profile may vanish at coordinates where the matched discrepancy-transfer envelope remains positive."
+
+This is a mathematical specialization, not a general theory of degeneracy.

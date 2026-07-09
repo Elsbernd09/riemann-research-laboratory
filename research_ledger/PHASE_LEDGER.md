@@ -2882,3 +2882,61 @@ Q_eta is a project comparative conditioning or relative-sensitivity descriptor.
 ### RH consequence
 
 None.
+
+
+---
+
+## Phase 6B — Q13 Response-Root Sensitivity Prior-Art Audit
+
+Status: PROVISIONALLY COMPLETE
+
+### Precision question
+
+Has prior Li, Keiper, explicit-formula, or zeta-zero-statistic literature explicitly identified roots of a smooth aggregate zero-kernel response as relative-sensitivity locations because the smooth contribution vanishes while a discrepancy-transfer envelope remains nonzero?
+
+### Generic ancestry identified
+
+The audit confirms broad prior-art ancestry for:
+
+- leading-term degeneracy;
+- changes of asymptotic order when the nominal leading coefficient vanishes;
+- cancellation-induced numerical or analytic sensitivity;
+- comparison of main terms with transferred error contributions.
+
+These mechanisms are not project originality candidates.
+
+### Precision unresolved object
+
+No inspected source was identified that constructs the specific comparison
+
+\[
+\Phi_\eta(c)=0
+\]
+
+and
+
+\[
+\mathcal L_\eta(c)>0
+\]
+
+for the positive-width aggregate of the local Li zero-coordinate susceptibility.
+
+The corresponding quotient
+
+\[
+Q_\eta(c)
+=
+|\Phi_\eta(c)|/\mathcal L_\eta(c)
+\]
+
+remains a project comparative quantity under originality quarantine.
+
+### Current permitted interpretation
+
+At a positive-width Li-susceptibility response root, the smooth-density contribution may vanish while the deterministic worst-case counting-discrepancy transfer envelope remains nonzero.
+
+This is a specialization of standard degeneracy and conditioning ideas.
+
+### RH consequence
+
+None.

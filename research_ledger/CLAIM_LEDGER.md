@@ -3018,3 +3018,59 @@ Therefore the Phase 5G observation that root-associated coordinates have much sm
 4. the deterministic Li-susceptibility profile-to-transfer quotient Q_eta.
 
 These are related conceptually but are not mathematically interchangeable.
+
+---
+
+## CL-0235
+
+**Status:** PRIOR-ART DISPOSITION
+
+**Statement:** Vanishing leading terms, degeneracy-induced order changes, and exposure of higher-order asymptotic contributions are standard phenomena in perturbative and asymptotic analysis.
+
+**Disposition:** The project claims no originality for the generic degeneracy mechanism.
+
+---
+
+## CL-0236
+
+**Status:** PRIOR-ART DISPOSITION — PA-2
+
+**Source:** Anderson, restricted Goldbach transfer analysis, 2026.
+
+**Statement:** Main-term versus transferred-error comparison appears in adjacent analytic-number-theory work.
+
+**Distinction:** The prior source studies persistence of a positive restricted-Goldbach main term under twisted-sum error, not vanishing of a smooth Li-susceptibility profile while a deterministic discrepancy-transfer envelope remains positive.
+
+---
+
+## CL-0237
+
+**Status:** ORIGINALITY UNRESOLVED — Q13 PRECISION OBJECT
+
+**Statement:** No inspected Q13 source has been identified that explicitly interprets zeros of the positive-width Li zero-coordinate susceptibility profile
+
+\[
+\Phi_\eta(c)
+\]
+
+through the simultaneous comparison
+
+\[
+\Phi_\eta(c)=0,
+\qquad
+\mathcal L_\eta(c)>0,
+\]
+
+or an equivalent deterministic Li-susceptibility response-to-transfer construction.
+
+**Disposition:** No PA-4 source identified in the current Q13 source set. This is not a novelty claim.
+
+---
+
+## CL-0238
+
+**Status:** TERMINOLOGY DISCIPLINE
+
+**Statement:** The project-specific Q13 observation must be described as a specialization to the positive-width local Li-susceptibility aggregate.
+
+Broad claims concerning discovery of degeneracy, cancellation sensitivity, vanishing-main-term instability, or error dominance are prohibited.
