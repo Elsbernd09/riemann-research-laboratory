@@ -1952,3 +1952,116 @@ for normalized kernel-remainder RMS.
 **Priority:** CRITICAL.
 
 **Status:** OPEN.
+
+---
+
+## CL-0159
+
+**Status:** COMPUTATIONAL OBSERVATION — CORRECTED PHASE 5C METRIC
+
+**Statement:** After authoritative-anchor correction, the occupancy-at-least-50 frozen-profile mean NRMSE was approximately
+\[
+0.2996280740.
+\]
+
+---
+
+## CL-0160
+
+**Status:** COMPUTATIONAL OBSERVATION — CORRECTED PHASE 5C METRIC
+
+**Statement:** After authoritative-anchor correction, the occupancy-at-least-50 finite-height mean NRMSE was approximately
+\[
+0.03598349127.
+\]
+
+**Consequence:** The finite-height benchmark improved NRMSE over the frozen leading profile by a factor of approximately 8.33.
+
+---
+
+## CL-0161
+
+**Status:** COMPUTATIONAL OBSERVATION — CORRECTED PHASE 5C METRIC
+
+**Statement:** After authoritative-anchor correction, the occupancy-at-least-50 frozen-profile mean correlation was approximately
+\[
+0.9986389173
+\]
+and mean sign agreement was
+\[
+0.9975.
+\]
+
+---
+
+## CL-0162
+
+**Status:** COMPUTATIONAL OBSERVATION — CORRECTED PHASE 5C METRIC
+
+**Statement:** The authoritative-anchor high-occupancy subset retained 60 empirical response roots and a frozen window-profile root win rate of 1.0 versus individual Li blind scales.
+
+---
+
+## CL-0163
+
+**Status:** PROJECT PREDICTION SCORE — REVALIDATED
+
+**Prediction ID:** P-ZETA-001.
+
+**Result:** PASS.
+
+**Statement:** The window-smearing prediction survives authoritative endpoint reconstruction.
+
+---
+
+## CL-0164
+
+**Status:** PROJECT PREDICTION SCORE — REVALIDATED
+
+**Prediction ID:** P-ZETA-002.
+
+**Result:** PASS WITH FINITE-HEIGHT AMPLITUDE QUALIFICATION.
+
+**Statement:** The frozen smooth-density profile retains extremely strong shape and sign agreement after endpoint correction, while finite-height amplitude error remains material.
+
+---
+
+## CL-0165
+
+**Status:** PROJECT PREDICTION SCORE — REVALIDATED
+
+**Prediction ID:** P-ZETA-003.
+
+**Result:** PASS.
+
+**Statement:** The corrected nearest-root protocol retains a 1.0 window-profile win rate against individual blind scales in every reported occupancy subset.
+
+---
+
+## CL-0166
+
+**Status:** PROVED IN PROJECT — DATA PROVENANCE RULE
+
+**Statement:** Atomic window endpoints in zero-measure experiments must be reconstructed from authoritative indexed zero data rather than rounded display coordinates.
+
+**Reason:** Closed-interval membership is discontinuous under endpoint perturbation across an atom.
+
+---
+
+## CL-0167
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** After authoritative-anchor correction, the frozen leading window profile had slightly higher mean high-occupancy correlation than the finite-height benchmark, while the finite-height benchmark retained approximately 8.33 times lower NRMSE.
+
+**Interpretation:** Curve-shape correlation and amplitude accuracy are distinct comparison criteria.
+
+---
+
+## CL-0168
+
+**Status:** PROJECT REVALIDATION RESOLUTION
+
+**Statement:** The Phase 5C REVALIDATION REQUIRED status is resolved.
+
+**Disposition:** The broad response-profile conclusion survives. Final reporting must use authoritative-anchor corrected metrics rather than the archived pre-repair metrics.

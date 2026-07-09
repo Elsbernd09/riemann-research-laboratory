@@ -2363,3 +2363,83 @@ Phase 5C must now be rerun with authoritative zero anchors before its exact corr
 ### Largest current weakness
 
 The project has not proved an asymptotic theorem connecting the finite empirical counting-remainder hierarchy to the complete zeta zero sequence.
+
+
+---
+
+## Phase 5C-R — Authoritative-Anchor Revalidation
+
+Status: COMPLETE
+
+### Reason for revalidation
+
+Phase 5E-R established that rounded occupancy-file H values were not safe for reconstructing atomic zero-window endpoints.
+
+The original Phase 5C experiment used those rounded values.
+
+Its metrics were therefore placed under REVALIDATION REQUIRED status.
+
+### Corrected execution
+
+Phase 5C was rerun with H recovered from the authoritative frozen zero dataset using anchor_zero_index.
+
+All original experimental metrics and protocol choices were preserved.
+
+### Corrected high-occupancy metrics
+
+For occupancy at least 50:
+
+- window count: 10;
+- empirical root count: 60;
+- frozen-profile NRMSE: approximately 0.299628;
+- finite-height NRMSE: approximately 0.0359835;
+- frozen correlation: approximately 0.998639;
+- finite-height correlation: approximately 0.998381;
+- frozen sign agreement: 0.9975;
+- finite-height sign agreement: 0.9975;
+- frozen window-root win rate versus individual blind scales: 1.0;
+- finite-height root-win rate versus individual blind scales: 1.0.
+
+### Comparison with pre-repair results
+
+The corrected frozen NRMSE improved slightly.
+
+The corrected finite-height NRMSE improved slightly.
+
+Frozen-profile correlation and sign agreement increased.
+
+The finite-height mean correlation decreased slightly.
+
+The root-win results were unchanged.
+
+### Corrected prediction grades
+
+P-ZETA-001:
+
+PASS.
+
+P-ZETA-002:
+
+PASS WITH FINITE-HEIGHT AMPLITUDE QUALIFICATION.
+
+P-ZETA-003:
+
+PASS.
+
+### Main conclusion
+
+The broad actual-zero response-profile conclusion survives authoritative endpoint reconstruction.
+
+The finite data remain strongly consistent, in curve shape and response-zero geometry, with the smooth-density window profile.
+
+The finite-height density factor remains essential for amplitude accuracy.
+
+### Reporting rule
+
+Archived pre-repair Phase 5C metrics are historical validation artifacts only.
+
+All final project reporting must use corrected authoritative-anchor metrics.
+
+### Largest current weakness
+
+The experiment remains restricted to the first 500 computed critical-line zero ordinates and does not establish a discrete convergence theorem.
