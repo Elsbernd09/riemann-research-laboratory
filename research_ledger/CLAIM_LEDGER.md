@@ -2065,3 +2065,217 @@ and mean sign agreement was
 **Statement:** The Phase 5C REVALIDATION REQUIRED status is resolved.
 
 **Disposition:** The broad response-profile conclusion survives. Final reporting must use authoritative-anchor corrected metrics rather than the archived pre-repair metrics.
+
+---
+
+## CL-0169
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** The non-atomic counting response transform
+\[
+\mathcal T[E]
+=
+f(B)E(B)
+-
+f(H)E(H)
+-
+\int_H^B E(t)f'(t)dt
+\]
+satisfies
+\[
+|\mathcal T[E]|
+\le
+\Lambda_n(H,\eta)
+\|E\|_\infty,
+\]
+where
+\[
+\Lambda_n(H,\eta)
+=
+|f(H)|
++
+|f(B)|
++
+\int_H^B|f'(t)|dt.
+\]
+
+---
+
+## CL-0170
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** The exact sup-norm response-transfer coefficient can be written
+\[
+\Lambda_n(H,\eta)
+=
+|f(H)|
++
+|f(B)|
++
+\operatorname{Var}_{[H,B]}(f).
+\]
+
+---
+
+## CL-0171
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** For Holder-conjugate exponents p and q,
+\[
+|\mathcal T[E]|
+\le
+|f(B)||E(B)|
++
+|f(H)||E(H)|
++
+\|E\|_p\|f'\|_q.
+\]
+
+---
+
+## CL-0172
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** The leading Li derivative-response profile is
+\[
+J_{Li}(q)
+=
+2\Psi_{Li}(q)+q\Psi_{Li}'(q)
+=
+2q^3\sin q
+-
+12q^2\cos q
+-
+12q\sin q.
+\]
+
+---
+
+## CL-0173
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Under matched-scale compact-coordinate and fixed-relative-window assumptions,
+\[
+H^2\Lambda_n(H,\eta)
+\to
+\mathcal L_\eta(c),
+\]
+where
+\[
+\mathcal L_\eta(c)
+=
+|\Psi(c)|
++
+(1+\eta)^{-2}|\Psi(c/(1+\eta))|
++
+\int_1^{1+\eta}u^{-3}|J(c/u)|du.
+\]
+
+---
+
+## CL-0174
+
+**Status:** PROJECT COMPARATIVE QUANTITY
+
+**Statement:** Define
+\[
+Q_\eta(c)
+=
+\frac{|\Phi_\eta(c)|}
+{\mathcal L_\eta(c)}
+\]
+when the denominator is positive.
+
+**Interpretation:** Smooth window-profile magnitude relative to worst-case sup-norm counting-discrepancy transfer.
+
+**Originality:** UNRESOLVED.
+
+---
+
+## CL-0175
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** At every exact smooth window-profile root with positive transfer envelope,
+\[
+Q_\eta(c)=0.
+\]
+
+**Interpretation:** Smooth response blindness does not imply robustness to counting discrepancy.
+
+---
+
+## CL-0176
+
+**Status:** FAILED CLAIM PREVENTION RULE
+
+**Statement:** A zero of the smooth window-response profile must not automatically be described as a counting-stability point.
+
+**Reason:** The smooth main signal vanishes there while the counting-response transfer coefficient need not vanish.
+
+---
+
+## CL-0177
+
+**Status:** PROJECT PREDICTION
+
+**Prediction ID:** P-TRN-001.
+
+**Statement:** Exact matched-scale transfer coefficients converge numerically to the continuum transfer envelope.
+
+---
+
+## CL-0178
+
+**Status:** PROJECT PREDICTION
+
+**Prediction ID:** P-TRN-002.
+
+**Statement:** The exact sup-norm transfer certificate holds at every tested dense-window decomposition point.
+
+---
+
+## CL-0179
+
+**Status:** PROJECT PREDICTION
+
+**Prediction ID:** P-TRN-003.
+
+**Statement:** The L2 Holder certificate is generally tighter than the L-infinity variation certificate in empirical dense windows.
+
+---
+
+## CL-0180
+
+**Status:** PROJECT PREDICTION
+
+**Prediction ID:** P-TRN-004.
+
+**Statement:** Empirical response-root neighborhoods exhibit lower profile-to-transfer ratio than generic coordinates.
+
+---
+
+## CL-0181
+
+**Status:** PROJECT PREDICTION — HIGH RISK
+
+**Prediction ID:** P-TRN-005.
+
+**Statement:** A coordinate-dependent residual predictor involving the continuum transfer envelope correlates more strongly with corrected empirical residual magnitude than height alone.
+
+---
+
+## CL-0182
+
+**Status:** PROJECT RESEARCH QUESTION
+
+**Statement:** Does the deterministic response-transfer envelope provide explanatory power for actual signed zero-counting residuals, or is it primarily a loose worst-case stability bound?
+
+**Priority:** CRITICAL.
+
+**Status:** OPEN.

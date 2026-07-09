@@ -2443,3 +2443,144 @@ All final project reporting must use corrected authoritative-anchor metrics.
 ### Largest current weakness
 
 The experiment remains restricted to the first 500 computed critical-line zero ordinates and does not establish a discrete convergence theorem.
+
+
+---
+
+## Phase 5F — Deterministic Counting-Response Transfer Inequality
+
+Status: COMPLETE
+
+### Exact transfer transform
+
+The empirical counting contribution is decomposed into an explicit left atom and a linear transform of the counting discrepancy.
+
+For the non-atomic transform,
+
+\[
+\mathcal T[E]
+=
+f(B)E(B)
+-
+f(H)E(H)
+-
+\int_H^B E(t)f'(t)dt.
+\]
+
+### Sup-norm stability
+
+The project proved
+
+\[
+|\mathcal T[E]|
+\le
+\Lambda_n(H,\eta)\|E\|_\infty,
+\]
+
+where
+
+\[
+\Lambda_n(H,\eta)
+=
+|f(H)|
++
+|f(B)|
++
+\operatorname{Var}_{[H,B]}(f).
+\]
+
+Thus counting-discrepancy transfer is controlled by endpoint kernel magnitude and kernel total variation.
+
+### Holder-family stability
+
+For conjugate p and q,
+
+\[
+|\mathcal T[E]|
+\le
+|f(B)||E(B)|
++
+|f(H)||E(H)|
++
+\|E\|_p\|f'\|_q.
+\]
+
+The L2 certificate is selected for empirical comparison with the sup-norm certificate.
+
+### Derivative-response profile
+
+The leading derivative profile is
+
+\[
+J_{Li}(q)
+=
+2q^3\sin q
+-
+12q^2\cos q
+-
+12q\sin q.
+\]
+
+### Continuum transfer envelope
+
+The matched-scale transfer coefficient is predicted to satisfy
+
+\[
+H^2\Lambda_n(H,\eta)
+\to
+\mathcal L_\eta(c).
+\]
+
+The envelope combines:
+
+- lower endpoint response magnitude;
+- upper endpoint response magnitude;
+- integrated derivative-response magnitude.
+
+### Profile-to-transfer ratio
+
+The project defines
+
+\[
+Q_\eta(c)
+=
+|\Phi_\eta(c)|/\mathcal L_\eta(c).
+\]
+
+At a smooth response-profile root,
+
+\[
+Q_\eta(c)=0.
+\]
+
+Therefore response blindness does not automatically imply counting stability.
+
+### Frozen predictions
+
+P-TRN-001:
+
+Matched-scale transfer-envelope convergence.
+
+P-TRN-002:
+
+Pointwise validity of the exact sup-norm empirical transfer certificate.
+
+P-TRN-003:
+
+L2 certificate generally tighter than L-infinity certificate.
+
+P-TRN-004:
+
+Empirical root neighborhoods have lower profile-to-transfer ratio than generic coordinates.
+
+P-TRN-005:
+
+Coordinate-dependent transfer predictor explains empirical residual magnitude better than height alone.
+
+### Current frontier
+
+Validate the transfer envelope and determine whether the deterministic stability coefficient is merely a worst-case bound or an empirically explanatory statistic.
+
+### Largest current weakness
+
+The transfer coefficient uses absolute values and may erase signed cancellation responsible for actual counting-remainder behavior.
