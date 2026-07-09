@@ -2816,3 +2816,124 @@ f_n(\rho+\delta)+f_n(\rho-\delta)-2f_n(\rho)
 for the fixed classical Li kernel and then derives the critical-line susceptibility, matched susceptibility profile, and positive-width multiplicative-window profile.
 
 **Disposition:** No PA-4 source identified in the current search set. This remains an absence-of-identification statement only.
+
+
+---
+
+## CL-0223
+
+**Status:** ADVERSARIAL AUDIT — UNDERJUSTIFIED PROOF DEPENDENCY
+
+**Statement:** CL-0173 was initially labeled PROVED IN PROJECT before the derivative asymptotic required for the total-variation term had been established directly.
+
+The susceptibility expansion alone does not justify differentiating its big-O remainder.
+
+**Disposition:** Numerical Phase 5G convergence does not close this proof dependency.
+
+---
+
+## CL-0224
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Uniformly for
+
+\[
+q=n/\gamma
+\]
+
+in a compact positive set,
+
+\[
+\gamma^3\chi_n'(\gamma)
+=
+-J_{Li}(q)
++
+O_K(\gamma^{-2}).
+\]
+
+**Proof method:** Direct reparameterization of the exact susceptibility derivative using
+
+\[
+x=1/\gamma,
+\qquad
+q=n/\gamma.
+\]
+
+The scaled exact derivative is smooth and even in \(x\) near \(x=0\), with value
+
+\[
+-J_{Li}(q)
+\]
+
+at \(x=0\).
+
+---
+
+## CL-0225
+
+**Status:** PROVED IN PROJECT — REPAIRED DEPENDENCY
+
+**Statement:** For fixed \(\eta>0\) and \(c_H=n/H\) in a compact positive set,
+
+\[
+H^2\Lambda_n(H,\eta)
+=
+\mathcal L_\eta(c_H)
++
+O(H^{-2})
+\]
+
+uniformly.
+
+If \(c_H\to c>0\), then
+
+\[
+H^2\Lambda_n(H,\eta)
+\to
+\mathcal L_\eta(c).
+\]
+
+**Proof dependency:** CL-0224 and the inequality
+
+\[
+\big||a+r|-|a|\big|\le|r|.
+\]
+
+---
+
+## CL-0226
+
+**Status:** FAILURE-PREVENTION RULE
+
+**Statement:** Numerical convergence can validate a proved asymptotic or expose a false prediction, but numerical convergence cannot repair a missing analytical proof dependency.
+
+---
+
+## CL-0227
+
+**Status:** PRIOR-ART DISPOSITION — Q11
+
+**Statement:** Bounded-variation test functions, variation-controlled approximation estimates, and explicit-formula applications to BV-type test classes are established prior art in zeta-zero and Li-related analysis.
+
+**Sources inspected:** Smajlović; Rodgers; Maples–Rodgers.
+
+**PA Grade:** PA-4 for the generic BV/TV transfer mechanism.
+
+**Disposition:** The project claims no originality for controlling a discrepancy transform by endpoint magnitude and total variation.
+
+---
+
+## CL-0228
+
+**Status:** ORIGINALITY UNRESOLVED — Q11 SPECIALIZATION
+
+**Statement:** No inspected Q11 source has been identified that derives the matched-scale continuum envelope
+
+\[
+\mathcal L_\eta(c)
+\]
+
+as the scaled endpoint-plus-total-variation norm of the differentiated classical Li zero-coordinate susceptibility.
+
+**Disposition:** No PA-4 source identified for the Li-specific specialization in the current source set. This is not a novelty claim.

@@ -686,3 +686,65 @@ its matched susceptibility profile, and positive-width multiplicative height-win
 No PA-4 source has been identified in the current inspected source set.
 
 This is not a novelty claim.
+
+
+---
+
+## OA-6-024
+
+Object:
+
+Bounded-variation or total-variation control of zero-statistic and explicit-formula test functions.
+
+Current disposition:
+
+ESTABLISHED PRIOR ART / STANDARD MECHANISM.
+
+Sources inspected:
+
+- Lejla Smajlović, explicit formulas for generalized bounded-variation test functions in Li-related analysis.
+- Brad Rodgers, bounded-variation test functions in mesoscopic zeta-zero linear statistics.
+- Kenneth Maples and Brad Rodgers, variation-controlled harmonic-analysis approximation estimates.
+
+PA grade:
+
+PA-4 for the generic analytical mechanism.
+
+Disposition:
+
+The project must not claim originality for:
+
+- bounded-variation zero-statistic test functions;
+- explicit-formula extension to BV-type tests;
+- sup-norm discrepancy times total-variation estimates;
+- endpoint-plus-variation operator bounds.
+
+---
+
+## OA-6-025
+
+Object:
+
+Li-susceptibility matched transfer envelope
+
+\[
+\mathcal L_\eta(c).
+\]
+
+Current disposition:
+
+ORIGINALITY UNRESOLVED.
+
+The specific project object is the matched-scale limit of
+
+\[
+|\chi_n^{Li}(H)|
++
+|\chi_n^{Li}((1+\eta)H)|
++
+\operatorname{Var}_{[H,(1+\eta)H]}(\chi_n^{Li}).
+\]
+
+No inspected Q11 source has been identified that derives the equivalent continuum envelope from the local second zero-coordinate derivative of the fixed classical Li kernel.
+
+No novelty conclusion follows.

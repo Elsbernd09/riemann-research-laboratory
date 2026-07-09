@@ -2749,3 +2749,80 @@ Complete a targeted primary-source prior-art campaign and assign PA-0 through PA
 ### Largest current limitation
 
 A current primary-source literature search is required before originality-sensitive disposition can be completed.
+
+
+---
+
+## Phase 6B-A — Transfer-Envelope Proof Dependency Repair
+
+Status: COMPLETE
+
+### Trigger
+
+Adversarial review identified that the original proof dependency for CL-0173 was underjustified.
+
+The susceptibility asymptotic alone did not justify differentiating its big-O remainder in the total-variation term.
+
+### Repair
+
+Starting from the exact susceptibility derivative, introduce
+
+\[
+x=1/\gamma,
+\qquad
+q=n/\gamma.
+\]
+
+The scaled exact derivative
+
+\[
+G(q,x)=\gamma^3\chi_n'(\gamma)
+\]
+
+is smooth and even in \(x\) near \(x=0\), uniformly for \(q\) in compact positive sets.
+
+Since
+
+\[
+G(q,0)=-J_{Li}(q),
+\]
+
+one obtains
+
+\[
+\gamma^3\chi_n'(\gamma)
+=
+-J_{Li}(q)+O_K(\gamma^{-2})
+\]
+
+uniformly.
+
+Using
+
+\[
+\big||a+r|-|a|\big|\le|r|,
+\]
+
+the absolute derivative integral passes to the continuum profile with an \(O(H^{-2})\) scaled error.
+
+Therefore
+
+\[
+H^2\Lambda_n(H,\eta)
+=
+\mathcal L_\eta(c_H)+O(H^{-2})
+\]
+
+uniformly on compact positive matched-scale sets.
+
+### Claim correction
+
+CL-0173 is retained only as a repaired proved claim with dependency on CL-0224 and CL-0225.
+
+### Failure-prevention rule
+
+Numerical convergence does not repair an analytical proof gap.
+
+### RH consequence
+
+None.
