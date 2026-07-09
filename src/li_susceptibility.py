@@ -806,3 +806,85 @@ def li_resonant_cancellation_ratio(
     denominator = first + second
 
     return numerator / denominator
+
+
+def li_window_continuum_profile(
+    c: Number,
+    eta: Number,
+) -> mp.mpf:
+    """Return the frozen leading smooth-density window profile Phi_eta(c)."""
+    c_mp = mp.mpf(c)
+    eta_mp = mp.mpf(eta)
+
+    if c_mp <= 0:
+        raise ValueError("c must satisfy c > 0")
+
+    if eta_mp <= 0:
+        raise ValueError("eta must satisfy eta > 0")
+
+    upper_scale = 1 + eta_mp
+
+    return (
+        c_mp
+        / mp.pi
+        *
+        (
+            upper_scale**(-2)
+            * mp.sin(
+                c_mp / upper_scale
+            )
+            -
+            mp.sin(c_mp)
+        )
+    )
+
+
+def li_window_finite_height_profile(
+    c: Number,
+    eta: Number,
+    H: Number,
+) -> mp.mpf:
+    """Return the finite-height leading-density window benchmark."""
+    c_mp = mp.mpf(c)
+    eta_mp = mp.mpf(eta)
+    H_mp = mp.mpf(H)
+
+    if c_mp <= 0:
+        raise ValueError("c must satisfy c > 0")
+
+    if eta_mp <= 0:
+        raise ValueError("eta must satisfy eta > 0")
+
+    if H_mp <= 1:
+        raise ValueError("H must satisfy H > 1")
+
+    def integrand(
+        u: mp.mpf,
+    ) -> mp.mpf:
+        return (
+            u**(-2)
+            * li_susceptibility_profile(
+                c_mp / u
+            )
+            * mp.log(
+                u * H_mp / (2 * mp.pi)
+            )
+        )
+
+    integral = mp.quad(
+        integrand,
+        [
+            mp.mpf("1"),
+            1 + eta_mp,
+        ],
+    )
+
+    return (
+        integral
+        /
+        (
+            2
+            * mp.pi
+            * mp.log(H_mp)
+        )
+    )
