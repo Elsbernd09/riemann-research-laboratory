@@ -1307,3 +1307,110 @@ E_{\min,\mathrm{obs}}
 **Priority:** CRITICAL STRATEGIC DECISION.
 
 **Status:** OPEN.
+
+---
+
+## CL-0106
+
+**Status:** HEURISTIC — FROZEN CONTINUUM PREDICTION
+
+**Statement:** Under the leading smooth zero-density approximation, the normalized positive-width zeta-zero window susceptibility has response profile
+\[
+\Phi_\eta(c)
+=
+\frac{c}{\pi}
+\left[
+(1+\eta)^{-2}\sin(c/(1+\eta))
+-
+\sin c
+\right].
+\]
+
+---
+
+## CL-0107
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** The continuum window-profile integral
+\[
+\frac{1}{2\pi}
+\int_1^{1+\eta}
+u^{-2}
+\Psi_{Li}(c/u)\,du
+\]
+reduces exactly to
+\[
+\frac{c}{\pi}
+\left[
+(1+\eta)^{-2}\sin(c/(1+\eta))
+-
+\sin c
+\right].
+\]
+
+**Scope:** Algebraic identity for the project continuum profile.
+
+---
+
+## CL-0108
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** The narrow-window consistency law is
+\[
+\lim_{\eta\to0^+}
+\frac{\Phi_\eta(c)}{\eta}
+=
+\frac{\Psi_{Li}(c)}{2\pi}.
+\]
+
+---
+
+## CL-0109
+
+**Status:** PROJECT PREDICTION
+
+**Statement:** Positive-width actual-zero windows will generically smear the individual Li quadratic-response blind scales.
+
+**Prediction ID:** P-ZETA-001.
+
+---
+
+## CL-0110
+
+**Status:** PROJECT PREDICTION
+
+**Statement:** H/log H normalized truncated high-zero window susceptibility will show broad agreement with the frozen smooth-density profile.
+
+**Prediction ID:** P-ZETA-002.
+
+---
+
+## CL-0111
+
+**Status:** PROJECT PREDICTION
+
+**Statement:** Empirical window-response zeros will track smooth-density window-profile zeros more closely than individual-kernel blind scales once windows contain sufficiently many computed zero ordinates.
+
+**Prediction ID:** P-ZETA-003.
+
+---
+
+## CL-0112
+
+**Status:** FAILED CLAIM PREVENTION RULE
+
+**Statement:** A finite computational data set of critical-line zeta zeros must not be used to assert that all nontrivial zeta zeros lie on the critical line.
+
+---
+
+## CL-0113
+
+**Status:** PROJECT RESEARCH QUESTION
+
+**Statement:** Does the individual-kernel susceptibility profile survive actual zeta-zero aggregation through the smooth-density window profile predicted in Phase 5A?
+
+**Priority:** CRITICAL.
+
+**Status:** OPEN.

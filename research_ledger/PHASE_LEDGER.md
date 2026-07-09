@@ -1805,3 +1805,95 @@ No deterministic distribution theorem for parity-local defects has been proved.
 ### Strategic frontier
 
 The project must decide whether to continue studying synthetic finite-orbit signed-moment spacing or redirect toward actual zeta zero data and controlled truncated Li zero sums.
+
+
+---
+
+## Phase 5A — Actual Zeta-Zero Window Bridge
+
+Status: COMPLETE
+
+### Strategic redirection
+
+The project stopped the synthetic three-orbit additive-resonance branch after Phase 4G found no anomalous additive structure in the searched range.
+
+Phase 5A redirects toward finite windows of numerically computed Riemann zeta zero ordinates.
+
+### Discrete response object
+
+The truncated window susceptibility is
+
+\[
+\mathcal W_n(H,\eta)
+=
+\sum_{H\le\gamma_j\le(1+\eta)H}
+\chi_n^{\mathrm{Li}}(\gamma_j).
+\]
+
+### Smooth-density prediction
+
+Under the leading smooth zero-density model and n/H -> c,
+
+\[
+\frac H{\log H}
+\mathcal W_n(H,\eta)
+\]
+
+is heuristically predicted to follow
+
+\[
+\Phi_\eta(c)
+=
+\frac{c}{\pi}
+\left[
+(1+\eta)^{-2}
+\sin(c/(1+\eta))
+-
+\sin c
+\right].
+\]
+
+### Structural consequence
+
+A positive-width height window samples individual susceptibility coordinates over
+
+\[
+[c/(1+\eta),c].
+\]
+
+Therefore individual blind-scale cancellation should generically be smeared.
+
+### Consistency law
+
+The continuum profile satisfies
+
+\[
+\lim_{\eta\to0^+}
+\frac{\Phi_\eta(c)}{\eta}
+=
+\frac{\Psi_{\mathrm{Li}}(c)}{2\pi}.
+\]
+
+### Frozen predictions
+
+P-ZETA-001:
+
+Positive-width windows smear individual blind scales.
+
+P-ZETA-002:
+
+H/log H normalized high-zero window susceptibility broadly follows the smooth-density window profile.
+
+P-ZETA-003:
+
+Empirical window-response zeros track smooth-density window-profile zeros more closely than individual blind scales when windows contain sufficiently many computed zero ordinates.
+
+### Current frontier
+
+Generate a reproducible finite zeta-zero data set and test the frozen window-profile predictions.
+
+### Largest current weakness
+
+The continuum profile is heuristic.
+
+Discrete zero fluctuations and finite-height corrections may dominate at computationally accessible heights.
