@@ -2999,3 +2999,116 @@ It does not establish predictive generalization.
 
 None.
 
+
+---
+
+## Phase 5H — Cancellation-Aware Signed Transfer
+
+Status: COMPLETE
+
+### Population
+
+18 dense complete windows.
+
+20 frozen coordinates per window.
+
+360 point-level decompositions.
+
+### Numerical validation
+
+Maximum signed closure error:
+
+0 at stored 60-digit precision.
+
+Maximum definitional identity error:
+
+approximately \(3.80\times10^{-65}\).
+
+Maximum non-atomic reconstruction error:
+
+approximately \(6.08\times10^{-62}\).
+
+### Frozen scorecard
+
+P-SGN-001:
+
+PASS.
+
+P-SGN-002:
+
+FAIL.
+
+P-SGN-003:
+
+PASS WITH WEAK EFFECT.
+
+P-SGN-004:
+
+PASS STRONGLY.
+
+P-SGN-005:
+
+PASS STRONGLY.
+
+### Main negative result
+
+The strong interior-alignment prediction failed.
+
+Median absolute kappa was approximately
+
+\[
+0.00723,
+\]
+
+and every tested point had
+
+\[
+|\kappa|<0.05.
+\]
+
+### Main positive finite-data result
+
+Scalar cancellation among atom, endpoint, and interior channels was common.
+
+Median scalar cancellation coefficient:
+
+\[
+0.239756.
+\]
+
+Fraction below 0.5:
+
+\[
+0.744444.
+\]
+
+### Certificate-tightness association
+
+Correlation of log sup-certificate tightness with log scalar cancellation:
+
+\[
+0.918758.
+\]
+
+Correlation with log inverse height:
+
+\[
+0.200653.
+\]
+
+### Interpretation
+
+The tested finite response geometry is characterized more strongly by cancellation among signed scalar response channels than by strong normalized interior alignment.
+
+### Restrictions
+
+In-sample descriptive analysis.
+
+No causal conclusion.
+
+No out-of-sample prediction.
+
+No asymptotic orthogonality theorem.
+
+No RH consequence.
+

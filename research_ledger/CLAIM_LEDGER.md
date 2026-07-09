@@ -3265,3 +3265,216 @@ C_{\mathrm{scalar}}<0.5.
 
 **Statement:** Phase 5H statistics computed from the same empirical zero-discrepancy window are in-sample descriptive quantities and must not be described as out-of-sample predictors.
 
+
+---
+
+## CL-0249
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Prediction ID:** P-SGN-001.
+
+**Result:** PASS.
+
+**Statement:** Across 360 dense-window signed decompositions, the maximum stored signed closure error was zero at 60-digit working precision.
+
+The maximum definitional identity error was approximately
+
+\[
+3.80\times10^{-65},
+\]
+
+and the maximum reconstruction discrepancy against the frozen Phase 5G non-atomic response was approximately
+
+\[
+6.08\times10^{-62}.
+\]
+
+**Interpretation:** Implementation validation only.
+
+---
+
+## CL-0250
+
+**Status:** FAILED COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-SGN-002.
+
+**Result:** FAIL.
+
+**Statement:** The frozen prediction
+
+\[
+\operatorname{median}|\kappa|>0.05
+\]
+
+failed.
+
+Observed:
+
+\[
+\operatorname{median}|\kappa|
+\approx
+0.00722966.
+\]
+
+All 360 tested coordinates satisfied
+
+\[
+|\kappa|<0.05.
+\]
+
+**Disposition:** The strong interior-alignment hypothesis is not supported by the tested finite dataset.
+
+---
+
+## CL-0251
+
+**Status:** COMPUTATIONAL OBSERVATION — FINITE-DATA QUALIFICATION
+
+**Statement:** The observed kappa range was approximately
+
+\[
+[-0.0446977,0.0443058].
+\]
+
+The mean absolute alignment was approximately
+
+\[
+0.0106295.
+\]
+
+**Interpretation:** The empirical discrepancy and Li susceptibility derivative had small normalized \(L^2\) inner products across the tested dense windows.
+
+**Restriction:** This does not prove asymptotic orthogonality, independence, or randomness.
+
+---
+
+## CL-0252
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Prediction ID:** P-SGN-003.
+
+**Result:** PASS WITH WEAK EFFECT.
+
+**Statement:** The in-sample log-correlation with count-residual magnitude increased from approximately
+
+\[
+0.837459
+\]
+
+for \(P_{\mathrm{abs}}\) to
+
+\[
+0.841444
+\]
+
+for \(P_\kappa\).
+
+The increase was approximately
+
+\[
+0.003985.
+\]
+
+**Disposition:** The frozen strict-greater-than rule passed, but the effect is marginal and must not be described as strong explanatory or predictive evidence.
+
+---
+
+## CL-0253
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Prediction ID:** P-SGN-004.
+
+**Result:** PASS STRONGLY.
+
+**Statement:** The median scalar cancellation coefficient was approximately
+
+\[
+0.239756.
+\]
+
+Approximately
+
+\[
+74.44\%
+\]
+
+of tested coordinates had
+
+\[
+C_{\mathrm{scalar}}<0.5,
+\]
+
+and approximately
+
+\[
+51.39\%
+\]
+
+had
+
+\[
+C_{\mathrm{scalar}}<0.25.
+\]
+
+**Interpretation:** Signed cancellation among atom, endpoint, and interior response components is common and quantitatively material in the tested finite population.
+
+---
+
+## CL-0254
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Prediction ID:** P-SGN-005.
+
+**Result:** PASS STRONGLY.
+
+**Statement:** The observed log-correlation between sup-certificate tightness and scalar cancellation was approximately
+
+\[
+0.918758,
+\]
+
+versus approximately
+
+\[
+0.200653
+\]
+
+for inverse height.
+
+**Interpretation:** In the tested finite dataset, scalar cancellation is substantially more strongly associated with deterministic certificate tightness than height alone.
+
+**Restriction:** In-sample descriptive association only.
+
+---
+
+## CL-0255
+
+**Status:** PROJECT DIRECTION CORRECTION
+
+**Statement:** Phase 5H does not support strong \(E_D\)-versus-\(\chi_n'\) interior alignment as the principal explanation for signed response size.
+
+The next research question should analyze the joint sign and magnitude geometry of
+
+\[
+R_{\mathrm{atom}},
+\qquad
+R_{\mathrm{end}},
+\qquad
+R_{\mathrm{int}}.
+\]
+
+---
+
+## CL-0256
+
+**Status:** FAILURE-PREVENTION RULE
+
+**Statement:** A failed frozen prediction must redirect the research program when the observed data contradict the proposed mechanism.
+
+The project will not reinterpret the small observed kappa values as evidence for strong alignment.
+
