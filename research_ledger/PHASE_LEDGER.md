@@ -3335,3 +3335,100 @@ No asymptotic theorem.
 
 No RH consequence.
 
+
+---
+
+## Phase 5J — Component-Share Simplex Geometry
+
+Status: COMPLETE
+
+### Population
+
+360 frozen signed-transfer points.
+
+### Frozen scorecard
+
+P-SIM-001:
+
+PASS.
+
+P-SIM-002:
+
+PASS.
+
+P-SIM-003:
+
+PASS STRONGLY.
+
+P-SIM-004:
+
+PASS — ALGEBRAIC VALIDATION.
+
+P-SIM-005:
+
+PASS STRONGLY.
+
+P-SIM-006:
+
+PASS STRONGLY.
+
+P-SIM-007:
+
+PASS.
+
+### Principal geometry result
+
+After removal of the structurally null simplex direction, the leading covariance eigenvalue explained approximately
+
+\[
+99.7469\%
+\]
+
+of observed in-plane component-share variance.
+
+### Descriptive model result
+
+Chamber-only \(R^2\):
+
+\[
+0.128757.
+\]
+
+Chamber-plus-shares \(R^2\):
+
+\[
+0.474840.
+\]
+
+Improvement:
+
+\[
+0.346083.
+\]
+
+### Opposing-share result
+
+All four dominant mixed chambers had opposing-share IQR below 0.25.
+
+### Adjacent-grid result
+
+Median transition-to-same-chamber simplex-step ratio:
+
+\[
+2.1173.
+\]
+
+### Main interpretation
+
+The finite component-share population is strongly concentrated along one dominant affine direction inside the simplex plane.
+
+Sign-chamber labels are a coarse partition of this richer relative-magnitude geometry.
+
+### Critical unresolved issue
+
+The PCA concentration has not yet survived window-level holdout or subset-stability testing.
+
+### RH consequence
+
+None.
+

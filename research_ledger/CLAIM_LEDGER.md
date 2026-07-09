@@ -3910,3 +3910,205 @@ where \(P_+\) is the normalized total magnitude share carried by positive compon
 
 **Statement:** Phase 5J must not present the simplex closure identity, mixed-sign balance identity, or exact opposing-share cancellation formula as empirical discoveries.
 
+
+---
+
+## CL-0286
+
+**Status:** COMPUTATIONAL VALIDATION
+
+**Prediction ID:** P-SIM-001.
+
+**Result:** PASS.
+
+**Statement:** Maximum normalized component-share simplex closure error was approximately
+
+\[
+1.56\times10^{-61}.
+\]
+
+---
+
+## CL-0287
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Prediction ID:** P-SIM-002.
+
+**Result:** PASS.
+
+**Statement:** Median dominant component share was approximately
+
+\[
+0.61132.
+\]
+
+Only
+
+\[
+15\%
+\]
+
+of tested points had dominant share above
+
+\[
+0.8.
+\]
+
+**Interpretation:** The finite simplex population is not almost entirely vertex dominated.
+
+---
+
+## CL-0288
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Prediction ID:** P-SIM-003.
+
+**Result:** PASS STRONGLY.
+
+**Statement:** After excluding the structurally null simplex direction, the leading covariance eigenvalue explained approximately
+
+\[
+0.997469
+\]
+
+of observed in-plane component-share variance.
+
+**Interpretation:** The 360-point component-share cloud is strongly concentrated along one dominant affine direction inside the simplex plane.
+
+**Restriction:** This is not an exact one-dimensional law or asymptotic theorem.
+
+---
+
+## CL-0289
+
+**Status:** COMPUTATIONAL VALIDATION — ALGEBRAIC QUALIFICATION
+
+**Prediction ID:** P-SIM-004.
+
+**Result:** PASS.
+
+**Statement:** All 185 extreme-cancellation points occupied the frozen balance neighborhood.
+
+**Qualification:** This follows from the mixed-sign identity
+
+\[
+C_{\mathrm{scalar}}=2d_{\mathrm{bal}}
+\]
+
+and the matched frozen thresholds.
+
+No independent empirical evidence is claimed.
+
+---
+
+## CL-0290
+
+**Status:** COMPUTATIONAL OBSERVATION — IN-SAMPLE DESCRIPTIVE
+
+**Prediction ID:** P-SIM-005.
+
+**Result:** PASS STRONGLY.
+
+**Statement:** Chamber-only in-sample \(R^2\) for \(\log C_{\mathrm{scalar}}\) was approximately
+
+\[
+0.128757.
+\]
+
+Adding normalized component shares increased \(R^2\) to approximately
+
+\[
+0.474840.
+\]
+
+The improvement was approximately
+
+\[
+0.346083.
+\]
+
+**Restriction:** No out-of-sample generalization established.
+
+---
+
+## CL-0291
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Prediction ID:** P-SIM-006.
+
+**Result:** PASS STRONGLY.
+
+**Statement:** All four dominant mixed chambers had opposing-share IQR below
+
+\[
+0.25.
+\]
+
+Observed IQRs were approximately
+
+\[
+0.1315,
+0.1371,
+0.1575,
+0.2006.
+\]
+
+---
+
+## CL-0292
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Prediction ID:** P-SIM-007.
+
+**Result:** PASS.
+
+**Statement:** Median adjacent-grid simplex displacement was approximately
+
+\[
+0.124728
+\]
+
+for chamber-transition steps and
+
+\[
+0.058909
+\]
+
+for same-chamber steps.
+
+The ratio was approximately
+
+\[
+2.1173.
+\]
+
+**Interpretation:** Frequent chamber switching is compatible with a more structured underlying component-share geometry.
+
+---
+
+## CL-0293
+
+**Status:** CRITICAL OPEN QUESTION
+
+**Statement:** The observed
+
+\[
+99.7469\%
+\]
+
+leading in-plane PCA fraction may reflect a genuine finite-window response constraint, a simple shared scaling relation among the three components, window-level pseudoreplication, or restricted-grid structure.
+
+The concentration must be tested under window-level holdout and subset stability before stronger interpretation.
+
+---
+
+## CL-0294
+
+**Status:** PROJECT DIRECTION CORRECTION
+
+**Statement:** The next phase should study the dominant simplex principal coordinate and principal-axis stability across held-out windows rather than further refining coarse sign chambers.
+
