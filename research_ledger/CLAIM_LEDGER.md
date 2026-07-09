@@ -2754,3 +2754,65 @@ and derives the exact profile
 \]
 
 **Disposition:** No PA-4 source identified in the current audit. This is not a novelty claim.
+
+---
+
+## CL-0219
+
+**Status:** PRIOR-ART DISPOSITION — PA-3
+
+**Source:** Sergey K. Sekatskii, generalized Li criterion.
+
+**Statement:** Parameterized individual Li-type zero kernels are prior art. The family
+\[
+1-
+\left(
+\frac{\rho-a}{\rho+a-1}
+\right)^n
+\]
+contains the classical Li zero kernel exactly at \(a=1\).
+
+**Disposition:** The project must not claim discovery of parameterized Li-kernel deformation.
+
+---
+
+## CL-0220
+
+**Status:** PRIOR-ART DISTINCTION
+
+**Statement:** Variation of Sekatskii's parameter \(a\) is not the same differential direction as variation of the zero coordinate \(\rho\).
+
+**Disposition:** No inspected Sekatskii result has been identified that computes the rho-coordinate second derivative of the fixed classical Li zero kernel.
+
+---
+
+## CL-0221
+
+**Status:** PRIOR-ART DISPOSITION — PA-3
+
+**Source family:** Modified tau-Li criteria for symmetrically shifted products \(F(s-a)F(s+a)\).
+
+**Statement:** Symmetric global zero-set shifts inside Li-type constructions are prior art.
+
+**Disposition:** Broad symmetric zero-shift Li-response language is prohibited.
+
+---
+
+## CL-0222
+
+**Status:** ORIGINALITY UNRESOLVED — PRECISION OBJECT
+
+**Statement:** No inspected source has been identified that explicitly develops the zero-coordinate Hessian
+\[
+f_n''(\rho)
+=
+\lim_{\delta\to0}
+\frac{
+f_n(\rho+\delta)+f_n(\rho-\delta)-2f_n(\rho)
+}{
+\delta^2
+}
+\]
+for the fixed classical Li kernel and then derives the critical-line susceptibility, matched susceptibility profile, and positive-width multiplicative-window profile.
+
+**Disposition:** No PA-4 source identified in the current search set. This remains an absence-of-identification statement only.

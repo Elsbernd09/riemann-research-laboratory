@@ -536,3 +536,153 @@ u^{-2}\Psi_{Li}(c/u)\,du
 or its sine closed form.
 
 No novelty conclusion follows.
+
+---
+
+## OA-6-021
+
+Object:
+
+Parameterized deformation families containing the classical Li zero kernel.
+
+Current disposition:
+
+STRONG STRUCTURAL PRIOR ART IDENTIFIED.
+
+Source:
+
+Sergey K. Sekatskii, generalized Li criterion.
+
+The generalized zero kernel
+
+\[
+K_{n,a}(\rho)
+=
+1-
+\left(
+\frac{\rho-a}{\rho+a-1}
+\right)^n
+\]
+
+satisfies
+
+\[
+K_{n,1}(\rho)
+=
+1-
+\left(
+1-\frac1\rho
+\right)^n.
+\]
+
+PA grade:
+
+PA-3.
+
+Disposition:
+
+The project must not claim that parameterized deformation of individual Li-type zero kernels is unprecedented.
+
+The Sekatskii parameter derivative is an a-direction variation and is not identified with differentiation in the zero coordinate rho.
+
+---
+
+## OA-6-022
+
+Object:
+
+Symmetric shifts of zero sets inside Li-type constructions.
+
+Current disposition:
+
+STRONG STRUCTURAL PRIOR ART IDENTIFIED.
+
+Source family:
+
+Modified tau-Li criteria for products
+
+\[
+G_a(s)=F(s-a)F(s+a).
+\]
+
+These constructions have zero sets
+
+\[
+Z(G_a)
+=
+(Z(F)+a)\cup(Z(F)-a).
+\]
+
+PA grade:
+
+PA-3.
+
+Disposition:
+
+Broad symmetric zero-shift Li-deformation language is prohibited.
+
+No inspected source has been identified that forms the local centered second response
+
+\[
+f_n(\rho+\delta)
++
+f_n(\rho-\delta)
+-
+2f_n(\rho),
+\]
+
+divides by \(\delta^2\), and develops the resulting individual-zero Li susceptibility.
+
+---
+
+## OA-6-023
+
+Object:
+
+Zero-coordinate Hessian of the fixed classical Li kernel.
+
+Current disposition:
+
+ORIGINALITY UNRESOLVED — PRECISION Q9/Q10 OBJECT.
+
+Define
+
+\[
+f_n(\rho)
+=
+1-
+\left(
+1-\frac1\rho
+\right)^n.
+\]
+
+The unresolved object is
+
+\[
+f_n''(\rho)
+=
+\lim_{\delta\to0}
+\frac{
+f_n(\rho+\delta)
++
+f_n(\rho-\delta)
+-
+2f_n(\rho)
+}{
+\delta^2
+},
+\]
+
+followed by the symmetry-completed critical-line susceptibility
+
+\[
+\chi_n^{Li}(\gamma)
+=
+2\Re f_n''(1/2+i\gamma),
+\]
+
+its matched susceptibility profile, and positive-width multiplicative height-window aggregation.
+
+No PA-4 source has been identified in the current inspected source set.
+
+This is not a novelty claim.
