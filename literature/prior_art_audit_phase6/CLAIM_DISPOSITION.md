@@ -168,3 +168,65 @@ Required language:
 Do not claim that studying sensitivity of Li/Keiper structures to altered zero geometry is unprecedented.
 
 The project-specific differential zero-coordinate response construction remains originality unresolved.
+
+---
+
+## OA-6-009
+
+Object:
+
+Broad sensitivity of Li/Keiper coefficients to off-critical zero location.
+
+Current disposition:
+
+STRONG STRUCTURAL PRIOR ART IDENTIFIED.
+
+Primary-source family:
+
+André Voros, Keiper-Li asymptotic and discretized criteria papers.
+
+PA grade:
+
+PA-3.
+
+Disposition:
+
+Voros explicitly studies how off-critical zeros produce asymptotically growing oscillatory contributions in Keiper-Li-type sequences and quantifies detectability using the conformal zero coordinate
+
+\[
+z_\rho=1-1/\rho.
+\]
+
+The project must not claim that sensitivity of Li/Keiper quantities to zero displacement or off-critical zero geometry is unprecedented.
+
+---
+
+## OA-6-010
+
+Object:
+
+Local symmetry-preserving second variation of an individual Li zero-side contribution with respect to zero coordinate.
+
+Current disposition:
+
+ORIGINALITY UNRESOLVED.
+
+Distinction from Voros:
+
+Voros studies the finite/global large-index imprint of off-critical zero positions and constructs definition-space finite-difference variants of Keiper-Li sequences.
+
+No source inspected in the Q9 audit has yet been identified that defines
+
+\[
+f_n(\rho+\delta)+f_n(\rho-\delta)-2f_n(\rho),
+\]
+
+takes its delta-squared limit, derives
+
+\[
+2\Re f_n''(\rho),
+\]
+
+or develops the resulting matched \(n/\gamma\) susceptibility profile and positive-width zero-window aggregation.
+
+No novelty conclusion follows from absence in the current source set.

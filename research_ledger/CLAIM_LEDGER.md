@@ -2537,3 +2537,49 @@ must not be called novel, new theory, or progress toward proving RH before the P
 **Difference from project:** No zero-coordinate derivative, symmetry-preserving quadratic response, Li susceptibility profile, matched n/gamma scaling, or positive-width response aggregation was identified.
 
 **Disposition:** Broad claims that Li/Keiper zero sensitivity is unprecedented are prohibited. The specific differential response construction remains originality unresolved.
+
+---
+
+## CL-0205
+
+**Status:** PRIOR-ART DISPOSITION — STRONG STRUCTURAL OVERLAP
+
+**Source family:** André Voros, Keiper-Li asymptotic and discretized criteria papers.
+
+**Question:** Q9.
+
+**PA Grade:** PA-3.
+
+**Statement:** Voros explicitly studies the large-index sensitivity of Keiper-Li quantities to off-critical zero locations. Using the conformal zero coordinate
+\[
+z_\rho=1-1/\rho,
+\]
+his asymptotic analysis describes exponentially growing oscillatory signals from zeros with real part greater than one half and gives detectability scales depending on the zero height and horizontal displacement.
+
+**Disposition:** Broad claims that the project discovered Li/Keiper sensitivity to altered zero geometry are prohibited.
+
+---
+
+## CL-0206
+
+**Status:** PRIOR-ART DISTINCTION
+
+**Statement:** The finite differences in Voros's discretized Keiper-Li constructions replace derivatives or degenerate contour poles by evaluations at distinct basepoints. They are not the same mathematical operation as a symmetry-preserving second finite difference in the zeta zero coordinate.
+
+---
+
+## CL-0207
+
+**Status:** ORIGINALITY UNRESOLVED — NARROWED Q9 OBJECT
+
+**Statement:** No source inspected in the Phase 6B Q9 campaign has yet been identified that explicitly develops the local symmetry-preserving second zero-coordinate variation
+\[
+f_n(\rho+\delta)+f_n(\rho-\delta)-2f_n(\rho),
+\]
+the susceptibility
+\[
+2\Re f_n''(\rho),
+\]
+its matched \(n/\gamma\) response profile, and subsequent positive-width height-window aggregation.
+
+**Disposition:** This is an absence-of-identification statement only. It is not a novelty claim.
