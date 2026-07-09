@@ -2673,3 +2673,84 @@ u^{-2}\Psi_{Li}(c/u)\,du
 or its equivalent sine closed form from the local Li zero-coordinate susceptibility.
 
 **Disposition:** No PA-4 source identified in the current source set. This is not a novelty claim.
+
+---
+
+## CL-0214
+
+**Status:** PRIOR-ART CORRECTION
+
+**Statement:** The broad coupled Li index/zero-height phase is established prior art.
+
+**Evidence:** Classical and generalized Li zero contributions contain phases equivalent to
+\[
+n\arctan(1/(2\gamma)),
+\]
+so a finite high-zero phase under fixed \(n/\gamma\) is structurally present in prior work.
+
+**Disposition:** The project must not claim discovery of the general \(n/\gamma\) Li scaling variable.
+
+---
+
+## CL-0215
+
+**Status:** PRIOR-ART DISPOSITION — PA-3
+
+**Source:** Juan Arias de Reyna, "Asymptotics of Keiper-Li Coefficients" (2011).
+
+**Statement:** Arias de Reyna writes the critical-line Li zero sum using
+\[
+\sin^2(m\arctan(1/(2\gamma)))
+\]
+and converts the zero sum into a Stieltjes integral against \(dN(t)\), decomposed into smooth zero density and counting remainder.
+
+**Disposition:** Li-kernel index/height phase and zero-density integration are strong structural prior art.
+
+---
+
+## CL-0216
+
+**Status:** PRIOR-ART DISPOSITION — PA-3
+
+**Source family:** Chebyshev integral representations of Li coefficients, including Mazhouda-Smajlović and the formal He-Jejjala-Minic treatment.
+
+**Statement:** Li coefficients admit counting-function or zero-side representations involving Chebyshev kernels whose oscillatory phase is equivalent to
+\[
+n\arctan(1/(2\gamma)).
+\]
+
+**Disposition:** Broad matched Li index/height phase language is prohibited.
+
+---
+
+## CL-0217
+
+**Status:** PRIOR-ART DISPOSITION
+
+**Statement:** Incomplete Li coefficients truncated to \(|\Im\rho|<T\), including index-dependent choices such as \(T=\sqrt n\), exist in the generalized Li literature.
+
+**Disposition:** Finite-height truncation of Li zero sums is prior art.
+
+---
+
+## CL-0218
+
+**Status:** ORIGINALITY UNRESOLVED — NARROWED Q10 OBJECT
+
+**Statement:** No inspected source has yet been identified that applies positive-width multiplicative height-window aggregation to the local second zero-coordinate susceptibility
+\[
+\chi_n^{Li}(\gamma)=2\Re f_n''(1/2+i\gamma)
+\]
+and derives the exact profile
+\[
+\Phi_\eta(c)
+=
+\frac c\pi
+\left[
+(1+\eta)^{-2}\sin(c/(1+\eta))
+-
+\sin c
+\right].
+\]
+
+**Disposition:** No PA-4 source identified in the current audit. This is not a novelty claim.

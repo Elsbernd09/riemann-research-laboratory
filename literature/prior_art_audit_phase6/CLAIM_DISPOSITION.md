@@ -413,3 +413,126 @@ dN(t)
 \]
 
 Originality-sensitive review concerns the specific susceptibility kernel and resulting profile, not the density substitution.
+
+---
+
+## OA-6-017
+
+Object:
+
+Coupled Li index / zero-height phase.
+
+Current disposition:
+
+STRONG STRUCTURAL PRIOR ART IDENTIFIED.
+
+Primary sources:
+
+- Juan Arias de Reyna, 2011.
+- Mazhouda and Smajlović, 2017.
+- He, Jejjala, and Minic, 2013, with formal-derivation caveat.
+
+PA grade:
+
+PA-3.
+
+The classical critical-line Li contribution contains the phase
+
+\[
+n\arctan(1/(2\gamma)).
+\]
+
+For high zeros with \(n/\gamma\) fixed, this phase has a finite dimensionless limit.
+
+Disposition:
+
+The project must not claim discovery of the general Li index/zero-height scaling variable.
+
+---
+
+## OA-6-018
+
+Object:
+
+Continuum integration of Li kernels against the zero-counting function or measure.
+
+Current disposition:
+
+STRONG STRUCTURAL PRIOR ART IDENTIFIED.
+
+Arias de Reyna writes the Li zero sum as a Stieltjes integral against \(dN(t)\) and decomposes the measure into smooth Riemann-von Mangoldt density plus remainder.
+
+Chebyshev-integral formulations of Li coefficients against \(N(t)\) also exist.
+
+PA grade:
+
+PA-3.
+
+Disposition:
+
+The project must not claim originality for integrating a Li kernel against \(N(t)\), \(dN(t)\), or its smooth density.
+
+---
+
+## OA-6-019
+
+Object:
+
+Finite-height truncation of Li zero sums.
+
+Current disposition:
+
+PRIOR ART IDENTIFIED.
+
+Incomplete Li coefficients truncated at \(|\Im\rho|<T\) appear in the generalized Li literature, including index-dependent cutoffs such as \(T=\sqrt n\).
+
+PA grade:
+
+PA-2 to PA-3.
+
+Disposition:
+
+Broad finite-height or truncated Li-sum language is not originality-sensitive.
+
+---
+
+## OA-6-020
+
+Object:
+
+Positive-width multiplicative aggregation of the differentiated Li zero-coordinate susceptibility.
+
+Current disposition:
+
+ORIGINALITY UNRESOLVED — FURTHER NARROWED Q10 OBJECT.
+
+The project-specific object is
+
+\[
+\sum_{H\le\gamma_j\le(1+\eta)H}
+\chi_n^{Li}(\gamma_j)
+\]
+
+with
+
+\[
+\chi_n^{Li}(\gamma)
+=
+2\Re f_n''(1/2+i\gamma)
+\]
+
+and matched scaling \(n/H\to c\).
+
+No inspected source has been identified that derives the corresponding profile
+
+\[
+\Phi_\eta(c)
+=
+\frac1{2\pi}
+\int_1^{1+\eta}
+u^{-2}\Psi_{Li}(c/u)\,du
+\]
+
+or its sine closed form.
+
+No novelty conclusion follows.
