@@ -3074,3 +3074,194 @@ or an equivalent deterministic Li-susceptibility response-to-transfer constructi
 **Statement:** The project-specific Q13 observation must be described as a specialization to the positive-width local Li-susceptibility aggregate.
 
 Broad claims concerning discovery of degeneracy, cancellation sensitivity, vanishing-main-term instability, or error dominance are prohibited.
+
+---
+
+## CL-0239
+
+**Status:** PHASE 5H DEFINITION
+
+**Statement:** The empirical counting-response residual is decomposed as
+
+\[
+R_{\mathrm{count}}
+=
+R_{\mathrm{atom}}
++
+R_{\mathrm{end}}
++
+R_{\mathrm{int}},
+\]
+
+where
+
+\[
+R_{\mathrm{end}}
+=
+\chi_n(B)E_D(B)
+-
+\chi_n(H)E_D(H)
+\]
+
+and
+
+\[
+R_{\mathrm{int}}
+=
+-\int_H^B E_D(t)\chi_n'(t)dt.
+\]
+
+---
+
+## CL-0240
+
+**Status:** PHASE 5H DEFINITION
+
+**Statement:** When the denominator is nonzero, define
+
+\[
+\kappa_{n,H,\eta}
+=
+\frac{
+\int_H^B E_D(t)\chi_n'(t)dt
+}{
+\|E_D\|_2\|\chi_n'\|_2
+}.
+\]
+
+By Cauchy-Schwarz,
+
+\[
+|\kappa_{n,H,\eta}|\le1.
+\]
+
+---
+
+## CL-0241
+
+**Status:** PROVED IN PROJECT / DEFINITIONAL IDENTITY
+
+**Statement:**
+
+\[
+R_{\mathrm{int}}
+=
+-\kappa_{n,H,\eta}
+\|E_D\|_2
+\|\chi_n'\|_2.
+\]
+
+**Interpretive restriction:** This identity cannot be scored as empirical evidence that kappa predicts the interior residual.
+
+---
+
+## CL-0242
+
+**Status:** PHASE 5H DEFINITION
+
+**Statement:** Define the scalar cancellation coefficient
+
+\[
+C_{\mathrm{scalar}}
+=
+\frac{
+|R_{\mathrm{count}}|
+}{
+|R_{\mathrm{atom}}|
++
+|R_{\mathrm{end}}|
++
+|R_{\mathrm{int}}|
+}.
+\]
+
+Whenever the denominator is positive,
+
+\[
+0\le C_{\mathrm{scalar}}\le1.
+\]
+
+---
+
+## CL-0243
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-SGN-001.
+
+**Statement:** Maximum signed decomposition closure error is below \(10^{-45}\).
+
+---
+
+## CL-0244
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-SGN-002.
+
+**Statement:** Median empirical absolute alignment satisfies
+
+\[
+\operatorname{median}|\kappa|>0.05.
+\]
+
+---
+
+## CL-0245
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-SGN-003.
+
+**Statement:** The in-sample descriptive log-correlation of count-residual magnitude with
+
+\[
+P_\kappa
+=
+|\kappa|\|E_D\|_2\|\chi_n'\|_2
++
+|R_{\mathrm{atom}}|
++
+|R_{\mathrm{end}}|
+\]
+
+exceeds the corresponding correlation with
+
+\[
+P_{\mathrm{abs}}
+=
+\|E_D\|_2\|\chi_n'\|_2.
+\]
+
+---
+
+## CL-0246
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-SGN-004.
+
+**Statement:** At least 25 percent of dense-window coordinates satisfy
+
+\[
+C_{\mathrm{scalar}}<0.5.
+\]
+
+---
+
+## CL-0247
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-SGN-005.
+
+**Statement:** Absolute correlation between log deterministic-certificate tightness and log scalar cancellation exceeds the corresponding absolute correlation with log inverse height.
+
+---
+
+## CL-0248
+
+**Status:** FAILURE-PREVENTION RULE
+
+**Statement:** Phase 5H statistics computed from the same empirical zero-discrepancy window are in-sample descriptive quantities and must not be described as out-of-sample predictors.
+

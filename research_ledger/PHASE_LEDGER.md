@@ -2940,3 +2940,62 @@ This is a specialization of standard degeneracy and conditioning ideas.
 ### RH consequence
 
 None.
+
+---
+
+## Phase 5H — Cancellation-Aware Signed Transfer
+
+Status: PROTOCOL FROZEN
+
+### Research question
+
+Why can the actual signed counting-response residual be much smaller than the absolute-value deterministic transfer envelope?
+
+### New objects
+
+Interior alignment coefficient:
+
+\[
+\kappa_{n,H,\eta}
+=
+\frac{
+\int_H^B E_D(t)\chi_n'(t)dt
+}{
+\|E_D\|_2\|\chi_n'\|_2
+}.
+\]
+
+Scalar cancellation coefficient:
+
+\[
+C_{\mathrm{scalar}}
+=
+\frac{
+|R_{\mathrm{count}}|
+}{
+|R_{\mathrm{atom}}|
++
+|R_{\mathrm{end}}|
++
+|R_{\mathrm{int}}|
+}.
+\]
+
+### Frozen predictions
+
+P-SGN-001 through P-SGN-005.
+
+### Interpretive restriction
+
+The identity relating kappa to the interior residual is definitional.
+
+The full signed component sum is the response target itself after closure.
+
+Phase 5H studies distribution and descriptive cancellation geometry.
+
+It does not establish predictive generalization.
+
+### RH consequence
+
+None.
+
