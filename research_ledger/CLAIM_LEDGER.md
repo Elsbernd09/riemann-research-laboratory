@@ -2937,3 +2937,84 @@ H^2\Lambda_n(H,\eta)
 as the scaled endpoint-plus-total-variation norm of the differentiated classical Li zero-coordinate susceptibility.
 
 **Disposition:** No PA-4 source identified for the Li-specific specialization in the current source set. This is not a novelty claim.
+
+---
+
+## CL-0229
+
+**Status:** PRIOR-ART DISPOSITION — PA-3
+
+**Source:** Julius Stricker, "Spectral Visibility of Zeta Zeros on LHS of the Explicit Formula" (2026).
+
+**Question:** Q12.
+
+**Statement:** Matched-filter scoring, direct frequency-selective projection, window-stability analysis, and quantitative visibility of zeta-zero spectral modes exist in prior work.
+
+**Disposition:** Broad matched-response or zeta-signal visibility language is prohibited as an originality claim.
+
+---
+
+## CL-0230
+
+**Status:** PRIOR-ART DISPOSITION
+
+**Statement:** The generic idea of comparing a zero-related signal with noise, fluctuation, instability, amplification, or an error scale is established broadly and is not originality-sensitive.
+
+---
+
+## CL-0231
+
+**Status:** ORIGINALITY UNRESOLVED — Q12 PRECISION OBJECT
+
+**Statement:** No inspected Q12 source has been identified that forms a quotient mathematically equivalent to
+
+\[
+Q_\eta(c)
+=
+\frac{|\Phi_\eta(c)|}{\mathcal L_\eta(c)},
+\]
+
+where the numerator is the smooth positive-width Li zero-coordinate susceptibility profile and the denominator is the matched-scale endpoint-plus-total-variation discrepancy-transfer envelope of the same susceptibility kernel.
+
+**Disposition:** No PA-4 source identified in the current source set. This is not a novelty claim.
+
+---
+
+## CL-0232
+
+**Status:** ADVERSARIAL INTERPRETATION AUDIT
+
+**Statement:** At every exact smooth profile root with positive transfer envelope,
+
+\[
+\Phi_\eta(c)=0
+\quad\Longrightarrow\quad
+Q_\eta(c)=0.
+\]
+
+Therefore the Phase 5G observation that root-associated coordinates have much smaller Q_eta than generic coordinates is partly implied by the definition of Q_eta together with the already observed tracking of empirical roots by Phi_eta roots.
+
+---
+
+## CL-0233
+
+**Status:** FAILURE-PREVENTION RULE
+
+**Statement:** P-TRN-004 must not be described as independent evidence that profile roots are transfer-stable or as an independently predictive discovery.
+
+**Permitted interpretation:** Q_eta is a comparative conditioning or relative-sensitivity descriptor. Its collapse near Phi_eta roots expresses vanishing smooth signal relative to a nonzero worst-case transfer envelope.
+
+---
+
+## CL-0234
+
+**Status:** TERMINOLOGY DISCIPLINE
+
+**Statement:** The project must distinguish:
+
+1. empirical matched-filter visibility of zero frequencies;
+2. explicit-formula residue amplification;
+3. generic signal-to-noise ratios;
+4. the deterministic Li-susceptibility profile-to-transfer quotient Q_eta.
+
+These are related conceptually but are not mathematically interchangeable.

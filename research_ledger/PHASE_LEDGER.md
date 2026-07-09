@@ -2826,3 +2826,59 @@ Numerical convergence does not repair an analytical proof gap.
 ### RH consequence
 
 None.
+
+
+---
+
+## Phase 6B — Q12 Signal-to-Transfer Prior-Art Audit
+
+Status: PROVISIONALLY COMPLETE
+
+### Audit object
+
+\[
+Q_\eta(c)
+=
+\frac{|\Phi_\eta(c)|}{\mathcal L_\eta(c)}.
+\]
+
+### Strong conceptual prior art
+
+The audit identified:
+
+- matched-filter scoring and direct frequency-selective projection of prime-derived signals at zeta ordinates;
+- explicit-formula residue-amplification programs;
+- signal-to-noise terminology in zeta-adjacent information-physics manuscripts;
+- smoothing and numerical-robustness comparisons for claimed Li-related probes.
+
+### Prior-art disposition
+
+Broad signal/noise, matched-response, spectral visibility, and zero-signal amplification concepts are occupied prior-art territory.
+
+### Precision unresolved object
+
+No inspected source was identified that divides the smooth positive-width Li zero-coordinate susceptibility profile by the matched-scale endpoint-plus-total-variation count-discrepancy transfer envelope of the same kernel.
+
+Originality remains unresolved.
+
+### Adversarial interpretation correction
+
+Because
+
+\[
+Q_\eta(c)=|\Phi_\eta(c)|/\mathcal L_\eta(c),
+\]
+
+an exact root of Phi_eta automatically yields Q_eta=0 whenever the denominator is positive.
+
+The strong root-versus-generic Q separation in Phase 5G is therefore partly geometry-consistency and tautology-adjacent once empirical response roots are already known to track Phi_eta roots.
+
+P-TRN-004 is not independent evidence of transfer stability or predictive power.
+
+### Current permitted interpretation
+
+Q_eta is a project comparative conditioning or relative-sensitivity descriptor.
+
+### RH consequence
+
+None.

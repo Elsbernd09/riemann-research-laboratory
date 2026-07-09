@@ -748,3 +748,107 @@ The specific project object is the matched-scale limit of
 No inspected Q11 source has been identified that derives the equivalent continuum envelope from the local second zero-coordinate derivative of the fixed classical Li kernel.
 
 No novelty conclusion follows.
+
+---
+
+## OA-6-026
+
+Object:
+
+Matched filtering and quantitative visibility of zeta-zero spectral modes.
+
+Current disposition:
+
+STRONG CONCEPTUAL PRIOR ART IDENTIFIED.
+
+Source:
+
+Julius Stricker, 2026.
+
+PA grade:
+
+PA-3 for broad zeta-signal visibility and matched-response scoring.
+
+Disposition:
+
+The project must not claim that frequency-selective response scoring or matched detection of zeta ordinates is unprecedented.
+
+No equivalent deterministic Li-susceptibility signal-to-discrepancy-transfer quotient was identified.
+
+---
+
+## OA-6-027
+
+Object:
+
+Signal, noise, amplification, or stability ratios in zeta and explicit-formula programs.
+
+Current disposition:
+
+BROAD PRIOR ART EXISTS.
+
+Sources inspected include explicit-formula amplification, matched-filter resonance analysis, and information-physics SNR language.
+
+Disposition:
+
+The abstract concept of comparing zero-related signal strength with noise, instability, or detection difficulty is not originality-sensitive.
+
+---
+
+## OA-6-028
+
+Object:
+
+Project quantity
+
+\[
+Q_\eta(c)
+=
+\frac{|\Phi_\eta(c)|}{\mathcal L_\eta(c)}.
+\]
+
+Current disposition:
+
+ORIGINALITY UNRESOLVED — NARROW Q12 OBJECT.
+
+The numerator is the smooth positive-width Li zero-coordinate susceptibility profile.
+
+The denominator is the matched-scale sup-norm discrepancy-transfer envelope induced by endpoint magnitude and total variation of the same susceptibility kernel.
+
+No inspected Q12 source has been identified that forms a mathematically equivalent quotient.
+
+No novelty conclusion follows.
+
+---
+
+## OA-6-029
+
+Object:
+
+Interpretation of small Q_eta near smooth profile roots.
+
+Current disposition:
+
+INTERPRETIVE CAUTION REQUIRED.
+
+Since
+
+\[
+Q_\eta(c)
+=
+|\Phi_\eta(c)|/\mathcal L_\eta(c),
+\]
+
+an exact profile zero with positive denominator automatically has
+
+\[
+Q_\eta(c)=0.
+\]
+
+Therefore the small-Q observation near empirical roots that already track Phi_eta roots is partly geometry-consistency and tautology-adjacent.
+
+Disposition:
+
+Q_eta is currently best described as a comparative conditioning or relative-sensitivity descriptor.
+
+The Phase 5G root-Q separation is not independent evidence of a new transfer-stability phenomenon.
