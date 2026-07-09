@@ -1798,3 +1798,157 @@ R_{\mathrm{atom}}
 **Statement:** Phase 5C exact metrics require authoritative-anchor rerunning because the original actual-zero window experiment reconstructed atomic window anchors from rounded occupancy-file H values.
 
 **Disposition:** Prior Phase 5C conclusions are marked REVALIDATION REQUIRED pending corrected execution.
+
+---
+
+## CL-0148
+
+**Status:** PROVED IN PROJECT — NUMERICALLY INDEPENDENTLY VALIDATED
+
+**Statement:** After authoritative atomic-anchor repair, the finite-dataset discrepancy identity
+\[
+\mathcal W_n-S_{\mathrm{profile}}
+=
+R_{\mathrm{count}}
++
+R_{\mathrm{kernel}}
+\]
+closed with maximum numerical error approximately
+\[
+6.19\times10^{-61}.
+\]
+
+---
+
+## CL-0149
+
+**Status:** PROJECT PREDICTION SCORE
+
+**Prediction ID:** P-DEC-001.
+
+**Result:** PASS.
+
+**Statement:** The independent Stieltjes counting-remainder evaluator reproduces the direct empirical counting residual to arbitrary-precision computational tolerance after endpoint-provenance repair.
+
+---
+
+## CL-0150
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** Counting-remainder RMS exceeded kernel-remainder RMS in every tested dense complete window and every tested high-occupancy window.
+
+**Dense dominance rate:** 1.0.
+
+**High-occupancy dominance rate:** 1.0.
+
+---
+
+## CL-0151
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** The ratio of mean high-occupancy normalized counting RMS to mean high-occupancy normalized kernel RMS was approximately
+\[
+3115.303893.
+\]
+
+**Scope:** Frozen first-500-zero dataset and Phase 5E window protocol.
+
+---
+
+## CL-0152
+
+**Status:** PROJECT PREDICTION SCORE
+
+**Prediction ID:** P-DEC-002.
+
+**Result:** PASS.
+
+**Statement:** Empirical counting-remainder RMS generally exceeds Li-kernel asymptotic truncation RMS in the tested dense windows.
+
+---
+
+## CL-0153
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** Corrected finite-range log-log height slopes were approximately
+\[
+-1.7339233393
+\]
+for normalized counting-remainder RMS and
+\[
+-1.8570110118
+\]
+for normalized kernel-remainder RMS.
+
+**Interpretation:** The kernel component exhibited the steeper descriptive finite-range decay trend.
+
+**Not evidence for:** exact asymptotic exponents -1 and -2.
+
+---
+
+## CL-0154
+
+**Status:** PROJECT PREDICTION SCORE
+
+**Prediction ID:** P-DEC-003.
+
+**Result:** PASS WITH FINITE-RANGE QUALIFICATION.
+
+---
+
+## CL-0155
+
+**Status:** FAILED PROJECT PREDICTION
+
+**Prediction ID:** P-DEC-004.
+
+**Prediction:** Removing the left-endpoint atom would slightly improve smooth-profile agreement.
+
+**Observed result:** The mean high-occupancy open-to-closed residual RMS ratio was approximately
+\[
+2.4349109619.
+\]
+
+**Failure:** Removing the atom worsened residual RMS by approximately 2.43 times.
+
+**Disposition:** Withdraw the assumption that the anchor atom merely degrades smooth-model agreement.
+
+---
+
+## CL-0156
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** The mean normalized high-occupancy left-atom RMS was approximately
+\[
+0.01248.
+\]
+
+**Interpretation:** The atom is measurable and participates materially in signed residual cancellation, but it does not dominate the full counting-remainder RMS.
+
+---
+
+## CL-0157
+
+**Status:** PROJECT RESEARCH QUESTION
+
+**Statement:** Can the empirical counting-remainder contribution be expressed more directly as a response transform of the zero-counting error, allowing deterministic or conditional bounds in terms of variation norms of the Li susceptibility kernel?
+
+**Priority:** CRITICAL.
+
+**Status:** OPEN.
+
+---
+
+## CL-0158
+
+**Status:** PROJECT RESEARCH QUESTION
+
+**Statement:** Do higher zero-height windows preserve the observed separation between counting-remainder and kernel-truncation scales, and do the descriptive height slopes move toward theoretically predicted asymptotic regimes?
+
+**Priority:** CRITICAL.
+
+**Status:** OPEN.

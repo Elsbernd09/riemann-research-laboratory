@@ -2262,3 +2262,104 @@ The original Phase 5C experiment used the same rounded-H reconstruction pattern.
 Its exact numerical metrics are marked REVALIDATION REQUIRED.
 
 The profile conclusion is not withdrawn but must be rerun with authoritative anchors.
+
+
+---
+
+## Phase 5E — Corrected Independent Discrepancy Decomposition
+
+Status: COMPLETE
+
+### Validation status
+
+The initial Phase 5E execution failed because of atomic endpoint provenance.
+
+After Phase 5E-R repaired the endpoint semantics, the full 360-point dense-window decomposition experiment was rerun.
+
+Maximum decomposition closure error was approximately
+
+\[
+6.19\times10^{-61}.
+\]
+
+Maximum direct-versus-Stieltjes counting-remainder discrepancy was approximately
+
+\[
+6.19\times10^{-61}.
+\]
+
+### Component hierarchy
+
+Counting-remainder RMS exceeded kernel-remainder RMS in every tested dense and high-occupancy window.
+
+For high-occupancy windows, the ratio of mean normalized component RMS sizes was approximately
+
+\[
+3115.3.
+\]
+
+Thus empirical zero-counting fluctuation dominates the local Li-kernel asymptotic truncation component in the tested finite data.
+
+### Height trends
+
+The descriptive finite-range slopes were approximately
+
+\[
+-1.734
+\]
+
+for the counting component and
+
+\[
+-1.857
+\]
+
+for the kernel component.
+
+The kernel trend was steeper, as predicted.
+
+The observed slopes are not treated as identification of asymptotic exponents.
+
+### Endpoint atom prediction failure
+
+Removing the explicit left zero-anchor atom worsened high-occupancy residual RMS.
+
+The mean open-to-closed residual RMS ratio was approximately
+
+\[
+2.435.
+\]
+
+P-DEC-004 therefore failed.
+
+### Prediction score
+
+P-DEC-001:
+
+PASS.
+
+P-DEC-002:
+
+PASS.
+
+P-DEC-003:
+
+PASS WITH FINITE-RANGE QUALIFICATION.
+
+P-DEC-004:
+
+FAIL.
+
+### Main research interpretation
+
+The Phase 5C finite-height profile residual is decomposed into mathematically distinct mechanisms.
+
+In the tested finite data, the empirical counting-remainder component overwhelmingly exceeds the Li-kernel asymptotic truncation component.
+
+### Immediate revalidation requirement
+
+Phase 5C must now be rerun with authoritative zero anchors before its exact correlation, NRMSE, sign-agreement, and root-win metrics are retained.
+
+### Largest current weakness
+
+The project has not proved an asymptotic theorem connecting the finite empirical counting-remainder hierarchy to the complete zeta zero sequence.
