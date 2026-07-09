@@ -2189,3 +2189,76 @@ Compute every discrepancy component independently on the frozen Phase 5C windows
 The O(H^-1) counting-remainder scale is conditional on a logarithmic-size remainder heuristic or known classical-type scale.
 
 The project has not proved a new bound for zero-counting error.
+
+
+---
+
+## Phase 5E-R — Atomic Endpoint Provenance Repair
+
+Status: COMPLETE
+
+### Initial failure
+
+The independent Stieltjes evaluator failed with maximum discrepancy approximately
+
+\[
+0.0354075785.
+\]
+
+A first attempt to repair discontinuous staircase quadrature did not resolve the issue.
+
+### Root cause
+
+The occupancy CSV serialized H to 60 displayed decimal digits.
+
+The zero dataset stored ordinates to 75 displayed decimal digits.
+
+The numerical H reconstructed from the occupancy file was therefore not exactly the authoritative zero ordinate.
+
+For an atomic counting measure, this changes endpoint membership.
+
+The experiment nevertheless assumed
+
+\[
+\Delta N_D(H)=1.
+\]
+
+This produced inconsistent endpoint semantics.
+
+### Audit
+
+Among 40 complete occupancy rows:
+
+- 0 serialized anchors were exact;
+- 12 were rounded below the zero;
+- 28 were rounded above the zero.
+
+Every authoritative dataset anchor had unit empirical counting jump.
+
+### Repair
+
+H is now recovered from the stored anchor zero index and the authoritative frozen zero dataset.
+
+The E_D-weighted derivative integral is evaluated piecewise on intervals with constant empirical count.
+
+### Validation
+
+Six targeted adversarial cases closed with maximum error approximately
+
+\[
+4.08\times10^{-82}.
+\]
+
+### Mathematical disposition
+
+The Stieltjes identity survived.
+
+The failed first run is classified as an endpoint-provenance implementation failure.
+
+### Consequence for Phase 5C
+
+The original Phase 5C experiment used the same rounded-H reconstruction pattern.
+
+Its exact numerical metrics are marked REVALIDATION REQUIRED.
+
+The profile conclusion is not withdrawn but must be rerun with authoritative anchors.

@@ -300,9 +300,17 @@ def main() -> None:
             row["eta"]
         )
 
-        H = mp.mpf(
-            row["H"]
+        anchor_zero_index = int(
+            row["anchor_zero_index"]
         )
+
+        # Recover H from the authoritative frozen zero dataset.
+        #
+        # Do not reconstruct an atomic endpoint from the rounded
+        # 60-digit display value stored in the occupancy CSV.
+        H = gammas[
+            anchor_zero_index - 1
+        ]
 
         B = (
             (1 + eta) * H
@@ -448,17 +456,49 @@ def main() -> None:
                 * left_atom_jump
             )
 
-            weighted_derivative_integral = (
-                mp.quad(
-                    lambda t: (
-                        empirical_remainder(
-                            gammas,
-                            t,
-                        )
-                        * f_prime(t)
-                    ),
-                    quadrature_breakpoints,
+            # Integrate the empirical counting remainder piecewise.
+            #
+            # On every open interval between consecutive zero ordinates,
+            # N_D(t) is constant.  Freeze that integer count explicitly
+            # instead of numerically integrating a discontinuous
+            # bisect_right-based staircase callback.
+            weighted_derivative_pieces = []
+
+            for left, right in zip(
+                quadrature_breakpoints,
+                quadrature_breakpoints[1:],
+            ):
+                midpoint = (
+                    left + right
+                ) / 2
+
+                interval_count = empirical_count(
+                    gammas,
+                    midpoint,
                 )
+
+                piece = mp.quad(
+                    lambda t, count=interval_count: (
+                        (
+                            mp.mpf(count)
+                            -
+                            smooth_counting_model(t)
+                        )
+                        *
+                        f_prime(t)
+                    ),
+                    [
+                        left,
+                        right,
+                    ],
+                )
+
+                weighted_derivative_pieces.append(
+                    piece
+                )
+
+            weighted_derivative_integral = mp.fsum(
+                weighted_derivative_pieces
             )
 
             count_stieltjes = (

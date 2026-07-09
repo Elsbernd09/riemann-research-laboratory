@@ -1744,3 +1744,57 @@ R_{\mathrm{atom}}
 **Priority:** CRITICAL.
 
 **Status:** OPEN.
+
+---
+
+## CL-0143
+
+**Status:** FAILED VALIDATION IMPLEMENTATION — ENDPOINT PROVENANCE ERROR
+
+**Statement:** The initial Phase 5E Stieltjes evaluator failed to reproduce the direct empirical counting remainder, with maximum discrepancy approximately
+\[
+0.0354075785.
+\]
+
+**Root cause:** The atomic left endpoint H was reconstructed from a rounded 60-digit display serialization while the theoretical decomposition assumed H was exactly an authoritative dataset zero ordinate.
+
+**Disposition:** Repaired by recovering H from the stored anchor zero index.
+
+---
+
+## CL-0144
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** Among 40 complete occupancy records, zero serialized H values were exactly equal to the authoritative 75-digit stored zero ordinate; 12 were rounded below and 28 were rounded above.
+
+---
+
+## CL-0145
+
+**Status:** PROVED IN PROJECT — IMPLEMENTATION CORRECTNESS RULE
+
+**Statement:** For an atomic counting measure, an arbitrarily small coordinate perturbation of an interval endpoint can change the discrete integral by a full atomic contribution.
+
+**Consequence:** Decimal closeness of endpoint coordinates does not preserve closed-interval membership.
+
+---
+
+## CL-0146
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** After authoritative-anchor recovery and piecewise constant-count quadrature, a six-case targeted Stieltjes validation achieved maximum direct-versus-Stieltjes counting-remainder error approximately
+\[
+4.08\times10^{-82}.
+\]
+
+---
+
+## CL-0147
+
+**Status:** PROJECT REVALIDATION REQUIREMENT
+
+**Statement:** Phase 5C exact metrics require authoritative-anchor rerunning because the original actual-zero window experiment reconstructed atomic window anchors from rounded occupancy-file H values.
+
+**Disposition:** Prior Phase 5C conclusions are marked REVALIDATION REQUIRED pending corrected execution.
