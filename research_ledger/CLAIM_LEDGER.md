@@ -2629,3 +2629,47 @@ its matched \(n/\gamma\) response profile, and subsequent positive-width height-
 its exact n and gamma formula, its matched n/gamma profile Psi_Li, and its positive-width susceptibility aggregation.
 
 **Disposition:** Absence of an identified PA-4 source is not a novelty conclusion.
+
+---
+
+## CL-0211
+
+**Status:** PRIOR-ART DISPOSITION
+
+**Source:** Emmerson and Buchanan, truncated quasiconformal energy for the Riemann xi-function, 2026.
+
+**Question:** Q10.
+
+**PA Grade:** PA-2.
+
+**Statement:** Finite height-window analysis and windowed deformation of symmetric zeta-zero pairs exists in prior work.
+
+**Disposition:** Broad claims that the project introduced height-windowed zero deformation are prohibited.
+
+---
+
+## CL-0212
+
+**Status:** STANDARD-MECHANISM PRESUMPTION
+
+**Statement:** Replacing a zero statistic by a leading continuum integral using the Riemann-von Mangoldt density is presumed standard analytic machinery.
+
+**Disposition:** The project does not claim originality for the smooth-density substitution.
+
+---
+
+## CL-0213
+
+**Status:** ORIGINALITY UNRESOLVED — Q10 OBJECT
+
+**Statement:** No source inspected in the current Q10 campaign has been identified that derives the positive-width multiplicative Li susceptibility profile
+\[
+\Phi_\eta(c)
+=
+\frac{1}{2\pi}
+\int_1^{1+\eta}
+u^{-2}\Psi_{Li}(c/u)\,du
+\]
+or its equivalent sine closed form from the local Li zero-coordinate susceptibility.
+
+**Disposition:** No PA-4 source identified in the current source set. This is not a novelty claim.

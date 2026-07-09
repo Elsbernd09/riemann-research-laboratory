@@ -326,3 +326,90 @@ matched n/gamma response scaling, and positive-width height-window aggregation.
 No PA-4 source has been identified in the current Q9 source set.
 
 This is not a novelty claim.
+
+---
+
+## OA-6-014
+
+Object:
+
+Finite height-window analysis of zeta-zero geometry.
+
+Current disposition:
+
+CONCEPTUAL PRIOR ART IDENTIFIED.
+
+Source:
+
+Parker Emmerson and Ryan J. Buchanan, 2026.
+
+PA grade:
+
+PA-2.
+
+Disposition:
+
+Height-windowed zero deformation is not available for broad originality claims.
+
+The source studies quasiconformal deformation energy on finite height windows, not Li-kernel susceptibility aggregation.
+
+---
+
+## OA-6-015
+
+Object:
+
+Positive-width multiplicative Li susceptibility profile
+
+\[
+\Phi_\eta(c)
+=
+\frac{1}{2\pi}
+\int_1^{1+\eta}
+u^{-2}\Psi_{Li}(c/u)\,du.
+\]
+
+Current disposition:
+
+ORIGINALITY UNRESOLVED.
+
+Equivalent project closed form:
+
+\[
+\Phi_\eta(c)
+=
+\frac{c}{\pi}
+\left[
+(1+\eta)^{-2}
+\sin(c/(1+\eta))
+-
+\sin c
+\right].
+\]
+
+No inspected Q10 source has yet been identified that derives this profile or a mathematically equivalent scaling law from positive-width aggregation of Li zero-coordinate susceptibility.
+
+This is an absence-of-identification statement, not a novelty claim.
+
+---
+
+## OA-6-016
+
+Object:
+
+Use of leading Riemann-von Mangoldt density to form a continuum approximation to a zero statistic.
+
+Current disposition:
+
+PRESUME STANDARD ANALYTIC MECHANISM.
+
+The project must not claim originality for the replacement
+
+\[
+dN(t)
+\approx
+\frac{1}{2\pi}
+\log(t/(2\pi))dt.
+\]
+
+Originality-sensitive review concerns the specific susceptibility kernel and resulting profile, not the density substitution.
