@@ -346,7 +346,17 @@ def main() -> None:
         start=1,
     ):
         eta = mp.mpf(row["eta"])
-        H = mp.mpf(row["H"])
+
+        anchor_zero_index = int(
+            row["anchor_zero_index"]
+        )
+
+        # Recover the atomic left endpoint from the authoritative
+        # frozen zero dataset rather than the rounded occupancy-file
+        # display serialization.
+        H = gammas[
+            anchor_zero_index - 1
+        ]
 
         upper = (
             (1 + eta) * H

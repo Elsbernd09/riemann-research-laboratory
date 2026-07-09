@@ -1,0 +1,58 @@
+{
+  "experiment_name": "li_actual_zeta_window_response",
+  "zero_dataset": "data/zeta_zeros/mpmath_critical_line_zeros_first_500.csv",
+  "zero_dataset_sha256": "73f887fefe55be5971ff6cb669188b8f6e7a9b29c4fac5e9ac3f2dfcf040bcf3",
+  "complete_window_count": 40,
+  "requested_c_grid_start": "0.25",
+  "requested_c_grid_end": "20",
+  "requested_c_grid_step": "0.25",
+  "requested_c_grid_count": 80,
+  "precision_decimal_digits": 80,
+  "summaries": {
+    "occupancy_at_least_10": {
+      "minimum_occupancy": 10,
+      "window_count": 29,
+      "empirical_root_count": 174,
+      "mean_frozen_nrmse": "0.31427552256301833315009981108483612541776917705552",
+      "mean_finite_height_nrmse": "0.058875059518780713972286198872967884952634478280122",
+      "mean_frozen_correlation": "0.99505598827279079936686615480164231481917621935115",
+      "mean_finite_height_correlation": "0.99629090024005677986186667059471908706371741204728",
+      "mean_frozen_sign_agreement": "0.98965517241379310344827586206896551724137931034483",
+      "mean_finite_height_sign_agreement": "0.99008620689655172413793103448275862068965517241379",
+      "frozen_window_root_win_rate_vs_individual": "1.0",
+      "finite_height_root_win_rate_vs_individual": "1.0"
+    },
+    "occupancy_at_least_25": {
+      "minimum_occupancy": 25,
+      "window_count": 18,
+      "empirical_root_count": 108,
+      "mean_frozen_nrmse": "0.30905124456087522146109182974943790335719438426324",
+      "mean_finite_height_nrmse": "0.03823226394155057073064302878305118034281464160928",
+      "mean_frozen_correlation": "0.99780464311329780066978824432166033052142092343356",
+      "mean_finite_height_correlation": "0.99859028387316980741367451991632000981038998971241",
+      "mean_frozen_sign_agreement": "0.99166666666666666666666666666666666666666666666667",
+      "mean_finite_height_sign_agreement": "0.99166666666666666666666666666666666666666666666667",
+      "frozen_window_root_win_rate_vs_individual": "1.0",
+      "finite_height_root_win_rate_vs_individual": "1.0"
+    },
+    "occupancy_at_least_50": {
+      "minimum_occupancy": 50,
+      "window_count": 10,
+      "empirical_root_count": 60,
+      "mean_frozen_nrmse": "0.30407253412123501705858858198357685350043014424348",
+      "mean_finite_height_nrmse": "0.036257043276525003864927658653525963479826482440953",
+      "mean_frozen_correlation": "0.99821600585994402918869204451003212805291628441022",
+      "mean_finite_height_correlation": "0.9986595036992372519218289758323969673861067632757",
+      "mean_frozen_sign_agreement": "0.9925",
+      "mean_finite_height_sign_agreement": "0.9925",
+      "frozen_window_root_win_rate_vs_individual": "1.0",
+      "finite_height_root_win_rate_vs_individual": "1.0"
+    }
+  },
+  "runtime_seconds": 43.237207125,
+  "git_commit_at_start": "ab63553229abf9880008f036ba9c09103664b58c",
+  "git_clean_at_end_before_outputs_added": false,
+  "python_version": "3.9.6 (default, Apr 30 2025, 02:07:17) \n[Clang 17.0.0 (clang-1700.0.13.5)]",
+  "platform": "macOS-15.7.4-arm64-arm-64bit",
+  "interpretation_boundary": "Finite numerical response experiment on the first 500 critical-line zero ordinates in the project dataset. Agreement or disagreement does not prove or disprove RH."
+}
