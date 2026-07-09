@@ -1,0 +1,22 @@
+{
+  "experiment_name": "li_zeta_window_transfer_analysis",
+  "dense_window_count": 18,
+  "transfer_point_count": 360,
+  "sup_certificate_pass_count": 360,
+  "sup_certificate_pass_rate": "1.0",
+  "l2_tighter_count": 360,
+  "l2_tighter_rate": "1.0",
+  "root_q_count": 108,
+  "generic_q_count": 1008,
+  "root_q_median": "0.000073711464002607076341174442771019108774282256127089",
+  "generic_q_median": "0.0071324676748359184082395028402124217757560624482004",
+  "root_to_generic_q_median_ratio": "0.010334636953584623153975312330019872370596847101015",
+  "log_residual_transfer_predictor_correlation": "0.84876422775930815778893613875008055096113914916968",
+  "log_residual_height_only_correlation": "0.39490658103139973795940470850057838077033290497952",
+  "transfer_minus_height_correlation": "0.45385764672790841982953143024950217019080624419016",
+  "P_TRN_002_pass_rule": "sup certificate pass rate must equal 1",
+  "P_TRN_003_pass_rule": "L2 tighter rate must exceed 0.5",
+  "P_TRN_004_pass_rule": "root Q median must be less than generic Q median",
+  "P_TRN_005_pass_rule": "log residual correlation with continuum transfer predictor must exceed correlation with 1/H",
+  "interpretation_boundary": "Transfer certificates are deterministic bounds. Empirical correlation tests measure explanatory power and do not affect inequality validity."
+}

@@ -2584,3 +2584,114 @@ Validate the transfer envelope and determine whether the deterministic stability
 ### Largest current weakness
 
 The transfer coefficient uses absolute values and may erase signed cancellation responsible for actual counting-remainder behavior.
+
+
+---
+
+## Phase 5G — Transfer-Envelope Validation and Explanatory-Power Test
+
+Status: COMPLETE
+
+### Matched-scale envelope
+
+The exact transfer coefficient H^2 Lambda converged numerically to the continuum transfer envelope in all frozen validation cases.
+
+P-TRN-001:
+
+PASS.
+
+### Deterministic certificate
+
+The sup-norm transfer certificate passed all 360 dense-window decomposition points.
+
+P-TRN-002:
+
+PASS.
+
+### Certificate tightness
+
+The L2 Holder certificate was tighter than the L-infinity variation certificate at all 360 tested points.
+
+P-TRN-003:
+
+PASS.
+
+No universal ordering theorem is claimed.
+
+### Root-neighborhood Q geometry
+
+The median profile-to-transfer ratio at 108 empirical response roots was approximately
+
+\[
+7.37\times10^{-5}.
+\]
+
+The median at 1008 generic coordinates was approximately
+
+\[
+7.13\times10^{-3}.
+\]
+
+The root-to-generic median ratio was approximately
+
+\[
+0.01033.
+\]
+
+P-TRN-004:
+
+PASS.
+
+### Explanatory-power test
+
+The natural-log correlation between normalized counting-remainder magnitude and the continuum transfer predictor was approximately
+
+\[
+0.848764.
+\]
+
+The corresponding height-only correlation was approximately
+
+\[
+0.394907.
+\]
+
+The transfer predictor exceeded the height-only baseline by approximately
+
+\[
+0.453858.
+\]
+
+P-TRN-005:
+
+PASS.
+
+### Prediction score
+
+All five frozen Phase 5F transfer predictions passed.
+
+### Main research interpretation
+
+The project now distinguishes:
+
+- local Li response geometry through Psi_Li;
+- smooth positive-width window-response geometry through Phi_eta;
+- deterministic counting-discrepancy transfer geometry through L_eta.
+
+The project-defined ratio Q_eta compares smooth profile magnitude with worst-case transfer geometry.
+
+Empirical response roots occupy substantially lower-Q regions than generic coordinates under the frozen protocol.
+
+The transfer envelope also exhibited explanatory power for corrected counting-remainder magnitude beyond height alone.
+
+### Immediate frontier
+
+A signed transfer model should be investigated to determine whether preserving cancellation information improves explanatory power beyond the absolute-value envelope.
+
+### Prior-art requirement
+
+The three-object response architecture must undergo targeted prior-art review before any originality-sensitive language is permitted.
+
+### Largest current weakness
+
+All actual-zero transfer observations remain limited to the corrected first-500-zero computational dataset.

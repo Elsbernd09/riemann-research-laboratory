@@ -2279,3 +2279,171 @@ Q_\eta(c)=0.
 **Priority:** CRITICAL.
 
 **Status:** OPEN.
+
+---
+
+## CL-0183
+
+**Status:** COMPUTATIONAL VALIDATION
+
+**Statement:** The matched-scale exact transfer coefficient numerically converged to the continuum transfer envelope in all frozen Phase 5G validation cases.
+
+**Prediction ID:** P-TRN-001.
+
+**Result:** PASS.
+
+---
+
+## CL-0184
+
+**Status:** COMPUTATIONAL VALIDATION OF PROVED INEQUALITY
+
+**Statement:** The deterministic sup-norm counting-response transfer certificate passed at all 360 tested dense-window decomposition points.
+
+**Pass rate:** 1.0.
+
+**Prediction ID:** P-TRN-002.
+
+**Result:** PASS.
+
+---
+
+## CL-0185
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** The L2 Holder transfer certificate was tighter than the L-infinity variation certificate at all 360 tested dense-window points.
+
+**L2 tighter rate:** 1.0.
+
+**No general certificate-ordering theorem is claimed.**
+
+---
+
+## CL-0186
+
+**Status:** PROJECT PREDICTION SCORE
+
+**Prediction ID:** P-TRN-003.
+
+**Result:** PASS.
+
+---
+
+## CL-0187
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** Across 108 corrected empirical response roots, the median profile-to-transfer ratio was approximately
+\[
+7.3711\times10^{-5}.
+\]
+
+Across 1008 generic coordinates at least 0.5 away from every empirical root in the same window, the median ratio was approximately
+\[
+7.1325\times10^{-3}.
+\]
+
+The root-to-generic median ratio was approximately
+\[
+0.0103346.
+\]
+
+---
+
+## CL-0188
+
+**Status:** PROJECT PREDICTION SCORE
+
+**Prediction ID:** P-TRN-004.
+
+**Result:** PASS.
+
+**Statement:** Empirical response-root neighborhoods exhibited substantially lower profile-to-transfer ratio than generic coordinates under the frozen comparison protocol.
+
+---
+
+## CL-0189
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** The natural-log correlation between corrected normalized counting-remainder magnitude and the continuum transfer predictor was approximately
+\[
+0.848764.
+\]
+
+The corresponding correlation with the height-only predictor \(1/H\) was approximately
+\[
+0.394907.
+\]
+
+The correlation difference was approximately
+\[
+0.453858.
+\]
+
+---
+
+## CL-0190
+
+**Status:** PROJECT PREDICTION SCORE — HIGH-RISK PREDICTION
+
+**Prediction ID:** P-TRN-005.
+
+**Result:** PASS.
+
+**Statement:** The coordinate-dependent continuum transfer predictor had greater empirical explanatory correlation with corrected counting-remainder magnitude than the frozen height-only baseline.
+
+---
+
+## CL-0191
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** In the tested corrected finite data, the deterministic response-transfer envelope was not merely a valid worst-case certificate; a predictor incorporating its coordinate dependence showed substantial empirical explanatory power for residual magnitude.
+
+**Scope:** Phase 5G protocol and first-500-zero dataset.
+
+**Not a theorem of:** sharp signed fluctuation prediction.
+
+---
+
+## CL-0192
+
+**Status:** FAILED CLAIM PREVENTION RULE
+
+**Statement:** The 360/360 empirical superiority of the L2 certificate must not be generalized to a universal theorem that the L2 Holder certificate is always tighter than the L-infinity variation certificate.
+
+---
+
+## CL-0193
+
+**Status:** PROJECT RESEARCH QUESTION
+
+**Statement:** Can a signed or dual-norm transfer model retain cancellation information discarded by \(\mathcal L_\eta(c)\) and improve empirical prediction beyond the absolute-value continuum transfer predictor?
+
+**Priority:** CRITICAL.
+
+**Status:** OPEN.
+
+---
+
+## CL-0194
+
+**Status:** PROJECT RESEARCH QUESTION
+
+**Statement:** Does the large separation between empirical-root and generic-coordinate Q values persist at substantially higher zero heights and under alternative window-width protocols?
+
+**Priority:** HIGH.
+
+**Status:** OPEN.
+
+---
+
+## CL-0195
+
+**Status:** PRIOR-ART AUDIT REQUIRED
+
+**Statement:** Before describing the \((\Phi_\eta,\mathcal L_\eta,Q_\eta)\) response architecture as original or novel, the project must audit prior work on explicit-formula test-function norms, zero-counting discrepancy transfer, bounded-variation Stieltjes estimates, and stability of Li/Keiper-type zero sums.
+
+**Priority:** CRITICAL.
