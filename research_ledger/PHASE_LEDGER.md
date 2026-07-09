@@ -3177,3 +3177,98 @@ The potentially informative finite-data questions concern variation among mixed 
 
 None.
 
+
+---
+
+## Phase 5I — Sign-Chamber Geometry of Signed Response Channels
+
+Status: COMPLETE
+
+### Frozen population
+
+360 Phase 5H signed-transfer points.
+
+### Chamber counts
+
+\[
+(+,+,+):5,
+\quad
+(+,+,-):8,
+\quad
+(+,-,+):66,
+\quad
+(+,-,-):83,
+\]
+
+\[
+(-,+,+):104,
+\quad
+(-,+,-):85,
+\quad
+(-,-,+):6,
+\quad
+(-,-,-):3.
+\]
+
+Boundary count:
+
+0.
+
+### Scorecard
+
+P-CHM-001:
+
+PASS.
+
+P-CHM-002:
+
+PASS.
+
+P-CHM-003:
+
+PASS WITH ALGEBRAIC QUALIFICATION.
+
+P-CHM-004:
+
+FAIL.
+
+P-CHM-005:
+
+FAIL.
+
+P-CHM-006:
+
+PASS STRONGLY.
+
+P-CHM-007:
+
+FAIL — NON-DISCRIMINATING TEST.
+
+### Main result
+
+Coarse mixed-sign chamber identity did not strongly discriminate cancellation propensity or extreme certificate looseness.
+
+### Transition result
+
+Mean chamber transitions per 19-step window:
+
+\[
+12.3333.
+\]
+
+The frozen near/far transition test became non-discriminating because no far-transition points existed.
+
+### Direction correction
+
+Retain relative component magnitudes.
+
+Proceed to normalized component-share geometry on the simplex
+
+\[
+a+e+i=1.
+\]
+
+### RH consequence
+
+None.
+

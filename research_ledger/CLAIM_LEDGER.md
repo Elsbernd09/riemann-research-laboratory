@@ -3611,3 +3611,172 @@ lie in mixed-sign chambers.
 
 Algebraic consequences of the sign labels must not be presented as independent empirical evidence.
 
+
+---
+
+## CL-0267
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Prediction ID:** P-CHM-001.
+
+**Result:** PASS.
+
+**Statement:** All 360 Phase 5H points occupied one of the eight non-boundary sign chambers under the frozen \(10^{-50}\) tolerance.
+
+---
+
+## CL-0268
+
+**Status:** COMPUTATIONAL VALIDATION / ELEMENTARY CONSEQUENCE
+
+**Prediction ID:** P-CHM-002.
+
+**Result:** PASS.
+
+**Statement:** All eight same-sign points satisfied
+
+\[
+C_{\mathrm{scalar}}=1
+\]
+
+to stored precision.
+
+**Interpretation:** Algebraic and implementation validation only.
+
+---
+
+## CL-0269
+
+**Status:** COMPUTATIONAL OBSERVATION — DEFINITION-DRIVEN QUALIFICATION
+
+**Prediction ID:** P-CHM-003.
+
+**Result:** PASS.
+
+**Statement:** All 185 extreme-cancellation points were mixed-sign.
+
+**Qualification:** This is largely implied by the same-sign identity \(C_{\mathrm{scalar}}=1\).
+
+---
+
+## CL-0270
+
+**Status:** FAILED COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-CHM-004.
+
+**Result:** FAIL.
+
+**Statement:** Among eligible mixed-sign chambers, the observed range of extreme-cancellation rates was approximately
+
+\[
+0.09242,
+\]
+
+below the frozen threshold of
+
+\[
+0.25.
+\]
+
+**Disposition:** Coarse mixed-chamber identity did not strongly discriminate cancellation propensity in the tested population.
+
+---
+
+## CL-0271
+
+**Status:** FAILED COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-CHM-005.
+
+**Result:** FAIL.
+
+**Statement:** Maximum observed bottom-quartile certificate-looseness chamber enrichment was approximately
+
+\[
+1.3012,
+\]
+
+below the frozen threshold of
+
+\[
+1.5.
+\]
+
+**Disposition:** No chamber was strongly enriched under the frozen rule.
+
+---
+
+## CL-0272
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Prediction ID:** P-CHM-006.
+
+**Result:** PASS STRONGLY.
+
+**Statement:** Mean chamber transitions per frozen 19-step c-window were approximately
+
+\[
+12.3333.
+\]
+
+Median transitions were
+
+\[
+13.
+\]
+
+**Interpretation:** Signed response chamber changes are frequent on the tested integer c-grid.
+
+**Restriction:** No chaos or randomness claim follows.
+
+---
+
+## CL-0273
+
+**Status:** FAILED COMPUTATIONAL PREDICTION — NON-DISCRIMINATING OPERATIONALIZATION
+
+**Prediction ID:** P-CHM-007.
+
+**Result:** FAIL.
+
+**Statement:** The observed transition density produced 357 near-transition points and zero far-transition points under the frozen distance categories.
+
+**Disposition:** The test could not compare near and far populations.
+
+No post-hoc threshold modification is permitted.
+
+The failure does not establish either presence or absence of a transition-proximity cancellation effect.
+
+---
+
+## CL-0274
+
+**Status:** PROJECT DIRECTION CORRECTION
+
+**Statement:** Phase 5I shows that sign-chamber labels alone are too coarse to explain scalar cancellation severity.
+
+The next phase should retain normalized component magnitudes through the simplex coordinates
+
+\[
+(a,e,i)
+=
+\frac{
+(|R_{\mathrm{atom}}|,|R_{\mathrm{end}}|,|R_{\mathrm{int}}|)
+}{
+|R_{\mathrm{atom}}|+|R_{\mathrm{end}}|+|R_{\mathrm{int}}|
+}.
+\]
+
+---
+
+## CL-0275
+
+**Status:** FAILURE-PREVENTION RULE
+
+**Statement:** A post-hoc redefinition of near and far transition thresholds is prohibited for the Phase 5I scorecard.
+
+A future transition analysis may define a new protocol and freeze new rules before inspecting new derived results.
+
