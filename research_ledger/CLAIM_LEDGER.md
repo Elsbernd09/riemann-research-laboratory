@@ -3780,3 +3780,133 @@ The next phase should retain normalized component magnitudes through the simplex
 
 A future transition analysis may define a new protocol and freeze new rules before inspecting new derived results.
 
+
+---
+
+## CL-0276
+
+**Status:** PHASE 5J DEFINITION
+
+**Statement:** Define normalized response-component shares
+
+\[
+(a,e,i)
+=
+\frac{
+(|R_{\mathrm{atom}}|,
+|R_{\mathrm{end}}|,
+|R_{\mathrm{int}}|)
+}{
+|R_{\mathrm{atom}}|
++
+|R_{\mathrm{end}}|
++
+|R_{\mathrm{int}}|
+}.
+\]
+
+Then
+
+\[
+a+e+i=1.
+\]
+
+---
+
+## CL-0277
+
+**Status:** PROVED IN PROJECT — ELEMENTARY
+
+**Statement:** For every mixed-sign response triple,
+
+\[
+C_{\mathrm{scalar}}
+=
+2
+\left|
+P_+-\frac12
+\right|,
+\]
+
+where \(P_+\) is the normalized total magnitude share carried by positive components.
+
+**Interpretive restriction:** This is an algebraic identity and cannot be scored as empirical evidence.
+
+---
+
+## CL-0278
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-SIM-001.
+
+**Statement:** Maximum simplex closure error is below \(10^{-45}\).
+
+---
+
+## CL-0279
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-SIM-002.
+
+**Statement:** Fewer than 90 percent of points have dominant component share exceeding 0.8.
+
+---
+
+## CL-0280
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-SIM-003.
+
+**Statement:** The leading in-plane covariance eigenvalue explains more than 90 percent of the two-dimensional simplex variance.
+
+---
+
+## CL-0281
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-SIM-004.
+
+**Statement:** At least 90 percent of extreme-cancellation points lie within balance distance 0.125.
+
+---
+
+## CL-0282
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-SIM-005.
+
+**Statement:** Adding component shares to chamber indicators increases in-sample \(R^2\) for \(\log C_{\mathrm{scalar}}\) by more than 0.20.
+
+---
+
+## CL-0283
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-SIM-006.
+
+**Statement:** At least three dominant mixed chambers have opposing-share interquartile range below 0.25.
+
+---
+
+## CL-0284
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-SIM-007.
+
+**Statement:** Median simplex displacement on chamber-transition steps is less than 2.5 times the median displacement on same-chamber steps.
+
+---
+
+## CL-0285
+
+**Status:** FAILURE-PREVENTION RULE
+
+**Statement:** Phase 5J must not present the simplex closure identity, mixed-sign balance identity, or exact opposing-share cancellation formula as empirical discoveries.
+

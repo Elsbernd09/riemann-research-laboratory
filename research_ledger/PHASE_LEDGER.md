@@ -3272,3 +3272,66 @@ a+e+i=1.
 
 None.
 
+
+---
+
+## Phase 5J — Component-Share Simplex Geometry
+
+Status: PROTOCOL FROZEN
+
+### Trigger
+
+Phase 5I found that sign-chamber identity alone was too coarse to explain scalar cancellation severity.
+
+### Frozen population
+
+The existing 360 Phase 5H signed-transfer points.
+
+### New representation
+
+\[
+a
+=
+|R_{\mathrm{atom}}|/S,
+\qquad
+e
+=
+|R_{\mathrm{end}}|/S,
+\qquad
+i
+=
+|R_{\mathrm{int}}|/S,
+\]
+
+with
+
+\[
+a+e+i=1.
+\]
+
+### Research questions
+
+Does the share cloud concentrate near a lower-dimensional structure inside the simplex plane?
+
+Do component shares add descriptive information beyond sign chamber?
+
+Are opposing shares concentrated in dominant mixed chambers?
+
+Does share geometry vary more smoothly than frequent chamber transitions suggest?
+
+### Frozen predictions
+
+P-SIM-001 through P-SIM-007.
+
+### Restrictions
+
+Several simplex and balance identities are algebraic.
+
+All statistical comparisons are in-sample descriptive analyses.
+
+No predictive generalization.
+
+No asymptotic theorem.
+
+No RH consequence.
+
