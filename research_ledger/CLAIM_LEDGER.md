@@ -2583,3 +2583,49 @@ the susceptibility
 its matched \(n/\gamma\) response profile, and subsequent positive-width height-window aggregation.
 
 **Disposition:** This is an absence-of-identification statement only. It is not a novelty claim.
+
+---
+
+## CL-0208
+
+**Status:** PRIOR-ART DISPOSITION
+
+**Source:** Frederik Salzmann, "A Curvature-Minimum Reformulation of the Riemann Hypothesis" (2026).
+
+**Question:** Q9.
+
+**PA Grade:** PA-2.
+
+**Statement:** Symmetry-centered second-derivative and curvature analysis of xi-derived functions exists in prior work. Salzmann differentiates |xi(sigma+it)|^2 with respect to the evaluation coordinate sigma.
+
+**Distinction:** This does not equal differentiation of an individual Li zero-side kernel with respect to a zeta zero coordinate.
+
+---
+
+## CL-0209
+
+**Status:** PRIOR-ART DISPOSITION — STRONG STRUCTURAL OVERLAP
+
+**Source:** Matthew J. Goss, Jr., UMR v6.16 (2026).
+
+**Question:** Q9.
+
+**PA Grade:** PA-3.
+
+**Statement:** Local geometric response to horizontal displacement of symmetric off-line zero pairs, including quadratic small-displacement behavior, is present in prior work.
+
+**Disposition:** The project must not describe symmetric zero-pair displacement response or quadratic zero-displacement analysis as unprecedented.
+
+---
+
+## CL-0210
+
+**Status:** ORIGINALITY UNRESOLVED — FURTHER NARROWED Q9 OBJECT
+
+**Statement:** After the current Q9 search campaign, no inspected source has been identified that explicitly develops the Li-kernel-specific susceptibility
+\[
+2\Re f_n''(1/2+i\gamma),
+\]
+its exact n and gamma formula, its matched n/gamma profile Psi_Li, and its positive-width susceptibility aggregation.
+
+**Disposition:** Absence of an identified PA-4 source is not a novelty conclusion.

@@ -230,3 +230,99 @@ takes its delta-squared limit, derives
 or develops the resulting matched \(n/\gamma\) susceptibility profile and positive-width zero-window aggregation.
 
 No novelty conclusion follows from absence in the current source set.
+
+---
+
+## OA-6-011
+
+Object:
+
+Symmetry-centered second-variation or curvature analysis around the critical line.
+
+Current disposition:
+
+CONCEPTUAL PRIOR ART IDENTIFIED.
+
+Source:
+
+Frederik Salzmann, 2026.
+
+PA grade:
+
+PA-2.
+
+Distinction:
+
+Salzmann studies the second sigma derivative of the whole function
+
+\[
+|\xi(\sigma+it)|^2.
+\]
+
+This is evaluation-coordinate curvature, not zero-coordinate differentiation of an individual Li kernel contribution.
+
+---
+
+## OA-6-012
+
+Object:
+
+Local quadratic response to horizontal displacement of symmetric zero-pair geometry.
+
+Current disposition:
+
+STRONG STRUCTURAL PRIOR ART IDENTIFIED.
+
+Source:
+
+Matthew J. Goss, Jr., UMR v6.16, 2026.
+
+PA grade:
+
+PA-3.
+
+Disposition:
+
+The broad mechanism of horizontally displacing off-line zero pairs and extracting quadratic small-displacement response is not available for originality claims.
+
+No inspected passage was identified that applies this operation to the individual Li zero-side kernel
+
+\[
+1-(1-1/\rho)^n
+\]
+
+and develops its exact second zero-coordinate derivative, matched n/gamma susceptibility profile, or positive-width susceptibility aggregation.
+
+---
+
+## OA-6-013
+
+Object:
+
+Li-kernel-specific local horizontal susceptibility.
+
+Current disposition:
+
+ORIGINALITY UNRESOLVED — NARROWED OBJECT.
+
+The unresolved chain is:
+
+\[
+f_n(\rho)
+=
+1-(1-1/\rho)^n,
+\]
+
+followed by local symmetry-preserving second zero-coordinate variation,
+
+\[
+\chi_n^{Li}(\gamma)
+=
+2\Re f_n''(1/2+i\gamma),
+\]
+
+matched n/gamma response scaling, and positive-width height-window aggregation.
+
+No PA-4 source has been identified in the current Q9 source set.
+
+This is not a novelty claim.
