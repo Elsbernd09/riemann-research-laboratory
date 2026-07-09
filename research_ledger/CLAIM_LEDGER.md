@@ -2519,3 +2519,21 @@ must not be called novel, new theory, or progress toward proving RH before the P
 **Statement:** Does prior explicit-formula or zero-statistic literature contain a mathematically equivalent specialization of the Li continuum transfer envelope or profile-to-transfer ratio?
 
 **Priority:** CRITICAL.
+
+---
+
+## CL-0204
+
+**Status:** PRIOR-ART DISPOSITION
+
+**Source:** K. D. Maślanka, "Analytic Extension of Keiper-Li Coefficients" (2022), arXiv:2211.08993.
+
+**Question:** Q9.
+
+**PA Grade:** PA-2 — CONCEPTUAL OVERLAP.
+
+**Statement:** Maślanka studies Keiper-Li structures through the standard zero-side representation and considers response to hypothetical altered zeta-zero geometry. The paper's explicit random perturbation experiment perturbs zeros of the analytically extended Keiper-Li entire function rather than Riemann zeta zero coordinates.
+
+**Difference from project:** No zero-coordinate derivative, symmetry-preserving quadratic response, Li susceptibility profile, matched n/gamma scaling, or positive-width response aggregation was identified.
+
+**Disposition:** Broad claims that Li/Keiper zero sensitivity is unprecedented are prohibited. The specific differential response construction remains originality unresolved.

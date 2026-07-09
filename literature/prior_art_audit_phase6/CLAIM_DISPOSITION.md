@@ -134,3 +134,37 @@ Prohibited until audit:
 - new approach to proving RH;
 - breakthrough;
 - progress toward proving RH.
+
+---
+
+## OA-6-008
+
+Object:
+
+Sensitivity of Li/Keiper-related structures to changes in zero geometry.
+
+Current disposition:
+
+CONCEPTUAL PRIOR ART IDENTIFIED.
+
+Primary source:
+
+K. D. Maślanka, "Analytic Extension of Keiper-Li Coefficients" (2022), arXiv:2211.08993.
+
+Disposition:
+
+The paper uses the standard zero-side Li representation and studies how hypothetical off-critical zeta-zero geometry affects Keiper-Li behavior and the zeros of an analytically extended Keiper-Li entire function.
+
+Its Figure 9 random perturbation concerns zeros of the extended Keiper-Li entire function, not direct perturbation of Riemann zeta zeros.
+
+No exact zero-coordinate derivative, symmetry-preserving second response, quadratic susceptibility, matched n/gamma response profile, or positive-width response aggregation was identified.
+
+PA grade:
+
+PA-2 — CONCEPTUAL OVERLAP.
+
+Required language:
+
+Do not claim that studying sensitivity of Li/Keiper structures to altered zero geometry is unprecedented.
+
+The project-specific differential zero-coordinate response construction remains originality unresolved.
