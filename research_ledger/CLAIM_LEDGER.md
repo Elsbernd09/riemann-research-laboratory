@@ -2447,3 +2447,75 @@ The correlation difference was approximately
 **Statement:** Before describing the \((\Phi_\eta,\mathcal L_\eta,Q_\eta)\) response architecture as original or novel, the project must audit prior work on explicit-formula test-function norms, zero-counting discrepancy transfer, bounded-variation Stieltjes estimates, and stability of Li/Keiper-type zero sums.
 
 **Priority:** CRITICAL.
+
+---
+
+## CL-0196
+
+**Status:** PRIOR-ART AUDIT PROTOCOL
+
+**Statement:** The exact Stieltjes and bounded-variation mechanisms underlying the Phase 5F transfer inequality are presumed standard pending precise historical attribution.
+
+---
+
+## CL-0197
+
+**Status:** ORIGINALITY UNRESOLVED
+
+**Statement:** The originality status of the positive-width Li response profile Phi_eta is unresolved and requires targeted primary-source review.
+
+---
+
+## CL-0198
+
+**Status:** ORIGINALITY UNRESOLVED
+
+**Statement:** The originality status of the Li-specific continuum transfer envelope L_eta is unresolved.
+
+---
+
+## CL-0199
+
+**Status:** ORIGINALITY UNRESOLVED
+
+**Statement:** The project-defined profile-to-transfer ratio Q_eta must be compared with explicit-formula test-function optimization, dual-norm stability ratios, and zero-statistic discrepancy literature.
+
+---
+
+## CL-0200
+
+**Status:** NOVELTY QUARANTINE
+
+**Statement:** The combined architecture
+\[
+(\Psi_{Li},\Phi_\eta,\mathcal L_\eta,Q_\eta)
+\]
+must not be called novel, new theory, or progress toward proving RH before the Phase 6 prior-art audit is completed.
+
+---
+
+## CL-0201
+
+**Status:** KNOWN PROJECT LIMITATION
+
+**Statement:** As of Phase 6A, the project has no new RH-equivalent criterion, Li positivity theorem, zero-free region, exclusion theorem for off-critical zeros, or proof of RH.
+
+---
+
+## CL-0202
+
+**Status:** PRIOR-ART RESEARCH QUESTION
+
+**Statement:** Does prior Li/Keiper literature explicitly study differential response of zero-side contributions to zero-coordinate displacement followed by positive-width height-window aggregation?
+
+**Priority:** CRITICAL.
+
+---
+
+## CL-0203
+
+**Status:** PRIOR-ART RESEARCH QUESTION
+
+**Statement:** Does prior explicit-formula or zero-statistic literature contain a mathematically equivalent specialization of the Li continuum transfer envelope or profile-to-transfer ratio?
+
+**Priority:** CRITICAL.
