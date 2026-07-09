@@ -946,3 +946,108 @@ def li_susceptibility_gamma_derivative(
         / D**2
         * A_prime
     )
+
+
+def li_derivative_response_profile(
+    q: Number,
+) -> mp.mpf:
+    """Return J_Li(q) = 2 Psi_Li(q) + q Psi_Li'(q)."""
+    q_mp = mp.mpf(q)
+
+    return (
+        2
+        * q_mp**3
+        * mp.sin(q_mp)
+        -
+        12
+        * q_mp**2
+        * mp.cos(q_mp)
+        -
+        12
+        * q_mp
+        * mp.sin(q_mp)
+    )
+
+
+def li_continuum_transfer_envelope(
+    c: Number,
+    eta: Number,
+) -> mp.mpf:
+    """Return the continuum sup-norm response-transfer envelope."""
+    c_mp = mp.mpf(c)
+    eta_mp = mp.mpf(eta)
+
+    if c_mp <= 0:
+        raise ValueError("c must satisfy c > 0")
+
+    if eta_mp <= 0:
+        raise ValueError("eta must satisfy eta > 0")
+
+    upper_scale = 1 + eta_mp
+
+    lower_endpoint = abs(
+        li_susceptibility_profile(
+            c_mp
+        )
+    )
+
+    upper_endpoint = (
+        upper_scale**(-2)
+        * abs(
+            li_susceptibility_profile(
+                c_mp / upper_scale
+            )
+        )
+    )
+
+    variation = mp.quad(
+        lambda u: (
+            u**(-3)
+            * abs(
+                li_derivative_response_profile(
+                    c_mp / u
+                )
+            )
+        ),
+        [
+            mp.mpf("1"),
+            upper_scale,
+        ],
+    )
+
+    return (
+        lower_endpoint
+        +
+        upper_endpoint
+        +
+        variation
+    )
+
+
+def li_profile_to_transfer_ratio(
+    c: Number,
+    eta: Number,
+) -> mp.mpf:
+    """Return |Phi_eta(c)| / L_eta(c)."""
+    envelope = (
+        li_continuum_transfer_envelope(
+            c,
+            eta,
+        )
+    )
+
+    if envelope <= 0:
+        raise ValueError(
+            "transfer envelope must be positive"
+        )
+
+    return (
+        abs(
+            li_window_continuum_profile(
+                c,
+                eta,
+            )
+        )
+        /
+        envelope
+    )
