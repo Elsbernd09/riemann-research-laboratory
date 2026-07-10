@@ -3869,3 +3869,146 @@ Fine derivative-root scan:
 
 Accepted points require root-count agreement and relative coarse/fine integral discrepancy at most \(10^{-7}\).
 
+
+---
+
+## Phase 5M — Analytic Origin of the Replicated Principal Line
+
+Status: COMPLETE
+
+### Numerical adversary history
+
+Initial brute-force `mp.quad` implementation:
+
+mathematically direct but computationally impractical for 780 points.
+
+Single-panel vectorized fixed quadrature:
+
+FAILED frozen self-convergence threshold.
+
+Composite fixed quadrature:
+
+FAILED frozen self-convergence threshold.
+
+Sign-split quadrature:
+
+ACCEPTED under matching 65-versus-129 derivative sign-change root counts and frozen \(10^{-7}\) coarse/fine integral discrepancy.
+
+### Independent reference audit
+
+Frozen eight-point subset.
+
+Reference method:
+
+60-digit piecewise `mp.quad`.
+
+Threshold:
+
+\[
+10^{-6}.
+\]
+
+Pass count:
+
+\[
+8/8.
+\]
+
+Maximum relative error:
+
+\[
+9.83\times10^{-7}.
+\]
+
+Close pass; limited subset validation only.
+
+### Interior share
+
+First-500 median:
+
+\[
+0.002129.
+\]
+
+Higher-zero median:
+
+\[
+0.001369.
+\]
+
+### Interior signed-cancellation ratio
+
+First-500 median:
+
+\[
+0.010434.
+\]
+
+Higher-zero median:
+
+\[
+0.008867.
+\]
+
+All 780 tested points satisfied
+
+\[
+C_{\mathrm{int}}<0.10.
+\]
+
+### Geometric mechanism
+
+Frozen axis alignment with
+
+\[
+(1,-1,0)/\sqrt2:
+\]
+
+\[
+0.999984978.
+\]
+
+Higher-zero frozen PCA explained fraction:
+
+\[
+0.999448436.
+\]
+
+Higher-zero elementary \(i=0\) edge explained fraction:
+
+\[
+0.999477713.
+\]
+
+Gap:
+
+\[
+-2.93\times10^{-5}.
+\]
+
+### Main interpretation
+
+The replicated principal-line geometry is almost entirely explained by the small-interior simplex edge.
+
+The small tested interior response is strongly associated with cancellation inside the signed discrepancy-weighted derivative integral.
+
+### Failed simple explanation
+
+Height-only regressions have weak explanatory power for interior share.
+
+No simple power law is inferred.
+
+### Next mathematical target
+
+Study cancellation in
+
+\[
+\int_H^B E_D(t)\chi_n'(t)dt
+\]
+
+through the matched-scale derivative profile and oscillatory structure of the zero-counting discrepancy.
+
+### RH consequence
+
+None.
+

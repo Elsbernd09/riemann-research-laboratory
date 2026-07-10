@@ -4823,3 +4823,207 @@ Accepted points require matching derivative sign-change root counts, matching di
 
 The frozen integral acceptance threshold remains unchanged.
 
+
+---
+
+## CL-0340
+
+**Status:** NUMERICAL REFERENCE VALIDATION
+
+**Statement:** A frozen eight-point subset of accepted Phase 5M sign-split absolute integrals was compared against the original 60-digit piecewise `mp.quad` absolute-integral method.
+
+All
+
+\[
+8/8
+\]
+
+points passed the external reference threshold
+
+\[
+10^{-6}.
+\]
+
+The maximum relative error was approximately
+
+\[
+9.83\times10^{-7}.
+\]
+
+**Qualification:** The worst point is close to the threshold. The audit validates selected numerical values and does not prove a uniform error bound for all 780 integrals.
+
+---
+
+## CL-0341
+
+**Status:** COMPUTATIONAL OBSERVATION — POST-REPLICATION MECHANISM AUDIT
+
+**Statement:** Median normalized interior response share was approximately
+
+\[
+0.002129
+\]
+
+in the first-500 response block and
+
+\[
+0.001369
+\]
+
+in the disjoint higher-zero response block.
+
+---
+
+## CL-0342
+
+**Status:** COMPUTATIONAL OBSERVATION — STRONG FINITE CANCELLATION
+
+**Statement:** Across all 780 tested response coordinates,
+
+\[
+C_{\mathrm{int}}
+=
+\frac{
+\left|
+\int_H^B E_D(t)\chi_n'(t)dt
+\right|
+}{
+\int_H^B|E_D(t)\chi_n'(t)|dt
+}
+<
+0.10.
+\]
+
+The median ratio was approximately
+
+\[
+0.010434
+\]
+
+for the first-500 block and
+
+\[
+0.008867
+\]
+
+for the higher-zero block.
+
+**Restriction:** This is a finite numerical observation. No asymptotic cancellation theorem follows.
+
+---
+
+## CL-0343
+
+**Status:** COMPUTATIONAL OBSERVATION — GEOMETRIC MECHANISM
+
+**Statement:** The frozen first-500 component-share principal axis has sign-invariant alignment approximately
+
+\[
+0.999984978
+\]
+
+with
+
+\[
+(1,-1,0)/\sqrt2.
+\]
+
+On the higher-zero population, the elementary edge
+
+\[
+i=0,\qquad a+e=1
+\]
+
+explains approximately
+
+\[
+0.999477713
+\]
+
+of centered energy, versus approximately
+
+\[
+0.999448436
+\]
+
+for the frozen learned PCA line under the shared denominator convention.
+
+The explained-fraction difference is approximately
+
+\[
+-2.93\times10^{-5}.
+\]
+
+**Interpretation:** Under the frozen Phase 5M rule, the elementary small-interior simplex edge captures nearly all of the learned principal-line energy explanation.
+
+---
+
+## CL-0344
+
+**Status:** FAILED SIMPLE MECHANISM EXPLANATION
+
+**Statement:** Finite height-only regressions do not support a clean one-variable power law as a sufficient explanation for normalized interior-share suppression.
+
+The interior-share log-height \(R^2\) values were approximately
+
+\[
+0.0075
+\]
+
+and
+
+\[
+0.0497
+\]
+
+in the two tested blocks.
+
+**Disposition:** The project will not claim
+
+\[
+i\sim H^{-\alpha}
+\]
+
+from the Phase 5M regressions.
+
+---
+
+## CL-0345
+
+**Status:** PROJECT MECHANISM CONCLUSION
+
+**Statement:** The replicated near-one-dimensional component-share geometry is best interpreted, within the tested finite populations, as the geometric consequence of a small interior response share.
+
+The small interior response is strongly associated with signed cancellation inside the discrepancy-weighted derivative integral.
+
+This mechanism is more uniformly supported by the tested data than a simple height-only scaling explanation.
+
+---
+
+## CL-0346
+
+**Status:** CRITICAL OPEN QUESTION
+
+**Statement:** Determine whether the observed cancellation in
+
+\[
+\int_H^B
+E_D(t)\chi_n'(t)dt
+\]
+
+admits a deterministic oscillatory-integral estimate, structural identity, or conditional theorem using the matched-scale derivative profile
+
+\[
+-J(n/t).
+\]
+
+---
+
+## CL-0347
+
+**Status:** FAILURE-PREVENTION RULE
+
+**Statement:** The Phase 5J through 5L PCA geometry must not be presented as a mysterious latent one-dimensional zero manifold after Phase 5M.
+
+The elementary \(i\approx0\) simplex-edge mechanism explains nearly all of the learned line's finite-data energy fit under the frozen diagnostic.
+

@@ -1,0 +1,90 @@
+{
+  "audit_name": "phase5m_sign_split_against_mpquad",
+  "selection_frozen_before_reference_values": {
+    "first_500": [
+      1,
+      120,
+      240,
+      360
+    ],
+    "indices_501_1500": [
+      1,
+      140,
+      280,
+      420
+    ]
+  },
+  "reference_relative_error_threshold": "1e-6",
+  "audit_point_count": 8,
+  "pass_count": 8,
+  "maximum_relative_error": "0.000000982827765472477919158610452063257427069734558751951225801869",
+  "all_points_pass": true,
+  "point_results": [
+    {
+      "dataset_block": "first_500",
+      "point_index": 1,
+      "accepted_sign_split_value": "0.0000004629472599978625",
+      "mpquad_reference_value": "0.00000046294765785986778073689792655004902868202469911755967311588",
+      "relative_error": "0.000000859410342672406340379191166957216512905015754140792663478527",
+      "status": "PASS"
+    },
+    {
+      "dataset_block": "first_500",
+      "point_index": 120,
+      "accepted_sign_split_value": "0.0003652062358311974",
+      "mpquad_reference_value": "0.000365206455152620248493217011554602240252258853046164689041965",
+      "relative_error": "0.000000600540926246329659253950096790352166102912585009271291936767",
+      "status": "PASS"
+    },
+    {
+      "dataset_block": "first_500",
+      "point_index": 240,
+      "accepted_sign_split_value": "0.001010695280260602",
+      "mpquad_reference_value": "0.0010106955549950145817724047006379997118926339762677838646371",
+      "relative_error": "0.00000027182707119269716817555007183687646193201088539860268187151",
+      "status": "PASS"
+    },
+    {
+      "dataset_block": "first_500",
+      "point_index": 360,
+      "accepted_sign_split_value": "0.0024400320685719233",
+      "mpquad_reference_value": "0.00244003298833520300851144315643382777170508833618790449225885",
+      "relative_error": "0.000000376947067562415124225339388052601496694505775821243634983453",
+      "status": "PASS"
+    },
+    {
+      "dataset_block": "indices_501_1500",
+      "point_index": 1,
+      "accepted_sign_split_value": "0.0000002818187894648513",
+      "mpquad_reference_value": "0.000000281818904337057613580375033229725223023832852804407369789868",
+      "relative_error": "0.000000407610009640064166570160372146044261187966009337964166431276",
+      "status": "PASS"
+    },
+    {
+      "dataset_block": "indices_501_1500",
+      "point_index": 140,
+      "accepted_sign_split_value": "0.00033790912039847337",
+      "mpquad_reference_value": "0.000337909311345567471525059974133398334226431505504442589033",
+      "relative_error": "0.000000565083848507064261528730603587718418684488468383079134843258",
+      "status": "PASS"
+    },
+    {
+      "dataset_block": "indices_501_1500",
+      "point_index": 280,
+      "accepted_sign_split_value": "0.00008540114918821134",
+      "mpquad_reference_value": "0.0000854011372963914014667034416323925900851672342583081666016121",
+      "relative_error": "0.000000139246622644635222165941078211487879624966623232251367886145",
+      "status": "PASS"
+    },
+    {
+      "dataset_block": "indices_501_1500",
+      "point_index": 420,
+      "accepted_sign_split_value": "0.000025240206718324416",
+      "mpquad_reference_value": "0.0000252401819115728277300214586082581080262213532108898600662532",
+      "relative_error": "0.000000982827765472477919158610452063257427069734558751951225801869",
+      "status": "PASS"
+    }
+  ],
+  "runtime_seconds": 114.687048417,
+  "interpretation_boundary": "Independent numerical reference audit against the original high-precision piecewise mp.quad absolute-integral method. This validates selected numerical values; it is not a proof of all 780 integrals."
+}
