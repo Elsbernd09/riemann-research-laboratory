@@ -4222,3 +4222,105 @@ Targeted prior-art audit of classical integrated zero-counting remainders, \(S(T
 
 None.
 
+
+---
+
+## Phase 5F-A — Transfer-Envelope Asymptotic Proof Repair
+
+Status: COMPLETE
+
+### Trigger
+
+Adversarial review identified that CL-0173 had been labeled proved using an underjustified derivative dependency.
+
+The susceptibility big-O expansion did not itself justify differentiation of the remainder inside total variation.
+
+### Direct repair
+
+Set
+
+\[
+q=n/\gamma,
+\qquad
+x=1/\gamma.
+\]
+
+The exact scaled derivative admits an analytic representation
+
+\[
+\gamma^3\chi_n'(\gamma)=G(q,x)
+\]
+
+where \(G\) is analytic in \(q\) and \(x^2\) near compact positive \(q\)-sets and \(x=0\).
+
+Direct evaluation gives
+
+\[
+G(q,0)=-J_{Li}(q).
+\]
+
+Therefore, uniformly on compact positive \(q\)-sets,
+
+\[
+\gamma^3\chi_n'(\gamma)
+=
+-J_{Li}(q)
++
+O_K(\gamma^{-2}).
+\]
+
+### Repaired envelope result
+
+For fixed eta and compact positive matched-scale coordinates,
+
+\[
+H^2\Lambda_n(H,\eta)
+=
+\mathcal L_\eta(c_H)
++
+O(H^{-2}).
+\]
+
+If
+
+\[
+c_H\to c,
+\]
+
+then
+
+\[
+H^2\Lambda_n(H,\eta)
+\to
+\mathcal L_\eta(c).
+\]
+
+### Numerical validator
+
+A compact-grid validator checked bounded behavior of
+
+\[
+\gamma^2
+\left[
+\gamma^3\chi_n'(\gamma)
++
+J_{Li}(n/\gamma)
+\right].
+\]
+
+This validator is numerical consistency evidence only.
+
+### Claim correction
+
+CL-0173 historical dependency:
+
+UNDERJUSTIFIED.
+
+Current status of the transfer-envelope convergence claim:
+
+PROVED IN PROJECT — REPAIRED DEPENDENCY THROUGH CL-0369 AND CL-0370.
+
+### RH consequence
+
+None.
+

@@ -5417,3 +5417,124 @@ is directly expressible through classical antiderivatives of the Riemann-von Man
 
 No originality claim is permitted before this audit.
 
+
+---
+
+## CL-0368
+
+**Status:** ADVERSARIAL AUDIT — UNDERJUSTIFIED PROOF DEPENDENCY
+
+**Statement:** CL-0173 was originally labeled PROVED IN PROJECT before the project had justified differentiation of the susceptibility asymptotic remainder inside the total-variation argument.
+
+The susceptibility expansion alone did not establish the required derivative remainder.
+
+**Disposition:** The original proof dependency was underjustified. Phase 5G numerical convergence did not repair the gap.
+
+---
+
+## CL-0369
+
+**Status:** PROVED IN PROJECT — REPAIRED DIRECT DERIVATIVE ASYMPTOTIC
+
+**Statement:** Uniformly for
+
+\[
+q=n/\gamma
+\]
+
+in any compact positive set,
+
+\[
+\boxed{
+\gamma^3\chi_n'(\gamma)
+=
+-J_{Li}(q)
++
+O_K(\gamma^{-2}).
+}
+\]
+
+**Proof dependency:** Direct exact-derivative representation in variables
+
+\[
+q=n/\gamma,
+\qquad
+x=1/\gamma,
+\]
+
+followed by analyticity and evenness in \(x\).
+
+No differentiation of a previously stated big-O remainder is used.
+
+---
+
+## CL-0370
+
+**Status:** PROVED IN PROJECT — REPAIRED TRANSFER-ENVELOPE ASYMPTOTIC
+
+**Statement:** For fixed
+
+\[
+\eta>0
+\]
+
+and
+
+\[
+c_H=n/H
+\]
+
+restricted to a compact positive interval,
+
+\[
+\boxed{
+H^2\Lambda_n(H,\eta)
+=
+\mathcal L_\eta(c_H)
++
+O(H^{-2})
+}
+\]
+
+uniformly in \(c_H\).
+
+If
+
+\[
+c_H\to c>0,
+\]
+
+then
+
+\[
+H^2\Lambda_n(H,\eta)
+\to
+\mathcal L_\eta(c).
+\]
+
+**Proof dependency:** CL-0369 and the direct endpoint susceptibility expansion.
+
+---
+
+## CL-0371
+
+**Status:** FAILURE-PREVENTION RULE
+
+**Statement:** Numerical convergence cannot close a proof gap created by an unjustified asymptotic differentiation step.
+
+Derivative asymptotics used in total-variation arguments must be proved directly from an exact derivative formula or from a theorem that explicitly controls differentiated remainders.
+
+---
+
+## CL-0372
+
+**Status:** CLAIM-STATUS CORRECTION
+
+**Statement:** CL-0173 is retained in the historical ledger but its original proof dependency is superseded by CL-0368 through CL-0370.
+
+The transfer-envelope convergence claim may be treated as
+
+PROVED IN PROJECT — REPAIRED DEPENDENCY
+
+only through the direct derivative proof recorded in Phase 5F-A.
+
