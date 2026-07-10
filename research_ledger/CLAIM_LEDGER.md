@@ -5196,3 +5196,224 @@ then whenever the denominator is positive,
 
 No asymptotic zero-counting primitive estimate or RH consequence follows.
 
+
+---
+
+## CL-0359
+
+**Status:** COMPUTATIONAL VALIDATION — BOOKKEEPING
+
+**Prediction ID:** P-PRM-001.
+
+**Result:** PASS.
+
+**Statement:** Maximum hybrid decomposition closure error was approximately
+
+\[
+4.75\times10^{-66}.
+\]
+
+**Qualification:** The primitive term was reconstructed from the proved identity. This is bookkeeping closure, not independent numerical proof.
+
+---
+
+## CL-0360
+
+**Status:** COMPUTATIONAL VALIDATION
+
+**Prediction ID:** P-PRM-002.
+
+**Result:** PASS.
+
+**Statement:** All
+
+\[
+780/780
+\]
+
+computed points satisfied the deterministic second-order certificate under numerical implementation.
+
+---
+
+## CL-0361
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Prediction ID:** P-PRM-003.
+
+**Result:** PASS STRONGLY.
+
+**Statement:** Median
+
+\[
+Q_{21}=C_2/C_1
+\]
+
+was approximately
+
+\[
+0.08798
+\]
+
+in the first-500 block and
+
+\[
+0.03731
+\]
+
+in the higher-zero block.
+
+**Interpretation:** The centered-primitive certificate retained substantially less scale than the first absolute-integral certificate in both tested finite populations.
+
+---
+
+## CL-0362
+
+**Status:** COMPUTATIONAL OBSERVATION — IN-SAMPLE DESCRIPTIVE
+
+**Prediction ID:** P-PRM-004.
+
+**Result:** PASS STRONGLY.
+
+**Statement:** Correlation between log interior-response magnitude and log second-order certificate was approximately
+
+\[
+0.87661
+\]
+
+and
+
+\[
+0.87006
+\]
+
+in the two blocks.
+
+The height-only comparison correlations were approximately
+
+\[
+0.38399
+\]
+
+and
+
+\[
+0.31352.
+\]
+
+**Restriction:** In-sample descriptive association only.
+
+---
+
+## CL-0363
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Prediction ID:** P-PRM-005.
+
+**Result:** PASS STRONGLY.
+
+**Statement:** Median second-order certificate tightness was approximately
+
+\[
+0.12852
+\]
+
+and
+
+\[
+0.25028
+\]
+
+in the two finite blocks.
+
+---
+
+## CL-0364
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Prediction ID:** P-PRM-006.
+
+**Result:** PASS STRONGLY.
+
+**Statement:** Median mean-certificate share was approximately
+
+\[
+0.0655
+\]
+
+and
+
+\[
+0.1850.
+\]
+
+**Interpretation:** The centered primitive term materially contributes to the second-order transfer certificate.
+
+---
+
+## CL-0365
+
+**Status:** COMPUTATIONAL OBSERVATION — CENTERED PRIMITIVE COMPRESSION
+
+**Prediction ID:** P-PRM-007.
+
+**Result:** PASS EXTREMELY STRONGLY.
+
+**Statement:** Median centered-primitive compression ratio
+
+\[
+G
+=
+\frac{
+\|F\|_\infty
+}{
+(B-H)\|E_D-\overline E\|_\infty
+}
+\]
+
+was approximately
+
+\[
+0.01157
+\]
+
+in the first-500 block and
+
+\[
+0.00572
+\]
+
+in the higher-zero block.
+
+**Restriction:** Finite computational observation. No asymptotic primitive-discrepancy estimate follows.
+
+---
+
+## CL-0366
+
+**Status:** PROJECT MECHANISM CONCLUSION
+
+**Statement:** The centered primitive of the empirical zero-counting discrepancy quantitatively captures a substantial portion of the cancellation discarded by first absolute-integral control of the Li susceptibility interior response in both tested finite zero-index blocks.
+
+The exact deterministic transfer identity converts bounds for the window-mean discrepancy and centered primitive into response bounds.
+
+---
+
+## CL-0367
+
+**Status:** CRITICAL PRIOR-ART QUESTION
+
+**Statement:** Determine whether the project centered primitive
+
+\[
+F(t)
+=
+\int_H^t(E_D(s)-\overline E)ds
+\]
+
+is directly expressible through classical antiderivatives of the Riemann-von Mangoldt remainder or \(S_1(T)=\int_0^T S(t)dt\), plus explicit smooth and centering terms.
+
+No originality claim is permitted before this audit.
+

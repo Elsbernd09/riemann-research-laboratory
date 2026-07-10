@@ -4102,3 +4102,123 @@ No asymptotic primitive-discrepancy estimate.
 
 No RH consequence.
 
+
+---
+
+## Phase 5N — Centered-Primitive Cancellation Transfer
+
+Status: COMPLETE
+
+### Scorecard
+
+P-PRM-001:
+
+PASS — BOOKKEEPING VALIDATION.
+
+P-PRM-002:
+
+PASS.
+
+P-PRM-003:
+
+PASS STRONGLY.
+
+P-PRM-004:
+
+PASS STRONGLY.
+
+P-PRM-005:
+
+PASS STRONGLY.
+
+P-PRM-006:
+
+PASS STRONGLY.
+
+P-PRM-007:
+
+PASS EXTREMELY STRONGLY.
+
+### Second-order certificate compression
+
+Median \(C_2/C_1\):
+
+First-500 block:
+
+\[
+0.08798.
+\]
+
+Higher-zero block:
+
+\[
+0.03731.
+\]
+
+### Certificate tightness
+
+Median:
+
+\[
+0.12852
+\]
+
+and
+
+\[
+0.25028.
+\]
+
+### Primitive compression
+
+Median
+
+\[
+G
+=
+\|F\|_\infty/
+((B-H)\|E_D-\overline E\|_\infty)
+\]
+
+was approximately
+
+\[
+0.01157
+\]
+
+and
+
+\[
+0.00572.
+\]
+
+### Descriptive response association
+
+Log response versus log \(C_2\) correlations:
+
+\[
+0.87661,
+\quad
+0.87006.
+\]
+
+Height-only comparisons:
+
+\[
+0.38399,
+\quad
+0.31352.
+\]
+
+### Main interpretation
+
+The centered primitive of the empirical zero-counting discrepancy provides a substantially sharper deterministic transfer certificate than the first absolute-integral scale in both finite datasets.
+
+### Next required action
+
+Targeted prior-art audit of classical integrated zero-counting remainders, \(S(T)\), \(S_1(T)\), Littlewood-type bounds, and repeated-integration smoothing of the explicit formula.
+
+### RH consequence
+
+None.
+
