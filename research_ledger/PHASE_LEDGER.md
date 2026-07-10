@@ -4697,3 +4697,93 @@ The theorem assumes RH.
 
 It does not prove RH.
 
+
+---
+
+## Phase 5P — Horizontal-Blindness Obstruction
+
+Status: COMPLETE
+
+### Question
+
+Can the Phase 5N/5O scalar zero-counting primitive architecture support a reverse implication from response suppression to RH?
+
+### Result
+
+No.
+
+The obstruction is structural.
+
+If two zero multisets share the same ordinates and multiplicities, then they have identical
+
+\[
+N(T).
+\]
+
+Therefore they have identical
+
+\[
+E,
+\quad
+\overline E,
+\quad
+F
+\]
+
+and identical Phase 5N second-order certificates.
+
+### Consequence
+
+The scalar ordinate-counting architecture is horizontally blind.
+
+RH is a statement about horizontal zero coordinates.
+
+Therefore Phase 5O-type suppression cannot imply RH through the scalar \(N/E/F\) architecture alone.
+
+### Failed direction
+
+Reverse RH sensitivity through the classical \(S_1\) primitive alone:
+
+ABANDONED.
+
+### Horizontal-sensitive replacement object
+
+Define
+
+\[
+dN_{w_2}(t)
+=
+\sum_\rho
+\left(
+\Re\rho-\frac12
+\right)^2
+\delta_{\Im\rho}(dt).
+\]
+
+Then definitionally,
+
+\[
+\mathrm{RH}
+\iff
+dN_{w_2}=0.
+\]
+
+### Qualification
+
+The weighted measure is not analytically useful merely because it is RH-equivalent by definition.
+
+The research bottleneck is analytic accessibility.
+
+### Next theorem target
+
+Seek a transform of horizontal zero displacement that is:
+
+1. analytically accessible without prior zero coordinates;
+2. faithful to off-critical displacement;
+3. compatible with Li/Keiper or explicit-formula machinery;
+4. positive or sign-controlled enough to prevent hidden cancellation.
+
+### RH consequence
+
+None.
+

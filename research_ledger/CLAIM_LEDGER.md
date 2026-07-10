@@ -6171,3 +6171,116 @@ The original Phase 5O completion banner remains procedurally void.
 
 The repaired Phase 5O theorem is accepted only through Phase 5O-A and CL-0383 plus CL-0386 through CL-0389.
 
+
+---
+
+## CL-0391
+
+**Status:** PROVED IN PROJECT — HORIZONTAL-BLINDNESS OBSTRUCTION
+
+**Statement:** Two zero multisets with identical ordinate multisets and multiplicities have identical scalar zero-counting functions
+
+\[
+N(T)
+\]
+
+even if their horizontal zero coordinates differ.
+
+Therefore they also have identical
+
+\[
+E,
+\quad
+\overline E,
+\quad
+F.
+\]
+
+---
+
+## CL-0392
+
+**Status:** PROVED IN PROJECT — CERTIFICATE NON-IDENTIFIABILITY
+
+**Statement:** The Phase 5N second-order certificate
+
+\[
+C_2
+=
+|\overline E|
+|f(B)-f(H)|
++
+\|F\|_\infty
+\int_H^B|f''(t)|dt
+\]
+
+is invariant under horizontal displacement of a zero configuration when the ordinate multiset and multiplicities are held fixed.
+
+---
+
+## CL-0393
+
+**Status:** FAILED RESEARCH DIRECTION
+
+**Statement:** Phase 5O-type interior suppression cannot, through the scalar \(N/E/F\) architecture alone, imply RH.
+
+**Reason:** The architecture discards the horizontal zero coordinate required to distinguish critical-line from ordinate-identical off-critical configurations.
+
+**Disposition:** Reverse-RH sensitivity through the scalar counting primitive is abandoned.
+
+---
+
+## CL-0394
+
+**Status:** PROVED IN PROJECT — DEFINITIONAL RH-EQUIVALENT ZERO-GEOMETRIC OBJECT
+
+**Statement:** Define
+
+\[
+dN_{w_2}(t)
+=
+\sum_\rho
+\left(
+\Re\rho-\frac12
+\right)^2
+\delta_{\Im\rho}(dt).
+\]
+
+Then
+
+\[
+\boxed{
+\mathrm{RH}
+\iff
+dN_{w_2}=0.
+}
+\]
+
+**Proof:** Every weight is nonnegative and vanishes exactly when
+
+\[
+\Re\rho=\frac12.
+\]
+
+**Restriction:** This definitional equivalence is not an analytically effective RH criterion and is not claimed as progress toward proving RH.
+
+---
+
+## CL-0395
+
+**Status:** CRITICAL RESEARCH BOTTLENECK
+
+**Statement:** A reverse-sensitive continuation of the project requires an analytically accessible horizontal-coordinate-sensitive zero transform.
+
+The target is not merely to define a horizontal defect measure, but to recover or constrain a faithful positive transform of horizontal zero displacement from \(\xi\), \(\xi'/\xi\), Li/Keiper data, or an explicit-formula test family without presupposing the zero locations.
+
+---
+
+## CL-0396
+
+**Status:** FAILURE-PREVENTION RULE
+
+**Statement:** Before proposing an RH criterion from any compressed zero statistic, test whether the statistic is injective with respect to horizontal zero displacement.
+
+Any statistic invariant under fixed-ordinate horizontal displacement cannot by itself distinguish RH from all off-critical zero geometries.
+
