@@ -4583,3 +4583,98 @@ The frozen first-500 centroid and principal axis therefore remain tied to the sa
 
 Dataset validation must not be interpreted as geometric replication.
 
+
+---
+
+## CL-0328
+
+**Status:** ADVERSARIAL MECHANISM CORRECTION
+
+**Statement:** The observed small interior component share must not be justified merely from
+
+\[
+\chi_n'(\gamma)=O(H^{-3})
+\]
+
+on matched-scale windows.
+
+Because the integration interval has length \(O(H)\),
+
+\[
+\int_H^{(1+\eta)H}
+E_D(t)\chi_n'(t)dt
+\]
+
+can retain an \(H^{-2}\)-scale leading factor after the change of variables \(t=Hu\).
+
+**Disposition:** Lower power order of the interior response is not assumed.
+
+---
+
+## CL-0329
+
+**Status:** PHASE 5M DEFINITION
+
+**Statement:** Define the interior absolute-integral scale
+
+\[
+I_{\mathrm{abs}}
+=
+\int_H^B
+|E_D(t)\chi_n'(t)|dt
+\]
+
+and signed-cancellation ratio
+
+\[
+C_{\mathrm{int}}
+=
+\frac{|R_{\mathrm{int}}|}{I_{\mathrm{abs}}}.
+\]
+
+Whenever the denominator is positive,
+
+\[
+0\le C_{\mathrm{int}}\le1.
+\]
+
+---
+
+## CL-0330
+
+**Status:** PHASE 5M MECHANISM QUESTION
+
+**Statement:** Phase 5M compares three candidate explanations for the replicated simplex principal line:
+
+1. raw height-scaling suppression of the interior response;
+2. cancellation within the signed weighted discrepancy integral;
+3. normalized magnitude geometry dominated by atom and endpoint channels.
+
+No candidate is presumed correct.
+
+---
+
+## CL-0331
+
+**Status:** PHASE 5M GEOMETRIC DIAGNOSTIC
+
+**Statement:** The frozen first-500 principal line will be compared against the elementary simplex edge
+
+\[
+i=0,
+\qquad
+a+e=1.
+\]
+
+If the explained-fraction gap is below 0.01 on the higher-zero population, the elementary small-interior geometry will be treated as explaining nearly all of the learned line's energy fit.
+
+---
+
+## CL-0332
+
+**Status:** FAILURE-PREVENTION RULE
+
+**Statement:** Phase 5M is post-replication mechanism analysis.
+
+Its small-interior diagnostics must not be presented as preregistered discovery predictions.
+

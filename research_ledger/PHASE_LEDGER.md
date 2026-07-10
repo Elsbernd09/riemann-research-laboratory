@@ -3723,3 +3723,62 @@ The primary Phase 5J simplex source hash was also revalidated against the frozen
 
 P-EXT-002 through P-EXT-007 remain unscored.
 
+
+---
+
+## Phase 5M — Analytic Origin of the Replicated Principal Line
+
+Status: MECHANISM-AUDIT PROTOCOL FROZEN
+
+### Trigger
+
+Phase 5L replicated the frozen first-500 principal line strongly on disjoint higher-zero windows.
+
+The frozen direction is approximately atom-versus-endpoint exchange with a small interior coordinate.
+
+### Scientific correction
+
+The interior response is not automatically lower power order merely because the kernel derivative scales as \(H^{-3}\).
+
+The window integration length contributes an \(O(H)\) factor.
+
+### Mechanism candidates
+
+1. Raw height-scaling suppression.
+
+2. Signed cancellation inside the weighted interior integral.
+
+3. Simple small-interior normalization geometry.
+
+### Frozen diagnostics
+
+M-001:
+
+Interior-share height trend.
+
+M-002:
+
+Raw component height slopes.
+
+M-003:
+
+Interior signed-cancellation ratio.
+
+M-004:
+
+Frozen PCA line versus elementary \(i=0\) simplex edge.
+
+M-005:
+
+Alignment with the atom-endpoint exchange direction.
+
+### Interpretive status
+
+Mechanism audit.
+
+Not blind discovery testing.
+
+No asymptotic theorem.
+
+No RH consequence.
+
