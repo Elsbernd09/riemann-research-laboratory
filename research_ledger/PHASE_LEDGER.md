@@ -3484,3 +3484,125 @@ No asymptotic theorem.
 
 No RH consequence.
 
+
+---
+
+## Phase 5K — Window-Level Principal-Axis Holdout Stability
+
+Status: COMPLETE
+
+### Primary held-out explained fractions
+
+Approximately:
+
+\[
+0.998751,
+0.999198,
+0.995958,
+0.999287,
+0.999285,
+0.986027.
+\]
+
+Median:
+
+\[
+0.998031.
+\]
+
+Minimum:
+
+\[
+0.986027.
+\]
+
+### Axis stability
+
+Minimum primary training-axis alignment with full-sample axis:
+
+\[
+0.999998649.
+\]
+
+### Point-level residual
+
+Global median normalized held-out residual:
+
+\[
+0.0402282.
+\]
+
+### Leave-one-window-out
+
+\[
+18/18
+\]
+
+held-out windows exceeded explained fraction
+
+\[
+0.90.
+\]
+
+Minimum:
+
+\[
+0.971200.
+\]
+
+Median:
+
+\[
+0.998868.
+\]
+
+### Scorecard
+
+P-HLD-001:
+
+PASS.
+
+P-HLD-002:
+
+PASS STRONGLY.
+
+P-HLD-003:
+
+PASS STRONGLY.
+
+P-HLD-004:
+
+PASS STRONGLY.
+
+P-HLD-005:
+
+PASS STRONGLY.
+
+P-HLD-006:
+
+PASS STRONGLY.
+
+P-HLD-007:
+
+FAIL.
+
+### Main interpretation
+
+The near-one-dimensional component-share geometry strongly survives whole-window holdout inside the first-500-zero dataset.
+
+### Failed guard
+
+One primary held-out block was majority vertex-dominant.
+
+### Next required test
+
+Freeze the first-500-zero principal axis.
+
+Generate a disjoint higher-zero dataset.
+
+Score external held-out geometry without refitting the frozen primary axis.
+
+### RH consequence
+
+None.
+

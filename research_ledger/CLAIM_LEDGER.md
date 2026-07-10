@@ -4216,3 +4216,190 @@ F_{\mathrm{holdout}}
 
 A second independent higher-zero dataset is required for external dataset validation.
 
+
+---
+
+## CL-0304
+
+**Status:** COMPUTATIONAL OBSERVATION — WINDOW-LEVEL HOLDOUT
+
+**Prediction ID:** P-HLD-001.
+
+**Result:** PASS.
+
+**Statement:** All six 15-window training populations retained leading in-plane component-share PCA fraction above
+
+\[
+0.99.
+\]
+
+---
+
+## CL-0305
+
+**Status:** COMPUTATIONAL OBSERVATION — WINDOW-LEVEL HOLDOUT
+
+**Prediction ID:** P-HLD-002.
+
+**Result:** PASS STRONGLY.
+
+**Statement:** Median three-window held-out explained fraction was approximately
+
+\[
+0.998031.
+\]
+
+**Restriction:** Internal window-level holdout only.
+
+---
+
+## CL-0306
+
+**Status:** COMPUTATIONAL OBSERVATION — WINDOW-LEVEL HOLDOUT
+
+**Prediction ID:** P-HLD-003.
+
+**Result:** PASS STRONGLY.
+
+**Statement:** Minimum three-window held-out explained fraction was approximately
+
+\[
+0.986027.
+\]
+
+No primary held-out fold underwent catastrophic principal-axis collapse under the frozen threshold.
+
+---
+
+## CL-0307
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Prediction ID:** P-HLD-004.
+
+**Result:** PASS STRONGLY.
+
+**Statement:** Minimum sign-invariant alignment between primary training-fold principal axes and the full-sample axis was approximately
+
+\[
+0.999998649.
+\]
+
+**Interpretation:** The finite-dataset dominant simplex direction is extremely stable under three-window deletion.
+
+---
+
+## CL-0308
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Prediction ID:** P-HLD-005.
+
+**Result:** PASS STRONGLY.
+
+**Statement:** Global median normalized primary held-out point residual was approximately
+
+\[
+0.0402282.
+\]
+
+---
+
+## CL-0309
+
+**Status:** COMPUTATIONAL OBSERVATION — LEAVE-ONE-WINDOW-OUT
+
+**Prediction ID:** P-HLD-006.
+
+**Result:** PASS STRONGLY.
+
+**Statement:** All
+
+\[
+18/18
+\]
+
+leave-one-window-out test windows had held-out explained fraction above
+
+\[
+0.90.
+\]
+
+The minimum was approximately
+
+\[
+0.971200
+\]
+
+and the median approximately
+
+\[
+0.998868.
+\]
+
+---
+
+## CL-0310
+
+**Status:** FAILED COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-HLD-007.
+
+**Result:** FAIL.
+
+**Statement:** One primary three-window held-out block had vertex-dominant fraction approximately
+
+\[
+0.5167,
+\]
+
+above the frozen maximum of
+
+\[
+0.40.
+\]
+
+**Disposition:** The holdout geometry is not uniformly protected against substantial simplex-vertex concentration.
+
+---
+
+## CL-0311
+
+**Status:** COMPUTATIONAL OBSERVATION — FINITE-DATA STRUCTURAL RESULT
+
+**Statement:** The near-one-dimensional normalized response-component geometry survived deterministic whole-window internal holdout strongly.
+
+A principal axis fitted without test windows retained median three-window held-out explained fraction approximately
+
+\[
+99.8031\%
+\]
+
+and minimum approximately
+
+\[
+98.6027\%.
+\]
+
+**Restriction:** This is not external replication or an asymptotic theorem.
+
+---
+
+## CL-0312
+
+**Status:** RESEARCH DECISION
+
+**Statement:** Further first-500-zero in-sample refinement has diminishing evidentiary value.
+
+The next test must freeze the current principal axis and evaluate it on a disjoint higher-zero dataset generated independently of Phases 5B through 5K.
+
+---
+
+## CL-0313
+
+**Status:** FAILURE-PREVENTION RULE
+
+**Statement:** The higher-zero dataset must not contribute to refitting the primary Phase 5J axis before external replication metrics are scored.
+
+Refitted higher-zero PCA may be reported only as a secondary post-score diagnostic.
+
