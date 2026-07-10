@@ -5027,3 +5027,172 @@ admits a deterministic oscillatory-integral estimate, structural identity, or co
 
 The elementary \(i\approx0\) simplex-edge mechanism explains nearly all of the learned line's finite-data energy fit under the frozen diagnostic.
 
+
+---
+
+## CL-0348
+
+**Status:** PROVED IN PROJECT — ELEMENTARY
+
+**Statement:** Let
+
+\[
+\overline E
+=
+\frac1{B-H}
+\int_H^B E_D(s)ds
+\]
+
+and
+
+\[
+F(t)
+=
+\int_H^t(E_D(s)-\overline E)ds.
+\]
+
+Then
+
+\[
+F(H)=F(B)=0
+\]
+
+and
+
+\[
+R_{\mathrm{int}}
+=
+-\overline E
+(f(B)-f(H))
++
+\int_H^B F(t)f''(t)dt.
+\]
+
+---
+
+## CL-0349
+
+**Status:** PROVED IN PROJECT — DETERMINISTIC TRANSFER INEQUALITY
+
+**Statement:** With
+
+\[
+C_2
+=
+|\overline E|
+|f(B)-f(H)|
++
+\|F\|_\infty
+\int_H^B|f''(t)|dt,
+\]
+
+one has
+
+\[
+|R_{\mathrm{int}}|\le C_2.
+\]
+
+---
+
+## CL-0350
+
+**Status:** PROVED IN PROJECT — ELEMENTARY
+
+**Statement:** If
+
+\[
+G
+=
+\frac{
+\|F\|_\infty
+}{
+(B-H)\|E_D-\overline E\|_\infty
+},
+\]
+
+then whenever the denominator is positive,
+
+\[
+0\le G\le1.
+\]
+
+---
+
+## CL-0351
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-PRM-001.
+
+**Statement:** The second-order decomposition closes with maximum hybrid error below \(10^{-40}\).
+
+---
+
+## CL-0352
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-PRM-002.
+
+**Statement:** All 780 tested points satisfy the deterministic second-order certificate within numerical tolerance.
+
+---
+
+## CL-0353
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-PRM-003.
+
+**Statement:** Median \(C_2/C_1\) is below 0.25 in both finite zero-index blocks.
+
+---
+
+## CL-0354
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-PRM-004.
+
+**Statement:** In both finite blocks, log \(C_2\) has greater in-sample descriptive correlation with log \(|R_{\mathrm{int}}|\) than log \(H^{-2}\).
+
+---
+
+## CL-0355
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-PRM-005.
+
+**Statement:** Median second-order certificate tightness exceeds 0.05 in at least one finite block.
+
+---
+
+## CL-0356
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-PRM-006.
+
+**Statement:** Median mean-channel share of the second-order certificate is below 0.90 in both blocks.
+
+---
+
+## CL-0357
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-PRM-007.
+
+**Statement:** Median centered-primitive compression ratio is below 0.25 in both blocks.
+
+---
+
+## CL-0358
+
+**Status:** FAILURE-PREVENTION RULE
+
+**Statement:** The centered-primitive transfer identity and deterministic inequality are elementary integration-by-parts mechanisms and are not claimed as novel.
+
+No asymptotic zero-counting primitive estimate or RH consequence follows.
+

@@ -4012,3 +4012,93 @@ through the matched-scale derivative profile and oscillatory structure of the ze
 
 None.
 
+
+---
+
+## Phase 5N — Centered-Primitive Cancellation Transfer
+
+Status: PROTOCOL FROZEN
+
+### Trigger
+
+Phase 5M found strong finite cancellation in
+
+\[
+\int_H^B E_D(t)\chi_n'(t)dt.
+\]
+
+All 780 tested points had signed-to-absolute interior ratio below 0.10.
+
+### Exact second-order decomposition
+
+Define the window mean discrepancy
+
+\[
+\overline E
+\]
+
+and centered primitive
+
+\[
+F(t)
+=
+\int_H^t(E_D(s)-\overline E)ds.
+\]
+
+Then
+
+\[
+F(H)=F(B)=0
+\]
+
+and
+
+\[
+R_{\mathrm{int}}
+=
+-\overline E(f(B)-f(H))
++
+\int_H^B F(t)f''(t)dt.
+\]
+
+### Deterministic second-order certificate
+
+\[
+C_2
+=
+|\overline E||f(B)-f(H)|
++
+\|F\|_\infty
+\int_H^B|f''(t)|dt.
+\]
+
+Then
+
+\[
+|R_{\mathrm{int}}|\le C_2.
+\]
+
+### Central mechanism question
+
+Does transfer through the centered discrepancy primitive quantitatively capture cancellation discarded by
+
+\[
+C_1
+=
+\int_H^B|E_D(t)f'(t)|dt?
+\]
+
+### Frozen predictions
+
+P-PRM-001 through P-PRM-007.
+
+### Restrictions
+
+The identity and inequality are elementary.
+
+No novelty claim.
+
+No asymptotic primitive-discrepancy estimate.
+
+No RH consequence.
+
