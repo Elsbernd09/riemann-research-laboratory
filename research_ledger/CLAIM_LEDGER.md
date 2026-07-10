@@ -4678,3 +4678,60 @@ If the explained-fraction gap is below 0.01 on the higher-zero population, the e
 
 Its small-interior diagnostics must not be presented as preregistered discovery predictions.
 
+
+---
+
+## CL-0333
+
+**Status:** FAILED NUMERICAL IMPLEMENTATION VALIDATION
+
+**Statement:** The initial Phase 5M single-panel fixed Gauss-Legendre engine failed its frozen \(10^{-7}\) self-convergence threshold on the first tested point.
+
+Observed 32-node versus 64-node relative discrepancy was approximately
+
+\[
+7.62\times10^{-5}.
+\]
+
+**Disposition:** No Phase 5M mechanism statistic was accepted from the failed fast-quadrature run.
+
+The numerical acceptance threshold was not loosened.
+
+---
+
+## CL-0334
+
+**Status:** NUMERICAL METHOD REPAIR
+
+**Statement:** The Phase 5M target integral remains
+
+\[
+I_{\mathrm{abs}}
+=
+\int_H^B
+|E_D(t)\chi_n'(t)|dt.
+\]
+
+The empirical count remains frozen separately on each open zero interval.
+
+The repaired engine subdivides each zero interval before Gauss-Legendre evaluation to better resolve sign-change kinks induced by the absolute value.
+
+---
+
+## CL-0335
+
+**Status:** NUMERICAL VALIDATION RULE
+
+**Statement:** The repaired Phase 5M composite engine compares:
+
+- 8 subpanels per zero interval with 16 Gauss-Legendre nodes per subpanel;
+- 16 subpanels per zero interval with 32 Gauss-Legendre nodes per subpanel.
+
+Every accepted point must retain relative coarse/fine discrepancy at most
+
+\[
+10^{-7}.
+\]
+
+The original numerical threshold is unchanged.
+

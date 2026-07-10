@@ -3782,3 +3782,38 @@ No asymptotic theorem.
 
 No RH consequence.
 
+
+### Phase 5M numerical quadrature adversary
+
+The first vectorized single-panel Gauss-Legendre implementation failed the frozen self-convergence threshold on the first point.
+
+Observed relative 32-node versus 64-node discrepancy:
+
+approximately
+
+\[
+7.62\times10^{-5}.
+\]
+
+Frozen tolerance:
+
+\[
+10^{-7}.
+\]
+
+No Phase 5M mechanism result was accepted.
+
+The tolerance was not modified.
+
+The numerical engine was repaired by composite subdivision of every empirical zero-count interval.
+
+Coarse rule:
+
+8 subpanels per zero interval and 16 nodes per panel.
+
+Fine rule:
+
+16 subpanels per zero interval and 32 nodes per panel.
+
+The mathematical target integral and Phase 5M mechanism rules remain unchanged.
+

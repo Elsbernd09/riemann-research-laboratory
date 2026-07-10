@@ -465,7 +465,7 @@ def smooth_counting_model_float(
     )
 
 
-def gauss_legendre_absolute_integral(
+def composite_gauss_legendre_absolute_integral(
     *,
     gammas: list[mp.mpf],
     H: mp.mpf,
@@ -476,70 +476,116 @@ def gauss_legendre_absolute_integral(
         int,
     ],
     order: int,
+    subpanels_per_zero_interval: int,
 ) -> mp.mpf:
-    """Piecewise fixed Gauss-Legendre integration.
+    """Composite piecewise Gauss-Legendre integration.
 
-    The empirical staircase count is frozen separately on
-    every open interval between consecutive zero ordinates.
+    Each empirical-count interval is first identified
+    using authoritative zero ordinates.
+
+    The empirical staircase count is frozen on that open
+    zero interval.
+
+    Each zero interval is then divided uniformly into
+    smaller quadrature panels before Gauss-Legendre
+    evaluation. This improves resolution of sign changes
+    in E_D(t) * chi_n'(t) before the absolute value.
     """
+    if order < 1:
+        raise ValueError(
+            "order must be positive."
+        )
+
+    if subpanels_per_zero_interval < 1:
+        raise ValueError(
+            "subpanels_per_zero_interval must "
+            "be positive."
+        )
+
     internal_breakpoints = [
         gamma
         for gamma in gammas
         if H < gamma < B
     ]
 
-    breakpoints_mp = [
+    zero_breakpoints_mp = [
         H,
         *internal_breakpoints,
         B,
     ]
 
-    left = np.asarray(
+    zero_left = np.asarray(
         [
             float(value)
-            for value in breakpoints_mp[:-1]
+            for value in zero_breakpoints_mp[:-1]
         ],
         dtype=np.float64,
     )
 
-    right = np.asarray(
+    zero_right = np.asarray(
         [
             float(value)
-            for value in breakpoints_mp[1:]
+            for value in zero_breakpoints_mp[1:]
         ],
         dtype=np.float64,
     )
-
-    midpoint = (
-        left + right
-    ) / 2.0
-
-    half_width = (
-        right - left
-    ) / 2.0
 
     interval_counts = np.asarray(
         [
             empirical_count(
                 gammas,
                 (
-                    breakpoints_mp[index]
+                    zero_breakpoints_mp[index]
                     +
-                    breakpoints_mp[index + 1]
+                    zero_breakpoints_mp[index + 1]
                 )
                 /
                 2
             )
             for index in range(
-                len(
-                    breakpoints_mp
-                )
-                -
-                1
+                len(zero_breakpoints_mp) - 1
             )
         ],
         dtype=np.float64,
     )
+
+    subdivision_edges = np.linspace(
+        0.0,
+        1.0,
+        subpanels_per_zero_interval + 1,
+        dtype=np.float64,
+    )
+
+    fractions_left = subdivision_edges[:-1]
+    fractions_right = subdivision_edges[1:]
+
+    zero_width = (
+        zero_right - zero_left
+    )
+
+    panel_left = (
+        zero_left[:, None]
+        +
+        zero_width[:, None]
+        *
+        fractions_left[None, :]
+    )
+
+    panel_right = (
+        zero_left[:, None]
+        +
+        zero_width[:, None]
+        *
+        fractions_right[None, :]
+    )
+
+    panel_midpoint = (
+        panel_left + panel_right
+    ) / 2.0
+
+    panel_half_width = (
+        panel_right - panel_left
+    ) / 2.0
 
     nodes, weights = (
         np.polynomial.legendre.leggauss(
@@ -548,15 +594,15 @@ def gauss_legendre_absolute_integral(
     )
 
     sample_points = (
-        midpoint[:, None]
+        panel_midpoint[:, :, None]
         +
-        half_width[:, None]
+        panel_half_width[:, :, None]
         *
-        nodes[None, :]
+        nodes[None, None, :]
     )
 
     E_values = (
-        interval_counts[:, None]
+        interval_counts[:, None, None]
         -
         smooth_counting_model_float(
             sample_points
@@ -576,19 +622,19 @@ def gauss_legendre_absolute_integral(
         derivative_values
     )
 
-    interval_integrals = (
-        half_width
+    panel_integrals = (
+        panel_half_width
         *
         np.sum(
             integrand
             *
-            weights[None, :],
-            axis=1,
+            weights[None, None, :],
+            axis=2,
         )
     )
 
     result = np.sum(
-        interval_integrals,
+        panel_integrals,
         dtype=np.float64,
     )
 
@@ -597,7 +643,8 @@ def gauss_legendre_absolute_integral(
         or result <= 0
     ):
         raise ArithmeticError(
-            "Invalid fixed-quadrature absolute integral: "
+            "Invalid composite quadrature "
+            "absolute integral: "
             f"{result}"
         )
 
@@ -622,38 +669,51 @@ def build_absolute_integral(
     mp.mpf,
     mp.mpf,
 ]:
-    """Return the 64-node value and 32/64 relative discrepancy."""
-    value_32 = (
-        gauss_legendre_absolute_integral(
+    """Return fine composite value and coarse/fine discrepancy.
+
+    Coarse rule:
+        8 subpanels per zero interval,
+        16 Gauss-Legendre nodes per subpanel.
+
+    Fine rule:
+        16 subpanels per zero interval,
+        32 Gauss-Legendre nodes per subpanel.
+
+    The frozen acceptance threshold remains 1e-7.
+    """
+    coarse_value = (
+        composite_gauss_legendre_absolute_integral(
+            gammas=gammas,
+            H=H,
+            B=B,
+            n=n,
+            empirical_count=empirical_count,
+            order=16,
+            subpanels_per_zero_interval=8,
+        )
+    )
+
+    fine_value = (
+        composite_gauss_legendre_absolute_integral(
             gammas=gammas,
             H=H,
             B=B,
             n=n,
             empirical_count=empirical_count,
             order=32,
-        )
-    )
-
-    value_64 = (
-        gauss_legendre_absolute_integral(
-            gammas=gammas,
-            H=H,
-            B=B,
-            n=n,
-            empirical_count=empirical_count,
-            order=64,
+            subpanels_per_zero_interval=16,
         )
     )
 
     relative_discrepancy = (
         abs(
-            value_64
+            fine_value
             -
-            value_32
+            coarse_value
         )
         /
         max(
-            abs(value_64),
+            abs(fine_value),
             mp.mpf("1e-300"),
         )
     )
@@ -664,7 +724,7 @@ def build_absolute_integral(
         mp.mpf("1e-7")
     ):
         raise ArithmeticError(
-            "Phase 5M fixed-quadrature "
+            "Phase 5M composite-quadrature "
             "self-convergence failure: "
             f"relative discrepancy="
             f"{mp.nstr(relative_discrepancy, 30)}, "
@@ -674,7 +734,7 @@ def build_absolute_integral(
         )
 
     return (
-        value_64,
+        fine_value,
         relative_discrepancy,
     )
 
@@ -1102,7 +1162,7 @@ def main() -> None:
                         absolute_integral,
                         60,
                     ),
-                    "quadrature_32_64_relative_discrepancy": mp.nstr(
+                    "quadrature_composite_relative_discrepancy": mp.nstr(
                         quadrature_relative_discrepancy,
                         60,
                     ),
