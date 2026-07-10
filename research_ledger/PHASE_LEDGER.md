@@ -4563,3 +4563,137 @@ No threshold loosening is permitted.
 
 Only after a pass may the conditional response theorem be restored.
 
+
+---
+
+## Phase 5O-A — Corrected Second-Derivative Profile Validation
+
+Status: COMPLETE
+
+### Original failure
+
+The initial Phase 5O second-derivative profile was algebraically false.
+
+The frozen validator rejected it.
+
+The original completion banner was procedurally void because the shell workflow continued after validator failure.
+
+### Corrected profile
+
+\[
+K_{Li}^{(2)}(q)
+=
+2q^4\cos q
++
+24q^3\sin q
+-
+72q^2\cos q
+-
+48q\sin q.
+\]
+
+### Unchanged profile-identity threshold
+
+\[
+10^{-60}.
+\]
+
+### Validation result
+
+Maximum explicit-profile identity error:
+
+\[
+4.75\times10^{-66}.
+\]
+
+Result:
+
+PASS.
+
+### Remainder consistency diagnostic
+
+On the tested compact grid,
+
+\[
+\gamma^2
+\left[
+\gamma^4\chi_n''(\gamma)
+-
+K_{Li}^{(2)}(n/\gamma)
+\right]
+\]
+
+remained finite and stabilized along fixed realized \(q\)-paths as \(\gamma\) increased.
+
+Maximum tested absolute scaled remainder:
+
+\[
+1.57208\times10^5.
+\]
+
+This is numerical consistency evidence only.
+
+No explicit analytic remainder constant is claimed.
+
+### Restored theorem dependency
+
+The corrected direct second-derivative asymptotic is accepted through the exact analytic Phase 5F-A representation and corrected algebra.
+
+The Phase 5O conditional theorem is restored:
+
+Assume RH.
+
+For fixed relative width and compact positive matched-scale coordinates,
+
+\[
+R_{\mathrm{int}}
+=
+O_{K,\eta}
+\left(
+\frac{\log H}
+{H^3(\log\log H)^2}
+\right).
+\]
+
+Therefore
+
+\[
+H^2R_{\mathrm{int}}\to0.
+\]
+
+Under a nondegenerate atom-profile condition,
+
+\[
+|\Psi_{Li}(n/H)|\ge\delta>0,
+\]
+
+the normalized interior share tends to zero.
+
+### Claim replacements
+
+CL-0377 through CL-0379:
+
+historical, invalid through the original failed validator.
+
+Corrected replacements:
+
+CL-0387 through CL-0389.
+
+### Prior-art boundary
+
+The \(S_1\) primitive is classical.
+
+The Riemann-von Mangoldt bridge is classical.
+
+Primitive-to-kernel integration by parts is standard.
+
+The exact Li susceptibility specialization remains originality unresolved.
+
+No subsuming source identified in the current audit.
+
+### RH consequence
+
+The theorem assumes RH.
+
+It does not prove RH.
+

@@ -5926,3 +5926,248 @@ CL-0377 requires the corrected profile in CL-0383.
 CL-0378 and CL-0379 may be restored only after the corrected
 second-derivative validator passes without changing its acceptance rule.
 
+
+---
+
+## CL-0386
+
+**Status:** NUMERICAL CONSISTENCY VALIDATION — CORRECTED PROFILE
+
+**Statement:** The corrected Phase 5O second-derivative profile
+
+\[
+K_{Li}^{(2)}(q)
+=
+2q^4\cos q
++
+24q^3\sin q
+-
+72q^2\cos q
+-
+48q\sin q
+\]
+
+passed the unchanged explicit-profile identity threshold
+
+\[
+10^{-60}.
+\]
+
+The maximum profile identity error on the validator grid was approximately
+
+\[
+4.75\times10^{-66}.
+\]
+
+The quantity
+
+\[
+\gamma^2
+\left[
+\gamma^4\chi_n''(\gamma)
+-
+K_{Li}^{(2)}(n/\gamma)
+\right]
+\]
+
+remained numerically bounded on the tested compact grid and stabilized along fixed realized \(q\)-paths as \(\gamma\) increased.
+
+The maximum absolute value on the tested grid was approximately
+
+\[
+1.57208\times10^5.
+\]
+
+**Qualification:** This is numerical consistency evidence only. No explicit analytic remainder constant is inferred from the grid.
+
+---
+
+## CL-0387
+
+**Status:** PROVED IN PROJECT — RESTORED THROUGH CORRECTED DEPENDENCY
+
+**Statement:** Uniformly for
+
+\[
+q=n/t
+\]
+
+in compact positive sets,
+
+\[
+\boxed{
+t^4\chi_n''(t)
+=
+K_{Li}^{(2)}(q)
++
+O_K(t^{-2}),
+}
+\]
+
+where
+
+\[
+\boxed{
+K_{Li}^{(2)}(q)
+=
+2q^4\cos q
++
+24q^3\sin q
+-
+72q^2\cos q
+-
+48q\sin q.
+}
+\]
+
+**Proof dependency:** The exact analytic Phase 5F-A representation
+
+\[
+t^3\chi_n'(t)=G(n/t,1/t)
+\]
+
+is differentiated directly.
+
+The proof does not differentiate a previously displayed big-O remainder.
+
+The corrected algebra is recorded in CL-0383.
+
+The validator in CL-0386 is consistency evidence and is not the proof.
+
+---
+
+## CL-0388
+
+**Status:** PROVED IN PROJECT — CONDITIONAL ON RH — RESTORED DEPENDENCY
+
+**Statement:** Assume the Riemann Hypothesis.
+
+Fix
+
+\[
+\eta>0
+\]
+
+and restrict
+
+\[
+n/H
+\]
+
+to a compact positive interval.
+
+Then
+
+\[
+\boxed{
+R_{\mathrm{int}}
+=
+O_{K,\eta}
+\left(
+\frac{\log H}
+{H^3(\log\log H)^2}
+\right).
+}
+\]
+
+Consequently,
+
+\[
+\boxed{
+H^2R_{\mathrm{int}}\to0.
+}
+\]
+
+**Dependencies:**
+
+1. the classical Riemann-von Mangoldt decomposition;
+2. the classical RH bound for \(S_1\);
+3. CL-0374 through CL-0376;
+4. the corrected second-derivative asymptotic CL-0387;
+5. the exact centered-primitive transfer identity.
+
+**Restriction:** This theorem assumes RH.
+
+It does not prove RH.
+
+It does not exclude an off-critical zero.
+
+It does not establish an RH-equivalent criterion.
+
+---
+
+## CL-0389
+
+**Status:** PROVED IN PROJECT — CONDITIONAL NONDEGENERATE SHARE CONSEQUENCE — RESTORED DEPENDENCY
+
+**Statement:** Assume RH and suppose along a matched-scale sequence that
+
+\[
+|\Psi_{Li}(n/H)|
+\ge
+\delta
+>
+0.
+\]
+
+Then
+
+\[
+|R_{\mathrm{atom}}|
+\gg
+H^{-2},
+\]
+
+while
+
+\[
+R_{\mathrm{int}}
+=
+o(H^{-2}).
+\]
+
+Hence the normalized interior share
+
+\[
+i
+=
+\frac{|R_{\mathrm{int}}|}
+{
+|R_{\mathrm{atom}}|
++
+|R_{\mathrm{end}}|
++
+|R_{\mathrm{int}}|
+}
+\]
+
+satisfies
+
+\[
+\boxed{
+i\to0.
+}
+\]
+
+**Restriction:** The nondegeneracy hypothesis is essential.
+
+No global share-limit statement is made on Li profile zeros or other denominator-degenerate parameter paths.
+
+---
+
+## CL-0390
+
+**Status:** CLAIM-HISTORY CORRECTION
+
+**Statement:** CL-0377 through CL-0379 remain part of the historical ledger but were not accepted through the original failed Phase 5O validation.
+
+Their mathematically corrected replacements are:
+
+- CL-0387 for the second-derivative asymptotic;
+- CL-0388 for the conditional interior-response theorem;
+- CL-0389 for the conditional nondegenerate share consequence.
+
+The original Phase 5O completion banner remains procedurally void.
+
+The repaired Phase 5O theorem is accepted only through Phase 5O-A and CL-0383 plus CL-0386 through CL-0389.
+
