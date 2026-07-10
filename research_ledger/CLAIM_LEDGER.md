@@ -4403,3 +4403,122 @@ The next test must freeze the current principal axis and evaluate it on a disjoi
 
 Refitted higher-zero PCA may be reported only as a secondary post-score diagnostic.
 
+
+---
+
+## CL-0314
+
+**Status:** PHASE 5L FROZEN MODEL
+
+**Statement:** The first-500-zero Phase 5J component-share centroid and canonical principal axis are frozen in
+
+`results/phase5l_frozen_primary_axis.json`
+
+before generation or inspection of any higher-zero Phase 5L share point.
+
+---
+
+## CL-0315
+
+**Status:** PHASE 5L FROZEN EXTERNAL POPULATION
+
+**Statement:** Phase 5L uses new zero ordinates with authoritative global indices
+
+\[
+501\le j\le1500.
+\]
+
+Frozen anchor indices are
+
+\[
+550,700,850,1000,1150,1300,1400.
+\]
+
+Frozen relative widths are
+
+\[
+0.05,0.10,0.20,0.50.
+\]
+
+Window eligibility depends only on dataset containment and occupancy at least 25.
+
+---
+
+## CL-0316
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-EXT-001.
+
+**Statement:** All 1000 generated higher-zero ordinates satisfy the frozen numerical zeta-residual threshold \(10^{-40}\).
+
+---
+
+## CL-0317
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-EXT-002.
+
+**Statement:** The frozen first-500 affine principal line explains more than 95 percent of total centered energy in the higher-zero component-share population.
+
+---
+
+## CL-0318
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-EXT-003.
+
+**Statement:** Median normalized higher-zero residual to the frozen first-500 principal line is below 0.20.
+
+---
+
+## CL-0319
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-EXT-004.
+
+**Statement:** At least 80 percent of eligible higher-zero windows have frozen-axis explained fraction above 0.90.
+
+---
+
+## CL-0320
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-EXT-005.
+
+**Statement:** Minimum eligible higher-zero window frozen-axis explained fraction exceeds 0.75.
+
+---
+
+## CL-0321
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-EXT-006.
+
+**Statement:** After primary frozen-axis scoring, the higher-zero refitted principal direction has sign-invariant alignment above 0.995 with the frozen first-500 direction.
+
+---
+
+## CL-0322
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-EXT-007.
+
+**Statement:** The refitted higher-zero simplex cloud has leading in-plane covariance fraction above 0.95.
+
+---
+
+## CL-0323
+
+**Status:** FAILURE-PREVENTION RULE
+
+**Statement:** A secondary higher-zero PCA refit cannot rescue failed frozen-axis replication.
+
+Primary Phase 5L conclusions are determined by P-EXT-002 through P-EXT-005 before secondary refitted-axis interpretation.
+

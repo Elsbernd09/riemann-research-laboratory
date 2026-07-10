@@ -3606,3 +3606,75 @@ Score external held-out geometry without refitting the frozen primary axis.
 
 None.
 
+
+---
+
+## Phase 5L — Disjoint Higher-Zero Principal-Axis Replication
+
+Status: PROTOCOL AND PRIMARY AXIS FROZEN
+
+### Trigger
+
+Phase 5K showed strong whole-window principal-axis holdout stability inside the first-500-zero dataset.
+
+### Frozen primary model
+
+The full first-500 Phase 5J centroid and canonical leading principal axis are frozen before higher-zero share generation.
+
+### Higher-zero range
+
+Authoritative zero indices:
+
+\[
+501\text{ through }1500.
+\]
+
+### Frozen anchor indices
+
+\[
+550,
+700,
+850,
+1000,
+1150,
+1300,
+1400.
+\]
+
+### Frozen eta values
+
+\[
+0.05,
+0.10,
+0.20,
+0.50.
+\]
+
+### Window eligibility
+
+Complete within generated higher-zero range and occupancy at least 25.
+
+### Frozen c-grid
+
+\[
+1,2,\ldots,20.
+\]
+
+### Frozen predictions
+
+P-EXT-001 through P-EXT-007.
+
+### Central test
+
+Whether the first-500 affine simplex principal line explains more than 95 percent of centered energy in disjoint higher-zero response windows without refitting.
+
+### Restrictions
+
+Disjoint higher-zero window replication is not statistical independence.
+
+Secondary higher-zero refitting cannot rescue failed frozen-axis replication.
+
+No asymptotic theorem.
+
+No RH consequence.
+

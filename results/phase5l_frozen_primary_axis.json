@@ -1,0 +1,69 @@
+{
+  "artifact_name": "phase5l_frozen_first500_principal_axis",
+  "source_population": "Phase 5J frozen 360-point simplex population derived from first 500 computed critical-line zeros",
+  "source_csv": "results/li_zeta_window_component_share_simplex/simplex_points.csv",
+  "source_csv_sha256": "e80a2e4ce364f6efe8b25fbcb3f8f72580d0a2a2b87961243ab5e83fb613a3a7",
+  "source_point_count": 360,
+  "centroid": [
+    "0.62207085607773830975240408986625512213563439891903017976842565277777777777777778",
+    "0.37249819981586535163417478119582505035073882847258631013288205002777777777777778",
+    "0.0054309441063963386134211289379198275136267726083835100986922626301944444444444444"
+  ],
+  "canonical_principal_axis": [
+    "0.70485845140902665448630905619650224097522578493796458808376045765563076291586759",
+    "-0.70933386648122220860267987283757723908256478064807076996895979996509425162386754",
+    "0.0044754150721955541163708166410749981073389957101061818851992663944977773368467953"
+  ],
+  "covariance_eigenvalues_descending": [
+    "0.040451566833818683893678919054597147341275614918423955835855598086865122224838419",
+    "0.00010262431084861973618068667732387445745450826902377423376174125669770016038602422",
+    "-6.8100470278983130926064801082504927053702729213057092169148878458033864309021893e-83"
+  ],
+  "leading_in_plane_fraction": "0.99746945240548548388068586238532294508837306849957800189208006816585771529570091",
+  "axis_sign_rule": "First coordinate with absolute magnitude above 1e-40 is positive.",
+  "higher_zero_index_start": 501,
+  "higher_zero_index_end": 1500,
+  "higher_zero_count": 1000,
+  "zero_generation_decimal_digits": 80,
+  "zero_validation_absolute_zeta_threshold": "1e-40",
+  "frozen_anchor_zero_indices": [
+    550,
+    700,
+    850,
+    1000,
+    1150,
+    1300,
+    1400
+  ],
+  "frozen_eta_values": [
+    "0.05",
+    "0.10",
+    "0.20",
+    "0.50"
+  ],
+  "minimum_window_occupancy": 25,
+  "requested_c_values": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "git_commit_at_freeze": "6b4c4fe2620b2b0bce7c185d6e6fdd86bfa9292d",
+  "interpretation_boundary": "The centroid and principal axis are frozen before generation or inspection of any Phase 5L higher-zero component-share point."
+}
