@@ -6461,3 +6461,117 @@ Therefore CL-0401 does not yield a global RH-equivalent criterion for the ordina
 
 The next audit targets angular/radial averaging, Parseval identities, Hardy-space norms, and the analytic singularity structure of the Li generating function.
 
+
+---
+
+## CL-0404
+
+**Status:** KNOWN THEOREM / PRIOR-ART DISPOSITION
+
+**Statement:** For the Keiper generating function
+
+\[
+\Phi(z)
+=
+\log 2\xi\left(\frac1{1-z}\right),
+\]
+
+RH is equivalent to regularity throughout the open unit disk.
+
+**Disposition:** PA-4 classical Keiper–Li architecture.
+
+---
+
+## CL-0405
+
+**Status:** KNOWN MECHANISM / PRIOR-ART DISPOSITION
+
+**Statement:** Transformed zeros
+
+\[
+z_\rho
+=
+1-\frac1\rho
+\]
+
+are singularity locations for the logarithmic derivative of the Keiper generating function.
+
+An off-critical zero produces, through the zero symmetries, a transformed singularity inside the unit disk.
+
+**Disposition:** PA-4 classical mechanism.
+
+---
+
+## CL-0406
+
+**Status:** KNOWN ASYMPTOTIC MECHANISM / PRIOR-ART DISPOSITION
+
+**Statement:** Classical Keiper–Li asymptotic analysis distinguishes RH-true tempered coefficient growth from RH-false exponential contributions associated with transformed zeros inside the unit disk.
+
+**Disposition:** PA-4.
+
+No project originality claim permitted.
+
+---
+
+## CL-0407
+
+**Status:** PROVED IN PROJECT — HARDY H2 OBSTRUCTION FROM CLASSICAL ASYMPTOTIC
+
+**Statement:** Under the classical RH asymptotic
+
+\[
+\lambda_n^K
+=
+\frac12\log n+c+o(1),
+\]
+
+one has
+
+\[
+\sum_{n\ge1}
+|\lambda_n^K|^2
+=
+\infty.
+\]
+
+Therefore the Keiper generating function is not in ordinary \(H^2\) under this RH asymptotic.
+
+---
+
+## CL-0408
+
+**Status:** FAILED RESEARCH DIRECTION
+
+**Statement:** Ordinary unweighted Hardy \(H^2\) energy of the Keiper generating function cannot serve as the desired RH-true positive horizontal-defect state space.
+
+**Disposition:** Abandoned.
+
+---
+
+## CL-0409
+
+**Status:** PRIOR-ART / STRUCTURAL DISPOSITION
+
+**Statement:** Radially weighted Parseval energy of the ordinary Keiper coefficient sequence measures aggregated coefficient growth and analytic-radius behavior but does not separate zero-orbit energies before quadratic aggregation.
+
+Without an additional orbit-separation theorem, this route does not resolve the Phase 5Q cross-term obstruction.
+
+---
+
+## CL-0410
+
+**Status:** CRITICAL PRIOR-ART QUESTION
+
+**Statement:** Before defining a positive quadratic horizontal-defect transform, audit whether the target is already subsumed by Weil positivity, Guinand–Weil explicit-formula quadratic forms, Bombieri–Lagarias criteria, de Branges-type Hilbert-space formulations, or Nyman–Beurling/Báez-Duarte \(L^2\) criteria.
+
+---
+
+## CL-0411
+
+**Status:** PROJECT DIRECTION
+
+**Statement:** The next acceptable theorem target is an analytically accessible transform that separates or lower-bounds positive horizontal zero-defect energy before global zero-orbit cancellation.
+
+No one-variable Li coefficient norm is sufficient without an additional orbit-separation mechanism.
+

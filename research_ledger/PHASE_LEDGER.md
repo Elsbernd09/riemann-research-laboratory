@@ -4886,3 +4886,84 @@ Audit whether angular or radial averaging, Parseval, Hardy-space norms, or Li ge
 
 None.
 
+
+---
+
+## Phase 5R — Hardy/Parseval Route and Classical Keiper–Li Radius Obstruction
+
+Status: COMPLETE
+
+### Audit result
+
+The naive Hardy/Parseval route does not provide a distinct RH-sensitive architecture.
+
+### Classical subsumption
+
+The Keiper generating function
+
+\[
+\Phi(z)
+=
+\log 2\xi((1-z)^{-1})
+\]
+
+is regular throughout the open unit disk if and only if RH holds.
+
+Interior transformed-zero singularities and the resulting exponential coefficient sensitivity are classical Keiper–Li mechanisms.
+
+### Ordinary H2 obstruction
+
+Under RH,
+
+\[
+\lambda_n^K
+=
+\frac12\log n+c+o(1).
+\]
+
+Therefore
+
+\[
+\sum_n|\lambda_n^K|^2
+=
+\infty.
+\]
+
+Ordinary \(H^2\) is not the RH-true state space.
+
+### Radial Parseval
+
+For \(r<1\),
+
+\[
+\frac1{2\pi}
+\int_0^{2\pi}
+|\Phi(re^{i\theta})|^2d\theta
+=
+\sum_n|\lambda_n^K|^2r^{2n}.
+\]
+
+This retains the classical analytic-radius distinction but does not separate zero-orbit energies before aggregation.
+
+### Failed direction
+
+Naive one-variable Hardy/Parseval horizontal-defect energy:
+
+ABANDONED.
+
+### Next required audit
+
+Weil positivity.
+
+Guinand–Weil explicit formula.
+
+Bombieri–Lagarias quadratic criteria.
+
+de Branges-type Hilbert-space RH criteria.
+
+Nyman–Beurling and Báez-Duarte \(L^2\) criteria.
+
+### RH consequence
+
+None.
+
