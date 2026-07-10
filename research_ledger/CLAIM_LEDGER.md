@@ -4112,3 +4112,107 @@ The concentration must be tested under window-level holdout and subset stability
 
 **Statement:** The next phase should study the dominant simplex principal coordinate and principal-axis stability across held-out windows rather than further refining coarse sign chambers.
 
+
+---
+
+## CL-0295
+
+**Status:** PHASE 5K DEFINITION
+
+**Statement:** Phase 5K tests the Phase 5J dominant component-share principal direction under holdout of entire zero-height windows.
+
+The held-out explained fraction is
+
+\[
+F_{\mathrm{holdout}}
+=
+1-
+\frac{
+\sum_{\mathrm{test}}
+\|x-\Pi_{\mathrm{train}}x\|^2
+}{
+\sum_{\mathrm{test}}
+\|x-\mu_{\mathrm{train}}\|^2
+}.
+\]
+
+---
+
+## CL-0296
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-HLD-001.
+
+**Statement:** All six 15-window training populations retain in-plane leading PCA fraction above 0.99.
+
+---
+
+## CL-0297
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-HLD-002.
+
+**Statement:** Median three-window held-out explained fraction exceeds 0.95.
+
+---
+
+## CL-0298
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-HLD-003.
+
+**Statement:** Minimum three-window held-out explained fraction exceeds 0.85.
+
+---
+
+## CL-0299
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-HLD-004.
+
+**Statement:** Minimum absolute inner-product alignment between a primary training-fold principal axis and the full-sample principal axis exceeds 0.995.
+
+---
+
+## CL-0300
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-HLD-005.
+
+**Statement:** Median normalized held-out point residual is below 0.20.
+
+---
+
+## CL-0301
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-HLD-006.
+
+**Statement:** At least 16 of 18 leave-one-window-out folds have held-out explained fraction above 0.90.
+
+---
+
+## CL-0302
+
+**Status:** FROZEN COMPUTATIONAL PREDICTION
+
+**Prediction ID:** P-HLD-007.
+
+**Statement:** Every primary held-out fold has vertex-dominant fraction below 0.40.
+
+---
+
+## CL-0303
+
+**Status:** FAILURE-PREVENTION RULE
+
+**Statement:** Window-level holdout inside the first-500-zero dataset must not be described as external replication.
+
+A second independent higher-zero dataset is required for external dataset validation.
+

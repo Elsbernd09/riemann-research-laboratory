@@ -3432,3 +3432,55 @@ The PCA concentration has not yet survived window-level holdout or subset-stabil
 
 None.
 
+
+---
+
+## Phase 5K — Window-Level Principal-Axis Holdout Stability
+
+Status: PROTOCOL FROZEN
+
+### Trigger
+
+Phase 5J found approximately 99.7469 percent leading in-plane PCA concentration in the component-share simplex.
+
+### Adversarial concern
+
+The 360 points arise from only 18 windows with 20 c-coordinates per window.
+
+Point-level PCA may therefore overstate evidence through within-window pseudoreplication.
+
+### Frozen primary split
+
+Six deterministic leave-three-windows-out folds:
+
+\[
+\{1,2,3\},
+\{4,5,6\},
+\{7,8,9\},
+\{10,11,12\},
+\{13,14,15\},
+\{16,17,18\}.
+\]
+
+### Secondary audit
+
+18 leave-one-window-out folds.
+
+### Frozen predictions
+
+P-HLD-001 through P-HLD-007.
+
+### Central test
+
+Whether a principal axis trained without the test windows retains high orthogonal explained fraction on held-out component-share geometry.
+
+### Restrictions
+
+Window-level holdout is stronger than in-sample PCA but is not external dataset replication.
+
+All windows arise from the same first-500-zero dataset.
+
+No asymptotic theorem.
+
+No RH consequence.
+
