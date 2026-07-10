@@ -956,3 +956,70 @@ Permitted project-specific language:
 "For the positive-width aggregate of the local Li zero-coordinate susceptibility, the smooth-density profile may vanish at coordinates where the matched discrepancy-transfer envelope remains positive."
 
 This is a mathematical specialization, not a general theory of degeneracy.
+
+## OA-6-009 — Centered zero-counting primitive
+
+Disposition:
+
+PA-4 classical ancestry.
+
+The project primitive
+
+\[
+F(t)
+=
+\int_H^t(E(s)-\overline E)ds
+\]
+
+is exactly a secant-detrended increment of an antiderivative of the Riemann-von Mangoldt remainder.
+
+Through
+
+\[
+E=S+O(1/t),
+\]
+
+it reduces to a secant-detrended \(S_1\)-type increment plus an integrated \(O(1/t)\) remainder.
+
+No novelty claim is permitted for the primitive itself.
+
+---
+
+## OA-6-010 — Primitive-to-kernel integration-by-parts transfer
+
+Disposition:
+
+Standard analytic mechanism / strong classical ancestry.
+
+Moving a derivative from a rough counting or argument term to a smoother analytic kernel through integration by parts is not project-original.
+
+The project may discuss its specialization to the Li susceptibility response architecture only with originality unresolved.
+
+---
+
+## OA-6-011 — Conditional Li susceptibility interior-response theorem
+
+Disposition:
+
+Project-specific theorem specialization; originality unresolved.
+
+Current theorem:
+
+Under RH, fixed \(\eta>0\), and compact positive matched-scale coordinates,
+
+\[
+R_{\mathrm{int}}
+=
+O_{K,\eta}
+\left(
+\frac{\log H}
+{H^3(\log\log H)^2}
+\right).
+\]
+
+The theorem combines classical \(S_1\) control with the project Li susceptibility second-derivative profile and centered-primitive response decomposition.
+
+No subsuming source identified in the current audit.
+
+This wording is not a novelty claim.
+

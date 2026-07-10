@@ -4324,3 +4324,136 @@ PROVED IN PROJECT — REPAIRED DEPENDENCY THROUGH CL-0369 AND CL-0370.
 
 None.
 
+
+---
+
+## Phase 5O — Classical S1 Bridge and Conditional Li-Response Transfer
+
+Status: CONDITIONAL THEOREM PROVED IN PROJECT
+
+### Classical bridge
+
+The Riemann-von Mangoldt remainder satisfies
+
+\[
+E(t)=S(t)+O(1/t).
+\]
+
+The project centered primitive is exactly a secant-detrended increment of an antiderivative of \(E\).
+
+Therefore it is a secant-detrended \(S_1\)-type increment plus an integrated \(O(1/t)\) remainder.
+
+### Prior-art disposition
+
+Primitive ancestry:
+
+PA-4.
+
+Primitive-to-kernel integration by parts:
+
+standard analytic mechanism.
+
+Voros:
+
+PA-3 strong structural overlap for integral/kernel Keiper-Li asymptotics.
+
+Coffey:
+
+PA-2 conceptual overlap for Li-related oscillatory cancellation.
+
+Exact Li susceptibility specialization:
+
+originality unresolved.
+
+No subsuming source identified in the current audit.
+
+### RH conditional primitive bound
+
+For fixed relative width,
+
+\[
+\|F\|_\infty
+=
+O_\eta
+\left(
+\frac{\log H}
+{(\log\log H)^2}
+\right).
+\]
+
+### RH conditional mean discrepancy bound
+
+\[
+\overline E
+=
+O_\eta
+\left(
+\frac{\log H}
+{H(\log\log H)^2}
+\right).
+\]
+
+### Direct second derivative profile
+
+\[
+t^4\chi_n''(t)
+=
+K_{Li}^{(2)}(n/t)
++
+O(t^{-2}),
+\]
+
+uniformly on compact positive matched-scale coordinates.
+
+Here
+
+\[
+K_{Li}^{(2)}(q)
+=
+2q^4\cos q
+-
+48q^2\cos q
+-
+48q\sin q.
+\]
+
+### Conditional response theorem
+
+Assume RH.
+
+For fixed \(\eta>0\) and compact positive \(n/H\)-ranges,
+
+\[
+R_{\mathrm{int}}
+=
+O_{K,\eta}
+\left(
+\frac{\log H}
+{H^3(\log\log H)^2}
+\right).
+\]
+
+Therefore
+
+\[
+H^2R_{\mathrm{int}}\to0.
+\]
+
+### Conditional normalized-share consequence
+
+If the atom profile is uniformly nondegenerate,
+
+\[
+|\Psi_{Li}(n/H)|\ge\delta>0,
+\]
+
+then the normalized interior share tends to zero.
+
+No global statement is made on profile-degenerate paths.
+
+### RH consequence
+
+The theorem assumes RH.
+
+It does not prove RH.
+

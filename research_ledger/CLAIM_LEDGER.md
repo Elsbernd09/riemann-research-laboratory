@@ -5538,3 +5538,262 @@ PROVED IN PROJECT — REPAIRED DEPENDENCY
 
 only through the direct derivative proof recorded in Phase 5F-A.
 
+
+---
+
+## CL-0373
+
+**Status:** PRIOR-ART DISPOSITION — CLASSICAL ANCESTRY
+
+**Statement:** The project centered discrepancy primitive is reducible to a secant-detrended increment of the classical \(S_1\)-type antiderivative of the Riemann-von Mangoldt argument term, plus the corresponding detrended integrated \(O(1/t)\) remainder.
+
+**Disposition:** PA-4 for primitive ancestry.
+
+No novelty claim is permitted for the primitive itself.
+
+---
+
+## CL-0374
+
+**Status:** PROVED IN PROJECT — EXACT CLASSICAL BRIDGE
+
+**Statement:** If
+
+\[
+A(t)=\int_{t_0}^tE(u)du,
+\]
+
+then
+
+\[
+F(t)
+=
+A(t)-A(H)
+-
+\frac{t-H}{B-H}
+\left(
+A(B)-A(H)
+\right).
+\]
+
+With
+
+\[
+E=S+r,
+\qquad
+r(t)=O(1/t),
+\]
+
+this is exactly the secant-detrended \(S_1\) increment plus the corresponding integrated-remainder contribution.
+
+---
+
+## CL-0375
+
+**Status:** PROVED IN PROJECT — CONDITIONAL ON RH
+
+**Statement:** For fixed
+
+\[
+\eta>0,
+\qquad
+B=(1+\eta)H,
+\]
+
+the classical RH bound
+
+\[
+S_1(t)
+=
+O\left(
+\frac{\log t}
+{(\log\log t)^2}
+\right)
+\]
+
+implies
+
+\[
+\|F\|_{\infty,[H,B]}
+=
+O_\eta\left(
+\frac{\log H}
+{(\log\log H)^2}
+\right).
+\]
+
+---
+
+## CL-0376
+
+**Status:** PROVED IN PROJECT — CONDITIONAL ON RH
+
+**Statement:** Under the same fixed-relative-window assumptions,
+
+\[
+\overline E
+=
+O_\eta\left(
+\frac{\log H}
+{H(\log\log H)^2}
+\right).
+\]
+
+---
+
+## CL-0377
+
+**Status:** PROVED IN PROJECT — DIRECT SECOND-DERIVATIVE ASYMPTOTIC
+
+**Statement:** Uniformly for
+
+\[
+q=n/t
+\]
+
+in compact positive sets,
+
+\[
+t^4\chi_n''(t)
+=
+K_{Li}^{(2)}(q)
++
+O_K(t^{-2}),
+\]
+
+where
+
+\[
+K_{Li}^{(2)}(q)
+=
+3J_{Li}(q)
++
+qJ_{Li}'(q)
+\]
+
+and explicitly
+
+\[
+K_{Li}^{(2)}(q)
+=
+2q^4\cos q
+-
+48q^2\cos q
+-
+48q\sin q.
+\]
+
+**Proof dependency:** Direct differentiation of the exact analytic Phase 5F-A representation, not differentiation of a big-O remainder.
+
+---
+
+## CL-0378
+
+**Status:** PROVED IN PROJECT — CONDITIONAL LI-RESPONSE TRANSFER THEOREM
+
+**Statement:** Assume RH.
+
+Fix
+
+\[
+\eta>0
+\]
+
+and restrict
+
+\[
+n/H
+\]
+
+to a compact positive interval.
+
+Then
+
+\[
+\boxed{
+R_{\mathrm{int}}
+=
+O_{K,\eta}\left(
+\frac{\log H}
+{H^3(\log\log H)^2}
+\right).
+}
+\]
+
+Consequently,
+
+\[
+H^2R_{\mathrm{int}}
+\to0.
+\]
+
+**Restriction:** Conditional on RH. This theorem does not prove RH or exclude off-critical zeros.
+
+---
+
+## CL-0379
+
+**Status:** PROVED IN PROJECT — CONDITIONAL NONDEGENERATE SHARE CONSEQUENCE
+
+**Statement:** Under RH, if along a matched-scale sequence
+
+\[
+|\Psi_{Li}(n/H)|
+\ge\delta>0,
+\]
+
+then
+
+\[
+|R_{\mathrm{atom}}|
+\gg H^{-2}
+\]
+
+while
+
+\[
+R_{\mathrm{int}}
+=
+o(H^{-2}).
+\]
+
+Therefore the normalized interior component share tends to zero along that sequence.
+
+**Restriction:** A nondegeneracy condition is necessary. No global share-limit claim is made at profile zeros or other denominator-degenerate paths.
+
+---
+
+## CL-0380
+
+**Status:** PRIOR-ART DISPOSITION
+
+**Statement:** Classical \(S_1\) theory subsumes primitive ancestry, and standard integration by parts subsumes the broad primitive-to-kernel transfer mechanism.
+
+Voros provides strong structural prior art for integral/kernel treatment of Keiper-Li quantities, and Coffey provides conceptual prior art for Li-related oscillatory cancellation structures.
+
+The exact combined Li susceptibility specialization remains originality-unresolved.
+
+**Required language:** No subsuming source identified in the current audit.
+
+---
+
+## CL-0381
+
+**Status:** FAILURE-PREVENTION RULE
+
+**Statement:** The conditional estimate
+
+\[
+R_{\mathrm{int}}
+=
+O_{K,\eta}
+\left(
+\frac{\log H}
+{H^3(\log\log H)^2}
+\right)
+\]
+
+must never be described as progress toward proving RH unless an implication in the reverse direction, an RH-equivalent criterion, or an unconditional off-critical-zero constraint is separately proved.
+
+The present theorem assumes RH.
+
