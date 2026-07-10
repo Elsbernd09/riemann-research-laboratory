@@ -465,127 +465,311 @@ def smooth_counting_model_float(
     )
 
 
-def composite_gauss_legendre_absolute_integral(
+def bisect_float_root(
+    function: Callable[[float], float],
+    left: float,
+    right: float,
     *,
-    gammas: list[mp.mpf],
-    H: mp.mpf,
-    B: mp.mpf,
+    max_iterations: int = 100,
+) -> float:
+    """Bisect a sign-changing float64 bracket."""
+    f_left = float(
+        function(left)
+    )
+
+    f_right = float(
+        function(right)
+    )
+
+    if not np.isfinite(f_left):
+        raise ArithmeticError(
+            "Nonfinite left root-bracket value."
+        )
+
+    if not np.isfinite(f_right):
+        raise ArithmeticError(
+            "Nonfinite right root-bracket value."
+        )
+
+    if f_left == 0.0:
+        return left
+
+    if f_right == 0.0:
+        return right
+
+    if np.signbit(f_left) == np.signbit(f_right):
+        raise ValueError(
+            "Bisection bracket does not change sign."
+        )
+
+    a = float(left)
+    b = float(right)
+    fa = f_left
+
+    for _ in range(max_iterations):
+        midpoint = (
+            a + b
+        ) / 2.0
+
+        if (
+            midpoint == a
+            or midpoint == b
+        ):
+            return midpoint
+
+        f_midpoint = float(
+            function(midpoint)
+        )
+
+        if not np.isfinite(f_midpoint):
+            raise ArithmeticError(
+                "Nonfinite midpoint root value."
+            )
+
+        if f_midpoint == 0.0:
+            return midpoint
+
+        if (
+            np.signbit(fa)
+            !=
+            np.signbit(f_midpoint)
+        ):
+            b = midpoint
+        else:
+            a = midpoint
+            fa = f_midpoint
+
+    return (
+        a + b
+    ) / 2.0
+
+
+def deduplicate_float_roots(
+    roots: list[float],
+    *,
+    scale: float,
+) -> list[float]:
+    if not roots:
+        return []
+
+    ordered = sorted(
+        float(value)
+        for value in roots
+    )
+
+    tolerance = max(
+        1e-12,
+        5e-13 * max(
+            1.0,
+            abs(scale),
+        ),
+    )
+
+    deduplicated = [
+        ordered[0]
+    ]
+
+    for value in ordered[1:]:
+        if (
+            abs(
+                value
+                -
+                deduplicated[-1]
+            )
+            >
+            tolerance
+        ):
+            deduplicated.append(
+                value
+            )
+
+    return deduplicated
+
+
+def derivative_sign_change_roots(
+    *,
     n: int,
-    empirical_count: Callable[
-        [list[mp.mpf], mp.mpf],
-        int,
-    ],
-    order: int,
-    subpanels_per_zero_interval: int,
-) -> mp.mpf:
-    """Composite piecewise Gauss-Legendre integration.
+    left: float,
+    right: float,
+    sample_count: int,
+) -> list[float]:
+    """Locate sign-changing chi_n' roots by bracketing.
 
-    Each empirical-count interval is first identified
-    using authoritative zero ordinates.
-
-    The empirical staircase count is frozen on that open
-    zero interval.
-
-    Each zero interval is then divided uniformly into
-    smaller quadrature panels before Gauss-Legendre
-    evaluation. This improves resolution of sign changes
-    in E_D(t) * chi_n'(t) before the absolute value.
+    This intentionally targets sign changes because only
+    sign changes of the product create absolute-value
+    branch changes. Even-multiplicity derivative zeros do
+    not change the sign of the product.
     """
-    if order < 1:
-        raise ValueError(
-            "order must be positive."
-        )
-
-    if subpanels_per_zero_interval < 1:
-        raise ValueError(
-            "subpanels_per_zero_interval must "
-            "be positive."
-        )
-
-    internal_breakpoints = [
-        gamma
-        for gamma in gammas
-        if H < gamma < B
-    ]
-
-    zero_breakpoints_mp = [
-        H,
-        *internal_breakpoints,
-        B,
-    ]
-
-    zero_left = np.asarray(
-        [
-            float(value)
-            for value in zero_breakpoints_mp[:-1]
-        ],
+    samples = np.linspace(
+        left,
+        right,
+        sample_count,
         dtype=np.float64,
     )
 
-    zero_right = np.asarray(
-        [
-            float(value)
-            for value in zero_breakpoints_mp[1:]
-        ],
-        dtype=np.float64,
+    values = (
+        li_susceptibility_gamma_derivative_float(
+            n,
+            samples,
+        )
     )
 
-    interval_counts = np.asarray(
-        [
-            empirical_count(
-                gammas,
-                (
-                    zero_breakpoints_mp[index]
-                    +
-                    zero_breakpoints_mp[index + 1]
+    roots: list[float] = []
+
+    def scalar_derivative(
+        value: float,
+    ) -> float:
+        result = (
+            li_susceptibility_gamma_derivative_float(
+                n,
+                np.asarray(
+                    [value],
+                    dtype=np.float64,
+                ),
+            )
+        )
+
+        return float(
+            result[0]
+        )
+
+    for index in range(
+        len(samples) - 1
+    ):
+        x_left = float(
+            samples[index]
+        )
+
+        x_right = float(
+            samples[index + 1]
+        )
+
+        y_left = float(
+            values[index]
+        )
+
+        y_right = float(
+            values[index + 1]
+        )
+
+        if not np.isfinite(y_left):
+            raise ArithmeticError(
+                "Nonfinite derivative scan value."
+            )
+
+        if not np.isfinite(y_right):
+            raise ArithmeticError(
+                "Nonfinite derivative scan value."
+            )
+
+        if y_left == 0.0:
+            roots.append(
+                x_left
+            )
+
+        if (
+            y_left != 0.0
+            and y_right != 0.0
+            and np.signbit(y_left)
+            !=
+            np.signbit(y_right)
+        ):
+            roots.append(
+                bisect_float_root(
+                    scalar_derivative,
+                    x_left,
+                    x_right,
                 )
-                /
-                2
             )
-            for index in range(
-                len(zero_breakpoints_mp) - 1
+
+        if (
+            index
+            ==
+            len(samples) - 2
+            and y_right == 0.0
+        ):
+            roots.append(
+                x_right
             )
-        ],
-        dtype=np.float64,
+
+    return deduplicate_float_roots(
+        roots,
+        scale=(
+            left + right
+        ) / 2.0,
     )
 
-    subdivision_edges = np.linspace(
-        0.0,
-        1.0,
-        subpanels_per_zero_interval + 1,
-        dtype=np.float64,
+
+def discrepancy_root_if_present(
+    *,
+    interval_count: int,
+    left: float,
+    right: float,
+) -> float | None:
+    """Return the unique E_D zero if the interval contains one.
+
+    On the relevant positive-height range,
+
+        E_D(t) = interval_count - M(t)
+
+    is strictly decreasing because M'(t) > 0.
+    """
+    def E_float(
+        value: float,
+    ) -> float:
+        result = (
+            float(interval_count)
+            -
+            float(
+                smooth_counting_model_float(
+                    np.asarray(
+                        [value],
+                        dtype=np.float64,
+                    )
+                )[0]
+            )
+        )
+
+        return result
+
+    f_left = E_float(
+        left
     )
 
-    fractions_left = subdivision_edges[:-1]
-    fractions_right = subdivision_edges[1:]
-
-    zero_width = (
-        zero_right - zero_left
+    f_right = E_float(
+        right
     )
 
-    panel_left = (
-        zero_left[:, None]
-        +
-        zero_width[:, None]
-        *
-        fractions_left[None, :]
+    if f_left == 0.0:
+        return left
+
+    if f_right == 0.0:
+        return right
+
+    if (
+        np.signbit(f_left)
+        ==
+        np.signbit(f_right)
+    ):
+        return None
+
+    return bisect_float_root(
+        E_float,
+        left,
+        right,
     )
 
-    panel_right = (
-        zero_left[:, None]
-        +
-        zero_width[:, None]
-        *
-        fractions_right[None, :]
-    )
 
-    panel_midpoint = (
-        panel_left + panel_right
-    ) / 2.0
-
-    panel_half_width = (
-        panel_right - panel_left
-    ) / 2.0
+def signed_segment_gauss_legendre(
+    *,
+    interval_count: int,
+    n: int,
+    left: float,
+    right: float,
+    order: int,
+) -> float:
+    if right <= left:
+        return 0.0
 
     nodes, weights = (
         np.polynomial.legendre.leggauss(
@@ -593,16 +777,22 @@ def composite_gauss_legendre_absolute_integral(
         )
     )
 
+    midpoint = (
+        left + right
+    ) / 2.0
+
+    half_width = (
+        right - left
+    ) / 2.0
+
     sample_points = (
-        panel_midpoint[:, :, None]
+        midpoint
         +
-        panel_half_width[:, :, None]
-        *
-        nodes[None, None, :]
+        half_width * nodes
     )
 
     E_values = (
-        interval_counts[:, None, None]
+        float(interval_count)
         -
         smooth_counting_model_float(
             sample_points
@@ -616,42 +806,175 @@ def composite_gauss_legendre_absolute_integral(
         )
     )
 
-    integrand = np.abs(
+    signed_integrand = (
         E_values
         *
         derivative_values
     )
 
-    panel_integrals = (
-        panel_half_width
+    result = (
+        half_width
         *
         np.sum(
-            integrand
+            weights
             *
-            weights[None, None, :],
-            axis=2,
+            signed_integrand,
+            dtype=np.float64,
         )
     )
 
-    result = np.sum(
-        panel_integrals,
-        dtype=np.float64,
-    )
+    if not np.isfinite(result):
+        raise ArithmeticError(
+            "Nonfinite signed segment integral."
+        )
+
+    return float(result)
+
+
+def sign_split_absolute_integral(
+    *,
+    gammas: list[mp.mpf],
+    H: mp.mpf,
+    B: mp.mpf,
+    n: int,
+    empirical_count: Callable[
+        [list[mp.mpf], mp.mpf],
+        int,
+    ],
+    derivative_scan_count: int,
+    quadrature_order: int,
+) -> tuple[
+    mp.mpf,
+    int,
+    int,
+]:
+    """Integrate |E_D * chi_n'| after explicit sign splitting."""
+    internal_breakpoints = [
+        gamma
+        for gamma in gammas
+        if H < gamma < B
+    ]
+
+    zero_breakpoints_mp = [
+        H,
+        *internal_breakpoints,
+        B,
+    ]
+
+    total = 0.0
+
+    derivative_root_count = 0
+    discrepancy_root_count = 0
+
+    for index in range(
+        len(zero_breakpoints_mp) - 1
+    ):
+        left_mp = (
+            zero_breakpoints_mp[index]
+        )
+
+        right_mp = (
+            zero_breakpoints_mp[index + 1]
+        )
+
+        left = float(
+            left_mp
+        )
+
+        right = float(
+            right_mp
+        )
+
+        interval_count = empirical_count(
+            gammas,
+            (
+                left_mp + right_mp
+            )
+            /
+            2
+        )
+
+        derivative_roots = (
+            derivative_sign_change_roots(
+                n=n,
+                left=left,
+                right=right,
+                sample_count=derivative_scan_count,
+            )
+        )
+
+        E_root = discrepancy_root_if_present(
+            interval_count=interval_count,
+            left=left,
+            right=right,
+        )
+
+        derivative_root_count += len(
+            derivative_roots
+        )
+
+        if E_root is not None:
+            discrepancy_root_count += 1
+
+        split_points = [
+            left,
+            *[
+                root
+                for root in derivative_roots
+                if left < root < right
+            ],
+            *(
+                [E_root]
+                if (
+                    E_root is not None
+                    and left < E_root < right
+                )
+                else []
+            ),
+            right,
+        ]
+
+        split_points = deduplicate_float_roots(
+            split_points,
+            scale=(
+                left + right
+            ) / 2.0,
+        )
+
+        for segment_left, segment_right in zip(
+            split_points,
+            split_points[1:],
+        ):
+            signed_integral = (
+                signed_segment_gauss_legendre(
+                    interval_count=interval_count,
+                    n=n,
+                    left=segment_left,
+                    right=segment_right,
+                    order=quadrature_order,
+                )
+            )
+
+            total += abs(
+                signed_integral
+            )
 
     if (
-        not np.isfinite(result)
-        or result <= 0
+        not np.isfinite(total)
+        or total <= 0
     ):
         raise ArithmeticError(
-            "Invalid composite quadrature "
-            "absolute integral: "
-            f"{result}"
+            "Invalid sign-split absolute integral."
         )
 
-    return mp.mpf(
-        repr(
-            float(result)
-        )
+    return (
+        mp.mpf(
+            repr(
+                float(total)
+            )
+        ),
+        derivative_root_count,
+        discrepancy_root_count,
     )
 
 
@@ -669,41 +992,73 @@ def build_absolute_integral(
     mp.mpf,
     mp.mpf,
 ]:
-    """Return fine composite value and coarse/fine discrepancy.
+    """Sign-split absolute integral with adversarial root-scan audit.
 
-    Coarse rule:
-        8 subpanels per zero interval,
-        16 Gauss-Legendre nodes per subpanel.
+    Coarse:
+        derivative scan 65 samples per zero interval,
+        16-node Gauss-Legendre on sign-constant segments.
 
-    Fine rule:
-        16 subpanels per zero interval,
-        32 Gauss-Legendre nodes per subpanel.
+    Fine:
+        derivative scan 129 samples per zero interval,
+        32-node Gauss-Legendre on sign-constant segments.
 
-    The frozen acceptance threshold remains 1e-7.
+    Acceptance requires:
+        identical derivative sign-change root count,
+        identical discrepancy-root count,
+        relative integral discrepancy <= 1e-7.
     """
-    coarse_value = (
-        composite_gauss_legendre_absolute_integral(
-            gammas=gammas,
-            H=H,
-            B=B,
-            n=n,
-            empirical_count=empirical_count,
-            order=16,
-            subpanels_per_zero_interval=8,
-        )
+    (
+        coarse_value,
+        coarse_derivative_roots,
+        coarse_discrepancy_roots,
+    ) = sign_split_absolute_integral(
+        gammas=gammas,
+        H=H,
+        B=B,
+        n=n,
+        empirical_count=empirical_count,
+        derivative_scan_count=65,
+        quadrature_order=16,
     )
 
-    fine_value = (
-        composite_gauss_legendre_absolute_integral(
-            gammas=gammas,
-            H=H,
-            B=B,
-            n=n,
-            empirical_count=empirical_count,
-            order=32,
-            subpanels_per_zero_interval=16,
-        )
+    (
+        fine_value,
+        fine_derivative_roots,
+        fine_discrepancy_roots,
+    ) = sign_split_absolute_integral(
+        gammas=gammas,
+        H=H,
+        B=B,
+        n=n,
+        empirical_count=empirical_count,
+        derivative_scan_count=129,
+        quadrature_order=32,
     )
+
+    if (
+        coarse_derivative_roots
+        !=
+        fine_derivative_roots
+    ):
+        raise ArithmeticError(
+            "Phase 5M derivative sign-change "
+            "root-count audit failure: "
+            f"coarse={coarse_derivative_roots}, "
+            f"fine={fine_derivative_roots}, "
+            f"H={mp.nstr(H, 20)}, "
+            f"B={mp.nstr(B, 20)}, "
+            f"n={n}"
+        )
+
+    if (
+        coarse_discrepancy_roots
+        !=
+        fine_discrepancy_roots
+    ):
+        raise ArithmeticError(
+            "Phase 5M discrepancy-root count "
+            "audit failure."
+        )
 
     relative_discrepancy = (
         abs(
@@ -724,7 +1079,7 @@ def build_absolute_integral(
         mp.mpf("1e-7")
     ):
         raise ArithmeticError(
-            "Phase 5M composite-quadrature "
+            "Phase 5M sign-split quadrature "
             "self-convergence failure: "
             f"relative discrepancy="
             f"{mp.nstr(relative_discrepancy, 30)}, "
@@ -1162,7 +1517,7 @@ def main() -> None:
                         absolute_integral,
                         60,
                     ),
-                    "quadrature_composite_relative_discrepancy": mp.nstr(
+                    "quadrature_sign_split_relative_discrepancy": mp.nstr(
                         quadrature_relative_discrepancy,
                         60,
                     ),

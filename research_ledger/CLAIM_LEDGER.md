@@ -4735,3 +4735,91 @@ Every accepted point must retain relative coarse/fine discrepancy at most
 
 The original numerical threshold is unchanged.
 
+
+---
+
+## CL-0336
+
+**Status:** FAILED NUMERICAL IMPLEMENTATION VALIDATION
+
+**Statement:** The Phase 5M composite-subpanel quadrature also failed the frozen \(10^{-7}\) self-convergence threshold on the first tested point.
+
+Observed coarse/fine relative discrepancy was approximately
+
+\[
+7.61\times10^{-7}.
+\]
+
+**Disposition:** No mechanism result was accepted from the composite-quadrature run.
+
+The frozen tolerance was not loosened.
+
+---
+
+## CL-0337
+
+**Status:** NUMERICAL METHOD REPAIR — SIGN-SPLIT FORMULATION
+
+**Statement:** On every open empirical zero-count interval,
+
+\[
+E_D(t)=k-M(t).
+\]
+
+At the positive heights used in the project,
+
+\[
+M'(t)=\frac{1}{2\pi}\log\frac{t}{2\pi}>0.
+\]
+
+Therefore \(E_D\) is strictly decreasing and has at most one zero on each such interval.
+
+The absolute-integral engine now splits at this discrepancy zero when present and at sign-changing zeros of
+
+\[
+\chi_n'(t).
+\]
+
+---
+
+## CL-0338
+
+**Status:** PROVED IN PROJECT — ELEMENTARY SIGN-SPLIT IDENTITY
+
+**Statement:** If a partition contains every sign change of
+
+\[
+E_D(t)\chi_n'(t),
+\]
+
+then
+
+\[
+\int_H^B
+|E_D(t)\chi_n'(t)|dt
+=
+\sum_r
+\left|
+\int_{\alpha_r}^{\beta_r}
+E_D(t)\chi_n'(t)dt
+\right|.
+\]
+
+**Proof:** The integrand has constant sign on every partition segment.
+
+---
+
+## CL-0339
+
+**Status:** NUMERICAL VALIDATION RULE
+
+**Statement:** The Phase 5M sign-split engine compares derivative sign-change scans using 65 and 129 samples per empirical zero interval.
+
+Accepted points require matching derivative sign-change root counts, matching discrepancy-root counts, and coarse/fine relative integral discrepancy at most
+
+\[
+10^{-7}.
+\]
+
+The frozen integral acceptance threshold remains unchanged.
+

@@ -3817,3 +3817,55 @@ Fine rule:
 
 The mathematical target integral and Phase 5M mechanism rules remain unchanged.
 
+
+### Phase 5M second numerical-method failure
+
+The composite-subpanel quadrature improved the first-point coarse/fine discrepancy to approximately
+
+\[
+7.61\times10^{-7},
+\]
+
+but this remained above the frozen threshold
+
+\[
+10^{-7}.
+\]
+
+No Phase 5M mechanism statistic was accepted.
+
+The tolerance was not loosened.
+
+### Sign-split repair
+
+On each open empirical zero-count interval,
+
+\[
+E_D(t)=k-M(t)
+\]
+
+is strictly decreasing at the positive heights used in the project because
+
+\[
+M'(t)>0.
+\]
+
+Thus there is at most one discrepancy zero per empirical interval.
+
+The repaired absolute-integral engine splits at:
+
+1. the discrepancy zero when present;
+2. every detected sign-changing zero of \(\chi_n'(t)\).
+
+The resulting signed smooth segment integrals are evaluated and their absolute magnitudes summed.
+
+Coarse derivative-root scan:
+
+65 samples per empirical interval.
+
+Fine derivative-root scan:
+
+129 samples per empirical interval.
+
+Accepted points require root-count agreement and relative coarse/fine integral discrepancy at most \(10^{-7}\).
+
