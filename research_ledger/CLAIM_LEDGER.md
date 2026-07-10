@@ -4522,3 +4522,64 @@ Window eligibility depends only on dataset containment and occupancy at least 25
 
 Primary Phase 5L conclusions are determined by P-EXT-002 through P-EXT-005 before secondary refitted-axis interpretation.
 
+
+---
+
+## CL-0324
+
+**Status:** COMPUTATIONAL DATASET VALIDATION
+
+**Prediction ID:** P-EXT-001.
+
+**Result:** PASS.
+
+**Statement:** The Phase 5L higher-zero dataset contains exactly 1000 stored critical-line ordinates with authoritative indices
+
+\[
+501,502,\ldots,1500.
+\]
+
+Every stored numerical zeta residual satisfies
+
+\[
+|\zeta(1/2+i\gamma_j)|<10^{-40}.
+\]
+
+The maximum stored residual was approximately
+
+\[
+1.19\times10^{-77}.
+\]
+
+---
+
+## CL-0325
+
+**Status:** DATASET PROVENANCE FREEZE
+
+**Statement:** The Phase 5L higher-zero CSV has SHA-256
+
+`f72d870fce8d57d4df27bab4fc4ea39402cabfce09d998d05738fb0c37e70158`.
+
+The dataset hash is frozen before any higher-zero component-share or frozen-axis replication score is computed.
+
+---
+
+## CL-0326
+
+**Status:** MODEL-PROVENANCE VALIDATION
+
+**Statement:** Before Phase 5L external scoring, the current Phase 5J simplex source CSV hash was rechecked against the source hash stored in the frozen primary-axis artifact.
+
+The frozen first-500 centroid and principal axis therefore remain tied to the same source population used at model freeze.
+
+---
+
+## CL-0327
+
+**Status:** FAILURE-PREVENTION RULE
+
+**Statement:** P-EXT-002 through P-EXT-007 remain unscored at the higher-zero dataset hash-freeze stage.
+
+Dataset validation must not be interpreted as geometric replication.
+

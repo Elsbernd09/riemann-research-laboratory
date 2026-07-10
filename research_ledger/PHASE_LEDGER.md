@@ -3678,3 +3678,48 @@ No asymptotic theorem.
 
 No RH consequence.
 
+
+### Higher-zero dataset generation and hash freeze
+
+Status:
+
+COMPLETE.
+
+Generated authoritative zero indices:
+
+\[
+501\text{ through }1500.
+\]
+
+Stored zero count:
+
+\[
+1000.
+\]
+
+Working precision:
+
+\[
+80\text{ dps}.
+\]
+
+Maximum stored absolute zeta residual:
+
+approximately
+
+\[
+1.19\times10^{-77}.
+\]
+
+Higher-zero CSV SHA-256:
+
+`f72d870fce8d57d4df27bab4fc4ea39402cabfce09d998d05738fb0c37e70158`
+
+P-EXT-001:
+
+PASS.
+
+The primary Phase 5J simplex source hash was also revalidated against the frozen principal-axis artifact before external scoring.
+
+P-EXT-002 through P-EXT-007 remain unscored.
+

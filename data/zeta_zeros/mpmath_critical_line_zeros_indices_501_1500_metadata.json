@@ -1,0 +1,22 @@
+{
+  "dataset_name": "mpmath_critical_line_zeros_indices_501_1500",
+  "authoritative_index_start": 501,
+  "authoritative_index_end": 1500,
+  "zero_count": 1000,
+  "working_decimal_digits": 80,
+  "validation_threshold": "1e-40",
+  "exact_authoritative_index_sequence": true,
+  "all_stored_residuals_below_threshold": true,
+  "maximum_stored_absolute_zeta_residual": "1.1894640698374775338581931067694990589171607659197823471622343500872332792983982e-77",
+  "first_gamma": "812.77110838910934271980128866232484409054646320538553737787578099054501752741543",
+  "last_gamma": "1980.9100430910242332550443807297599447510911801934063453368615985411564104988407",
+  "strictly_increasing_gamma": true,
+  "csv_sha256": "f72d870fce8d57d4df27bab4fc4ea39402cabfce09d998d05738fb0c37e70158",
+  "P_EXT_001": "PASS",
+  "git_commit_at_generation_start": "b1b0fd3c7e9fb3259c3f9dd6872e79e66e34eeef",
+  "python_version": "3.9.6 (default, Apr 30 2025, 02:07:17) \n[Clang 17.0.0 (clang-1700.0.13.5)]",
+  "mpmath_version": "1.3.0",
+  "platform": "macOS-15.7.4-arm64-arm-64bit",
+  "runtime_seconds_current_invocation": 344.521699375,
+  "interpretation_boundary": "Finite numerical critical-line zero ordinates generated with mpmath.zetazero. This dataset does not prove RH, zero completeness beyond the stated numerical generation protocol, or zero simplicity."
+}
