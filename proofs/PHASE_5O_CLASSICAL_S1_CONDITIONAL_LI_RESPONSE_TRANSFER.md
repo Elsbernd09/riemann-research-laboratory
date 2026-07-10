@@ -2,7 +2,7 @@
 
 ## Status
 
-CONDITIONAL THEOREM UNDER THE RIEMANN HYPOTHESIS.
+CONDITIONAL THEOREM UNDER THE RIEMANN HYPOTHESIS — ALGEBRA REPAIRED AFTER FAILED VALIDATOR.
 
 ## Prior-art boundary
 
@@ -619,8 +619,8 @@ Direct differentiation gives
 J_{Li}'(q)
 =
 2q^3\cos q
--
-6q^2\sin q
++
+18q^2\sin q
 -
 36q\cos q
 -
@@ -634,14 +634,46 @@ Hence
 K_{Li}^{(2)}(q)
 =
 2q^4\cos q
++
+24q^3\sin q
 -
-48q^2\cos q
+72q^2\cos q
 -
 48q\sin q.
 }
 \]
 
-The \(q^3\sin q\) terms cancel exactly.
+The \(q^3\sin q\) terms do not cancel.
+
+Indeed,
+
+\[
+3J_{Li}(q)
+\]
+
+contributes
+
+\[
+6q^3\sin q,
+\]
+
+while
+
+\[
+qJ_{Li}'(q)
+\]
+
+contributes
+
+\[
+18q^3\sin q.
+\]
+
+The total contribution is therefore
+
+\[
+24q^3\sin q.
+\]
 
 Thus, uniformly for \(q\) in compact positive sets,
 
@@ -1003,3 +1035,74 @@ It does not establish unconditional asymptotic suppression.
 
 Originality of the exact Li-susceptibility specialization remains under active prior-art review.
 
+
+
+---
+
+# Phase 5O-A adversarial correction
+
+The initial Phase 5O second-derivative validator failed before the
+second-derivative theorem was accepted.
+
+The failure exposed an algebra error in the displayed derivative of
+
+\[
+J_{Li}(q).
+\]
+
+The originally committed derivative was false.
+
+The correct derivative is
+
+\[
+\boxed{
+J_{Li}'(q)
+=
+2q^3\cos q
++
+18q^2\sin q
+-
+36q\cos q
+-
+12\sin q.
+}
+\]
+
+Therefore
+
+\[
+K_{Li}^{(2)}(q)
+=
+3J_{Li}(q)
++
+qJ_{Li}'(q)
+\]
+
+equals
+
+\[
+\boxed{
+K_{Li}^{(2)}(q)
+=
+2q^4\cos q
++
+24q^3\sin q
+-
+72q^2\cos q
+-
+48q\sin q.
+}
+\]
+
+The initial claim that the \(q^3\sin q\) terms cancel was false.
+
+The original shell workflow also continued after the validator exception
+and committed the unvalidated Phase 5O files.
+
+Therefore the original Phase 5O completion banner was procedurally void.
+
+The conditional theorem may be restored only after the corrected
+second-derivative profile passes the unchanged numerical consistency
+validator.
+
+No numerical acceptance threshold is changed.

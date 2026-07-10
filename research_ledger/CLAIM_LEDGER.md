@@ -5797,3 +5797,132 @@ must never be described as progress toward proving RH unless an implication in t
 
 The present theorem assumes RH.
 
+
+
+---
+
+## CL-0382
+
+**Status:** FAILED CLAIM — ALGEBRA ERROR
+
+**Statement:** The initial Phase 5O expression
+
+\[
+J_{Li}'(q)
+=
+2q^3\cos q
+-
+6q^2\sin q
+-
+36q\cos q
+-
+12\sin q
+\]
+
+was false.
+
+The initial derived expression
+
+\[
+K_{Li}^{(2)}(q)
+=
+2q^4\cos q
+-
+48q^2\cos q
+-
+48q\sin q
+\]
+
+was therefore also false.
+
+**Failure evidence:** The second-derivative profile validator reported a
+nonzero profile identity error, including approximately
+
+\[
+3917.59
+\]
+
+at \(q=20\), and raised an ArithmeticError.
+
+**Disposition:** Initial Phase 5O second-derivative profile rejected.
+
+---
+
+## CL-0383
+
+**Status:** PROVED IN PROJECT — ALGEBRAIC CORRECTION
+
+**Statement:** The correct derivative is
+
+\[
+\boxed{
+J_{Li}'(q)
+=
+2q^3\cos q
++
+18q^2\sin q
+-
+36q\cos q
+-
+12\sin q.
+}
+\]
+
+Consequently,
+
+\[
+\boxed{
+K_{Li}^{(2)}(q)
+=
+3J_{Li}(q)
++
+qJ_{Li}'(q)
+}
+\]
+
+equals
+
+\[
+\boxed{
+K_{Li}^{(2)}(q)
+=
+2q^4\cos q
++
+24q^3\sin q
+-
+72q^2\cos q
+-
+48q\sin q.
+}
+\]
+
+The previously claimed \(q^3\sin q\) cancellation does not occur.
+
+---
+
+## CL-0384
+
+**Status:** PROCEDURAL FAILURE-PREVENTION
+
+**Statement:** The original Phase 5O shell workflow continued after the
+validator failed and committed unvalidated theorem files.
+
+A printed completion banner is not evidence of research-phase completion.
+
+Future theorem-freeze shell workflows must stop immediately on validator
+failure by using `set -euo pipefail` or an equivalent explicit success guard.
+
+---
+
+## CL-0385
+
+**Status:** CLAIM STATUS QUARANTINE
+
+**Statement:** CL-0377 through CL-0379 are not accepted through the
+original Phase 5O commit.
+
+CL-0377 requires the corrected profile in CL-0383.
+
+CL-0378 and CL-0379 may be restored only after the corrected
+second-derivative validator passes without changing its acceptance rule.
+

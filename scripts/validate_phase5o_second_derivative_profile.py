@@ -24,8 +24,8 @@ def J_prime(
 ) -> mp.mpf:
     return (
         2 * q**3 * mp.cos(q)
-        -
-        6 * q**2 * mp.sin(q)
+        +
+        18 * q**2 * mp.sin(q)
         -
         36 * q * mp.cos(q)
         -
@@ -48,8 +48,10 @@ def K2_explicit(
 ) -> mp.mpf:
     return (
         2 * q**4 * mp.cos(q)
+        +
+        24 * q**3 * mp.sin(q)
         -
-        48 * q**2 * mp.cos(q)
+        72 * q**2 * mp.cos(q)
         -
         48 * q * mp.sin(q)
     )

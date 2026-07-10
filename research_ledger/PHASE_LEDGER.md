@@ -4457,3 +4457,109 @@ The theorem assumes RH.
 
 It does not prove RH.
 
+
+
+---
+
+## Phase 5O-A — Failed Validator and Second-Derivative Algebra Repair
+
+Status: REPAIR IN PROGRESS
+
+### Trigger
+
+The Phase 5O second-derivative validator failed.
+
+At \(q=20\), the explicit profile identity error was approximately
+
+\[
+3917.59.
+\]
+
+The validator raised:
+
+`ArithmeticError: K2 explicit-profile identity validation failed.`
+
+### Algebra error
+
+The derivative of
+
+\[
+-12q^2\cos q
+\]
+
+was combined incorrectly in the initial Phase 5O calculation.
+
+Correctly,
+
+\[
+\frac{d}{dq}
+\left(
+-12q^2\cos q
+\right)
+=
+-24q\cos q
++
+12q^2\sin q.
+\]
+
+Thus
+
+\[
+J_{Li}'(q)
+=
+2q^3\cos q
++
+18q^2\sin q
+-
+36q\cos q
+-
+12\sin q.
+\]
+
+### Correct second-derivative profile
+
+\[
+K_{Li}^{(2)}(q)
+=
+3J_{Li}(q)
++
+qJ_{Li}'(q)
+\]
+
+equals
+
+\[
+\boxed{
+K_{Li}^{(2)}(q)
+=
+2q^4\cos q
++
+24q^3\sin q
+-
+72q^2\cos q
+-
+48q\sin q.
+}
+\]
+
+The initial claimed cancellation of the \(q^3\sin q\) terms was false.
+
+### Procedural failure
+
+The original shell workflow did not stop when the validator raised an
+exception.
+
+The invalid theorem files were committed and a Phase 5O completion
+banner was printed.
+
+That banner is void.
+
+### Acceptance rule
+
+The corrected validator must pass under the existing profile identity
+threshold.
+
+No threshold loosening is permitted.
+
+Only after a pass may the conditional response theorem be restored.
+
