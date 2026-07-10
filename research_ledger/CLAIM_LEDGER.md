@@ -6284,3 +6284,180 @@ The target is not merely to define a horizontal defect measure, but to recover o
 
 Any statistic invariant under fixed-ordinate horizontal displacement cannot by itself distinguish RH from all off-critical zero geometries.
 
+
+---
+
+## CL-0397
+
+**Status:** PROVED IN PROJECT — LI CONFORMAL HORIZONTAL DEFECT
+
+**Statement:** For
+
+\[
+w(\rho)=1-\frac1\rho
+\]
+
+and
+
+\[
+\rho=\beta+i\gamma,
+\]
+
+one has
+
+\[
+|w|^2-1
+=
+\frac{1-2\beta}
+{\beta^2+\gamma^2}.
+\]
+
+Therefore
+
+\[
+|w|=1
+\iff
+\Re\rho=\frac12.
+\]
+
+Writing
+
+\[
+w=e^{u+i\theta},
+\]
+
+the radial coordinate \(u\) vanishes exactly on the critical line.
+
+---
+
+## CL-0398
+
+**Status:** PROVED IN PROJECT — EXACT SYMMETRIC QUARTET LI CONTRAST
+
+**Statement:** For a symmetric quartet with Li coordinate
+
+\[
+w=e^{u+i\theta},
+\]
+
+the zero-side Li quartet contribution is
+
+\[
+L_n(u,\theta)
+=
+4-
+4\cos(n\theta)\cosh(nu).
+\]
+
+Relative to the critical-line reference at the same angular coordinate,
+
+\[
+\boxed{
+\Delta_n(u,\theta)
+=
+-4\cos(n\theta)
+\left(
+\cosh(nu)-1
+\right).
+}
+\]
+
+---
+
+## CL-0399
+
+**Status:** PROVED IN PROJECT — LINEAR POSITIVITY OBSTRUCTION
+
+**Statement:** Let
+
+\[
+\mathcal D_a(u,\theta)
+=
+\sum_n
+a_n\Delta_n(u,\theta)
+\]
+
+be a finite linear filter, or an infinite filter satisfying absolute convergence at fixed \(u\ne0\).
+
+If
+
+\[
+\mathcal D_a(u,\theta)\ge0
+\]
+
+for every \(\theta\), then all filter coefficients vanish.
+
+**Reason:** The filtered quartet contrast is a continuous cosine series with zero angular mean. Universal nonnegativity and zero mean force it to vanish identically, and Fourier uniqueness forces all coefficients to vanish.
+
+---
+
+## CL-0400
+
+**Status:** FAILED RESEARCH DIRECTION
+
+**Statement:** A universal positive horizontal zero-defect quantity cannot be extracted from the symmetric quartet Li contrasts by a nontrivial fixed linear filter satisfying the Phase 5Q convergence assumptions.
+
+**Disposition:** Fixed linear-filter extraction of a positive horizontal defect is abandoned.
+
+---
+
+## CL-0401
+
+**Status:** PROVED IN PROJECT — SINGLE-QUARTET NONLINEAR ENERGY
+
+**Statement:** Let
+
+\[
+b_n>0
+\]
+
+for every positive integer \(n\), and assume convergence.
+
+Then
+
+\[
+\mathcal E_b(u,\theta)
+=
+\sum_{n\ge1}
+b_n
+\Delta_n(u,\theta)^2
+\]
+
+satisfies
+
+\[
+\mathcal E_b(u,\theta)\ge0
+\]
+
+and, for a single symmetric quartet,
+
+\[
+\boxed{
+\mathcal E_b(u,\theta)=0
+\iff
+u=0.
+}
+\]
+
+Thus the energy is faithful to single-quartet horizontal displacement.
+
+---
+
+## CL-0402
+
+**Status:** GLOBAL AGGREGATION OBSTRUCTION
+
+**Statement:** Squaring an aggregated Li contrast does not recover the sum of single-quartet energies because cross terms between distinct zero orbits can have either sign.
+
+Therefore CL-0401 does not yield a global RH-equivalent criterion for the ordinary aggregated Li sequence.
+
+---
+
+## CL-0403
+
+**Status:** CRITICAL RESEARCH BOTTLENECK
+
+**Statement:** A globally faithful positive horizontal-defect transform requires separation or orthogonalization of zero-orbit contributions before nonlinear energy aggregation.
+
+The next audit targets angular/radial averaging, Parseval identities, Hardy-space norms, and the analytic singularity structure of the Li generating function.
+

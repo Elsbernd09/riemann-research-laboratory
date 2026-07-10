@@ -4787,3 +4787,102 @@ Seek a transform of horizontal zero displacement that is:
 
 None.
 
+
+---
+
+## Phase 5Q — Linear Li-Filter Positivity Obstruction
+
+Status: COMPLETE
+
+### Trigger
+
+Phase 5P showed that scalar zero-counting primitives are horizontally blind.
+
+The project then tested whether a positive horizontal zero-defect moment could be extracted by a fixed linear filter of Li quartet contrasts.
+
+### Li radial defect coordinate
+
+For
+
+\[
+w(\rho)=1-\frac1\rho,
+\]
+
+\[
+|w|=1
+\iff
+\Re\rho=\frac12.
+\]
+
+Writing
+
+\[
+w=e^{u+i\theta},
+\]
+
+the radial coordinate \(u\) vanishes exactly on the critical line.
+
+### Exact quartet contrast
+
+\[
+\Delta_n(u,\theta)
+=
+-4\cos(n\theta)
+\left(
+\cosh(nu)-1
+\right).
+\]
+
+### Linear-filter theorem
+
+Any finite fixed linear filter, or absolutely convergent infinite fixed linear filter, that is nonnegative for every angular phase at fixed nonzero \(u\) must be trivial.
+
+Reason:
+
+the filtered contrast has zero angular mean.
+
+Universal nonnegativity therefore forces identically zero angular response.
+
+Fourier uniqueness forces every coefficient to vanish.
+
+### Failed direction
+
+Universal positive horizontal defect from a fixed linear Li filter:
+
+ABANDONED.
+
+### Nonlinear single-quartet energy
+
+For positive weights \(b_n\),
+
+\[
+\mathcal E_b
+=
+\sum_n
+b_n\Delta_n^2
+\]
+
+is nonnegative and, when convergent,
+
+\[
+\mathcal E_b=0
+\iff
+u=0
+\]
+
+for a single quartet.
+
+### Global obstruction
+
+Ordinary Li coefficients aggregate zero-orbit contributions before any square is taken.
+
+Cross terms prevent automatic recovery of the sum of single-quartet energies.
+
+### Next target
+
+Audit whether angular or radial averaging, Parseval, Hardy-space norms, or Li generating-function singularity structure can separate zero-orbit energies before global cancellation.
+
+### RH consequence
+
+None.
+
