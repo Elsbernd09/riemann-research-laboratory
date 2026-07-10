@@ -14,6 +14,7 @@ from pathlib import Path
 from typing import Callable
 
 import mpmath as mp
+import numpy as np
 
 import experiments.li_zeta_window_discrepancy_decomposition as dec
 from src.li_susceptibility import (
@@ -318,6 +319,295 @@ def higher_absolute_count(
     )
 
 
+def li_susceptibility_gamma_derivative_float(
+    n: int,
+    gamma: np.ndarray,
+) -> np.ndarray:
+    """Vectorized float64 evaluation of the exact gamma derivative.
+
+    Formula matches src.li_susceptibility.
+    """
+    gamma_array = np.asarray(
+        gamma,
+        dtype=np.float64,
+    )
+
+    n_float = float(n)
+
+    D = (
+        gamma_array * gamma_array
+        +
+        0.25
+    )
+
+    theta = 2.0 * np.arctan(
+        1.0
+        /
+        (
+            2.0 * gamma_array
+        )
+    )
+
+    phase = (
+        n_float * theta
+    )
+
+    sin_phase = np.sin(
+        phase
+    )
+
+    cos_phase = np.cos(
+        phase
+    )
+
+    A = (
+        n_float * cos_phase
+        +
+        2.0
+        *
+        gamma_array
+        *
+        sin_phase
+    )
+
+    A_prime = (
+        (
+            n_float
+            *
+            n_float
+            /
+            D
+        )
+        *
+        sin_phase
+        +
+        2.0
+        *
+        sin_phase
+        -
+        (
+            2.0
+            *
+            n_float
+            *
+            gamma_array
+            /
+            D
+        )
+        *
+        cos_phase
+    )
+
+    return (
+        (
+            8.0
+            *
+            n_float
+            *
+            gamma_array
+            /
+            (
+                D ** 3
+            )
+        )
+        *
+        A
+        -
+        (
+            2.0
+            *
+            n_float
+            /
+            (
+                D ** 2
+            )
+        )
+        *
+        A_prime
+    )
+
+
+def smooth_counting_model_float(
+    t: np.ndarray,
+) -> np.ndarray:
+    """Float64 form of the Phase 5E smooth counting model."""
+    t_array = np.asarray(
+        t,
+        dtype=np.float64,
+    )
+
+    return (
+        (
+            t_array
+            /
+            (
+                2.0 * np.pi
+            )
+        )
+        *
+        np.log(
+            t_array
+            /
+            (
+                2.0 * np.pi
+            )
+        )
+        -
+        (
+            t_array
+            /
+            (
+                2.0 * np.pi
+            )
+        )
+        +
+        7.0 / 8.0
+    )
+
+
+def gauss_legendre_absolute_integral(
+    *,
+    gammas: list[mp.mpf],
+    H: mp.mpf,
+    B: mp.mpf,
+    n: int,
+    empirical_count: Callable[
+        [list[mp.mpf], mp.mpf],
+        int,
+    ],
+    order: int,
+) -> mp.mpf:
+    """Piecewise fixed Gauss-Legendre integration.
+
+    The empirical staircase count is frozen separately on
+    every open interval between consecutive zero ordinates.
+    """
+    internal_breakpoints = [
+        gamma
+        for gamma in gammas
+        if H < gamma < B
+    ]
+
+    breakpoints_mp = [
+        H,
+        *internal_breakpoints,
+        B,
+    ]
+
+    left = np.asarray(
+        [
+            float(value)
+            for value in breakpoints_mp[:-1]
+        ],
+        dtype=np.float64,
+    )
+
+    right = np.asarray(
+        [
+            float(value)
+            for value in breakpoints_mp[1:]
+        ],
+        dtype=np.float64,
+    )
+
+    midpoint = (
+        left + right
+    ) / 2.0
+
+    half_width = (
+        right - left
+    ) / 2.0
+
+    interval_counts = np.asarray(
+        [
+            empirical_count(
+                gammas,
+                (
+                    breakpoints_mp[index]
+                    +
+                    breakpoints_mp[index + 1]
+                )
+                /
+                2
+            )
+            for index in range(
+                len(
+                    breakpoints_mp
+                )
+                -
+                1
+            )
+        ],
+        dtype=np.float64,
+    )
+
+    nodes, weights = (
+        np.polynomial.legendre.leggauss(
+            order
+        )
+    )
+
+    sample_points = (
+        midpoint[:, None]
+        +
+        half_width[:, None]
+        *
+        nodes[None, :]
+    )
+
+    E_values = (
+        interval_counts[:, None]
+        -
+        smooth_counting_model_float(
+            sample_points
+        )
+    )
+
+    derivative_values = (
+        li_susceptibility_gamma_derivative_float(
+            n,
+            sample_points,
+        )
+    )
+
+    integrand = np.abs(
+        E_values
+        *
+        derivative_values
+    )
+
+    interval_integrals = (
+        half_width
+        *
+        np.sum(
+            integrand
+            *
+            weights[None, :],
+            axis=1,
+        )
+    )
+
+    result = np.sum(
+        interval_integrals,
+        dtype=np.float64,
+    )
+
+    if (
+        not np.isfinite(result)
+        or result <= 0
+    ):
+        raise ArithmeticError(
+            "Invalid fixed-quadrature absolute integral: "
+            f"{result}"
+        )
+
+    return mp.mpf(
+        repr(
+            float(result)
+        )
+    )
+
+
 def build_absolute_integral(
     *,
     gammas: list[mp.mpf],
@@ -328,67 +618,64 @@ def build_absolute_integral(
         [list[mp.mpf], mp.mpf],
         int,
     ],
-) -> mp.mpf:
-    internal_breakpoints = [
-        gamma
-        for gamma in gammas
-        if H < gamma < B
-    ]
+) -> tuple[
+    mp.mpf,
+    mp.mpf,
+]:
+    """Return the 64-node value and 32/64 relative discrepancy."""
+    value_32 = (
+        gauss_legendre_absolute_integral(
+            gammas=gammas,
+            H=H,
+            B=B,
+            n=n,
+            empirical_count=empirical_count,
+            order=32,
+        )
+    )
 
-    breakpoints = [
-        H,
-        *internal_breakpoints,
-        B,
-    ]
+    value_64 = (
+        gauss_legendre_absolute_integral(
+            gammas=gammas,
+            H=H,
+            B=B,
+            n=n,
+            empirical_count=empirical_count,
+            order=64,
+        )
+    )
 
-    pieces: list[
-        mp.mpf
-    ] = []
+    relative_discrepancy = (
+        abs(
+            value_64
+            -
+            value_32
+        )
+        /
+        max(
+            abs(value_64),
+            mp.mpf("1e-300"),
+        )
+    )
 
-    for left, right in zip(
-        breakpoints,
-        breakpoints[1:],
+    if (
+        relative_discrepancy
+        >
+        mp.mpf("1e-7")
     ):
-        midpoint = (
-            left + right
-        ) / 2
-
-        interval_count = empirical_count(
-            gammas,
-            midpoint,
+        raise ArithmeticError(
+            "Phase 5M fixed-quadrature "
+            "self-convergence failure: "
+            f"relative discrepancy="
+            f"{mp.nstr(relative_discrepancy, 30)}, "
+            f"H={mp.nstr(H, 20)}, "
+            f"B={mp.nstr(B, 20)}, "
+            f"n={n}"
         )
 
-        def interval_E(
-            t: mp.mpf,
-            count: int = interval_count,
-        ) -> mp.mpf:
-            return (
-                mp.mpf(count)
-                -
-                dec.smooth_counting_model(
-                    t
-                )
-            )
-
-        pieces.append(
-            mp.quad(
-                lambda t: abs(
-                    interval_E(t)
-                    *
-                    li_susceptibility_gamma_derivative(
-                        n,
-                        t,
-                    )
-                ),
-                [
-                    left,
-                    right,
-                ],
-            )
-        )
-
-    return mp.fsum(
-        pieces
+    return (
+        value_64,
+        relative_discrepancy,
     )
 
 
@@ -729,14 +1016,15 @@ def main() -> None:
                 magnitude_sum
             )
 
-            absolute_integral = (
-                build_absolute_integral(
-                    gammas=gammas,
-                    H=H,
-                    B=B,
-                    n=n,
-                    empirical_count=count_function,
-                )
+            (
+                absolute_integral,
+                quadrature_relative_discrepancy,
+            ) = build_absolute_integral(
+                gammas=gammas,
+                H=H,
+                B=B,
+                n=n,
+                empirical_count=count_function,
             )
 
             if absolute_integral <= 0:
@@ -812,6 +1100,10 @@ def main() -> None:
                     ),
                     "interior_absolute_integral": mp.nstr(
                         absolute_integral,
+                        60,
+                    ),
+                    "quadrature_32_64_relative_discrepancy": mp.nstr(
+                        quadrature_relative_discrepancy,
                         60,
                     ),
                     "interior_cancellation_ratio": mp.nstr(
