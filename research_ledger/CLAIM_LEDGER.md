@@ -8209,3 +8209,30 @@ This is a known source theorem, not a project-original theorem.
 
 **Statement:** The convention lock table now locks the primary Bombieri Section 3 theorem statements, while leaving the exact full formula for \(T[f]\), transform conventions, convergence conventions, and finite truncation matrices only partially locked or unlocked.
 
+
+---
+
+## CL-0518
+
+**Status:** EXTRACTION WORKSHEET
+
+**Statement:** Phase 8G creates the extraction worksheet for Bombieri's full linear functional \(T[f]\).
+
+The formula remains unlocked, and the project explicitly avoids reconstructing it from memory.
+
+---
+
+## CL-0519
+
+**Status:** IMPLEMENTATION BLOCK
+
+**Statement:** Exact Weil matrix or finite-rank code implementation remains blocked until the full \(T[f]\) formula, term decomposition, and conventions are source-extracted and locked.
+
+---
+
+## CL-0520
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 8G does not prove RH, does not claim a new Weil criterion, and does not claim novelty.
+

@@ -6157,3 +6157,34 @@ No exact finite-rank Weil implementation.
 
 Extract the exact formula for \(T[f]\), including prime-side and archimedean terms.
 
+
+---
+
+## Phase 8G — Full T[f] Functional Extraction Worksheet
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/sources/extractions/PHASE_8G_T_FUNCTIONAL_EXTRACTION_WORKSHEET.md`
+- `weil_reconstruction/sources/extractions/T_FUNCTIONAL_LOCK_REQUIREMENTS.md`
+- `weil_reconstruction/sources/extractions/T_FUNCTIONAL_TERM_TABLE.md`
+
+### Result
+
+The project now has a source-grounded worksheet for extracting the full Bombieri functional \(T[f]\).
+
+### Boundary
+
+The formula remains unlocked.
+
+No exact Weil implementation is allowed yet.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Fill the worksheet from the Bombieri source text.
+
