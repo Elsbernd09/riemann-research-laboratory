@@ -5938,3 +5938,31 @@ This is not an RH proof.
 
 Stability audit across heights, degrees, and basis choices.
 
+
+---
+
+## Phase 7L — Horizontal Defect Program Synthesis
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `horizontal_defect/synthesis/PHASE_7_HORIZONTAL_DEFECT_SYNTHESIS.md`
+- `horizontal_defect/synthesis/PHASE_7_PUBLIC_SUMMARY.md`
+
+### Result
+
+Phase 7 was synthesized into a coherent research-program summary.
+
+### Honest conclusion
+
+Horizontal-defect detection is possible locally, but the arithmetic-side or Weil-positive bridge remains open.
+
+### Next target
+
+Classical Weil criterion reconstruction.
+
+### RH claim
+
+None.
+

@@ -7980,3 +7980,32 @@ This is diagnostic evidence only, not a theorem of Weil positivity.
 
 It motivates studying whether an actual Weil-compatible finite-rank truncation has analogous negative-direction behavior.
 
+
+---
+
+## CL-0497
+
+**Status:** PHASE SYNTHESIS
+
+**Statement:** Phase 7A through Phase 7K were synthesized into a horizontal-defect program summary.
+
+The synthesis records the achieved local horizontal-detection results, the linear-filter obstructions, the quadratic detector, the aggregation barrier, the finite-rank diagnostic testbed, and the basis-dependence obstruction.
+
+---
+
+## CL-0498
+
+**Status:** STRATEGIC CONCLUSION
+
+**Statement:** The strongest honest conclusion of Phase 7 is that horizontal-defect detection is possible locally, but the arithmetic-side or Weil-positive bridge remains open.
+
+---
+
+## CL-0499
+
+**Status:** NEXT PROGRAM TARGET
+
+**Statement:** The next serious direction is classical Weil criterion reconstruction inside the repo, with the goal of understanding exactly how off-critical zeros produce negative directions in Weil-positive machinery.
+
+This is not a novelty claim.
+
