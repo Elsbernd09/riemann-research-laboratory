@@ -6843,3 +6843,204 @@ followed by an audit of the inertia of \(A_n\).
 
 Basis-relative inertia must not be conflated with an intrinsic minimal signed Weil rank.
 
+
+---
+
+## CL-0423
+
+**Status:** PROVED IN PROJECT — EXACT RATIONAL GRAM REPRESENTATION
+
+**Statement:** Let
+
+\[
+z_\gamma=\frac12+i\gamma
+\]
+
+and
+
+\[
+c_{n,\ell}
+=
+(-1)^{\ell-1}
+\binom n\ell
+\ell(\ell+1).
+\]
+
+Define
+
+\[
+V_n(\gamma)
+=
+\left(
+1,
+z_\gamma^{-3},
+z_\gamma^{-4},
+\ldots,
+z_\gamma^{-n-2}
+\right)^T
+\]
+
+and
+
+\[
+A_n
+=
+\begin{pmatrix}
+0&c_n^T\\
+c_n&0
+\end{pmatrix}.
+\]
+
+Then
+
+\[
+\boxed{
+\chi_n^{Li}(\gamma)
+=
+V_n(\gamma)^*
+A_n
+V_n(\gamma).
+}
+\]
+
+The identity is exact.
+
+---
+
+## CL-0424
+
+**Status:** PROVED IN PROJECT — EXACT GRAM INERTIA
+
+**Statement:** For every positive integer \(n\),
+
+\[
+\boxed{
+\operatorname{rank}(A_n)=2
+}
+\]
+
+and
+
+\[
+\boxed{
+\operatorname{Inertia}(A_n)
+=
+(1,1,n-1).
+}
+\]
+
+The two nonzero eigenvalues are
+
+\[
++\|c_n\|_2
+\]
+
+and
+
+\[
+-\|c_n\|_2.
+\]
+
+---
+
+## CL-0425
+
+**Status:** PROVED IN PROJECT — EXACT TWO-CHANNEL RATIONAL FACTORIZATION
+
+**Statement:** Define
+
+\[
+P_n(z)
+=
+\frac{
+f_n''(z)
+}{
+\|c_n\|_2
+}.
+\]
+
+Then
+
+\[
+\boxed{
+\chi_n^{Li}(\gamma)
+=
+\|c_n\|_2
+\left[
+\left|
+\frac{1+P_n(z_\gamma)}{\sqrt2}
+\right|^2
+-
+\left|
+\frac{1-P_n(z_\gamma)}{\sqrt2}
+\right|^2
+\right].
+}
+\]
+
+This is an exact one-positive-channel minus one-negative-channel rational Gram factorization.
+
+---
+
+## CL-0426
+
+**Status:** QUALIFICATION — DISTRIBUTIONAL BASIS
+
+**Statement:** The constant rational basis coordinate in CL-0423 corresponds under Fourier inversion to the Dirac distribution
+
+\[
+\delta_0.
+\]
+
+Therefore the exact rational Gram factorization naturally belongs to a distributional function class and does not automatically produce a smooth compactly supported Weil test decomposition.
+
+---
+
+## CL-0427
+
+**Status:** PROVED IN PROJECT — UNRESTRICTED SIGNED SPECTRAL DECOMPOSITION
+
+**Statement:** Because the real susceptibility is integrable and sign-changing, its positive and negative parts yield an unrestricted \(L^2\) signed convolution-square decomposition with one positive and one negative channel.
+
+The minimal unrestricted signed channel count is
+
+\[
+\boxed{
+(1,1).
+}
+\]
+
+---
+
+## CL-0428
+
+**Status:** STRUCTURAL COLLAPSE OF RESEARCH TARGET
+
+**Statement:** The unrestricted signed channel count
+
+\[
+(1,1)
+\]
+
+is generic for real integrable sign-changing Fourier multipliers.
+
+Therefore it is not a distinctive Li susceptibility invariant and does not provide an RH-sensitive signature law.
+
+---
+
+## CL-0429
+
+**Status:** FAILED RESEARCH DIRECTION
+
+**Statement:** The search for a nontrivial large-\(n\) signed Weil-rank or inertia law for the Li susceptibility is terminated.
+
+**Reason:** The exact natural Gram matrix has rank two and inertia
+
+\[
+(1,1,n-1)
+\]
+
+for every \(n\), while unrestricted signed spectral rank collapses generically to one positive and one negative channel.
+
+No further floating-point inertia campaign is justified.
+

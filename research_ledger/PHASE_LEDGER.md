@@ -5155,3 +5155,110 @@ The narrow project question is the exact Gram structure of the symmetrized Li su
 
 None.
 
+
+---
+
+## Phase 5U — Exact Rank-Two Gram Representation and Signature Collapse
+
+Status: COMPLETE
+
+### Exact Gram representation
+
+For
+
+\[
+z_\gamma=\frac12+i\gamma,
+\]
+
+the susceptibility has the exact rational Gram form
+
+\[
+\chi_n^{Li}(\gamma)
+=
+V_n(\gamma)^*
+A_n
+V_n(\gamma).
+\]
+
+The matrix is
+
+\[
+A_n
+=
+\begin{pmatrix}
+0&c_n^T\\
+c_n&0
+\end{pmatrix}.
+\]
+
+### Exact inertia
+
+For every
+
+\[
+n\ge1,
+\]
+
+\[
+\operatorname{rank}(A_n)=2
+\]
+
+and
+
+\[
+\operatorname{Inertia}(A_n)
+=
+(1,1,n-1).
+\]
+
+### Exact rational two-channel form
+
+\[
+\chi_n^{Li}
+=
+C_n
+\left(
+|U_{n,+}|^2
+-
+|U_{n,-}|^2
+\right).
+\]
+
+### Distributional qualification
+
+The constant basis coordinate corresponds to
+
+\[
+\delta_0
+\]
+
+under Fourier inversion.
+
+The exact rational factorization is therefore naturally distributional.
+
+### Unrestricted spectral signature
+
+Positive-negative splitting of the real sign-changing multiplier gives minimal unrestricted signed channel count
+
+\[
+(1,1).
+\]
+
+### Genericity obstruction
+
+This two-channel count is generic for real integrable sign-changing Fourier multipliers.
+
+It is not a distinctive Li or RH-sensitive invariant.
+
+### Research decision
+
+Signed Weil-rank branch:
+
+TERMINATED.
+
+No numerical large-\(n\) matrix campaign will be performed.
+
+### RH consequence
+
+None.
+
