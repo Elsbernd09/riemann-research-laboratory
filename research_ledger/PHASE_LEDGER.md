@@ -5995,3 +5995,32 @@ No novelty claim.
 
 Reconstruct the classical Weil criterion objects and the off-critical negative-direction mechanism.
 
+
+---
+
+## Phase 8B — Weil Object Definitions
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/objects/PHASE_8B_WEIL_OBJECT_DEFINITIONS.md`
+- `weil_reconstruction/objects/OBJECT_GLOSSARY.md`
+- `weil_reconstruction/objects/OBJECT_DEPENDENCY_GRAPH.md`
+
+### Purpose
+
+Define the objects needed for classical Weil reconstruction.
+
+### Boundary
+
+No new Weil criterion.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Choose one classical formulation and reconstruct it with exact conventions.
+

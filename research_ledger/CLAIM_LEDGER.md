@@ -8040,3 +8040,36 @@ Finite-rank diagnostic behavior cannot be promoted to RH relevance without a Wei
 
 **Statement:** The next serious target is to reconstruct the classical Weil criterion objects: test functions, zero-side sums, quadratic form, and off-critical negative-direction mechanism.
 
+
+---
+
+## CL-0503
+
+**Status:** OBJECT DEFINITIONS
+
+**Statement:** Phase 8B creates a Weil reconstruction object map defining zero-side statistics, test functions, transforms, Weil quadratic forms, negative directions, and finite-rank approximations.
+
+This is reconstruction scaffolding and not a new criterion.
+
+---
+
+## CL-0504
+
+**Status:** DEPENDENCY RULE
+
+**Statement:** Future finite-rank models must follow the dependency chain:
+
+admissible test functions -> transform convention -> explicit formula -> Weil quadratic form -> negative-direction mechanism -> finite-rank restriction -> computational model.
+
+Toy matrices cannot be called Weil-compatible unless this chain is satisfied.
+
+---
+
+## CL-0505
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 8B makes no RH claim and no novelty claim.
+
+It creates definitions required for later literature-grounded reconstruction.
+
