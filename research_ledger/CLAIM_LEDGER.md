@@ -7865,3 +7865,47 @@ This is not a new Weil criterion.
 
 The experiment is diagnostic only and is not a classical Weil quadratic form.
 
+
+---
+
+## CL-0485
+
+**Status:** TESTBED REPAIR
+
+**Statement:** The Phase 7G crude sign matrix was replaced by a centered finite-rank quartet matrix
+
+\[
+C_m(x,\gamma)
+=
+\sum_{\epsilon=\pm1}
+\sum_{\eta=\pm1}
+v_m(\rho_{\epsilon,\eta}(x))v_m(\rho_{\epsilon,\eta}(x))^*
+-
+2\sum_{\eta=\pm1}
+v_m(\rho_{0,\eta})v_m(\rho_{0,\eta})^*.
+\]
+
+This model vanishes at \(x=0\).
+
+---
+
+## CL-0486
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** The centered matrix \(C_m(x,\gamma)\) is Hermitian and satisfies
+
+\[
+C_m(0,\gamma)=0.
+\]
+
+---
+
+## CL-0487
+
+**Status:** COMPUTATIONAL DIAGNOSTIC
+
+**Statement:** A pure-Python finite-rank experiment verifies that the centered testbed vanishes at the critical-line collapse and produces a nonzero signal for tested \(x\ne0\).
+
+The model is diagnostic and is not a classical Weil quadratic form.
+

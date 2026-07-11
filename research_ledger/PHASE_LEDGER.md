@@ -5846,3 +5846,31 @@ Finite-rank Weil negative-direction detection.
 
 None.
 
+
+---
+
+## Phase 7H — Centered Finite-Rank Quartet Testbed
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `horizontal_defect/weil_interface/PHASE_7H_CENTERED_FINITE_RANK_TESTBED.md`
+- `horizontal_defect/experiments/phase7h_centered_quartet_testbed.py`
+
+### Result
+
+The finite-rank toy testbed was repaired by centering the off-critical quartet against its critical-line collapse.
+
+### Boundary
+
+This is not a Weil theorem.
+
+This is not an RH proof.
+
+It is a diagnostic laboratory for horizontal displacement.
+
+### Next target
+
+Study the scaling law of the centered finite-rank signal as \(x\to0\).
+
