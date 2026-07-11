@@ -7909,3 +7909,36 @@ C_m(0,\gamma)=0.
 
 The model is diagnostic and is not a classical Weil quadratic form.
 
+
+---
+
+## CL-0488
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** For fixed degree \(m\) and fixed \(\gamma\ne0\), the centered finite-rank quartet matrix satisfies
+
+\[
+C_m(x,\gamma)
+=
+x^2B_m(\gamma)+O_{m,\gamma}(x^4).
+\]
+
+---
+
+## CL-0489
+
+**Status:** COMPUTATIONAL DIAGNOSTIC
+
+**Statement:** Pure-Python scaling experiments confirm that the centered quartet signal has Frobenius norm proportional to \(x^2\) as \(x\to0\), for the tested degrees and height.
+
+---
+
+## CL-0490
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** The centered scaling law is a finite-rank diagnostic theorem and not a classical Weil theorem.
+
+No RH implication is claimed.
+

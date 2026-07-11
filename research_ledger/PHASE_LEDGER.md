@@ -5874,3 +5874,37 @@ It is a diagnostic laboratory for horizontal displacement.
 
 Study the scaling law of the centered finite-rank signal as \(x\to0\).
 
+
+---
+
+## Phase 7I — Centered Quartet Signal Scaling Law
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `horizontal_defect/weil_interface/PHASE_7I_CENTERED_SIGNAL_SCALING.md`
+- `horizontal_defect/experiments/phase7i_centered_scaling_law.py`
+
+### Result
+
+The centered finite-rank quartet matrix satisfies
+
+\[
+C_m(x,\gamma)=x^2B_m(\gamma)+O(x^4).
+\]
+
+### Experiment
+
+Pure-Python experiments verify stable \(x^2\) scaling of the Frobenius norm.
+
+### Boundary
+
+This is not a Weil theorem.
+
+This is not an RH proof.
+
+### Next target
+
+Study whether the second-order coefficient matrix \(B_m(\gamma)\) is indefinite and whether that indefiniteness is stable.
+
