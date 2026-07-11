@@ -5509,3 +5509,91 @@ NOT MADE.
 
 None.
 
+
+---
+
+## Phase 5X — Paperization and Theorem Dependency Freeze
+
+Status: COMPLETE
+
+### Working paper title
+
+Matched-Scale Li Susceptibility and Centered-Primitive Transfer of Zero-Counting Discrepancy
+
+### Central theorem
+
+\[
+R_{\mathrm{int}}(n;H,\eta)
+=
+O_{K,\eta}
+\left(
+\frac{\log H}{H^3}
+\right).
+\]
+
+Unconditional.
+
+### RH refinement
+
+\[
+R_{\mathrm{int}}
+=
+O_{K,\eta}
+\left(
+\frac{\log H}
+{H^3(\log\log H)^2}
+\right).
+\]
+
+Conditional on RH.
+
+### Paper dependency freeze
+
+Classical:
+
+Riemann-von Mangoldt.
+
+\(S_1(t)=O(\log t)\).
+
+RH-conditional \(S_1\) refinement.
+
+Project:
+
+matched-scale Li susceptibility.
+
+corrected second-derivative profile.
+
+centered-primitive transfer identity.
+
+### Excluded from main theorem dependency
+
+PCA.
+
+finite-zero replication.
+
+blind-scale resonance.
+
+Hardy-space branch.
+
+Weil-rank branch.
+
+horizontal-defect measure.
+
+reverse RH sensitivity.
+
+### Numerical role
+
+Motivation and finite-height validation only.
+
+### Prior-art status
+
+No subsuming source identified in the current uploaded-corpus audit.
+
+Not a novelty claim.
+
+Originality remains under active prior-art review.
+
+### RH consequence
+
+None.
+

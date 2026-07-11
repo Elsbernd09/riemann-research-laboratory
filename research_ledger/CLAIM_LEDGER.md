@@ -7448,3 +7448,87 @@ This statement is not a novelty claim.
 
 A complete current-public-literature novelty determination is not made.
 
+
+---
+
+## CL-0444
+
+**Status:** PAPERIZATION DECISION
+
+**Statement:** The principal paper theorem is CL-0433:
+
+\[
+R_{\mathrm{int}}(n;H,\eta)
+=
+O_{K,\eta}
+\left(
+\frac{\log H}{H^3}
+\right).
+\]
+
+The paper is organized around matched-scale Li susceptibility and centered-primitive transfer of the global zero-counting discrepancy.
+
+---
+
+## CL-0445
+
+**Status:** THEOREM DEPENDENCY FREEZE
+
+**Statement:** The unconditional main theorem depends only on:
+
+1. classical Riemann-von Mangoldt zero counting;
+
+2. the classical unconditional estimate
+
+\[
+S_1(t)=O(\log t);
+\]
+
+3. the project matched-scale susceptibility endpoint bound;
+
+4. the corrected project second-derivative profile;
+
+5. the exact centered-primitive transfer identity.
+
+The theorem does not depend on finite-zero PCA, higher-zero numerical replication, Weil positivity, Hardy-space analysis, signed Gram inertia, or RH.
+
+---
+
+## CL-0446
+
+**Status:** PAPER CLAIM-BOUNDARY FREEZE
+
+**Statement:** The main paper must not describe the unconditional response theorem as progress toward proving RH.
+
+The scalar zero-counting discrepancy architecture is horizontally blind.
+
+The theorem is compatible with RH failure.
+
+---
+
+## CL-0447
+
+**Status:** NUMERICAL ROLE FREEZE
+
+**Statement:** The first-500 and indices-501-through-1500 computations are finite-height motivation and validation.
+
+They are not proof dependencies for the main theorem.
+
+The PCA geometry is not a mathematical theorem.
+
+---
+
+## CL-0448
+
+**Status:** PRIOR-ART LANGUAGE FREEZE
+
+**Statement:** Required current wording:
+
+"No subsuming source identified in the current uploaded-corpus audit."
+
+"Originality remains under active prior-art review."
+
+No novelty claim is made.
+
+A complete current-public-literature novelty determination remains outstanding.
+
