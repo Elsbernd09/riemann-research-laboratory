@@ -4967,3 +4967,78 @@ Nyman–Beurling and Báez-Duarte \(L^2\) criteria.
 
 None.
 
+
+---
+
+## Phase 5S — Second Log-Moment Li Test Function and Weil Bridge
+
+Status: EXACT MELLIN BRIDGE COMPLETE
+
+### Prior-art correction
+
+The Li kernel itself is classically embedded in Guinand-Weil machinery.
+
+Li-kernel explicit-formula embedding:
+
+PA-4.
+
+### Exact bridge
+
+If
+
+\[
+f_n(s)
+=
+1-\left(1-\frac1s\right)^n
+\]
+
+is the Mellin transform of the classical Li test function \(g_n\), then
+
+\[
+f_n''(s)
+=
+\mathcal M[
+(\log x)^2g_n
+](s).
+\]
+
+In logarithmic coordinates,
+
+\[
+G_n^{(2)}(y)
+=
+y^2G_n(y).
+\]
+
+### Susceptibility representation
+
+\[
+\chi_n^{Li}(\gamma)
+=
+2
+\int_0^\infty
+y^2G_n(y)\cos(\gamma y)\,dy.
+\]
+
+### Interpretation
+
+The Li susceptibility is the critical-line cosine response of the second log-moment deformation of the classical Li explicit-formula test family.
+
+### Weil positivity status
+
+No direct positivity follows.
+
+The susceptibility test function is not automatically a convolution square or positive-type function.
+
+### Next theorem target
+
+Finite signed Weil-rank audit for
+
+\[
+G_n^{(2)}.
+\]
+
+### RH consequence
+
+None.
+

@@ -6575,3 +6575,113 @@ Without an additional orbit-separation theorem, this route does not resolve the 
 
 No one-variable Li coefficient norm is sufficient without an additional orbit-separation mechanism.
 
+
+---
+
+## CL-0412
+
+**Status:** PRIOR-ART CORRECTION — PA-4
+
+**Statement:** The Li individual-zero kernel
+
+\[
+f_n(s)
+=
+1-\left(1-\frac1s\right)^n
+\]
+
+is already explicitly embedded into Guinand-Weil explicit-formula machinery.
+
+Bombieri-Lagarias derive Li arithmetic formulas via Guinand-Weil, and the corresponding inverse-Mellin Li test function is explicitly recorded in the literature.
+
+**Disposition:** PA-4.
+
+No project originality claim is permitted for the Li-kernel explicit-formula embedding.
+
+---
+
+## CL-0413
+
+**Status:** PROVED IN PROJECT — ELEMENTARY MELLIN BRIDGE
+
+**Statement:** If
+
+\[
+f_n=\mathcal M[g_n],
+\]
+
+then
+
+\[
+\boxed{
+f_n''(s)
+=
+\mathcal M[
+(\log x)^2g_n(x)
+](s).
+}
+\]
+
+In logarithmic coordinates \(x=e^{-y}\),
+
+\[
+\boxed{
+f_n''(s)
+=
+\int
+y^2G_n(y)e^{-(s-1/2)y}\,dy.
+}
+\]
+
+---
+
+## CL-0414
+
+**Status:** PROVED IN PROJECT — SUSCEPTIBILITY TEST-FUNCTION REPRESENTATION
+
+**Statement:** The Li susceptibility satisfies
+
+\[
+\boxed{
+\chi_n^{Li}(\gamma)
+=
+2
+\int_0^\infty
+y^2G_n(y)
+\cos(\gamma y)
+\,dy.
+}
+\]
+
+Thus it is the cosine response of the second log-moment deformation of the classical Li test function.
+
+---
+
+## CL-0415
+
+**Status:** PRIOR-ART DISPOSITION
+
+**Statement:** Classical Weil positivity does not directly give a sign for the Li susceptibility merely from CL-0414.
+
+The second log-moment Li test function is not automatically a Hermitian convolution square or positive-type test function.
+
+The sign-changing susceptibility profile is consistent with this fact.
+
+---
+
+## CL-0416
+
+**Status:** CRITICAL STRUCTURAL QUESTION
+
+**Statement:** Determine whether
+
+\[
+G_n^{(2)}(y)=y^2G_n(y)
+\]
+
+admits a finite signed convolution-square decomposition or finite-signature representation in Weil quadratic-form coordinates.
+
+A useful result would require explicit control of the rank, signature, or asymptotic matched-scale structure.
+
+No such result is currently proved.
+
