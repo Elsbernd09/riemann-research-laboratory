@@ -1,0 +1,1343 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1.1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{microtype}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black,
+    urlcolor=black
+}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\LiSus}{\chi^{\mathrm{Li}}}
+\newcommand{\Rint}{R_{\mathrm{int}}}
+\newcommand{\Ebar}{\overline E}
+
+\title{
+Matched-Scale Li Susceptibility and Centered-Primitive Transfer
+of Zero-Counting Discrepancy
+}
+
+\author{Michael Elsbernd}
+
+\date{Research draft}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We study a horizontal zero-coordinate response associated with the
+Li kernel
+\[
+f_n(z)
+=
+1-
+\left(
+1-\frac1z
+\right)^n.
+\]
+The corresponding quadratic susceptibility is
+\[
+\LiSus_n(\gamma)
+=
+2\operatorname{Re}
+f_n''
+\left(
+\frac12+i\gamma
+\right).
+\]
+In the matched-scale regime \(n/H\asymp1\), we derive compact-uniform
+asymptotic profiles for the susceptibility and its first two
+\(\gamma\)-derivatives.
+
+We then consider the global zero-counting discrepancy
+\[
+E(t)=N(t)-M(t)
+\]
+on a fixed relative window
+\[
+[H,(1+\eta)H].
+\]
+After subtracting the window mean of \(E\), we introduce its centered
+primitive \(F\). An exact second-order integration-by-parts identity
+transfers the response
+\[
+\Rint(n;H,\eta)
+=
+-
+\int_H^{(1+\eta)H}
+E(t)\LiSus_n'(t)\,dt
+\]
+from the rough counting discrepancy to \(F\) and the second derivative
+of the Li susceptibility.
+
+Using the classical unconditional bound
+\[
+S_1(T)=O(\log T)
+\]
+for the first antiderivative of the argument term in the
+Riemann--von Mangoldt formula, we prove
+\[
+\Rint(n;H,\eta)
+=
+O_{K,\eta}
+\left(
+\frac{\log H}{H^3}
+\right)
+\]
+uniformly for \(n/H\) in a fixed compact subset
+\(K\Subset(0,\infty)\). Consequently,
+\[
+H^2\Rint(n;H,\eta)\to0.
+\]
+Under the Riemann Hypothesis, the classical sharper bound for
+\(S_1\) gives the logarithmic refinement
+\[
+\Rint(n;H,\eta)
+=
+O_{K,\eta}
+\left(
+\frac{\log H}
+{H^3(\log\log H)^2}
+\right).
+\]
+
+The result is a response-asymptotic statement and is compatible with
+failure of the Riemann Hypothesis. Numerical zero-window experiments
+are presented only as finite-height motivation for the centered-
+primitive mechanism.
+\end{abstract}
+
+\section{Introduction}
+
+Let
+\[
+f_n(z)
+=
+1-
+\left(
+1-\frac1z
+\right)^n,
+\qquad n\ge1.
+\]
+This is the individual-zero kernel appearing in Li-type zero sums.
+The relation between Li's coefficients and the Guinand--Weil explicit
+formula is classical; see Bombieri and Lagarias
+\cite{BombieriLagarias1999}. Our purpose is not to formulate another
+Li criterion or another Weil positivity criterion.
+
+Instead, we isolate a local horizontal response of \(f_n\) at the
+critical line and study how the global zero-counting discrepancy acts
+through the resulting response kernel.
+
+For an analytic function \(f\), define the symmetric horizontal orbit
+response
+\[
+R_f(\delta,\gamma)
+=
+\sum_{\epsilon=\pm1}
+\sum_{\sigma=\pm1}
+f
+\left(
+\frac12+\epsilon\delta+i\sigma\gamma
+\right)
+-
+2
+\sum_{\sigma=\pm1}
+f
+\left(
+\frac12+i\sigma\gamma
+\right).
+\]
+Taylor expansion in the horizontal displacement gives
+\[
+R_f(\delta,\gamma)
+=
+\delta^2\chi_f(\gamma)
++
+O(\delta^4),
+\]
+where
+\[
+\chi_f(\gamma)
+=
+2\operatorname{Re}
+f''
+\left(
+\frac12+i\gamma
+\right).
+\]
+For the Li kernel, we write
+\[
+\LiSus_n(\gamma)
+=
+2\operatorname{Re}
+f_n''
+\left(
+\frac12+i\gamma
+\right).
+\]
+
+Our main object is the ordinary-integral response
+\[
+\Rint(n;H,\eta)
+=
+-
+\int_H^{(1+\eta)H}
+E(t)\LiSus_n'(t)\,dt,
+\]
+where
+\[
+E(t)=N(t)-M(t)
+\]
+is the discrepancy between the classical nontrivial-zero counting
+function and the leading Riemann--von Mangoldt model.
+
+The central theorem is the following.
+
+\begin{theorem}[Unconditional global Li-response suppression]
+\label{thm:main}
+Fix \(\eta>0\) and a compact interval
+\[
+K\Subset(0,\infty).
+\]
+Uniformly over positive integers \(n\) satisfying
+\[
+\frac nH\in K,
+\]
+one has
+\[
+\Rint(n;H,\eta)
+=
+O_{K,\eta}
+\left(
+\frac{\log H}{H^3}
+\right)
+\]
+as \(H\to\infty\). Consequently,
+\[
+H^2\Rint(n;H,\eta)\to0
+\]
+uniformly on compact positive matched-scale ranges.
+\end{theorem}
+
+The proof combines four ingredients.
+
+First, the classical Riemann--von Mangoldt formula gives
+\[
+E(t)=S(t)+O(1/t).
+\]
+Second, the classical unconditional estimate
+\[
+S_1(T)=O(\log T),
+\qquad
+S_1(T)=C+\int_0^T S(t)\,dt,
+\]
+controls an antiderivative of the counting discrepancy.
+Third, the Li susceptibility satisfies a matched-scale second-derivative
+bound
+\[
+\int_H^{(1+\eta)H}
+|\LiSus_n''(t)|\,dt
+=
+O_{K,\eta}(H^{-3}).
+\]
+Finally, centering \(E\) on the window produces a primitive with
+vanishing boundary values, allowing a second integration by parts.
+
+Under the Riemann Hypothesis, the sharper classical estimate
+\[
+S_1(T)
+=
+O
+\left(
+\frac{\log T}
+{(\log\log T)^2}
+\right)
+\]
+immediately yields the following refinement.
+
+\begin{corollary}[RH-conditional logarithmic sharpening]
+\label{cor:rh}
+Assume the Riemann Hypothesis. Under the hypotheses of
+Theorem~\ref{thm:main},
+\[
+\Rint(n;H,\eta)
+=
+O_{K,\eta}
+\left(
+\frac{\log H}
+{H^3(\log\log H)^2}
+\right).
+\]
+\end{corollary}
+
+The unconditional theorem is compatible with zeros away from the
+critical line. Indeed, the scalar counting function \(N(T)\) records
+ordinates and multiplicities but discards the horizontal coordinates
+of zeros. The theorem should therefore be interpreted as a
+zero-counting response estimate, not as an RH criterion.
+
+\section{Classical zero-counting input}
+
+Let \(N(T)\) count the nontrivial zeros
+\[
+\rho=\beta+i\gamma
+\]
+with
+\[
+0<\gamma\le T,
+\]
+counted with multiplicity.
+
+Set
+\[
+M(T)
+=
+\frac{T}{2\pi}
+\log\frac{T}{2\pi}
+-
+\frac{T}{2\pi}
++
+\frac78.
+\]
+The classical Riemann--von Mangoldt formula gives
+\[
+N(T)
+=
+M(T)+S(T)+R(T),
+\]
+where
+\[
+R(T)=O(1/T).
+\]
+Thus
+\[
+E(T)
+:=
+N(T)-M(T)
+=
+S(T)+R(T).
+\]
+
+We use ordinary integrals of \(E\). Values chosen for \(S(T)\) at
+individual zero ordinates therefore do not affect the main argument.
+
+Define
+\[
+S_1(T)
+=
+C+\int_0^T S(t)\,dt.
+\]
+We use the classical unconditional estimate
+\begin{equation}
+\label{eq:s1-unconditional}
+S_1(T)=O(\log T).
+\end{equation}
+Under RH, we use
+\begin{equation}
+\label{eq:s1-rh}
+S_1(T)
+=
+O
+\left(
+\frac{\log T}
+{(\log\log T)^2}
+\right).
+\end{equation}
+These estimates belong to the classical theory of the argument of the
+Riemann zeta function; see, for example, the literature summarized in
+Wakasa \cite{WakasaS1}.
+
+\section{The Li susceptibility}
+
+\subsection{Exact formula}
+
+For
+\[
+f_n(z)
+=
+1-
+\left(
+1-\frac1z
+\right)^n,
+\]
+define
+\[
+\LiSus_n(\gamma)
+=
+2\operatorname{Re}
+f_n''
+\left(
+\frac12+i\gamma
+\right).
+\]
+
+Set
+\[
+\theta_\gamma
+=
+2\arctan
+\left(
+\frac1{2\gamma}
+\right).
+\]
+
+A direct calculation gives
+\begin{equation}
+\label{eq:chi-exact}
+\LiSus_n(\gamma)
+=
+-
+\frac{2n}
+{
+(\gamma^2+1/4)^2
+}
+\left[
+n\cos(n\theta_\gamma)
++
+2\gamma\sin(n\theta_\gamma)
+\right].
+\end{equation}
+
+\subsection{Leading matched-scale profile}
+
+Let
+\[
+q=\frac n\gamma.
+\]
+Define
+\begin{equation}
+\label{eq:Psi}
+\Psi_{\mathrm{Li}}(q)
+=
+-2q
+\left(
+q\cos q+2\sin q
+\right).
+\end{equation}
+
+\begin{proposition}
+\label{prop:chi-profile}
+For every compact set
+\[
+K\Subset(0,\infty),
+\]
+uniformly for
+\[
+q=\frac n\gamma\in K,
+\]
+one has
+\[
+\gamma^2\LiSus_n(\gamma)
+=
+\Psi_{\mathrm{Li}}(q)
++
+O_K(\gamma^{-2}).
+\]
+\end{proposition}
+
+\begin{proof}
+Write
+\[
+x=\gamma^{-1}
+\]
+and
+\[
+d(x)=1+\frac{x^2}{4}.
+\]
+Then
+\[
+n\theta_\gamma
+=
+\frac qx
+2\arctan\frac x2.
+\]
+The function
+\[
+\frac2x\arctan\frac x2
+\]
+is analytic in \(x^2\) near \(x=0\) and equals \(1\) at the origin.
+Substitution into the exact expression
+\eqref{eq:chi-exact} produces an analytic expansion in \(q\) and \(x^2\)
+on a neighborhood of every compact positive \(q\)-set. Setting
+\(x=0\) yields \(\Psi_{\mathrm{Li}}(q)\), and the first omitted power is
+\(x^2\). This proves the compact-uniform estimate.
+\end{proof}
+
+\subsection{First derivative profile}
+
+Define
+\begin{equation}
+\label{eq:J}
+J_{\mathrm{Li}}(q)
+=
+2q^3\sin q
+-
+12q^2\cos q
+-
+12q\sin q.
+\end{equation}
+
+The first derivative must be obtained from the exact scaled analytic
+representation rather than by formally differentiating the error term
+in Proposition~\ref{prop:chi-profile}.
+
+Let
+\[
+x=\frac1\gamma,
+\qquad
+q=\frac n\gamma,
+\qquad
+d(x)=1+\frac{x^2}{4},
+\]
+and
+\[
+\phi(q,x)
+=
+\frac qx
+2\arctan\frac x2.
+\]
+Direct differentiation of the exact susceptibility gives
+\[
+\gamma^3\LiSus_n'(\gamma)
+=
+G(q,x),
+\]
+where
+\[
+\begin{aligned}
+G(q,x)
+={}&
+\frac{8q}{d^3}
+\left(
+q\cos\phi+2\sin\phi
+\right)
+\\
+&-
+\frac{2q}{d^2}
+\left[
+\left(
+\frac{q^2}{d}+2
+\right)
+\sin\phi
+-
+\frac{2q}{d}\cos\phi
+\right].
+\end{aligned}
+\]
+The function \(G\) is analytic in \(q\) and \(x^2\) near compact
+positive \(q\)-sets, and
+\[
+G(q,0)=-J_{\mathrm{Li}}(q).
+\]
+
+Therefore:
+
+\begin{proposition}
+\label{prop:first-derivative}
+Uniformly for
+\[
+q=\frac n\gamma
+\]
+in compact positive sets,
+\[
+\gamma^3\LiSus_n'(\gamma)
+=
+-J_{\mathrm{Li}}(q)
++
+O_K(\gamma^{-2}).
+\]
+\end{proposition}
+
+\subsection{Second derivative profile}
+
+Define
+\begin{equation}
+\label{eq:K2-definition}
+K_{\mathrm{Li}}^{(2)}(q)
+=
+3J_{\mathrm{Li}}(q)
++
+qJ_{\mathrm{Li}}'(q).
+\end{equation}
+
+From \eqref{eq:J},
+\[
+J_{\mathrm{Li}}'(q)
+=
+2q^3\cos q
++
+18q^2\sin q
+-
+36q\cos q
+-
+12\sin q.
+\]
+Hence
+\begin{equation}
+\label{eq:K2}
+\boxed{
+K_{\mathrm{Li}}^{(2)}(q)
+=
+2q^4\cos q
++
+24q^3\sin q
+-
+72q^2\cos q
+-
+48q\sin q.
+}
+\end{equation}
+
+We again use the exact scaled analytic representation.
+
+Since
+\[
+\LiSus_n'(\gamma)
+=
+\gamma^{-3}G(q,x),
+\]
+where
+\[
+q=\frac n\gamma,
+\qquad
+x=\frac1\gamma,
+\]
+and
+\[
+\frac{dq}{d\gamma}
+=
+-\frac q\gamma,
+\qquad
+\frac{dx}{d\gamma}
+=
+-\frac1{\gamma^2},
+\]
+we obtain
+\[
+\gamma^4\LiSus_n''(\gamma)
+=
+-3G(q,x)
+-
+qG_q(q,x)
+-
+xG_x(q,x).
+\]
+At \(x=0\),
+\[
+G(q,0)=-J_{\mathrm{Li}}(q),
+\]
+\[
+G_q(q,0)=-J_{\mathrm{Li}}'(q),
+\]
+and analyticity in \(x^2\) gives
+\[
+xG_x(q,x)=O_K(x^2).
+\]
+
+Thus:
+
+\begin{proposition}
+\label{prop:second-derivative}
+Uniformly for
+\[
+q=\frac n\gamma
+\]
+in compact positive sets,
+\[
+\boxed{
+\gamma^4\LiSus_n''(\gamma)
+=
+K_{\mathrm{Li}}^{(2)}(q)
++
+O_K(\gamma^{-2}).
+}
+\]
+\end{proposition}
+
+\section{Relative-window kernel bounds}
+
+Fix
+\[
+\eta>0
+\]
+and
+\[
+K=[c_-,c_+]
+\Subset(0,\infty).
+\]
+Suppose
+\[
+\frac nH\in K.
+\]
+Set
+\[
+B=(1+\eta)H.
+\]
+
+For
+\[
+t=Hu,
+\qquad
+1\le u\le1+\eta,
+\]
+we have
+\[
+\frac nt
+=
+\frac{n/H}{u}
+\in
+K_\eta
+:=
+\left[
+\frac{c_-}{1+\eta},
+c_+
+\right].
+\]
+The set \(K_\eta\) is compact and contained in \((0,\infty)\).
+
+Proposition~\ref{prop:chi-profile} therefore implies
+\[
+\LiSus_n(t)
+=
+O_{K,\eta}(H^{-2})
+\]
+uniformly on the window. In particular,
+\begin{equation}
+\label{eq:endpoint-scale}
+|\LiSus_n(B)-\LiSus_n(H)|
+=
+O_{K,\eta}(H^{-2}).
+\end{equation}
+
+Similarly, Proposition~\ref{prop:second-derivative} gives
+\[
+\LiSus_n''(t)
+=
+O_{K,\eta}(H^{-4})
+\]
+uniformly. Since
+\[
+B-H=\eta H,
+\]
+we obtain
+\begin{equation}
+\label{eq:second-variation-scale}
+\int_H^B
+|\LiSus_n''(t)|\,dt
+=
+O_{K,\eta}(H^{-3}).
+\end{equation}
+
+More precisely, if
+\[
+\frac nH\to c>0,
+\]
+then
+\[
+H^3
+\int_H^{(1+\eta)H}
+|\LiSus_n''(t)|\,dt
+\to
+\int_1^{1+\eta}
+u^{-4}
+\left|
+K_{\mathrm{Li}}^{(2)}
+\left(
+\frac cu
+\right)
+\right|\,du.
+\]
+
+\section{Centered discrepancy primitive}
+
+Define the window mean
+\[
+\Ebar
+=
+\frac1{B-H}
+\int_H^B
+E(s)\,ds.
+\]
+
+Using
+\[
+E=S+R,
+\]
+we have
+\[
+\int_H^B E(s)\,ds
+=
+S_1(B)-S_1(H)
++
+\int_H^B R(s)\,ds.
+\]
+By \eqref{eq:s1-unconditional},
+\[
+S_1(B)-S_1(H)
+=
+O_\eta(\log H).
+\]
+Also,
+\[
+\int_H^B|R(s)|\,ds
+=
+O_\eta(1).
+\]
+Since
+\[
+B-H=\eta H,
+\]
+we obtain
+\begin{equation}
+\label{eq:Ebar}
+\boxed{
+\Ebar
+=
+O_\eta
+\left(
+\frac{\log H}{H}
+\right).
+}
+\end{equation}
+
+Now define
+\[
+F(t)
+=
+\int_H^t
+\left(
+E(s)-\Ebar
+\right)\,ds.
+\]
+Then
+\[
+F(H)=F(B)=0.
+\]
+
+Let
+\[
+A(t)
+=
+\int_{t_0}^t E(s)\,ds
+\]
+for fixed \(t_0>0\). Directly,
+\[
+\boxed{
+F(t)
+=
+A(t)-A(H)
+-
+\frac{t-H}{B-H}
+\left(
+A(B)-A(H)
+\right).
+}
+\]
+Thus \(F\) is the secant-detrended increment of an antiderivative of
+the counting discrepancy.
+
+Since
+\[
+A(t)
+=
+S_1(t)
++
+\int_{t_0}^t R(s)\,ds
++
+C_0,
+\]
+the constant \(C_0\) cancels. On the relative window,
+\[
+\sup_{H\le t\le B}
+|S_1(t)|
+=
+O_\eta(\log H),
+\]
+and all integrated remainder increments are \(O_\eta(1)\). Hence
+\begin{equation}
+\label{eq:Fbound}
+\boxed{
+\|F\|_{\infty,[H,B]}
+=
+O_\eta(\log H).
+}
+\end{equation}
+
+\section{Exact response transfer}
+
+Define
+\[
+\Rint(n;H,\eta)
+=
+-
+\int_H^B
+E(t)\LiSus_n'(t)\,dt.
+\]
+
+Since
+\[
+F'(t)
+=
+E(t)-\Ebar
+\]
+almost everywhere,
+\[
+E(t)=\Ebar+F'(t)
+\]
+almost everywhere. Therefore
+\[
+\begin{aligned}
+\Rint
+&=
+-\Ebar
+\int_H^B
+\LiSus_n'(t)\,dt
+-
+\int_H^B
+F'(t)\LiSus_n'(t)\,dt.
+\end{aligned}
+\]
+Because
+\[
+F(H)=F(B)=0,
+\]
+integration by parts yields the exact identity
+\begin{equation}
+\label{eq:transfer}
+\boxed{
+\Rint
+=
+-\Ebar
+\left(
+\LiSus_n(B)-\LiSus_n(H)
+\right)
++
+\int_H^B
+F(t)\LiSus_n''(t)\,dt.
+}
+\end{equation}
+
+We call the first term
+\[
+R_{\mathrm{mean}}
+=
+-\Ebar
+\left(
+\LiSus_n(B)-\LiSus_n(H)
+\right)
+\]
+and the second
+\[
+R_{\mathrm{prim}}
+=
+\int_H^B
+F(t)\LiSus_n''(t)\,dt.
+\]
+
+Thus
+\[
+\Rint
+=
+R_{\mathrm{mean}}
++
+R_{\mathrm{prim}}.
+\]
+
+\section{Proof of the main theorem}
+
+We now prove Theorem~\ref{thm:main}.
+
+From \eqref{eq:Ebar} and \eqref{eq:endpoint-scale},
+\[
+\begin{aligned}
+|R_{\mathrm{mean}}|
+&\le
+|\Ebar|
+\,
+|\LiSus_n(B)-\LiSus_n(H)|
+\\
+&=
+O_\eta
+\left(
+\frac{\log H}{H}
+\right)
+O_{K,\eta}(H^{-2}).
+\end{aligned}
+\]
+Therefore
+\begin{equation}
+\label{eq:mean-bound}
+R_{\mathrm{mean}}
+=
+O_{K,\eta}
+\left(
+\frac{\log H}{H^3}
+\right).
+\end{equation}
+
+For the primitive channel, \eqref{eq:Fbound} and
+\eqref{eq:second-variation-scale} give
+\[
+\begin{aligned}
+|R_{\mathrm{prim}}|
+&\le
+\|F\|_\infty
+\int_H^B
+|\LiSus_n''(t)|\,dt
+\\
+&=
+O_\eta(\log H)
+O_{K,\eta}(H^{-3}).
+\end{aligned}
+\]
+Hence
+\begin{equation}
+\label{eq:primitive-bound}
+R_{\mathrm{prim}}
+=
+O_{K,\eta}
+\left(
+\frac{\log H}{H^3}
+\right).
+\end{equation}
+
+Combining \eqref{eq:transfer}, \eqref{eq:mean-bound}, and
+\eqref{eq:primitive-bound}, we obtain
+\[
+\boxed{
+\Rint(n;H,\eta)
+=
+O_{K,\eta}
+\left(
+\frac{\log H}{H^3}
+\right).
+}
+\]
+Multiplying by \(H^2\) gives
+\[
+H^2\Rint(n;H,\eta)
+=
+O_{K,\eta}
+\left(
+\frac{\log H}{H}
+\right)
+\to0.
+\]
+This proves Theorem~\ref{thm:main}.
+
+No assumption of the Riemann Hypothesis is used.
+
+\section{The RH-conditional refinement}
+
+Assume RH.
+
+Replacing \eqref{eq:s1-unconditional} by
+\eqref{eq:s1-rh} gives
+\[
+\Ebar
+=
+O_\eta
+\left(
+\frac{\log H}
+{H(\log\log H)^2}
+\right)
+\]
+and
+\[
+\|F\|_\infty
+=
+O_\eta
+\left(
+\frac{\log H}
+{(\log\log H)^2}
+\right).
+\]
+The susceptibility estimates are unchanged. Substitution into
+\eqref{eq:transfer} yields
+\[
+\boxed{
+\Rint(n;H,\eta)
+=
+O_{K,\eta}
+\left(
+\frac{\log H}
+{H^3(\log\log H)^2}
+\right).
+}
+\]
+This proves Corollary~\ref{cor:rh}.
+
+\section{Normalized response shares}
+
+The main theorem may be converted into a normalized-share statement
+only when a competing response channel has a lower bound at the
+natural susceptibility scale.
+
+\begin{proposition}
+\label{prop:abstract-share}
+Suppose along a matched-scale sequence that a competing response
+channel \(R_{\mathrm{comp}}\) satisfies
+\[
+|R_{\mathrm{comp}}|
+\ge
+cH^{-2}
+\]
+for some fixed \(c>0\). Then
+\[
+\frac{|\Rint|}
+{
+|R_{\mathrm{comp}}|+|\Rint|
+}
+=
+O_{K,\eta,c}
+\left(
+\frac{\log H}{H}
+\right)
+\to0.
+\]
+\end{proposition}
+
+\begin{proof}
+By Theorem~\ref{thm:main},
+\[
+|\Rint|
+\le
+C_{K,\eta}
+\frac{\log H}{H^3}
+\]
+for sufficiently large \(H\). Therefore
+\[
+\frac{|\Rint|}
+{
+|R_{\mathrm{comp}}|+|\Rint|
+}
+\le
+\frac{
+C_{K,\eta}\log H/H^3
+}{
+cH^{-2}
+}
+=
+\frac{C_{K,\eta}}{c}
+\frac{\log H}{H}.
+\]
+\end{proof}
+
+For a Stieltjes decomposition, the atom channel at the left endpoint is
+\[
+R_{\mathrm{atom}}
+=
+\LiSus_n(H)\Delta N(H).
+\]
+Kernel nondegeneracy alone does not imply atom existence. We therefore
+state the atom specialization with an explicit jump hypothesis.
+
+\begin{corollary}
+\label{cor:atom-share}
+Suppose
+\[
+\frac nH\in K,
+\qquad
+|\Psi_{\mathrm{Li}}(n/H)|
+\ge\delta>0,
+\]
+and
+\[
+\Delta N(H)=m_H\ge m_0>0.
+\]
+Then
+\[
+|R_{\mathrm{atom}}|
+\gg_{K,\delta,m_0}
+H^{-2},
+\]
+and the normalized interior response share tends to zero.
+\end{corollary}
+
+\section{Finite-height numerical motivation}
+
+The centered-primitive formulation was motivated by finite-height
+experiments using computed critical-line zero ordinates.
+
+A first block used the first \(500\) computed ordinates. A disjoint
+higher-index block used ordinates with indices \(501\) through \(1500\).
+The second block was evaluated against a component-share principal
+axis frozen from the first block before the higher-block response
+shares were generated.
+
+The numerical response decomposition exhibited a small interior
+absolute share and a component-share cloud strongly concentrated near
+the atom--endpoint exchange direction. A centered-primitive transfer
+certificate was then evaluated numerically and displayed substantial
+finite-height compression relative to the first absolute transfer
+scale.
+
+These computations are not proof dependencies for
+Theorem~\ref{thm:main}. They motivated the analytic question answered
+by the theorem: whether the centered primitive of the global
+zero-counting discrepancy has sufficient unconditional control to
+force the interior Li response below the natural \(H^{-2}\)
+susceptibility scale.
+
+The answer is affirmative by the classical estimate
+\[
+S_1(T)=O(\log T).
+\]
+
+\section{Horizontal blindness and scope}
+
+Theorem~\ref{thm:main} is not an RH criterion.
+
+To see the structural obstruction, consider two abstract zero
+multisets having the same ordinates and multiplicities but different
+real parts. Their scalar counting functions \(N(T)\) agree identically.
+Therefore their discrepancies \(E(T)\), window means, and centered
+primitives also agree.
+
+The map
+\[
+\{\rho\}
+\longmapsto
+N(T)
+\]
+forgets the horizontal zero coordinate. Since RH is a statement about
+\[
+\operatorname{Re}\rho,
+\]
+an argument using only the scalar counting discrepancy cannot
+distinguish all critical-line configurations from
+ordinate-identical off-critical configurations.
+
+Accordingly, the result proved here is a response-asymptotic theorem
+for the scalar zero-counting discrepancy.
+
+\section{Relation to classical Li and Weil machinery}
+
+The kernel
+\[
+1-\left(1-\frac1s\right)^n
+\]
+is classical in Li's criterion. Bombieri and Lagarias
+\cite{BombieriLagarias1999} derive an arithmetic formula for Li's
+coefficients through the Guinand--Weil explicit formula and relate
+Li positivity to Weil's criterion.
+
+Likewise, the existence of an RH-equivalent positive quadratic
+functional is classical Weil theory. Bombieri's study of Weil's
+quadratic functional includes Fourier-side quadratic forms and finite
+matrix truncations \cite{Bombieri2000}.
+
+We do not claim a new Li criterion or a new Weil positivity framework.
+
+The present paper instead studies the zero-coordinate Hessian
+\[
+2\operatorname{Re}
+f_n''
+\left(
+\frac12+i\gamma
+\right)
+\]
+in a matched-scale regime and combines its second-derivative profile
+with a centered primitive of the classical zero-counting discrepancy.
+
+No subsuming source has been identified in the current
+uploaded-corpus audit for the exact combined response theorem stated
+here. This sentence is not a novelty claim. Originality remains under active prior-art review.
+
+\section{Conclusion}
+
+We introduced the matched-scale Li susceptibility
+\[
+\LiSus_n(\gamma)
+=
+2\operatorname{Re}
+f_n''
+\left(
+\frac12+i\gamma
+\right)
+\]
+and derived compact-uniform profiles for the susceptibility and its
+first two derivatives.
+
+For the global zero-counting discrepancy
+\[
+E=N-M,
+\]
+we centered \(E\) on a fixed relative window and transferred its
+response through the exact identity
+\[
+\Rint
+=
+-\Ebar
+\left(
+\LiSus_n(B)-\LiSus_n(H)
+\right)
++
+\int_H^B
+F(t)\LiSus_n''(t)\,dt.
+\]
+
+The classical unconditional control
+\[
+S_1(T)=O(\log T)
+\]
+then yields
+\[
+\Rint
+=
+O_{K,\eta}
+\left(
+\frac{\log H}{H^3}
+\right).
+\]
+Thus the interior discrepancy response is lower order than the
+natural \(H^{-2}\) matched-scale susceptibility scale.
+
+Under RH, the classical sharper first-primitive estimate supplies an
+additional factor
+\[
+(\log\log H)^{-2}.
+\]
+
+The result is compatible with RH failure and should be interpreted as
+an asymptotic transfer theorem rather than an RH criterion.
+
+\begin{thebibliography}{99}
+
+\bibitem{BombieriLagarias1999}
+E. Bombieri and J. C. Lagarias,
+\emph{Complements to Li's criterion for the Riemann hypothesis},
+Journal of Number Theory \textbf{77} (1999), 274--287.
+
+\bibitem{Bombieri2000}
+E. Bombieri,
+\emph{Remarks on Weil's quadratic functional in the theory of prime numbers, I},
+Rendiconti Lincei. Matematica e Applicazioni,
+Series 9, \textbf{11} (2000), 183--233.
+
+\bibitem{WakasaS1}
+T. Wakasa,
+\emph{The explicit upper bound of the multiple integral of \(S(t)\)
+on the Riemann Hypothesis}.
+Used here as a source for the stated classical \(S_1\)-bound context
+and references to the underlying classical results.
+
+\end{thebibliography}
+
+\end{document}
