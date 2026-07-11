@@ -8104,3 +8104,30 @@ Further finite-rank experiments must be derived from a classical Weil-compatible
 
 It selects a reconstruction path only.
 
+
+---
+
+## CL-0509
+
+**Status:** SOURCE-GROUNDED PROTOCOL
+
+**Statement:** Phase 8D creates a source-grounded extraction protocol for reconstructing Bombieri-Weil quadratic forms.
+
+The project explicitly blocks exact Weil formula implementation until conventions are extracted from sources and locked.
+
+---
+
+## CL-0510
+
+**Status:** CONVENTION LOCK REQUIREMENT
+
+**Statement:** Before any exact Weil-code phase, the repository must lock the admissible test-function class, transform convention, zero-side convention, prime-side convention, quadratic functional, positivity statement, and RH-equivalence statement.
+
+---
+
+## CL-0511
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 8D does not prove RH, does not claim a new Weil criterion, and does not implement an exact Weil quadratic form.
+

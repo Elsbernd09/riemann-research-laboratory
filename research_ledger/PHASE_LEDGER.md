@@ -6061,3 +6061,33 @@ No novelty claim.
 
 Define the admissible classical test-function space and transform conventions.
 
+
+---
+
+## Phase 8D — Source-Grounded Weil Extraction Protocol
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/sources/PHASE_8D_SOURCE_GROUNDED_EXTRACTION_PROTOCOL.md`
+- `weil_reconstruction/sources/BOMBIERI_WEIL_READING_TEMPLATE.md`
+- `weil_reconstruction/sources/CONVENTION_LOCK_TABLE.md`
+- `weil_reconstruction/sources/SOURCE_EXTRACTION_TODO.md`
+
+### Purpose
+
+Prevent unsourced reconstruction of exact Weil formulae.
+
+### Boundary
+
+No exact Weil implementation yet.
+
+No RH proof.
+
+No new Weil criterion.
+
+### Next target
+
+Extract exact statements and conventions from the selected sources.
+
