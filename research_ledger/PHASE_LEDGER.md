@@ -6221,3 +6221,34 @@ No novelty claim.
 
 Derive and verify symbolic identities involving the involution \(f^*\), Mellin transform, and multiplicative convolution.
 
+
+---
+
+## Phase 8I — Involution and Convolution Identity Audit
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/symbolic/PHASE_8I_INVOLUTION_CONVOLUTION_AUDIT.md`
+- `weil_reconstruction/symbolic/INVOLUTION_CONVENTION_NOTE.md`
+- `weil_reconstruction/symbolic/CONVOLUTION_IDENTITY_CARD.md`
+
+### Result
+
+The Mellin identities for the recorded involution and multiplicative convolution were documented.
+
+### Boundary
+
+Complex conjugation conventions remain source-audit targets.
+
+Finite-rank positivity implementation remains blocked.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Audit Bombieri's complex conjugation convention for \(g^*\), \(f^*\), and positivity.
+

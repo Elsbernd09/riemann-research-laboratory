@@ -8282,3 +8282,56 @@ This is a known source formula, not a project-original formula.
 
 **Statement:** Exact finite-rank Weil implementation remains blocked because Bombieri's finite truncation model, matrix entries, and eigenvalue theorem dependencies remain unlocked.
 
+
+---
+
+## CL-0524
+
+**Status:** ALGEBRAIC IDENTITY RECORDED
+
+**Statement:** Under the recorded non-conjugated involution convention
+
+\[
+f^*(x)=x^{-1}f(1/x),
+\]
+
+the Mellin transform satisfies
+
+\[
+f^*(s)=f(1-s).
+\]
+
+---
+
+## CL-0525
+
+**Status:** ALGEBRAIC IDENTITY RECORDED
+
+**Statement:** Under multiplicative convolution
+
+\[
+(f*g)(x)=\int_0^\infty f(x/y)g(y)\frac{dy}{y},
+\]
+
+the Mellin transform satisfies
+
+\[
+(f*g)(s)=f(s)g(s).
+\]
+
+Therefore
+
+\[
+(f*f^*)(s)=f(s)f(1-s)
+\]
+
+under the recorded non-conjugated involution convention.
+
+---
+
+## CL-0526
+
+**Status:** CONVENTION CAUTION
+
+**Statement:** Because Bombieri's theorem is stated for complex-valued functions, the exact role of complex conjugation in \(g^*\), \(f^*\), and positivity statements must be source-audited before any finite-rank positivity implementation.
+
