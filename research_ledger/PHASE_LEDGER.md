@@ -6188,3 +6188,36 @@ No novelty claim.
 
 Fill the worksheet from the Bombieri source text.
 
+
+---
+
+## Phase 8H — Full Bombieri T[f] Formula Extraction
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/sources/extractions/PHASE_8H_FULL_T_FUNCTIONAL_EXTRACTION.md`
+- `weil_reconstruction/sources/extractions/T_FUNCTIONAL_EXTRACTED_FORMULA.md`
+- updated `T_FUNCTIONAL_TERM_TABLE.md`
+- updated `T_FUNCTIONAL_LOCK_REQUIREMENTS.md`
+- updated `CONVENTION_LOCK_TABLE.md`
+
+### Result
+
+Bombieri's full \(T[f]\) formula was source-extracted and locked for symbolic reconstruction.
+
+### Boundary
+
+Finite-rank Weil implementation remains blocked.
+
+No new theorem.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Derive and verify symbolic identities involving the involution \(f^*\), Mellin transform, and multiplicative convolution.
+

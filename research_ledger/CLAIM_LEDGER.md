@@ -8236,3 +8236,49 @@ The formula remains unlocked, and the project explicitly avoids reconstructing i
 
 **Statement:** Phase 8G does not prove RH, does not claim a new Weil criterion, and does not claim novelty.
 
+
+---
+
+## CL-0521
+
+**Status:** KNOWN FORMULA RECONSTRUCTED
+
+**Statement:** Bombieri's full linear functional \(T[f]\) has been source-extracted at formula level:
+
+\[
+T[f]
+=
+\int_0^\infty f(x)\,dx
++
+\int_0^\infty f^*(x)\,dx
+-
+\sum_{n=1}^{\infty}
+\Lambda(n)\{f(n)+f^*(n)\}
+-
+(\log 4\pi+\gamma_E)f(1)
+-
+\int_1^\infty
+\left(
+f(x)+f^*(x)-\frac{2}{x}f(1)
+\right)
+\frac{x\,dx}{x^2-1}.
+\]
+
+This is a known source formula, not a project-original formula.
+
+---
+
+## CL-0522
+
+**Status:** CONVENTION LOCK UPDATE
+
+**Statement:** The \(T[f]\) formula, test-function class, involution, Mellin transform, prime-side term, constant term, archimedean integral, and zero-side identity are now locked for symbolic reconstruction work.
+
+---
+
+## CL-0523
+
+**Status:** IMPLEMENTATION BOUNDARY
+
+**Statement:** Exact finite-rank Weil implementation remains blocked because Bombieri's finite truncation model, matrix entries, and eigenvalue theorem dependencies remain unlocked.
+

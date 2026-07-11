@@ -1,85 +1,60 @@
 # T[f] Functional Lock Requirements
 
-## Required before LOCKED status
+## Status update
 
-The exact Bombieri functional
+The full Bombieri functional
 
 \[
 T[f]
 \]
 
-cannot be marked LOCKED until all of the following are complete.
+has now been source-extracted at formula level.
 
----
+T_FUNCTIONAL_FORMULA_STATUS: LOCKED.
 
-## 1. Source location
+## Source location
 
-Must include:
+Bombieri, **Remarks on Weil's quadratic functional in the theory of prime numbers, I**, Sections 2 and 3.
 
-- source title;
-- section;
-- page;
-- equation number if available;
-- theorem or definition number if available.
+Status: LOCKED.
 
-Status: UNLOCKED.
+## Original formula
 
----
+Recorded in:
 
-## 2. Original formula
+- `PHASE_8H_FULL_T_FUNCTIONAL_EXTRACTION.md`
+- `T_FUNCTIONAL_EXTRACTED_FORMULA.md`
+- `T_FUNCTIONAL_TERM_TABLE.md`
 
-The exact source formula must be copied or faithfully transcribed before any project notation is introduced.
+Status: LOCKED.
 
-Status: UNLOCKED.
+## Term decomposition
 
----
+The following components are locked:
 
-## 3. Project notation translation
-
-Only after the original source formula is recorded, translate to project notation.
-
-Status: BLOCKED.
-
----
-
-## 4. Term decomposition
-
-Must identify:
-
-- zero-side term;
+- test-function class;
+- involution;
+- Mellin transform;
+- mass terms;
 - prime-side term;
-- pole term;
-- trivial-zero term;
-- archimedean term;
-- constants;
-- signs;
-- transform normalization.
+- constant term;
+- archimedean integral;
+- zero-side identity;
+- full \(T[f]\) formula.
 
-Status: UNLOCKED.
+Status: LOCKED.
 
----
+## Implementation permission
 
-## 5. Consistency audit
+Although \(T[f]\) is now formula-locked, exact finite-rank Weil implementation remains blocked.
 
-Must check that the theorem-level identity
+Reason:
 
-\[
-T[f]=\sum_\rho f(\rho)
-\]
-
-is consistent with the expanded formula and conventions.
-
-Status: UNLOCKED.
-
----
-
-## 6. Implementation permission
-
-No code implementation is allowed until this file says:
-
-T_FUNCTIONAL_IMPLEMENTATION_PERMISSION: GRANTED.
+The finite truncation model and matrix entries have not yet been source-extracted.
 
 Current status:
 
-T_FUNCTIONAL_IMPLEMENTATION_PERMISSION: DENIED.
+T_FUNCTIONAL_IMPLEMENTATION_PERMISSION: PARTIAL_SYMBOLIC_ONLY.
+
+FINITE_RANK_WEIL_IMPLEMENTATION_PERMISSION: DENIED.
 
