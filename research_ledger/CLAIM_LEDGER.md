@@ -8131,3 +8131,30 @@ The project explicitly blocks exact Weil formula implementation until convention
 
 **Statement:** Phase 8D does not prove RH, does not claim a new Weil criterion, and does not implement an exact Weil quadratic form.
 
+
+---
+
+## CL-0512
+
+**Status:** SOURCE EXTRACTION
+
+**Statement:** Phase 8E creates initial source extraction notes for Bombieri's Weil quadratic functional paper and Suzuki's modern Weil quadratic form framing.
+
+The extraction locks only high-level structural facts and leaves exact formulas unlocked.
+
+---
+
+## CL-0513
+
+**Status:** PARTIAL CONVENTION LOCK
+
+**Statement:** The convention lock table now marks the primary reconstruction path and high-level Weil positivity framework as locked, while exact transform conventions, zero-side formulas, prime-side formulas, archimedean terms, and matrix entries remain unlocked.
+
+---
+
+## CL-0514
+
+**Status:** BOUNDARY NOTE**
+
+**Statement:** Phase 8E does not implement an exact Weil form, does not prove RH, and does not claim novelty.
+

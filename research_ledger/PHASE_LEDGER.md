@@ -6091,3 +6091,37 @@ No new Weil criterion.
 
 Extract exact statements and conventions from the selected sources.
 
+
+---
+
+## Phase 8E — Initial Source Extraction Notes
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/sources/extractions/PHASE_8E_INITIAL_SOURCE_EXTRACTION.md`
+- `weil_reconstruction/sources/extractions/BOMBIERI_SOURCE_CARD.md`
+- `weil_reconstruction/sources/extractions/SUZUKI_SOURCE_CARD.md`
+- updated `weil_reconstruction/sources/CONVENTION_LOCK_TABLE.md`
+
+### Result
+
+Initial source cards were created for Bombieri and Suzuki.
+
+### Boundary
+
+Only high-level structural facts were locked.
+
+Exact formulas remain unlocked.
+
+No exact Weil implementation.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Extract the exact Bombieri theorem statements and theorem numbers.
+
