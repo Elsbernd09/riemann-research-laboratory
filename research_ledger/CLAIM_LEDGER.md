@@ -7654,3 +7654,48 @@ It rules out a broad naive linear-filter strategy.
 
 The computation is illustrative and not a substitute for the analytic proof.
 
+
+---
+
+## CL-0470
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** The Li-coordinate radial defect energy
+
+\[
+D_{\mathrm{rad}}(\rho)
+=
+\left(\log |1-1/\rho|\right)^2
+\]
+
+is nonnegative and vanishes if and only if \(\Re(\rho)=1/2\).
+
+---
+
+## CL-0471
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** For \(\rho=1/2+x+i\gamma\),
+
+\[
+D_{\mathrm{rad}}(\rho)
+=
+\frac{x^2}{(\gamma^2+1/4)^2}
++
+O(x^4).
+\]
+
+Thus the radial Li-coordinate defect detects horizontal displacement quadratically.
+
+---
+
+## CL-0472
+
+**Status:** OPEN OBSTRUCTION
+
+**Statement:** Although \(D_{\mathrm{rad}}\) is a positive faithful single-zero detector, no explicit-formula-compatible arithmetic-side representation has been established in the project.
+
+Therefore this is not an RH criterion.
+

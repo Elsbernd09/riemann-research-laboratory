@@ -5703,3 +5703,35 @@ Future work must use nonlinear, quadratic, Weil-positive, or arithmetic-compatib
 
 None.
 
+
+---
+
+## Phase 7C — Quadratic Li-Coordinate Defect Energy
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `horizontal_defect/theorems/PHASE_7C_QUADRATIC_LI_DEFECT_ENERGY.md`
+- `horizontal_defect/experiments/phase7c_radial_defect_energy.py`
+
+### Result
+
+A positive single-zero horizontal-defect energy was constructed:
+
+\[
+D_{\mathrm{rad}}(\rho)
+=
+\left(\log |1-1/\rho|\right)^2.
+\]
+
+It vanishes exactly on the critical line.
+
+### Remaining obstruction
+
+No explicit-formula-compatible arithmetic-side representation has been proved.
+
+### RH claim
+
+None.
+
