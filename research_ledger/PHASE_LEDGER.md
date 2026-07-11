@@ -5817,3 +5817,32 @@ No explicit-formula-compatible arithmetic-side representation has been establish
 
 None.
 
+
+---
+
+## Phase 7G — Weil-Positive Interface Audit
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `horizontal_defect/weil_interface/PHASE_7G_WEIL_POSITIVE_INTERFACE_AUDIT.md`
+- `horizontal_defect/weil_interface/FINITE_RANK_WEIL_TESTBED_PLAN.md`
+- `horizontal_defect/experiments/phase7g_weil_interface_toy_matrix.py`
+
+### Result
+
+The project identified the Weil-positive interface as the next serious barrier.
+
+### Boundary
+
+The current quadratic detector is positive and horizontal-sensitive but not yet explicit-formula compatible.
+
+### Next target
+
+Finite-rank Weil negative-direction detection.
+
+### RH claim
+
+None.
+

@@ -7832,3 +7832,36 @@ and the leading phase factor is strictly positive for all \(\theta\).
 
 The object is positive and diagnostic, not an RH criterion.
 
+
+---
+
+## CL-0482
+
+**Status:** WEIL INTERFACE AUDIT
+
+**Statement:** A Weil-positive interface audit has been created for the horizontal-defect program.
+
+The audit records that the current quadratic Li-filter detector is positive and horizontal-sensitive, but no explicit-formula-compatible Weil representation has been established.
+
+---
+
+## CL-0483
+
+**Status:** TESTBED PLAN
+
+**Statement:** A finite-rank Weil testbed plan has been created.
+
+The goal is to study how synthetic off-critical zero quartets may create detectable negative directions in finite-dimensional quadratic models.
+
+This is not a new Weil criterion.
+
+---
+
+## CL-0484
+
+**Status:** TOY COMPUTATIONAL MODEL
+
+**Statement:** A toy signed feature-matrix experiment was implemented for synthetic off-critical quartets.
+
+The experiment is diagnostic only and is not a classical Weil quadratic form.
+
