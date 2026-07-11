@@ -5677,3 +5677,29 @@ A method that cannot see \(\beta-\frac12\) cannot prove RH.
 
 Linear Li-filter horizontal-defect obstruction.
 
+
+---
+
+## Phase 7B — Linear Li-Filter Obstruction Theorem
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `horizontal_defect/theorems/PHASE_7B_LINEAR_LI_FILTER_OBSTRUCTION.md`
+- `horizontal_defect/experiments/phase7b_linear_filter_scan.py`
+
+### Result
+
+A finite real linear Li horizontal-defect filter cannot be a universal positive detector at leading order unless its leading cosine polynomial vanishes identically.
+
+### Meaning
+
+Naive linear Li-filter attacks are obstructed.
+
+Future work must use nonlinear, quadratic, Weil-positive, or arithmetic-compatible structures.
+
+### RH claim
+
+None.
+

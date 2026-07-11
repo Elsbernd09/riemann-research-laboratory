@@ -7615,3 +7615,42 @@ A scalar zero-counting-only theorem is recorded as insufficient for RH relevance
 
 The goal is to prove that finite real linear Li-filter combinations cannot produce a uniformly positive detector of horizontal displacement over all phase angles without introducing nonlinear or quadratic information.
 
+
+---
+
+## CL-0467
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** A finite real linear Li horizontal-defect filter has leading small-displacement term
+
+\[
+\frac{u^2}{2}
+\sum_{n=1}^N
+a_nn^2\cos(n\theta).
+\]
+
+A universal nonnegative leading detector over all phase angles requires this zero-mean cosine polynomial to be identically zero.
+
+---
+
+## CL-0468
+
+**Status:** OBSTRUCTION THEOREM
+
+**Statement:** Nontrivial finite linear Li horizontal-defect filters cannot serve as universal positive horizontal-displacement detectors at leading order.
+
+This does not prove RH.
+
+It rules out a broad naive linear-filter strategy.
+
+---
+
+## CL-0469
+
+**Status:** COMPUTATIONAL VALIDATION
+
+**Statement:** Deterministic and random finite cosine-polynomial scans were run to validate the sign-change behavior predicted by the theorem.
+
+The computation is illustrative and not a substitute for the analytic proof.
+
