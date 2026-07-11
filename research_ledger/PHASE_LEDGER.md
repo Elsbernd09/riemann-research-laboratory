@@ -6125,3 +6125,35 @@ No novelty claim.
 
 Extract the exact Bombieri theorem statements and theorem numbers.
 
+
+---
+
+## Phase 8F — Bombieri Theorem 1 and 2 Extraction
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/sources/extractions/PHASE_8F_BOMBIERI_THEOREM_EXTRACTION.md`
+- `weil_reconstruction/sources/extractions/BOMBIERI_THEOREM_1_CARD.md`
+- `weil_reconstruction/sources/extractions/BOMBIERI_THEOREM_2_CARD.md`
+- updated `weil_reconstruction/sources/CONVENTION_LOCK_TABLE.md`
+
+### Result
+
+Bombieri Theorem 1 and Theorem 2 were extracted at statement level.
+
+### Boundary
+
+Known source reconstruction only.
+
+No new theorem.
+
+No RH proof.
+
+No exact finite-rank Weil implementation.
+
+### Next target
+
+Extract the exact formula for \(T[f]\), including prime-side and archimedean terms.
+

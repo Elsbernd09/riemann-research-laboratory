@@ -8158,3 +8158,54 @@ The extraction locks only high-level structural facts and leaves exact formulas 
 
 **Statement:** Phase 8E does not implement an exact Weil form, does not prove RH, and does not claim novelty.
 
+
+---
+
+## CL-0515
+
+**Status:** KNOWN THEOREM RECONSTRUCTED
+
+**Statement:** Bombieri Section 3 Theorem 1 was extracted at statement level:
+
+RH is equivalent to positivity of
+
+\[
+\sum_\rho g(\rho)g(1-\rho)
+\]
+
+for every nonzero complex-valued \(g\in C_0^\infty((0,\infty))\).
+
+This is a known source theorem, not a project-original theorem.
+
+---
+
+## CL-0516
+
+**Status:** KNOWN THEOREM RECONSTRUCTED
+
+**Statement:** Bombieri Section 3 Theorem 2 was extracted at statement level:
+
+Bombieri's functional \(T[f]\) satisfies
+
+\[
+T[f]=T[f^*]=\sum_\rho f(\rho),
+\]
+
+and RH is equivalent to
+
+\[
+T[f*f^*]\ge0
+\]
+
+on \(C_0^\infty((0,\infty))\), with equality only for the zero function.
+
+This is a known source theorem, not a project-original theorem.
+
+---
+
+## CL-0517
+
+**Status:** PARTIAL CONVENTION LOCK
+
+**Statement:** The convention lock table now locks the primary Bombieri Section 3 theorem statements, while leaving the exact full formula for \(T[f]\), transform conventions, convergence conventions, and finite truncation matrices only partially locked or unlocked.
+
