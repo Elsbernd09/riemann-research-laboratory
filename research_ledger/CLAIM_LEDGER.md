@@ -8009,3 +8009,34 @@ The synthesis records the achieved local horizontal-detection results, the linea
 
 This is not a novelty claim.
 
+
+---
+
+## CL-0500
+
+**Status:** CLASSICAL RECONSTRUCTION PROGRAM
+
+**Statement:** Phase 8A begins a classical Weil criterion reconstruction program.
+
+The purpose is to understand the known Weil-positive framework before building further finite-rank experiments.
+
+This is not a novelty claim.
+
+---
+
+## CL-0501
+
+**Status:** BOUNDARY RULE
+
+**Statement:** Phase 8 records that a toy matrix is not a Weil quadratic form unless an exact connection to the classical criterion is proved.
+
+Finite-rank diagnostic behavior cannot be promoted to RH relevance without a Weil-compatible or arithmetic-side bridge.
+
+---
+
+## CL-0502
+
+**Status:** NEXT TARGET
+
+**Statement:** The next serious target is to reconstruct the classical Weil criterion objects: test functions, zero-side sums, quadratic form, and off-critical negative-direction mechanism.
+

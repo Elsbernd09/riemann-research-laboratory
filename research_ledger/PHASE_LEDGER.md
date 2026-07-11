@@ -5966,3 +5966,32 @@ Classical Weil criterion reconstruction.
 
 None.
 
+
+---
+
+## Phase 8A — Classical Weil Criterion Reconstruction
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/PHASE_8A_CLASSICAL_WEIL_RECONSTRUCTION.md`
+- `weil_reconstruction/WEIL_RECONSTRUCTION_MAP.md`
+- `weil_reconstruction/PHASE_8_RESEARCH_RULES.md`
+
+### Purpose
+
+Start a literature-grounded reconstruction of classical Weil positivity.
+
+### Boundary
+
+No new Weil criterion.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Reconstruct the classical Weil criterion objects and the off-critical negative-direction mechanism.
+
