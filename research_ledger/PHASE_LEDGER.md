@@ -5372,3 +5372,140 @@ None.
 
 The scalar zero-counting architecture remains horizontally blind.
 
+
+---
+
+## Phase 5W — Unconditional Theorem Audit and Quantifier Repair
+
+Status: COMPLETE
+
+### Main theorem
+
+SURVIVES.
+
+\[
+R_{\mathrm{int}}(n;H,\eta)
+=
+O_{K,\eta}
+\left(
+\frac{\log H}{H^3}
+\right).
+\]
+
+Uniformly for
+
+\[
+n/H\in K\Subset(0,\infty).
+\]
+
+No RH assumption.
+
+### Classical input audit
+
+Riemann-von Mangoldt:
+
+CONFIRMED.
+
+\[
+E=S+O(1/t).
+\]
+
+Unconditional first primitive:
+
+CONFIRMED.
+
+\[
+S_1(t)=O(\log t).
+\]
+
+RH refinement:
+
+CONFIRMED.
+
+\[
+S_1(t)
+=
+O
+\left(
+\frac{\log t}
+{(\log\log t)^2}
+\right).
+\]
+
+### Ordinary integral convention
+
+The main theorem is unaffected by isolated endpoint-value conventions because it uses ordinary integrals.
+
+### Atom-share correction
+
+The condition
+
+\[
+|\Psi_{Li}(n/H)|\ge\delta
+\]
+
+controls the kernel.
+
+It does not guarantee that an atom exists at \(H\).
+
+The atom response is
+
+\[
+R_{\mathrm{atom}}
+=
+\chi_n(H)\Delta N(H).
+\]
+
+Therefore an explicit atom hypothesis is required.
+
+### Corrected atom-share theorem
+
+If
+
+\[
+|\Psi_{Li}(n/H)|\ge\delta>0
+\]
+
+and
+
+\[
+\Delta N(H)\ge m_0>0,
+\]
+
+then
+
+\[
+|R_{\mathrm{atom}}|
+\gg H^{-2}
+\]
+
+and the normalized interior share tends to zero unconditionally.
+
+### Abstract share theorem
+
+Any competing channel with a uniform lower bound
+
+\[
+cH^{-2}
+\]
+
+forces the normalized interior share to vanish at rate
+
+\[
+O(\log H/H).
+\]
+
+### Prior-art disposition
+
+No subsuming source identified in the current uploaded-corpus audit.
+
+Not a novelty claim.
+
+Complete current-public-literature novelty determination:
+
+NOT MADE.
+
+### RH consequence
+
+None.
+

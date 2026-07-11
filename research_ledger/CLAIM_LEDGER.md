@@ -7241,3 +7241,210 @@ Phase 5P shows that the scalar zero-counting discrepancy architecture is horizon
 
 The theorem is compatible with off-critical zeros and is a response-asymptotic result.
 
+
+---
+
+## CL-0438
+
+**Status:** ADVERSARIAL THEOREM AUDIT — MAIN THEOREM SURVIVES
+
+**Statement:** The Phase 5V unconditional estimate
+
+\[
+R_{\mathrm{int}}(n;H,\eta)
+=
+O_{K,\eta}
+\left(
+\frac{\log H}{H^3}
+\right)
+\]
+
+survives audit of the classical \(S_1\) input, Riemann-von Mangoldt remainder, fixed-relative-window scaling, compact-uniform matched-scale kernel estimates, and centered-primitive integration by parts.
+
+No RH assumption is used.
+
+---
+
+## CL-0439
+
+**Status:** FAILED CLAIM / OVERBROAD CONSEQUENCE
+
+**Statement:** Susceptibility profile nondegeneracy
+
+\[
+|\Psi_{Li}(n/H)|
+\ge
+\delta
+>
+0
+\]
+
+does not by itself imply a nondegenerate atom response
+
+\[
+|R_{\mathrm{atom}}|
+\gg
+H^{-2}.
+\]
+
+**Reason:** The atom response is
+
+\[
+R_{\mathrm{atom}}
+=
+\chi_n(H)\Delta N(H).
+\]
+
+If \(H\) is not a zero ordinate, then
+
+\[
+\Delta N(H)=0.
+\]
+
+**Disposition:** The informal atom-share implication in Phase 5V is rejected as overbroad.
+
+---
+
+## CL-0440
+
+**Status:** PROVED IN PROJECT — CORRECTED UNCONDITIONAL ATOM-SHARE CONSEQUENCE
+
+**Statement:** Suppose
+
+\[
+n/H\in K,
+\]
+
+\[
+|\Psi_{Li}(n/H)|
+\ge
+\delta
+>
+0,
+\]
+
+and
+
+\[
+\Delta N(H)
+=
+m_H
+\ge
+m_0
+>
+0.
+\]
+
+Then
+
+\[
+|R_{\mathrm{atom}}|
+\gg_{K,\delta,m_0}
+H^{-2},
+\]
+
+while
+
+\[
+R_{\mathrm{int}}
+=
+O_{K,\eta}
+\left(
+\frac{\log H}{H^3}
+\right).
+\]
+
+Therefore
+
+\[
+\boxed{
+\frac{|R_{\mathrm{int}}|}
+{
+|R_{\mathrm{atom}}|
++
+|R_{\mathrm{end}}|
++
+|R_{\mathrm{int}}|
+}
+\to0.
+}
+\]
+
+No RH assumption is used.
+
+---
+
+## CL-0441
+
+**Status:** PROVED IN PROJECT — ABSTRACT COMPETING-CHANNEL SHARE CONSEQUENCE
+
+**Statement:** If a competing response channel satisfies
+
+\[
+|R_{\mathrm{comp}}|
+\ge
+cH^{-2}
+\]
+
+for some fixed \(c>0\), then the unconditional interior estimate implies
+
+\[
+\boxed{
+\frac{|R_{\mathrm{int}}|}
+{
+|R_{\mathrm{comp}}|
++
+|R_{\mathrm{int}}|
+}
+=
+O
+\left(
+\frac{\log H}{H}
+\right)
+\to0.
+}
+\]
+
+A competing-channel lower bound is required.
+
+---
+
+## CL-0442
+
+**Status:** CONVENTION AUDIT
+
+**Statement:** The Phase 5V main theorem uses ordinary integrals of
+
+\[
+E=N-M.
+\]
+
+Changing the values of \(N\) or \(S\) on the discrete set of zero ordinates does not change these ordinary integrals.
+
+By contrast, Stieltjes atom terms depend on the synchronized endpoint convention and must retain explicit jump factors
+
+\[
+\Delta N(H).
+\]
+
+---
+
+## CL-0443
+
+**Status:** PRIOR-ART DISPOSITION
+
+**Statement:** No subsuming source identified in the current uploaded-corpus audit for the exact combined matched-scale Li susceptibility response theorem
+
+\[
+R_{\mathrm{int}}
+=
+O_{K,\eta}
+\left(
+\frac{\log H}{H^3}
+\right).
+\]
+
+This statement is not a novelty claim.
+
+A complete current-public-literature novelty determination is not made.
+
