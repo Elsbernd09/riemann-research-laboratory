@@ -7699,3 +7699,40 @@ Thus the radial Li-coordinate defect detects horizontal displacement quadratical
 
 Therefore this is not an RH criterion.
 
+
+---
+
+## CL-0473
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** For a finite multiset of zero candidates and positive weights,
+
+\[
+\mathcal D_{\mathrm{rad}}(\Omega)
+=
+\sum_{\rho_j\in\Omega}
+w_j
+\left(\log |1-1/\rho_j|\right)^2
+\]
+
+is nonnegative and vanishes if and only if every included zero candidate lies on the critical line.
+
+---
+
+## CL-0474
+
+**Status:** BOUNDARY RESULT
+
+**Statement:** Positive aggregation of the radial Li-coordinate defect is straightforward but does not prove RH.
+
+The missing ingredient is an explicit-formula-compatible arithmetic-side mechanism forcing the aggregate defect to vanish.
+
+---
+
+## CL-0475
+
+**Status:** OPEN OBSTRUCTION
+
+**Statement:** The main unresolved barrier is whether a positive horizontal-defect energy can be represented by, bounded by, or approximated through a Weil-positive test family.
+

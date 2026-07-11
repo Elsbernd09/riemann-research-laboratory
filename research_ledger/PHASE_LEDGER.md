@@ -5735,3 +5735,29 @@ No explicit-formula-compatible arithmetic-side representation has been proved.
 
 None.
 
+
+---
+
+## Phase 7D — Aggregation Barrier for Radial Defect Energy
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `horizontal_defect/theorems/PHASE_7D_AGGREGATION_BARRIER.md`
+- `horizontal_defect/experiments/phase7d_aggregation_barrier.py`
+
+### Result
+
+Finite positive aggregation of the radial Li-coordinate defect energy preserves faithful horizontal detection.
+
+### Boundary
+
+This is not an RH proof.
+
+It is tautological unless connected to an arithmetic-side or Weil-positive mechanism.
+
+### Next target
+
+Study whether the radial defect can be represented by, compared with, or approximated through Weil-positive quadratic forms.
+
