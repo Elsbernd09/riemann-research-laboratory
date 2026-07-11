@@ -7774,3 +7774,61 @@ The obstruction comes from the zero-mean cosine polynomial appearing at leading 
 
 Future directions must use nonlinear, quadratic, infinite limiting, Weil-positive, or arithmetic-constrained structures.
 
+
+---
+
+## CL-0479
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** The two-frequency quadratic Li-filter lift
+
+\[
+Q_{1,2}(u,\theta)
+=
+\Delta_1(u,\theta)^2
++
+\Delta_2(u,\theta)^2
+\]
+
+with
+
+\[
+\Delta_n(u,\theta)=\cos(n\theta)(\cosh(nu)-1)
+\]
+
+is strictly positive for every \(u\ne0\) and every phase \(\theta\).
+
+---
+
+## CL-0480
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** The small-displacement profile is
+
+\[
+Q_{1,2}(u,\theta)
+=
+\frac{u^4}{4}
+\left(
+\cos^2\theta
++
+16\cos^2(2\theta)
+\right)
++
+O(u^6),
+\]
+
+and the leading phase factor is strictly positive for all \(\theta\).
+
+---
+
+## CL-0481
+
+**Status:** OPEN OBSTRUCTION
+
+**Statement:** Quadratic Li-filter positivity defeats the finite linear phase obstruction, but no arithmetic-side or Weil-positive representation has been proved.
+
+The object is positive and diagnostic, not an RH criterion.
+

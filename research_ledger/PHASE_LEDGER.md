@@ -5789,3 +5789,31 @@ Quadratic or Weil-positive forms.
 
 None.
 
+
+---
+
+## Phase 7F — Quadratic Li-Filter Positivity Lift
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `horizontal_defect/theorems/PHASE_7F_QUADRATIC_LI_FILTER_POSITIVITY.md`
+- `horizontal_defect/experiments/phase7f_quadratic_filter_positivity.py`
+
+### Result
+
+The two-frequency quadratic Li-filter lift is strictly positive for every nonzero horizontal displacement parameter \(u\) and every phase \(\theta\).
+
+### Meaning
+
+Quadratic information defeats the finite linear phase-sign obstruction.
+
+### Remaining obstruction
+
+No explicit-formula-compatible arithmetic-side representation has been established.
+
+### RH claim
+
+None.
+
