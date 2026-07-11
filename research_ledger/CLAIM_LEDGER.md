@@ -7736,3 +7736,41 @@ The missing ingredient is an explicit-formula-compatible arithmetic-side mechani
 
 **Statement:** The main unresolved barrier is whether a positive horizontal-defect energy can be represented by, bounded by, or approximated through a Weil-positive test family.
 
+
+---
+
+## CL-0476
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** No finite real linear Li horizontal-defect filter
+
+\[
+L(u,\theta)
+=
+\sum_{n=1}^{N}
+a_n\cos(n\theta)(\cosh(nu)-1)
+\]
+
+can uniformly dominate \(u^2\) near \(u=0\) for all phase angles \(\theta\).
+
+---
+
+## CL-0477
+
+**Status:** OBSTRUCTION THEOREM
+
+**Statement:** The positive radial Li-coordinate defect cannot be lower-bounded by a finite linear Li-filter detector uniformly in phase.
+
+The obstruction comes from the zero-mean cosine polynomial appearing at leading order.
+
+---
+
+## CL-0478
+
+**Status:** STRATEGIC CONSEQUENCE
+
+**Statement:** A successful bridge from horizontal-defect positivity to arithmetic-side control cannot pass through ordinary finite linear Li filters alone.
+
+Future directions must use nonlinear, quadratic, infinite limiting, Weil-positive, or arithmetic-constrained structures.
+

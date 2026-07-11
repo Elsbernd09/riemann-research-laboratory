@@ -5761,3 +5761,31 @@ It is tautological unless connected to an arithmetic-side or Weil-positive mecha
 
 Study whether the radial defect can be represented by, compared with, or approximated through Weil-positive quadratic forms.
 
+
+---
+
+## Phase 7E — No-Go Comparison: Radial Defect vs Linear Li Filters
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `horizontal_defect/theorems/PHASE_7E_RADIAL_VS_LINEAR_FILTER_NOGO.md`
+- `horizontal_defect/experiments/phase7e_radial_vs_linear_nogo.py`
+
+### Result
+
+No finite real linear Li horizontal-defect filter can uniformly dominate the positive radial defect \(u^2\) near the critical line.
+
+### Meaning
+
+The radial defect cannot be connected to arithmetic-side control through ordinary finite linear Li filters alone.
+
+### Next direction
+
+Quadratic or Weil-positive forms.
+
+### RH claim
+
+None.
+
