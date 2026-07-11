@@ -6252,3 +6252,34 @@ No novelty claim.
 
 Audit Bombieri's complex conjugation convention for \(g^*\), \(f^*\), and positivity.
 
+
+---
+
+## Phase 8J — Complex Star Convention Audit
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/symbolic/PHASE_8J_COMPLEX_STAR_CONVENTION_AUDIT.md`
+- `weil_reconstruction/symbolic/STAR_CONVENTION_STATUS.md`
+- `weil_reconstruction/symbolic/COMPLEX_STAR_EXTRACTION_TODO.md`
+
+### Result
+
+The project distinguished algebraic star from Hermitian adjoint conventions.
+
+### Boundary
+
+Complex positivity convention remains source-unlocked.
+
+Finite-rank Weil matrices remain blocked.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Source-extract Bombieri's complex \(g^*\), \(f^*\), and positivity convention.
+

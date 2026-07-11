@@ -8335,3 +8335,40 @@ under the recorded non-conjugated involution convention.
 
 **Statement:** Because Bombieri's theorem is stated for complex-valued functions, the exact role of complex conjugation in \(g^*\), \(f^*\), and positivity statements must be source-audited before any finite-rank positivity implementation.
 
+
+---
+
+## CL-0527
+
+**Status:** CONVENTION AUDIT
+
+**Statement:** Phase 8J distinguishes the algebraic star
+
+\[
+f^*(x)=x^{-1}f(1/x)
+\]
+
+from a Hermitian adjoint candidate
+
+\[
+f^\dagger(x)=x^{-1}\overline{f(1/x)}.
+\]
+
+The algebraic Mellin identity is locked, but the complex positivity convention remains unlocked.
+
+---
+
+## CL-0528
+
+**Status:** IMPLEMENTATION BLOCK
+
+**Statement:** Finite-rank Weil matrix implementation and Hermitian positivity claims remain blocked until Bombieri's complex-valued star and convolution conventions are source-extracted.
+
+---
+
+## CL-0529
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 8J does not prove RH, does not claim a new Weil criterion, and does not claim novelty.
+
