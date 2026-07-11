@@ -5597,3 +5597,32 @@ Originality remains under active prior-art review.
 
 None.
 
+
+---
+
+## Phase 6B — Mentor Review Package
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `paper/MENTOR_REVIEW_NOTE.md`
+- `paper/PROJECT_SUMMARY_FOR_READER.md`
+- `paper/WHAT_TO_REVIEW_FIRST.md`
+
+### Purpose
+
+Make the manuscript easy to review by a professor, mentor, or mathematically mature reader.
+
+### Status
+
+Ready for mentor review.
+
+Not ready for submission.
+
+### Claim boundary
+
+No RH proof.
+
+No novelty claim.
+

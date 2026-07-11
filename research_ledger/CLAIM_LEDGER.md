@@ -7532,3 +7532,32 @@ No novelty claim is made.
 
 A complete current-public-literature novelty determination remains outstanding.
 
+
+---
+
+## CL-0460
+
+**Status:** MENTOR REVIEW PACKAGE
+
+**Statement:** A mentor review package has been created containing:
+
+- `paper/MENTOR_REVIEW_NOTE.md`
+- `paper/PROJECT_SUMMARY_FOR_READER.md`
+- `paper/WHAT_TO_REVIEW_FIRST.md`
+
+The package is designed for serious mathematical review, not public submission.
+
+---
+
+## CL-0461
+
+**Status:** REVIEW PRIORITY FREEZE
+
+**Statement:** External review should prioritize:
+
+1. the classical \(S_1\) dependency;
+2. the matched-scale derivative hierarchy;
+3. the ordinary integration-by-parts step;
+4. the uniformity in \(n/H\in K\);
+5. whether existing literature already contains the exact specialization.
+
