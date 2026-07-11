@@ -7584,3 +7584,34 @@ The correct next action is external mathematical review, not more theorem expans
 
 The manuscript should first be audited by a mathematically mature reader for correctness, prior art, and framing.
 
+
+---
+
+## CL-0464
+
+**Status:** HORIZONTAL INFORMATION AUDIT
+
+**Statement:** A horizontal information audit has been created.
+
+The audit classifies RH-adjacent objects by whether they detect horizontal zero displacement, whether they are positivity-compatible, whether they are explicit-formula compatible, and whether they are computationally testable.
+
+---
+
+## CL-0465
+
+**Status:** PROGRAM REDIRECTION
+
+**Statement:** The project is redirected away from scalar zero-counting response and toward horizontal-defect detection.
+
+A scalar zero-counting-only theorem is recorded as insufficient for RH relevance because it cannot distinguish zero configurations with identical ordinates but different real parts.
+
+---
+
+## CL-0466
+
+**Status:** NEXT THEOREM TARGET
+
+**Statement:** The next proposed theorem target is a linear Li-filter horizontal-defect obstruction.
+
+The goal is to prove that finite real linear Li-filter combinations cannot produce a uniformly positive detector of horizontal displacement over all phase angles without introducing nonlinear or quadratic information.
+

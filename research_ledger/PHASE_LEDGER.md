@@ -5652,3 +5652,28 @@ Stop adding phases.
 
 Seek external mathematical review.
 
+
+---
+
+## Phase 7A — Horizontal Information Audit
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `horizontal_defect/PHASE_7A_HORIZONTAL_INFORMATION_AUDIT.md`
+- `horizontal_defect/HORIZONTAL_DEFECT_PROGRAM.md`
+- `horizontal_defect/CANDIDATE_OBJECTS.md`
+
+### Purpose
+
+Start the next research program around horizontal zero displacement.
+
+### Core principle
+
+A method that cannot see \(\beta-\frac12\) cannot prove RH.
+
+### Next theorem target
+
+Linear Li-filter horizontal-defect obstruction.
+
