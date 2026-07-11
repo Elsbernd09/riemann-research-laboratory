@@ -8073,3 +8073,34 @@ Toy matrices cannot be called Weil-compatible unless this chain is satisfied.
 
 It creates definitions required for later literature-grounded reconstruction.
 
+
+---
+
+## CL-0506
+
+**Status:** FORMULATION SELECTION
+
+**Statement:** Phase 8C selects Bombieri-style Weil quadratic form reconstruction as the primary classical path for Phase 8.
+
+The purpose is to reconstruct a known positivity framework before creating further finite-rank experiments.
+
+---
+
+## CL-0507
+
+**Status:** STRATEGIC REJECTION
+
+**Statement:** Phase 8C rejects more arbitrary toy matrices as the immediate next step because Phase 7K found basis-dependence.
+
+Further finite-rank experiments must be derived from a classical Weil-compatible structure.
+
+---
+
+## CL-0508
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 8C does not claim a new Weil criterion, does not prove RH, and does not claim novelty.
+
+It selects a reconstruction path only.
+

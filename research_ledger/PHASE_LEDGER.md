@@ -6024,3 +6024,40 @@ No novelty claim.
 
 Choose one classical formulation and reconstruct it with exact conventions.
 
+
+---
+
+## Phase 8C — Exact Classical Formulation Selection
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/formulations/PHASE_8C_EXACT_FORMULATION_SELECTION.md`
+- `weil_reconstruction/formulations/SELECTED_FORMULATION.md`
+- `weil_reconstruction/formulations/REJECTED_STARTING_POINTS.md`
+
+### Result
+
+The selected path is Bombieri-style Weil quadratic form reconstruction.
+
+### Rejected immediate paths
+
+- more scalar zero-counting response;
+- more arbitrary toy matrices;
+- more standalone Li diagnostics;
+- claiming a new Weil criterion;
+- public breakthrough framing.
+
+### Boundary
+
+No RH proof.
+
+No new Weil criterion.
+
+No novelty claim.
+
+### Next target
+
+Define the admissible classical test-function space and transform conventions.
+
