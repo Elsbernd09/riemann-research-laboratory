@@ -6685,3 +6685,161 @@ A useful result would require explicit control of the rank, signature, or asympt
 
 No such result is currently proved.
 
+
+---
+
+## CL-0417
+
+**Status:** PROVED IN PROJECT — HERMITIAN REFLECTION LEMMA
+
+**Statement:** For
+
+\[
+\widetilde u(y)
+=
+\overline{u(-y)},
+\]
+
+the autocorrelation
+
+\[
+h=u*\widetilde u
+\]
+
+satisfies
+
+\[
+\boxed{
+h(-y)
+=
+\overline{h(y)}.
+}
+\]
+
+Every finite real signed sum of such autocorrelations satisfies the same Hermitian reflection symmetry.
+
+---
+
+## CL-0418
+
+**Status:** PROVED IN PROJECT — ONE-SIDED SYMMETRY-CLASS OBSTRUCTION
+
+**Statement:** For every positive integer \(n\), the nonzero real one-sided function
+
+\[
+G_n^{(2)}(y)
+=
+y^2G_n(y)
+\]
+
+cannot be represented as a finite real signed sum
+
+\[
+\sum_j
+\sigma_j
+u_j*\widetilde u_j.
+\]
+
+**Reason:** The right-hand side is Hermitian under reflection. A real Hermitian function is even. A nonzero one-sided real function is not even.
+
+---
+
+## CL-0419
+
+**Status:** FAILED RESEARCH TARGET / CORRECTION TO CL-0416
+
+**Statement:** The direct finite signed Weil-rank question for the one-sided function
+
+\[
+G_n^{(2)}
+\]
+
+was posed in the wrong symmetry class.
+
+**Disposition:** Direct signed convolution-square decomposition of \(G_n^{(2)}\) is abandoned.
+
+---
+
+## CL-0420
+
+**Status:** PROVED IN PROJECT — HERMITIAN SUSCEPTIBILITY KERNEL
+
+**Statement:** Define
+
+\[
+H_n^{(2)}(y)
+=
+G_n^{(2)}(y)
++
+G_n^{(2)}(-y).
+\]
+
+Then \(H_n^{(2)}\) is real and even, and
+
+\[
+\boxed{
+\widehat H_n^{(2)}(\gamma)
+=
+\chi_n^{Li}(\gamma).
+}
+\]
+
+Thus the Li susceptibility is exactly the Fourier transform of the Hermitian symmetrization of the second log-moment Li test function.
+
+---
+
+## CL-0421
+
+**Status:** PROVED IN PROJECT — POSITIVE-RANK-ONE OBSTRUCTION
+
+**Statement:** The Hermitian susceptibility kernel
+
+\[
+H_n^{(2)}
+\]
+
+cannot be represented as a single positive convolution square
+
+\[
+u*\widetilde u.
+\]
+
+**Reason:** Such a representation would imply
+
+\[
+\chi_n^{Li}(\gamma)
+=
+|\widehat u(\gamma)|^2
+\ge0,
+\]
+
+while the Li susceptibility is sign-changing.
+
+---
+
+## CL-0422
+
+**Status:** CORRECTED STRUCTURAL TARGET
+
+**Statement:** The surviving finite-signature problem concerns the Hermitian susceptibility kernel
+
+\[
+H_n^{(2)}
+\]
+
+and a natural rational Hardy/Mellin basis.
+
+The target is an exact finite Hermitian Gram representation
+
+\[
+\chi_n^{Li}(\gamma)
+=
+V_n(\gamma)^*
+A_n
+V_n(\gamma),
+\]
+
+followed by an audit of the inertia of \(A_n\).
+
+Basis-relative inertia must not be conflated with an intrinsic minimal signed Weil rank.
+

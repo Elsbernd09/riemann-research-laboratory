@@ -5042,3 +5042,116 @@ G_n^{(2)}.
 
 None.
 
+
+---
+
+## Phase 5T — Hermitian Symmetrization and Weil-Rank Obstruction
+
+Status: COMPLETE
+
+### Direct rank target
+
+The one-sided second log-moment Li test function
+
+\[
+G_n^{(2)}
+\]
+
+cannot be a finite real signed sum of Hermitian convolution squares.
+
+### Obstruction
+
+Every function
+
+\[
+u*\widetilde u
+\]
+
+satisfies
+
+\[
+h(-y)=\overline{h(y)}.
+\]
+
+Finite real signed sums preserve this symmetry.
+
+A real function in this class is even.
+
+The nonzero one-sided function
+
+\[
+G_n^{(2)}
+\]
+
+is not even.
+
+### Phase 5S correction
+
+The direct finite signed Weil-rank question for
+
+\[
+G_n^{(2)}
+\]
+
+was posed in the wrong symmetry class.
+
+That target is abandoned.
+
+### Correct Hermitian object
+
+\[
+H_n^{(2)}(y)
+=
+G_n^{(2)}(y)
++
+G_n^{(2)}(-y).
+\]
+
+Then
+
+\[
+\widehat H_n^{(2)}(\gamma)
+=
+\chi_n^{Li}(\gamma).
+\]
+
+### Positive-square obstruction
+
+Because the susceptibility changes sign,
+
+\[
+H_n^{(2)}
+\]
+
+cannot be a single positive convolution square.
+
+### Correct next target
+
+Construct an exact finite Hermitian Gram representation
+
+\[
+\chi_n^{Li}(\gamma)
+=
+V_n(\gamma)^*
+A_n
+V_n(\gamma)
+\]
+
+in the natural rational basis
+
+\[
+(1/2+i\gamma)^{-k}.
+\]
+
+Then audit the basis-relative inertia of \(A_n\).
+
+### Prior-art restriction
+
+Bombieri's quadratic-form, Fourier-transform, finite-matrix, and eigenvalue machinery is classical prior art.
+
+The narrow project question is the exact Gram structure of the symmetrized Li susceptibility kernel.
+
+### RH consequence
+
+None.
+
