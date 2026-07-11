@@ -7942,3 +7942,41 @@ x^2B_m(\gamma)+O_{m,\gamma}(x^4).
 
 No RH implication is claimed.
 
+
+---
+
+## CL-0491
+
+**Status:** DIAGNOSTIC AUDIT
+
+**Statement:** The second-order coefficient matrix
+
+\[
+B_m(\gamma)
+=
+\lim_{x\to0}
+\frac{C_m(x,\gamma)}{x^2}
+\]
+
+was isolated as the finite-rank horizontal displacement signal.
+
+---
+
+## CL-0492
+
+**Status:** COMPUTATIONAL DIAGNOSTIC
+
+**Statement:** Pure-Python Rayleigh quotient scans of \(C_m(h,\gamma)/h^2\) show both positive and negative directions for the tested degrees and heights.
+
+This is diagnostic evidence only, not a theorem of Weil positivity.
+
+---
+
+## CL-0493
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** The second-order coefficient audit does not prove RH and does not define a classical Weil quadratic form.
+
+It motivates studying whether an actual Weil-compatible finite-rank truncation has analogous negative-direction behavior.
+

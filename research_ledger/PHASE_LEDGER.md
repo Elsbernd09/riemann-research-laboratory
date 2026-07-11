@@ -5908,3 +5908,33 @@ This is not an RH proof.
 
 Study whether the second-order coefficient matrix \(B_m(\gamma)\) is indefinite and whether that indefiniteness is stable.
 
+
+---
+
+## Phase 7J — Second-Order Coefficient Indefiniteness Audit
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `horizontal_defect/weil_interface/PHASE_7J_SECOND_ORDER_INDEFINITENESS_AUDIT.md`
+- `horizontal_defect/experiments/phase7j_second_order_indefiniteness.py`
+
+### Result
+
+The second-order coefficient matrix \(B_m(\gamma)\) was audited through pure-Python Rayleigh quotient scans.
+
+### Diagnostic outcome
+
+Both positive and negative Rayleigh directions appeared in the tested finite-rank configurations.
+
+### Boundary
+
+This is not a Weil theorem.
+
+This is not an RH proof.
+
+### Next target
+
+Stability audit across heights, degrees, and basis choices.
+
