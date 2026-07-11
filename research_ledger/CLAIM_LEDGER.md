@@ -7044,3 +7044,200 @@ for every \(n\), while unrestricted signed spectral rank collapses generically t
 
 No further floating-point inertia campaign is justified.
 
+
+---
+
+## CL-0430
+
+**Status:** KNOWN THEOREM — CLASSICAL INPUT
+
+**Statement:** For the classical argument term \(S(t)\), the first antiderivative
+
+\[
+S_1(t)
+=
+C+\int_0^tS(u)\,du
+\]
+
+satisfies unconditionally
+
+\[
+\boxed{
+S_1(t)=O(\log t).
+}
+\]
+
+This is classical input and is not a project result.
+
+---
+
+## CL-0431
+
+**Status:** PROVED IN PROJECT — UNCONDITIONAL CENTERED-PRIMITIVE BOUND
+
+**Statement:** For fixed
+
+\[
+\eta>0,
+\qquad
+B=(1+\eta)H,
+\]
+
+the global centered zero-counting discrepancy primitive satisfies
+
+\[
+\boxed{
+\|F\|_{\infty,[H,B]}
+=
+O_\eta(\log H).
+}
+\]
+
+No RH assumption is used.
+
+---
+
+## CL-0432
+
+**Status:** PROVED IN PROJECT — UNCONDITIONAL WINDOW-MEAN DISCREPANCY BOUND
+
+**Statement:** On the same fixed relative window,
+
+\[
+\boxed{
+\overline E
+=
+O_\eta
+\left(
+\frac{\log H}{H}
+\right).
+}
+\]
+
+No RH assumption is used.
+
+---
+
+## CL-0433
+
+**Status:** PROVED IN PROJECT — UNCONDITIONAL GLOBAL LI-RESPONSE SUPPRESSION
+
+**Statement:** Fix
+
+\[
+\eta>0
+\]
+
+and
+
+\[
+K\Subset(0,\infty).
+\]
+
+Uniformly for positive integers \(n\) satisfying
+
+\[
+n/H\in K,
+\]
+
+the global Li susceptibility interior discrepancy response obeys
+
+\[
+\boxed{
+R_{\mathrm{int}}(n;H,\eta)
+=
+O_{K,\eta}
+\left(
+\frac{\log H}{H^3}
+\right).
+}
+\]
+
+Consequently,
+
+\[
+\boxed{
+H^2R_{\mathrm{int}}(n;H,\eta)
+\to0.
+}
+\]
+
+No assumption of RH is used.
+
+---
+
+## CL-0434
+
+**Status:** PROVED IN PROJECT — UNCONDITIONAL NONDEGENERATE SHARE CONSEQUENCE
+
+**Statement:** On matched-scale paths where a competing Li susceptibility channel remains uniformly nondegenerate at scale \(H^{-2}\), the normalized interior response share tends to zero.
+
+In particular, if
+
+\[
+|\Psi_{Li}(n/H)|
+\ge\delta>0,
+\]
+
+and the atom coefficient is fixed and nonzero, then
+
+\[
+R_{\mathrm{int}}
+=
+o(H^{-2})
+\]
+
+while the atom channel remains of order \(H^{-2}\).
+
+Therefore
+
+\[
+\boxed{
+i_{\mathrm{int}}\to0.
+}
+\]
+
+No RH assumption is used.
+
+---
+
+## CL-0435
+
+**Status:** CLAIM-STATUS STRENGTHENING
+
+**Statement:** CL-0388 is retained as an RH-conditional logarithmic sharpening.
+
+The base suppression phenomenon is now proved unconditionally in CL-0433.
+
+The RH-dependent factor
+
+\[
+(\log\log H)^{-2}
+\]
+
+is a refinement of the unconditional estimate rather than the source of asymptotic suppression.
+
+---
+
+## CL-0436
+
+**Status:** STRATEGIC AUDIT RESULT
+
+**Statement:** The strongest surviving theorem architecture of the project is the centered-primitive transfer of global zero-counting discrepancy through the matched-scale Li susceptibility kernel.
+
+The primary theorem is CL-0433.
+
+The numerical component-share geometry is retained as finite-height motivation and validation rather than the principal mathematical claim.
+
+---
+
+## CL-0437
+
+**Status:** FAILURE-PREVENTION RULE
+
+**Statement:** The unconditional suppression theorem must not be described as progress toward proving RH.
+
+Phase 5P shows that the scalar zero-counting discrepancy architecture is horizontally blind.
+
+The theorem is compatible with off-critical zeros and is a response-asymptotic result.
+

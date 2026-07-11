@@ -5262,3 +5262,113 @@ No numerical large-\(n\) matrix campaign will be performed.
 
 None.
 
+
+---
+
+## Phase 5V — Unconditional Global Li-Response Suppression
+
+Status: COMPLETE
+
+### Strategic audit result
+
+The strongest surviving project theorem is the centered-primitive transfer of global zero-counting discrepancy through the matched-scale Li susceptibility kernel.
+
+### Classical unconditional input
+
+\[
+S_1(t)=O(\log t).
+\]
+
+### Unconditional centered primitive
+
+\[
+\|F\|_\infty
+=
+O_\eta(\log H).
+\]
+
+### Unconditional window mean
+
+\[
+\overline E
+=
+O_\eta
+\left(
+\frac{\log H}{H}
+\right).
+\]
+
+### Li second-derivative scale
+
+\[
+\int_H^{(1+\eta)H}
+|\chi_n''(t)|dt
+=
+O_{K,\eta}(H^{-3}).
+\]
+
+### Main theorem
+
+For fixed relative window width and compact positive matched-scale coordinates,
+
+\[
+\boxed{
+R_{\mathrm{int}}
+=
+O_{K,\eta}
+\left(
+\frac{\log H}{H^3}
+\right).
+}
+\]
+
+No RH assumption is used.
+
+Therefore
+
+\[
+\boxed{
+H^2R_{\mathrm{int}}\to0.
+}
+\]
+
+### Nondegenerate share consequence
+
+On paths with a uniformly nondegenerate competing \(H^{-2}\) susceptibility channel,
+
+\[
+i_{\mathrm{int}}\to0.
+\]
+
+This is unconditional.
+
+### RH sharpening
+
+Under RH,
+
+\[
+R_{\mathrm{int}}
+=
+O_{K,\eta}
+\left(
+\frac{\log H}
+{H^3(\log\log H)^2}
+\right).
+\]
+
+The RH assumption sharpens the logarithmic factor but is not responsible for the suppression itself.
+
+### Interpretation
+
+The finite component-share principal line is asymptotically consistent with an unconditional analytic suppression mechanism.
+
+The empirical PCA is not the theorem.
+
+The response-transfer theorem is the central result.
+
+### RH consequence
+
+None.
+
+The scalar zero-counting architecture remains horizontally blind.
+
