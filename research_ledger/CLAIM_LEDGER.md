@@ -8372,3 +8372,56 @@ The algebraic Mellin identity is locked, but the complex positivity convention r
 
 **Statement:** Phase 8J does not prove RH, does not claim a new Weil criterion, and does not claim novelty.
 
+
+---
+
+## CL-0530
+
+**Status:** CONVENTION LOCK
+
+**Statement:** Phase 8K source-locks the distinction between the algebraic explicit-formula involution
+
+\[
+f^*_{\mathrm{alg}}(x)=x^{-1}f(1/x)
+\]
+
+and the Hermitian positivity adjoint
+
+\[
+g^*_{\mathrm{pos}}(x)=x^{-1}\overline{g(1/x)}.
+\]
+
+---
+
+## CL-0531
+
+**Status:** POSITIVITY MECHANISM RECORDED
+
+**Statement:** Under the Hermitian positivity convention,
+
+\[
+(g*g^*_{\mathrm{pos}})(s)
+=
+g(s)\overline{g(1-\overline{s})}.
+\]
+
+On RH, for a zero \(\rho\),
+
+\[
+1-\rho=\overline{\rho}
+\]
+
+and the zero-side product becomes
+
+\[
+|g(\rho)|^2.
+\]
+
+---
+
+## CL-0532
+
+**Status:** IMPLEMENTATION BOUNDARY
+
+**Statement:** Symbolic positivity notes may now use the Hermitian star convention, but finite-rank Weil matrices remain blocked until Bombieri's finite truncation model and matrix entries are source-extracted.
+

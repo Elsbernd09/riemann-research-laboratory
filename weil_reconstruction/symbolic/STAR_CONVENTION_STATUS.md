@@ -3,56 +3,66 @@
 ## Algebraic star
 
 \[
-f^*(x)=x^{-1}f(1/x).
+f^*_{\mathrm{alg}}(x)=x^{-1}f(1/x).
 \]
-
-Status:
-
-LOCKED ALGEBRAICALLY.
 
 Mellin identity:
 
 \[
-f^*(s)=f(1-s).
-\]
-
----
-
-## Hermitian adjoint candidate
-
-\[
-f^\dagger(x)=x^{-1}\overline{f(1/x)}.
+f^*_{\mathrm{alg}}(s)=f(1-s).
 \]
 
 Status:
 
-NOT SOURCE-LOCKED.
+LOCKED for explicit-formula algebra.
+
+---
+
+## Positivity / transpose-conjugate star
+
+\[
+g^*_{\mathrm{pos}}(x)=x^{-1}\overline{g(1/x)}.
+\]
 
 Mellin identity:
 
 \[
-f^\dagger(s)=\overline{f(1-\overline{s})}.
+g^*_{\mathrm{pos}}(s)=\overline{g(1-\overline{s})}.
 \]
-
----
-
-## Positivity convention
 
 Status:
 
-UNLOCKED.
+LOCKED for Bombieri positivity mechanism.
 
-Reason:
+---
 
-The exact source convention connecting complex-valued test functions, star notation, convolution, and positivity must be extracted before implementation.
+## Under RH
+
+If
+
+\[
+1-\rho=\overline{\rho},
+\]
+
+then
+
+\[
+g^*_{\mathrm{pos}}(\rho)=\overline{g(\rho)}
+\]
+
+and
+
+\[
+g(\rho)g^*_{\mathrm{pos}}(\rho)=|g(\rho)|^2.
+\]
 
 ---
 
 ## Implementation permission
 
-SYMBOLIC ALGEBRA WITH NON-CONJUGATED STAR: ALLOWED.
+SYMBOLIC ALGEBRA WITH ALGEBRAIC STAR: ALLOWED.
 
-HERMITIAN POSITIVITY CLAIMS: BLOCKED.
+SYMBOLIC POSITIVITY NOTES WITH HERMITIAN STAR: ALLOWED.
 
 FINITE-RANK WEIL MATRICES: BLOCKED.
 

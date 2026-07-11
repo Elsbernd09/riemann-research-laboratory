@@ -6283,3 +6283,32 @@ No novelty claim.
 
 Source-extract Bombieri's complex \(g^*\), \(f^*\), and positivity convention.
 
+
+---
+
+## Phase 8K — Source-Lock Complex Star Convention
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/symbolic/PHASE_8K_SOURCE_LOCK_COMPLEX_STAR.md`
+- updated `weil_reconstruction/symbolic/STAR_CONVENTION_STATUS.md`
+- `weil_reconstruction/sources/extractions/BOMBIERI_COMPLEX_STAR_CARD.md`
+
+### Result
+
+The repository now distinguishes algebraic star from Hermitian positivity star.
+
+### Boundary
+
+Finite-rank Weil matrices remain blocked.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Build a symbolic positivity mechanism note for Bombieri Theorem 1 using the locked Hermitian convention.
+
