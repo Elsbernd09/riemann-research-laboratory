@@ -8534,3 +8534,28 @@ The exact infinite quadratic form, finite truncation model, matrix entries, and 
 
 **Statement:** Phase 8N does not implement a matrix, does not compute eigenvalues, does not prove RH, and does not claim novelty.
 
+
+---
+
+## CL-0542
+
+**Status:** SOURCE MAP LOCKED
+
+**Statement:** Phase 8O source-locks the roadmap for Bombieri's finite truncation program: Sections 5-6 give the Fourier-side reformulation, Section 8 introduces finite approximations and Theorem 8, Section 9 treats the second eigenvalue problem, and Sections 10-11 pass to limiting zeta-function cases.
+
+---
+
+## CL-0543
+
+**Status:** PARTIAL EXTRACTION
+
+**Statement:** The high-level claim about finite truncations and negative eigenvalues is source-located, but the exact infinite quadratic form, finite matrix entries, truncation parameter, and theorem statements remain unlocked.
+
+---
+
+## CL-0544
+
+**Status:** IMPLEMENTATION BOUNDARY
+
+**Statement:** Classical Weil matrix implementation remains blocked. The next step is extracting the Fourier-side infinite quadratic form before extracting Section 8 finite matrices.
+

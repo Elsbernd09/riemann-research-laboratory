@@ -6405,3 +6405,35 @@ No novelty claim.
 
 Fill the finite truncation worksheet from the Bombieri source.
 
+
+---
+
+## Phase 8O — Finite Truncation Source Map
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/finite_truncations/PHASE_8O_FINITE_TRUNCATION_SOURCE_MAP.md`
+- `weil_reconstruction/finite_truncations/FINITE_TRUNCATION_SOURCE_MAP.md`
+- updated `weil_reconstruction/finite_truncations/FINITE_TRUNCATION_TERM_TABLE.md`
+- `weil_reconstruction/finite_truncations/NEXT_EXTRACTION_TARGETS.md`
+
+### Result
+
+The finite truncation source roadmap was locked.
+
+### Boundary
+
+No matrix implementation.
+
+No eigenvalue computation.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Extract the Fourier-side infinite quadratic form from Bombieri Sections 5 and 6.
+
