@@ -9273,3 +9273,28 @@ on the finite distinct support.
 
 **Statement:** Phase 10H uses only synthetic finite examples. It proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0622
+
+**Status:** PROFESSOR-READABLE DRAFT
+
+**Statement:** Phase 10I produces a professor-readable theorem draft for the finite Bombieri-style perturbation stability certificate.
+
+---
+
+## CL-0623
+
+**Status:** REVIEW TARGET
+
+**Statement:** The draft is a Level 2 candidate. It is not Level 3 until prior-art review and expert feedback are completed.
+
+---
+
+## CL-0624
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10I proves no new RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+
