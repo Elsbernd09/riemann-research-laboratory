@@ -9173,3 +9173,28 @@ on the finite distinct support.
 
 **Statement:** Phase 10D proves only a finite-dimensional linear algebra lemma. It proves no RH statement, falsifies no RH statement, uses no zeta zeros, and makes no novelty claim.
 
+
+---
+
+## CL-0610
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** If \(E\in\mathbb C^{N\times N}\) satisfies \(|E_{jk}|\leq\varepsilon\) for all \(j,k\), then \(\|E\|_F\leq N\varepsilon\).
+
+---
+
+## CL-0611
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** If \(E\in\mathbb C^{N\times N}\) satisfies \(|E_{jk}|\leq\varepsilon\) for all \(j,k\), then \(\|E\|_2\leq N\varepsilon\).
+
+---
+
+## CL-0612
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10E proves only a finite-dimensional norm estimate. It proves no RH statement, falsifies no RH statement, uses no zeta zeros, and makes no novelty claim.
+
