@@ -7368,3 +7368,37 @@ No novelty claim.
 
 Define the support-perturbation model and Lipschitz kernel assumption.
 
+
+---
+
+## Phase 10K — Support-Perturbation Model and Lipschitz Kernel Assumption
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/support_perturbation/PHASE_10K_SUPPORT_PERTURBATION_MODEL.md`
+- `original_results/finite_bombieri_stability/support_perturbation/SUPPORT_PERTURBATION_DEFINITION_LOCK.md`
+- `original_results/finite_bombieri_stability/support_perturbation/PHASE_10K_LEVEL3_RATIONALE.md`
+- `scripts/audit_phase10k_support_perturbation_model.py`
+
+### Result
+
+The support-perturbation model and Lipschitz kernel assumption were defined.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No zeta zeros.
+
+No zeta-case verification.
+
+No novelty claim.
+
+### Next target
+
+State and prove the support perturbation stability theorem.
+

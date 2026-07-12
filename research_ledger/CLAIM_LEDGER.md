@@ -9331,3 +9331,42 @@ on the finite distinct support.
 
 **Statement:** Phase 10J proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0629
+
+**Status:** SUPPORT-PERTURBATION MODEL DEFINED
+
+**Statement:** Phase 10K defines a finite support-perturbation model in which \(|\widetilde\alpha_j-\alpha_j|\leq\delta\) and multiplicities are held fixed.
+
+---
+
+## CL-0630
+
+**Status:** LIPSCHITZ KERNEL ASSUMPTION
+
+**Statement:** Phase 10K assumes a finite local Lipschitz bound \(L_t(U)\) for the kernel:
+\[
+|H_t(x',y')-H_t(x,y)|\leq L_t(U)(|x'-x|+|y'-y|).
+\]
+
+---
+
+## CL-0631
+
+**Status:** SUPPORT-LEVEL CERTIFICATE CANDIDATE
+
+**Statement:** Phase 10K derives the candidate support-level stability certificate
+\[
+2Nm_{\max}L_t(U)\delta<g_0(M).
+\]
+
+---
+
+## CL-0632
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10K proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+
