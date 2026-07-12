@@ -6707,3 +6707,36 @@ No novelty claim.
 
 Create the matrix assembly audit plan before any eigenvalue computation.
 
+
+---
+
+## Phase 8Y — Matrix Assembly Audit Plan
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/finite_truncations/PHASE_8Y_MATRIX_ASSEMBLY_AUDIT_PLAN.md`
+- `weil_reconstruction/finite_truncations/MATRIX_ASSEMBLY_CHECKLIST.md`
+- `weil_reconstruction/finite_truncations/MATRIX_ASSEMBLY_BOUNDARY.md`
+
+### Result
+
+The matrix assembly audit plan was created.
+
+### Boundary
+
+No matrices assembled in this phase.
+
+No eigenvalues computed.
+
+No zeta zeros used.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Implement synthetic finite matrix assembly with shape, finiteness, and symmetry checks only.
+

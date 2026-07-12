@@ -8821,3 +8821,32 @@ No matrices are assembled, no eigenvalues are computed, and no zeta zeros are us
 
 **Statement:** Matrix assembly, eigenvalue computation, zeta-zero experiments, Bombieri-Weil numerical verification claims, RH claims, and novelty claims remain blocked after Phase 8X.
 
+
+---
+
+## CL-0572
+
+**Status:** MATRIX ASSEMBLY AUDIT PLAN
+
+**Statement:** Phase 8Y creates the matrix assembly audit plan for the source-derived \(H\)-kernel.
+
+The plan distinguishes full multiset representation from distinct weighted representation.
+
+---
+
+## CL-0573
+
+**Status:** IMPLEMENTATION PERMISSION UPDATE
+
+**Statement:** A future phase may assemble synthetic finite \(H\)-matrices for shape, finiteness, repeated-row, and symmetry-residual checks.
+
+Eigenvalue computation remains denied.
+
+---
+
+## CL-0574
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 8Y does not assemble matrices, does not compute eigenvalues, does not use zeta zeros, does not prove RH, and does not claim novelty.
+
