@@ -9652,3 +9652,41 @@ where \(M_{\mathrm{tot}}=\sum_jm_j\). This improves the older sufficient conditi
 
 **Statement:** Phase 10T proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0664
+
+**Status:** UPDATED RESEARCH NOTE
+
+**Statement:** Phase 10U updates the research-note draft to include the sharper weighted support-stability theorem, strict-improvement examples, certified stability algorithm, and algorithm correctness proof.
+
+---
+
+## CL-0665
+
+**Status:** CURRENT STRONGEST FINITE RESULT
+
+**Statement:** The current strongest finite result is the weighted support-stability certificate
+\[
+\mathcal R(\Gamma,\widetilde\Gamma,t)<g_0(M(\Gamma,t))
+\implies
+n_-(M(\widetilde\Gamma,t))=n_-(M(\Gamma,t)).
+\]
+
+---
+
+## CL-0666
+
+**Status:** BREAKTHROUGH TRACK NOTE
+
+**Statement:** Phase 10U strengthens the paper package but does not establish a breakthrough, RH contribution, or novelty claim.
+
+---
+
+## CL-0667
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10U proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+

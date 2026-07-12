@@ -7716,3 +7716,37 @@ No novelty claim.
 
 Update the research-note draft with the sharper bound and certified algorithm.
 
+
+---
+
+## Phase 10U — Research Note V3
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/paper_draft_v3/PHASE_10U_RESEARCH_NOTE_V3.md`
+- `original_results/finite_bombieri_stability/paper_draft_v3/RESEARCH_NOTE_V3_STATUS.md`
+- `original_results/finite_bombieri_stability/paper_draft_v3/NEXT_BREAKTHROUGH_TRACK_STEPS.md`
+- `scripts/audit_phase10u_research_note_v3.py`
+
+### Result
+
+The research note was updated to include the sharper weighted theorem, examples, certified algorithm, and correctness proof.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No zeta zeros.
+
+No zeta-case verification.
+
+No novelty claim.
+
+### Next target
+
+Begin a matrix-specific norm improvement branch.
+
