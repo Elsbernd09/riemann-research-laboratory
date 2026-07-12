@@ -7956,3 +7956,37 @@ No novelty claim.
 
 Define concrete compact-domain majorants for \(A_0,A_1,B_0,B_1,C_0\).
 
+
+---
+
+## Phase 10AB — Concrete Compact-Domain Majorants
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/h_kernel_lipschitz/compact_majorants/PHASE_10AB_CONCRETE_COMPACT_DOMAIN_MAJORANTS.md`
+- `original_results/finite_bombieri_stability/h_kernel_lipschitz/compact_majorants/COMPACT_MAJORANT_LOCK.md`
+- `original_results/finite_bombieri_stability/h_kernel_lipschitz/compact_majorants/PHASE_10AB_STATUS.md`
+- `scripts/audit_phase10ab_compact_majorants.py`
+
+### Result
+
+Concrete computable compact-domain majorants were defined for the \(H\)-kernel Lipschitz branch.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No zeta zeros.
+
+No zeta-case verification.
+
+No novelty claim.
+
+### Next target
+
+Implement the \(L_H(U,t)\) constant calculator.
+
