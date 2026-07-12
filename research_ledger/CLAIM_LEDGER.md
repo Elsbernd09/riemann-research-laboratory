@@ -10430,3 +10430,45 @@ as the central bottleneck for any RH-relevant contribution.
 
 **Statement:** Phase 10AP proves no RH statement, falsifies no RH statement, proves no new RH criterion, proves no convergence theorem, and makes no novelty claim.
 
+
+---
+
+## CL-0751
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10AQ proves a finite test-class convergence reduction:
+\[
+\sup_{f\in\mathcal F_R^{(m)}}|Q_N^W(P_N^W f)-Q_W(f)|
+\leq R^2\|G^{(N)}-G^{(\infty)}\|_2.
+\]
+
+---
+
+## CL-0752
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10AQ proves an entrywise Gram convergence certificate:
+if \(|G^{(N)}_{ij}-G^{(\infty)}_{ij}|\leq\delta_N^{(m)}\), then
+\[
+\sup_{f\in\mathcal F_R^{(m)}}|Q_N^W(P_N^W f)-Q_W(f)|
+\leq R^2m\delta_N^{(m)}.
+\]
+
+---
+
+## CL-0753
+
+**Status:** CONTRIBUTION TRACK NOTE
+
+**Statement:** Phase 10AQ reduces uniform convergence on finite test classes to finite Gram matrix convergence, but does not prove classical Weil/Bombieri convergence.
+
+---
+
+## CL-0754
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10AQ proves no RH statement, falsifies no RH statement, proves no new RH criterion, imports no true Weil form, proves no classical convergence theorem, and makes no novelty claim.
+

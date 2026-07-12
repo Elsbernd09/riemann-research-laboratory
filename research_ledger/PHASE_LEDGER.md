@@ -8475,3 +8475,39 @@ No novelty claim.
 
 Choose a tractable convergence model, likely a finite test-class model.
 
+
+---
+
+## Phase 10AQ — Tractable Finite Test-Class Convergence Model
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/contribution_branch/tractable_convergence_model/PHASE_10AQ_TRACTABLE_FINITE_TEST_CLASS_MODEL.md`
+- `original_results/finite_bombieri_stability/contribution_branch/tractable_convergence_model/FINITE_TEST_CLASS_LOCK.md`
+- `original_results/finite_bombieri_stability/contribution_branch/tractable_convergence_model/NEXT_PHASE_10AR_GRAM_CONVERGENCE.md`
+- `scripts/audit_phase10aq_tractable_convergence.py`
+
+### Result
+
+Uniform convergence on finite test classes was reduced to finite Gram matrix convergence.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No true Weil form imported.
+
+No classical convergence theorem proven.
+
+No novelty claim.
+
+### Next target
+
+Define the finite Gram convergence problem.
+
