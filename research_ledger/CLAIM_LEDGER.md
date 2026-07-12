@@ -9004,3 +9004,22 @@ No new eigenvalues are computed in Phase 9E.
 
 **Statement:** Phase 9E uses no zeta zeros, proves no RH statement, makes no novelty claim, and makes no zeta-case Bombieri-Weil verification claim.
 
+
+---
+
+## CL-0592
+
+**Status:** TRACK-SPECIFIC BUILDER
+
+**Statement:** Phase 9F detects the Phase 9E track artifact and creates the correct Phase 9G specification.
+
+No eigenvalues are computed in Phase 9F.
+
+---
+
+## CL-0593
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 9F uses no zeta zeros, proves no RH statement, makes no novelty claim, and makes no zeta-case Bombieri-Weil verification claim.
+

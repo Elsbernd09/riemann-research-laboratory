@@ -6938,3 +6938,36 @@ No novelty claim.
 
 Proceed according to the Phase 9E output track.
 
+
+---
+
+## Phase 9F — Track-Specific Next Step Builder
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `scripts/run_phase9f_track_specific_builder.py`
+- `scripts/audit_phase9f_track_specific_builder.py`
+- `weil_reconstruction/eigenvalue_validation/PHASE_9F_TRACK_SPECIFIC_BUILDER.md`
+- `weil_reconstruction/eigenvalue_validation/PHASE_9F_TRACK_SPECIFIC_BUILDER_OUTPUT.txt`
+- one Phase 9G specification file depending on track
+
+### Result
+
+The correct Phase 9G specification was created.
+
+### Boundary
+
+No eigenvalues computed.
+
+No zeta zeros used.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Execute the Phase 9G specification.
+

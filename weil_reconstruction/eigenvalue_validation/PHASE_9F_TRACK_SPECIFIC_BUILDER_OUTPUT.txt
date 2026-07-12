@@ -1,0 +1,13 @@
+PHASE 9F TRACK-SPECIFIC BUILDER OUTPUT
+
+DETECTED_TRACK=REPRESENTATION_REPAIR_REQUIRED
+
+Created: PHASE_9G_REPRESENTATION_REPAIR_SPEC.md
+Next phase: repair representation before broader validation.
+
+Boundary:
+  No eigenvalues computed in Phase 9F.
+  No zeta zeros used.
+  No RH claim.
+  No novelty claim.
+  No zeta-case Bombieri-Weil verification claim.
