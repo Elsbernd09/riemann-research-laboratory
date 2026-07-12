@@ -1,0 +1,117 @@
+PHASE 10AF FINAL EXPLICIT H-KERNEL CERTIFIED ALGORITHM OUTPUT
+
+Exact audit phrase: FINAL_EXPLICIT_H_KERNEL_CERTIFIED_ALGORITHM
+Exact audit phrase: COMPUTABLE_H_KERNEL_LIPSCHITZ_CONSTANT
+Exact audit phrase: EXPLICIT_H_KERNEL_SUPPORT_STABILITY_CERTIFICATE
+
+Verdicts:
+  CERTIFIED_STABLE
+  NOT_CERTIFIED
+
+Algorithm computes:
+  LH
+  frobenius_radius_LH
+  row_sum_radius_LH
+  combined_minimum_radius_LH
+
+EXAMPLE: certified_small_displacement
+  input_multiplicities=[1, 1, 1]
+  input_displacements=[1e-06, 1e-06, 1e-06]
+  input_zero_gap=0.25
+  input_domain={'R': 0.5, 'S': 0.05, 'Ry': 0.25, 'Sy': 0.05, 'delta_y': 0.2, 'buffer_r': 1.0, 't': 0.5}
+  verdict=CERTIFIED_STABLE
+  LH=84.58819608230245
+  frobenius_radius_LH=0.0005075291764938147
+  row_sum_radius_LH=0.0005075291764938146
+  combined_minimum_radius_LH=0.0005075291764938146
+  margin=0.24949247082350617
+  best_radius=row_sum
+  certificate_passes=True
+  meaning=Negative eigenvalue count is certified stable by the explicit H-kernel support-stability certificate.
+  constants:
+    rho_y=0.25495097567963926
+    A0=1.0253151205244289
+    A1=1.6904588483790914
+    B0=5.0
+    B1=12.74754878398196
+    C0=0.7549509756796393
+    abs_c_t=0.9595173756674719
+    M0=2.5483726716971034
+    Mx=4.201556229497928
+    My=6.218981996517506
+    Lx=21.00778114748964
+    Ly=63.5804149348128
+    LH=84.58819608230245
+
+EXAMPLE: not_certified_larger_displacement
+  input_multiplicities=[1, 2, 1]
+  input_displacements=[0.01, 0.02, 0.01]
+  input_zero_gap=0.25
+  input_domain={'R': 0.5, 'S': 0.1, 'Ry': 0.25, 'Sy': 0.05, 'delta_y': 0.2, 'buffer_r': 0.5, 't': 0.75}
+  verdict=NOT_CERTIFIED
+  LH=183.98739368942483
+  frobenius_radius_LH=22.683489320577124
+  row_sum_radius_LH=30.330839542829743
+  combined_minimum_radius_LH=22.683489320577124
+  margin=-22.433489320577124
+  best_radius=frobenius
+  certificate_passes=False
+  meaning=The explicit H-kernel certificate does not prove stability; no instability claim is made.
+  constants:
+    rho_y=0.25495097567963926
+    A0=1.0778841508846315
+    A1=3.1366243709803374
+    B0=5.0
+    B1=12.74754878398196
+    C0=0.7549509756796393
+    abs_c_t=0.9120573264202129
+    M0=2.67786599679856
+    Mx=7.792544069679832
+    My=9.911862936012254
+    Lx=58.44408052259874
+    Ly=125.5433131668261
+    LH=183.98739368942483
+
+EXAMPLE: zero_displacement_certified
+  input_multiplicities=[5, 3, 2]
+  input_displacements=[0.0, 0.0, 0.0]
+  input_zero_gap=0.001
+  input_domain={'R': 1.0, 'S': 0.2, 'Ry': 0.25, 'Sy': 0.05, 'delta_y': 0.1, 'buffer_r': 0.5, 't': 1.0}
+  verdict=CERTIFIED_STABLE
+  LH=784.7104904824225
+  frobenius_radius_LH=0.0
+  row_sum_radius_LH=0.0
+  combined_minimum_radius_LH=0.0
+  margin=0.001
+  best_radius=tie
+  certificate_passes=True
+  meaning=Negative eigenvalue count is certified stable by the explicit H-kernel support-stability certificate.
+  constants:
+    rho_y=0.25495097567963926
+    A0=1.2214027581601699
+    A1=4.027505414940953
+    B0=10.0
+    B1=50.99019513592784
+    C0=0.7549509756796393
+    abs_c_t=0.8509181282393216
+    M0=3.1381035190489865
+    Mx=10.34771604302998
+    My=12.886557401786181
+    Lx=206.95432086059958
+    Ly=577.7561696218229
+    LH=784.7104904824225
+
+Conclusion:
+  The final explicit algorithm computes the H-kernel Lipschitz constant and inserts it into the combined-radius certificate.
+  CERTIFIED_STABLE is theorem-backed.
+  NOT_CERTIFIED does not imply instability.
+
+Boundary:
+  This is a finite-dimensional explicit certified algorithm.
+  No zeta zeros used.
+  No RH claim.
+  No novelty claim.
+  This algorithm does not prove RH.
+  This algorithm does not falsify RH.
+  This algorithm does not use zeta zeros.
+  This algorithm does not claim novelty.

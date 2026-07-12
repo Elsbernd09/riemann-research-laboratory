@@ -8093,3 +8093,38 @@ No novelty claim.
 
 Build the final explicit certified algorithm using \(L_H(U,t)\).
 
+
+---
+
+## Phase 10AF — Final Explicit \(H\)-Kernel Certified Algorithm
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `scripts/run_phase10af_final_explicit_algorithm.py`
+- `scripts/audit_phase10af_final_explicit_algorithm.py`
+- `original_results/finite_bombieri_stability/final_explicit_algorithm/PHASE_10AF_FINAL_EXPLICIT_ALGORITHM.md`
+- `original_results/finite_bombieri_stability/final_explicit_algorithm/ALGORITHM_10AF_LOCK.md`
+- `original_results/finite_bombieri_stability/final_explicit_algorithm/PHASE_10AF_FINAL_EXPLICIT_ALGORITHM_OUTPUT.txt`
+
+### Result
+
+The final explicit \(H\)-kernel certified stability algorithm was implemented.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No zeta zeros.
+
+No zeta-case verification.
+
+No novelty claim.
+
+### Next target
+
+Prove correctness of the final explicit algorithm and then run the breakthrough-status audit.
+

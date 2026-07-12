@@ -10064,3 +10064,36 @@ n_-(M(\Gamma,t)).
 
 **Statement:** Phase 10AE proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0708
+
+**Status:** FINAL EXPLICIT ALGORITHM
+
+**Statement:** Phase 10AF implements the final explicit \(H\)-kernel certified stability algorithm, computing \(L_H(U,t)\), \(\mathcal R_F(L_H)\), \(\mathcal R_{\mathrm{row}}(L_H)\), and \(\mathcal R_{\min}(L_H)\).
+
+---
+
+## CL-0709
+
+**Status:** CERTIFIED ALGORITHM
+
+**Statement:** Phase 10AF returns `CERTIFIED_STABLE` when \(\mathcal R_{\min}(L_H)<g_0(M)\) and `NOT_CERTIFIED` otherwise.
+
+---
+
+## CL-0710
+
+**Status:** INTERPRETATION NOTE
+
+**Statement:** `CERTIFIED_STABLE` is theorem-backed by the explicit \(H\)-kernel support-stability certificate. `NOT_CERTIFIED` does not imply instability.
+
+---
+
+## CL-0711
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10AF proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+
