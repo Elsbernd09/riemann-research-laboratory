@@ -8581,3 +8581,39 @@ No novelty claim.
 
 Prove the conditional Gram-error transfer theorem.
 
+
+---
+
+## Phase 10AT — Conditional Gram-Error Transfer Theorem
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/contribution_branch/conditional_transfer_theorem/PHASE_10AT_CONDITIONAL_GRAM_ERROR_TRANSFER_THEOREM.md`
+- `original_results/finite_bombieri_stability/contribution_branch/conditional_transfer_theorem/CONDITIONAL_TRANSFER_LOCK.md`
+- `original_results/finite_bombieri_stability/contribution_branch/conditional_transfer_theorem/NEXT_PHASE_10AU_CERTIFIED_NUMERICS.md`
+- `scripts/audit_phase10at_conditional_transfer.py`
+
+### Result
+
+The conditional Gram-error transfer theorem, conditional convergence corollary, and conditional certified negative-direction transfer theorem were proved.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No unconditional classical convergence theorem.
+
+No true Weil form imported.
+
+No novelty claim.
+
+### Next target
+
+Build the certified numerical error model for the computational error term.
+

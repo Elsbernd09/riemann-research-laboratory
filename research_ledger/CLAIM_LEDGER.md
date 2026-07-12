@@ -10542,3 +10542,41 @@ if \(|G^{(N)}_{ij}-G^{(\infty)}_{ij}|\leq\delta_N^{(m)}\), then
 
 **Statement:** Phase 10AS proves no RH statement, falsifies no RH statement, proves no new RH criterion, proves no classical convergence theorem, and makes no novelty claim.
 
+
+---
+
+## CL-0763
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10AT proves the conditional Gram-error transfer theorem:
+\[
+\sup_{f\in\mathcal F_R^{(m)}}|Q_N^W(P_N^Wf)-Q_W(f)|
+\leq
+R^2m(\tau_N^{(m)}+\pi_N^{(m)}+\kappa_N^{(m)}+\chi_N^{(m)}).
+\]
+
+---
+
+## CL-0764
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10AT proves the conditional convergence corollary: if all four Gram-error bounds tend to zero, then convergence is uniform on the finite test class.
+
+---
+
+## CL-0765
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10AT proves the conditional certified negative-direction transfer theorem under the four-error bound.
+
+---
+
+## CL-0766
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10AT proves no RH statement, falsifies no RH statement, proves no new RH criterion, proves no unconditional classical convergence theorem, imports no true Weil form, and makes no novelty claim.
+
