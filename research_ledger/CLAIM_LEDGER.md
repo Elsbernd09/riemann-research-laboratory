@@ -9088,3 +9088,34 @@ The branch aims first for a professor-readable research note, not an RH proof.
 
 **Statement:** Phase 10A proves no RH statement, falsifies no RH statement, makes no breakthrough claim, and makes no novelty claim.
 
+
+---
+
+## CL-0601
+
+**Status:** FINITE MATRIX OBJECT DEFINED
+
+**Statement:** Phase 10B defines the primary finite matrix object for the original-result branch as
+
+\[
+\mathcal M(\Gamma,t)=D^{1/2}A(t)D^{1/2},
+\]
+
+where \(A_{jk}(t)=H_t(\alpha_j,\alpha_k)\) and \(D\) is the multiplicity diagonal.
+
+---
+
+## CL-0602
+
+**Status:** HERMITION ADMISSION RULE
+
+**Statement:** The finite stability theorem applies only to matrices satisfying \(\mathcal M=\mathcal M^*\). Non-Hermitian numerical outputs are outside the theorem's scope.
+
+---
+
+## CL-0603
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10B proves no RH statement, falsifies no RH statement, uses no zeta zeros, and makes no novelty claim.
+
