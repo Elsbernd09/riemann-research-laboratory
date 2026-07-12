@@ -10025,3 +10025,42 @@ as a finite \(H\)-kernel stability certificate.
 
 **Statement:** Phase 10AD proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0704
+
+**Status:** UPDATED RESEARCH NOTE
+
+**Statement:** Phase 10AE updates the research-note draft to V5, including the explicit finite \(H\)-kernel Lipschitz theorem and support-stability certificate.
+
+---
+
+## CL-0705
+
+**Status:** CURRENT STRONGEST FINITE RESULT
+
+**Statement:** The current strongest finite result is
+\[
+\mathcal R_{\min}(L_H)<g_0(M(\Gamma,t))
+\implies
+n_-(M(\widetilde\Gamma,t))=
+n_-(M(\Gamma,t)).
+\]
+
+---
+
+## CL-0706
+
+**Status:** BREAKTHROUGH TRACK NOTE
+
+**Statement:** Phase 10AE strengthens the paper package but does not establish a breakthrough, RH contribution, or novelty claim.
+
+---
+
+## CL-0707
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10AE proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+
