@@ -9353,3 +9353,39 @@ No novelty established.
 
 Attack truncation error.
 
+
+---
+
+## Phase 12L — Truncation Error Gate
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/level4_candidate/truncation_error_gate/PHASE_12L_TRUNCATION_ERROR_GATE.md`
+- `original_results/finite_bombieri_stability/level4_candidate/truncation_error_gate/TRUNCATION_ERROR_LOCK.md`
+- `original_results/finite_bombieri_stability/level4_candidate/truncation_error_gate/NEXT_PHASE_12M_BASIS_MELLIN_DECAY.md`
+- `scripts/audit_phase12l_truncation_error_gate.py`
+
+### Result
+
+The spectral truncation error was defined and bounded on finite test classes by a tail Gram matrix and shell-count estimate.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No full Weil positivity theorem.
+
+No Level 4 contribution yet.
+
+No novelty established.
+
+### Next target
+
+Choose concrete basis functions and prove Mellin decay estimates.
+

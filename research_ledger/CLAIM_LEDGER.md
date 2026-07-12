@@ -11202,3 +11202,58 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase 12K proves no RH statement, no new RH criterion, no full Weil positivity theorem, no finite approximation convergence theorem, no Level 4 contribution, and establishes no novelty.
 
+
+---
+
+## CL-0846
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12L defines the spectral truncation \(Q_Y(g)\), tail error \(T_Y(g)\), and tail Gram matrix \(\mathcal R(Y)\).
+
+---
+
+## CL-0847
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12L proves the finite-class truncation bound
+\[
+\sup_{g\in\mathcal F_R^{(m)}}|T_Y(g)|\le R^2\|\mathcal R(Y)\|_2.
+\]
+
+---
+
+## CL-0848
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12L proves the entrywise and shell-count truncation bounds, yielding
+\[
+\sup_{g\in\mathcal F_R^{(m)}}|T_Y(g)|\le R^2m\delta_Y^{(m)}.
+\]
+
+---
+
+## CL-0849
+
+**Status:** CONDITIONAL CONVERGENCE CRITERION
+
+**Statement:** Phase 12L proves that if \(\delta_Y^{(m)}\to0\), then spectral truncation converges uniformly on the finite test class.
+
+---
+
+## CL-0850
+
+**Status:** MISSING ESTIMATE
+
+**Statement:** Phase 12L records that proving \(\delta_Y^{(m)}\to0\) requires concrete basis Mellin decay estimates and zero-count bounds.
+
+---
+
+## CL-0851
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 12L proves no RH statement, no new RH criterion, no full Weil positivity theorem, no Level 4 contribution, and establishes no novelty.
+
