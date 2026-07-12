@@ -7197,3 +7197,35 @@ No novelty claim.
 
 Prove spectral-gap stability using Weyl-type eigenvalue perturbation.
 
+
+---
+
+## Phase 10F — Spectral-Gap Stability
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/proofs/PHASE_10F_SPECTRAL_GAP_STABILITY.md`
+- `original_results/finite_bombieri_stability/proofs/SPECTRAL_GAP_STABILITY_LOCK.md`
+- `original_results/finite_bombieri_stability/proofs/PHASE_10F_PROOF_AUDIT_NOTES.md`
+- `scripts/audit_phase10f_spectral_gap_stability.py`
+
+### Result
+
+The spectral-gap stability lemma was proved.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No zeta zeros.
+
+No novelty claim.
+
+### Next target
+
+State the first complete finite Bombieri-style perturbation stability theorem.
+

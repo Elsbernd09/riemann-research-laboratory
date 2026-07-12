@@ -9198,3 +9198,28 @@ on the finite distinct support.
 
 **Statement:** Phase 10E proves only a finite-dimensional norm estimate. It proves no RH statement, falsifies no RH statement, uses no zeta zeros, and makes no novelty claim.
 
+
+---
+
+## CL-0613
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** If \(M,E\in\mathbb C^{N\times N}\) are Hermitian and \(\|E\|_2<g_0(M)\), then \(n_-(M+E)=n_-(M)\).
+
+---
+
+## CL-0614
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** If \(M,E\in\mathbb C^{N\times N}\) are Hermitian, \(|E_{jk}|\leq\varepsilon\) for all \(j,k\), and \(N\varepsilon<g_0(M)\), then \(n_-(M+E)=n_-(M)\).
+
+---
+
+## CL-0615
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10F proves only a finite-dimensional spectral perturbation result. It proves no RH statement, falsifies no RH statement, uses no zeta zeros, and makes no novelty claim.
+
