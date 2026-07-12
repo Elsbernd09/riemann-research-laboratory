@@ -1,0 +1,77 @@
+{
+  "phase": "B11",
+  "status": "PHASE_B11_INTERVAL_CANDIDATE_ENTRY_COMPLETE",
+  "entry_metadata": {
+    "entry_id": "M_00_arith",
+    "basis_i": 0,
+    "basis_j": 0,
+    "source_name": "Bombieri-Lagarias, Complements to Li's Criterion for the Riemann Hypothesis, JNT 77 (1999)",
+    "normalization_label": "bombieri_lagarias_normalization",
+    "mellin_transform": "M[f](s)=int_0^infty f(x)x^(s-1) dx",
+    "involution": "tilde_f(x)=x^(-1) f(1/x)",
+    "conjugation_policy": "project_star_equals_tilde_of_complex_conjugate: f_star = tilde(conj(f))",
+    "convolution": "(f vee g)(x)=int_0^infty f(xy)g(y) dy/y",
+    "constant_term": "-(log(pi)+EulerGamma) f(1)",
+    "pole_constraint_status": "POLE_CONSTRAINTS_PLAUSIBLE_NOT_FULLY_LOCKED",
+    "certification_status": "INTERVAL_CANDIDATE",
+    "interval_value": [
+      -0.9257325347662373,
+      1.0742674652337627
+    ],
+    "error_decomposition": {
+      "prime_sum_error": "CANDIDATE_ONLY_NOT_RIGOROUS",
+      "archimedean_quadrature_error": "CANDIDATE_ONLY_NOT_RIGOROUS",
+      "convolution_error": "CANDIDATE_ONLY_NOT_RIGOROUS",
+      "rounding_error": "CANDIDATE_ONLY_NOT_RIGOROUS",
+      "normalization_error": "BOMBIERI_LAGARIAS_NORMALIZATION_USED_BUT_FULL_REVIEW_STILL_REQUIRED",
+      "pole_constraint_error": "POLE_CONSTRAINTS_PLAUSIBLE_NOT_FULLY_LOCKED"
+    },
+    "quadrature_method": "midpoint floating-point toy quadrature with conservative non-rigorous radius",
+    "prime_cutoff": "finite toy cutoff induced by B=1.2",
+    "archimedean_cutoff": "toy finite cutoff B=1.2",
+    "reviewer_warnings": [
+      "Interval candidate only.",
+      "Error bounds are not rigorous.",
+      "Not a certified interval entry.",
+      "Do not use in a certified matrix.",
+      "Do not use for RH claims."
+    ]
+  },
+  "components": {
+    "central_component": 0.3710375608714174,
+    "star_central_component": 0.37104588022243845,
+    "prime_component": 0.06010838674522298,
+    "f_at_one": 0.40729342821800146,
+    "bombieri_lagarias_constant_component": -0.7013371065700822,
+    "archimedean_component": -0.09362951745521192,
+    "entry_value": 0.07426746523376265
+  },
+  "prototype_value": 0.07426746523376265,
+  "candidate_radius": 1.0,
+  "candidate_interval": [
+    -0.9257325347662373,
+    1.0742674652337627
+  ],
+  "entry_is_certified": false,
+  "matrix_with_this_entry_is_certified": false,
+  "unresolved_error_gates": [
+    "quadrature_error",
+    "convolution_error",
+    "archimedean_singularity_error",
+    "rounding_error",
+    "basis_smoothness_error",
+    "pole_constraint_error",
+    "source_normalization_review"
+  ],
+  "audit_strings": [
+    "PHASE_B11_INTERVAL_CANDIDATE_ENTRY_COMPLETE",
+    "M_00_ARITH_INTERVAL_CANDIDATE_CREATED",
+    "INTERVAL_CANDIDATE_STATUS_USED",
+    "CONSERVATIVE_INTERVAL_WRAPPER_CREATED",
+    "ERROR_GATES_RECORDED",
+    "INTERVAL_CANDIDATE_ENTRY_NOT_CERTIFIED",
+    "CERTIFIED_MATRIX_CANNOT_USE_INTERVAL_CANDIDATE",
+    "BREAKTHROUGH_NOT_ACHIEVED",
+    "READY_FOR_PHASE_B12_CERTIFIED_ERROR_BOUND_AUDIT"
+  ]
+}

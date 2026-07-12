@@ -10265,3 +10265,37 @@ No certified arithmetic value computed.
 
 Interval candidate entry.
 
+
+---
+
+## Phase B11 — Interval Candidate Arithmetic Entry
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_push/phase_b11_interval_candidate_entry/PHASE_B11_INTERVAL_CANDIDATE_ENTRY.md`
+- `breakthrough_push/phase_b11_interval_candidate_entry/INTERVAL_CANDIDATE_ENTRY_STATUS.md`
+- `breakthrough_push/phase_b11_interval_candidate_entry/NEXT_PHASE_B12_CERTIFIED_ERROR_BOUND_AUDIT.md`
+- `breakthrough_push/phase_b11_interval_candidate_entry/M_00_interval_candidate_entry.json`
+- `src/level4/interval_candidate_entry.py`
+- `scripts/audit_phaseB11_interval_candidate_entry.py`
+
+### Result
+
+The first interval-candidate arithmetic entry was created.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+No certified arithmetic value computed.
+
+### Next target
+
+Certified error-bound audit.
+

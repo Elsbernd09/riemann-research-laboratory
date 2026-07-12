@@ -12136,3 +12136,36 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase B10 computes a numerical value but not a certified arithmetic entry and does not establish a breakthrough.
 
+
+---
+
+## CL-B036
+
+**Status:** INTERVAL CANDIDATE CREATED
+
+**Statement:** Phase B11 creates the first interval-candidate arithmetic entry \(M_{00}^{arith}\) under Bombieri–Lagarias normalization.
+
+---
+
+## CL-B037
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase B11 proves that interval-candidate entries are not certified interval entries and cannot be used in certified arithmetic matrices.
+
+---
+
+## CL-B038
+
+**Status:** OPEN GATES
+
+**Statement:** Phase B11 records unresolved certification gates for quadrature, convolution, archimedean singularity handling, rounding, basis smoothness, pole constraints, and normalization review.
+
+---
+
+## CL-B039
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase B11 does not compute a certified arithmetic entry and does not establish a breakthrough.
+
