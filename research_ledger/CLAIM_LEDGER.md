@@ -10299,3 +10299,36 @@ as the central missing bridge to RH-relevant finite computation.
 
 **Statement:** Phase 10AL proves no RH statement, falsifies no RH statement, proves no new RH criterion, verifies no zeta zeros, and makes no novelty claim.
 
+
+---
+
+## CL-0736
+
+**Status:** TOY ABSTRACTION
+
+**Statement:** Phase 10AM defines a toy-but-honest Weil-form abstraction with infinite form \(Q_\infty\), finite forms \(Q_N(v)=v^*M_Nv\), approximation maps \(P_N\), and error model \(E_N(f)\).
+
+---
+
+## CL-0737
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10AM proves positivity transfer and quantitative negative-direction transfer in the toy Weil-form abstraction.
+
+---
+
+## CL-0738
+
+**Status:** IMPORT OBLIGATIONS
+
+**Statement:** Phase 10AM records the classical theory import obligations required before the abstraction can become RH-relevant.
+
+---
+
+## CL-0739
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10AM proves no RH statement, falsifies no RH statement, proves no new RH criterion, verifies no zeta zeros, and makes no novelty claim.
+
