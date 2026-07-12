@@ -11169,3 +11169,36 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase 12J proves no RH statement, no new RH criterion, no full Weil positivity theorem, no finite approximation convergence theorem, no Level 4 contribution, and establishes no novelty.
 
+
+---
+
+## CL-0842
+
+**Status:** PROVISIONAL FINITE-CLASS CONSTRUCTION
+
+**Statement:** Phase 12K defines a finite test-class projection \(P_m\) by identity on \(\mathcal F_R^{(m)}\).
+
+---
+
+## CL-0843
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12K proves that the projection error vanishes on the chosen finite test class, so \(\pi_m(R,m)=0\).
+
+---
+
+## CL-0844
+
+**Status:** MISSING CLASSICAL OBJECT
+
+**Statement:** Phase 12K records that a full source-grounded classical projection map \(P_N:\mathcal D_W\to V_N\) remains missing.
+
+---
+
+## CL-0845
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 12K proves no RH statement, no new RH criterion, no full Weil positivity theorem, no finite approximation convergence theorem, no Level 4 contribution, and establishes no novelty.
+

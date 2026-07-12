@@ -9317,3 +9317,39 @@ No novelty established.
 
 Define or honestly fail to define the finite approximation map \(P_N\).
 
+
+---
+
+## Phase 12K — Projection Map Gate
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/level4_candidate/projection_map_gate/PHASE_12K_PROJECTION_MAP_GATE.md`
+- `original_results/finite_bombieri_stability/level4_candidate/projection_map_gate/PROJECTION_MAP_LOCK.md`
+- `original_results/finite_bombieri_stability/level4_candidate/projection_map_gate/NEXT_PHASE_12L_TRUNCATION_ERROR_GATE.md`
+- `scripts/audit_phase12k_projection_map_gate.py`
+
+### Result
+
+A finite test-class projection map was defined as identity on the chosen finite class, and projection error was proved zero on that class.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No finite approximation convergence theorem.
+
+No Level 4 contribution yet.
+
+No novelty established.
+
+### Next target
+
+Attack truncation error.
+
