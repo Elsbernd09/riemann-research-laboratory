@@ -8990,3 +8990,39 @@ No novelty established.
 
 Import the true Weil/Bombieri form and admissible test-function domain.
 
+
+---
+
+## Phase 12B — True Weil/Bombieri Form Import Attempt
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `scripts/run_phase12b_source_scan.py`
+- `original_results/finite_bombieri_stability/level4_candidate/true_weil_form_import/PHASE_12B_SOURCE_SCAN_REPORT.md`
+- `original_results/finite_bombieri_stability/level4_candidate/true_weil_form_import/PHASE_12B_TRUE_WEIL_FORM_IMPORT_ATTEMPT.md`
+- `original_results/finite_bombieri_stability/level4_candidate/true_weil_form_import/IMPORTED_T_FUNCTIONAL_LOCK.md`
+- `original_results/finite_bombieri_stability/level4_candidate/true_weil_form_import/NEXT_PHASE_12C_QUADRATIC_FORM_IMPORT.md`
+- `scripts/audit_phase12b_true_weil_import.py`
+
+### Result
+
+The source-extracted Bombieri explicit formula functional \(T[f]\) was imported as a partial classical object. The true quadratic Weil positivity form remains missing.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No Level 4 contribution yet.
+
+No novelty established.
+
+### Next target
+
+Import or honestly fail to import the exact quadratic Weil positivity form.
+
