@@ -2,24 +2,33 @@
 
 ## Immediate next target
 
-Extract Sections 5 and 6 enough to identify the Fourier-side infinite quadratic form.
+Extract the exact formula for the Section 8 finite matrix entries
 
-## Why not Section 8 immediately?
+\[
+H(\gamma,\gamma';t).
+\]
 
-Section 8 finite matrices approximate the Fourier-side reformulation.
+## Why this is next
 
-Therefore the project must first know the infinite object being approximated.
+Phase 8S locked the finite space \(V\), boundary subspace \(V^\circ\), inner product, and source object \(L[F]\).
+
+The next missing piece is the actual matrix associated to the quadratic/eigenvalue problem.
 
 ## Required next fields
 
-1. exact Fourier-side variables;
-2. exact Hilbert space;
-3. exact quadratic form;
-4. exact eigenvalue problem;
-5. exact relation to \(T[f*f^*]\);
-6. notation used later by Section 8.
+1. exact displayed formula for \(H(\gamma,\gamma';t)\);
+2. basis ordering;
+3. how \(V^\circ\) removes two dimensions;
+4. exact finite eigenvalue equation;
+5. exact Theorem 8 statement;
+6. multiplicity convention;
+7. negative eigenvalue count formula.
 
-## Forbidden next step
+## Still forbidden
 
-Do not implement Section 8 matrices yet.
+Do not implement matrices yet.
+
+Do not compute eigenvalues yet.
+
+Do not call any placeholder matrix a Bombieri-Weil truncation.
 
