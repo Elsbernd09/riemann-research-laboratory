@@ -10633,3 +10633,28 @@ R^2m(\tau_N^{(m)}+\pi_N^{(m)}+\kappa_N^{(m)}+\chi_N^{(m)}).
 
 **Statement:** Phase 10AV does not compute the true classical Weil/Bombieri Gram matrix, proves no RH statement, proves no classical convergence theorem, and makes no novelty claim.
 
+
+---
+
+## CL-0773
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10AW integrates certified numerical error \(\chi_N^{(m)}\) into the conditional Gram-error transfer theorem.
+
+---
+
+## CL-0774
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10AW proves a certified numerical negative-direction margin theorem under the integrated transfer bound.
+
+---
+
+## CL-0775
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10AW proves no RH statement, falsifies no RH statement, proves no new RH criterion, proves no unconditional classical convergence theorem, imports no true Weil form, and makes no novelty claim.
+
