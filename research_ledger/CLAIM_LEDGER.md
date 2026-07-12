@@ -9866,3 +9866,44 @@ which implies negative eigenvalue count stability.
 
 **Statement:** Phase 10Z proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0688
+
+**Status:** SYMBOLIC MAJORANTS DERIVED
+
+**Statement:** Phase 10AA derives symbolic derivative majorants for the finite \(K^*\)-formula:
+\[
+M_0=A_0+2|c_t|C_0A_0^2,\quad
+M_x=A_1+2|c_t|C_0A_0A_1,\quad
+M_y=A_1+2|c_t|(A_0^2+C_0A_0A_1).
+\]
+
+---
+
+## CL-0689
+
+**Status:** SYMBOLIC H-KERNEL LIPSCHITZ CANDIDATE
+
+**Statement:** Phase 10AA defines the symbolic \(H\)-kernel Lipschitz candidate
+\[
+L_H(U,t)=2|t|B_0M_x+2|t|(B_1M_0+B_0M_y).
+\]
+
+---
+
+## CL-0690
+
+**Status:** TARGET ONLY
+
+**Statement:** Phase 10AA does not complete the full explicit Lipschitz theorem. Concrete compact-domain majorants for \(A_0,A_1,B_0,B_1,C_0\) remain required.
+
+---
+
+## CL-0691
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10AA proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+

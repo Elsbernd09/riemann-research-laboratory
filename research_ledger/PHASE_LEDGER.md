@@ -7922,3 +7922,37 @@ No novelty claim.
 
 Compute symbolic derivative majorants for the actual \(K^*\)-formula.
 
+
+---
+
+## Phase 10AA — Symbolic Derivative Majorants for \(K^*\)
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/h_kernel_lipschitz/symbolic_majorants/PHASE_10AA_KSTAR_DERIVATIVE_MAJORANTS.md`
+- `original_results/finite_bombieri_stability/h_kernel_lipschitz/symbolic_majorants/SYMBOLIC_MAJORANT_LOCK.md`
+- `original_results/finite_bombieri_stability/h_kernel_lipschitz/symbolic_majorants/PHASE_10AA_STATUS.md`
+- `scripts/audit_phase10aa_kstar_majorants.py`
+
+### Result
+
+Symbolic derivative majorants for the \(K^*\)-formula were derived.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No zeta zeros.
+
+No zeta-case verification.
+
+No novelty claim.
+
+### Next target
+
+Define concrete compact-domain majorants for \(A_0,A_1,B_0,B_1,C_0\).
+
