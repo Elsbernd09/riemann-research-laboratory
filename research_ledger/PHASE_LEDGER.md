@@ -7888,3 +7888,37 @@ No novelty claim.
 
 Begin the explicit Bombieri-style H-kernel Lipschitz branch.
 
+
+---
+
+## Phase 10Z — Explicit H-Kernel Lipschitz Branch
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/h_kernel_lipschitz/PHASE_10Z_H_KERNEL_LIPSCHITZ_BRANCH.md`
+- `original_results/finite_bombieri_stability/h_kernel_lipschitz/H_KERNEL_LIPSCHITZ_TARGET_LOCK.md`
+- `original_results/finite_bombieri_stability/h_kernel_lipschitz/DERIVATIVE_MAJORANT_PLAN.md`
+- `scripts/audit_phase10z_h_kernel_lipschitz_branch.py`
+
+### Result
+
+The explicit \(H\)-kernel Lipschitz branch was launched.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No zeta zeros.
+
+No zeta-case verification.
+
+No novelty claim.
+
+### Next target
+
+Compute symbolic derivative majorants for the actual \(K^*\)-formula.
+

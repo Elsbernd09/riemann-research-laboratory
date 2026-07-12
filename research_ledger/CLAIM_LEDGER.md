@@ -9833,3 +9833,36 @@ which implies negative eigenvalue count stability.
 
 **Statement:** Phase 10Y proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0684
+
+**Status:** H-KERNEL LIPSCHITZ BRANCH LAUNCHED
+
+**Statement:** Phase 10Z launches the explicit \(H\)-kernel Lipschitz branch, aiming to replace the abstract constant \(L_t(U)\) with a computable \(H\)-kernel bound \(L_H(U,t)\).
+
+---
+
+## CL-0685
+
+**Status:** TARGET ONLY
+
+**Statement:** Phase 10Z does not complete the full explicit \(H\)-kernel Lipschitz theorem. It locks the derivative-majorant strategy and the target theorem.
+
+---
+
+## CL-0686
+
+**Status:** BREAKTHROUGH TRACK NOTE
+
+**Statement:** The explicit \(H\)-kernel Lipschitz branch is more specialized to the Bombieri-style matrix object than the abstract stability theorem, but Phase 10Z itself is not a breakthrough and makes no novelty claim.
+
+---
+
+## CL-0687
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10Z proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+
