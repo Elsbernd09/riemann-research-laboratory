@@ -1,0 +1,48 @@
+# Archimedean Reduction Lock
+
+## Status
+
+ARCHIMEDEAN_REDUCTION_COMPLETE
+
+## Tail
+
+ARCHIMEDEAN_TAIL_EXPLICIT_PROVED
+
+\[
+\int_M^\infty
+\left(
+-\frac{2F_g(1)}x
+\right)
+\frac{x\,dx}{x^2-1}
+=
+-F_g(1)\log\left(\frac{M+1}{M-1}\right).
+\]
+
+## Finite interval
+
+FINITE_ARCHIMEDEAN_INTERVAL_REDUCTION_PROVED
+
+## Value at 1
+
+F_G_ONE_REAL_NONNEGATIVE_PROVED
+
+\[
+F_g(1)=\int_0^\infty |g(y)|^2\,dy.
+\]
+
+## Singularity
+
+REMOVABLE_SINGULARITY_CRITERION_PROVED
+
+## Reduction
+
+ARCHIMEDEAN_CERTIFICATION_REDUCED_TO_FINITE_INTERVAL
+
+## Remaining
+
+CERTIFIED_QUADRATURE_STILL_REQUIRED
+
+ARITHMETIC_ONLY_CERTIFICATE_NOT_YET_COMPLETE
+
+LEVEL4_BREAKTHROUGH_CANDIDATE_STILL_CONDITIONAL
+

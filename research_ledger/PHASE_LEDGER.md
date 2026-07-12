@@ -9565,3 +9565,37 @@ No novelty established.
 
 Reduce and certify the archimedean integral.
 
+
+---
+
+## Phase 12R — Archimedean Integral Reduction
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/level4_candidate/archimedean_reduction/PHASE_12R_ARCHIMEDEAN_REDUCTION.md`
+- `original_results/finite_bombieri_stability/level4_candidate/archimedean_reduction/ARCHIMEDEAN_REDUCTION_LOCK.md`
+- `original_results/finite_bombieri_stability/level4_candidate/archimedean_reduction/NEXT_PHASE_12S_ARITHMETIC_MATRIX_ENTRIES.md`
+- `scripts/audit_phase12r_archimedean_reduction.py`
+
+### Result
+
+The archimedean integral was reduced to a finite interval integral plus an explicit logarithmic tail, and the removable singularity was isolated.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No complete arithmetic-only finite certificate.
+
+No novelty established.
+
+### Next target
+
+Define arithmetic matrix entries.
+

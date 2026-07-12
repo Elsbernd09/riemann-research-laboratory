@@ -11470,3 +11470,58 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase 12Q proves no RH statement, no new RH criterion, no full Weil positivity theorem, no complete arithmetic-only finite certificate, and establishes no novelty.
 
+
+---
+
+## CL-0878
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12R proves the explicit archimedean tail formula
+\[
+\int_M^\infty
+\left(-\frac{2F_g(1)}x\right)\frac{x\,dx}{x^2-1}
+=
+-F_g(1)\log\left(\frac{M+1}{M-1}\right).
+\]
+
+---
+
+## CL-0879
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12R proves \(F_g(1)=\int_0^\infty |g(y)|^2dy\), hence \(F_g(1)\) is real and nonnegative.
+
+---
+
+## CL-0880
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12R proves a removable-singularity criterion for the archimedean integrand near \(x=1\).
+
+---
+
+## CL-0881
+
+**Status:** REDUCTION RESULT
+
+**Statement:** Phase 12R reduces archimedean certification to finite interval integration plus an explicit logarithmic tail term.
+
+---
+
+## CL-0882
+
+**Status:** MISSING UPGRADE
+
+**Statement:** Phase 12R records that certified quadrature and full arithmetic matrix assembly remain unresolved.
+
+---
+
+## CL-0883
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 12R proves no RH statement, no new RH criterion, no full Weil positivity theorem, no complete arithmetic-only finite certificate, and establishes no novelty.
+
