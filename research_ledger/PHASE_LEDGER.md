@@ -9245,3 +9245,39 @@ No novelty established.
 
 Decompose the finite approximation error for \(Q_N(P_Ng)-Q_W(g)\).
 
+
+---
+
+## Phase 12I — Approximation Error Decomposition
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/level4_candidate/approximation_error_decomposition/PHASE_12I_APPROXIMATION_ERROR_DECOMPOSITION.md`
+- `original_results/finite_bombieri_stability/level4_candidate/approximation_error_decomposition/APPROXIMATION_ERROR_LOCK.md`
+- `original_results/finite_bombieri_stability/level4_candidate/approximation_error_decomposition/NEXT_PHASE_12J_SOURCE_NORMALIZATION_GATE.md`
+- `scripts/audit_phase12i_approximation_error_decomposition.py`
+
+### Result
+
+The total approximation error was decomposed and bounded by truncation, projection, source-normalization, and computational terms.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No finite approximation convergence theorem.
+
+No Level 4 contribution yet.
+
+No novelty established.
+
+### Next target
+
+Attack the source-normalization/sign-convention term.
+

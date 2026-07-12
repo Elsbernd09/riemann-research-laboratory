@@ -11092,3 +11092,47 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase 12H proves no RH statement, no new RH criterion, no full Weil positivity theorem, no finite approximation theorem, no Level 4 contribution, and establishes no novelty.
 
+
+---
+
+## CL-0833
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12I defines the total approximation error \(E_N(g)=Q_N(P_Ng)-Q_W(g)\) and decomposes it into truncation, projection, source-normalization, and computational terms.
+
+---
+
+## CL-0834
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12I proves the bound
+\[
+|E_N(g)|\le\tau_N(g)+\pi_N(g)+\sigma_N(g)+\chi_N(g).
+\]
+
+---
+
+## CL-0835
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12I proves the uniform finite-class version of the approximation error bound.
+
+---
+
+## CL-0836
+
+**Status:** MISSING HARD THEOREM
+
+**Statement:** Phase 12I records that finite approximation convergence remains unproved; the individual error terms still need actual vanishing bounds.
+
+---
+
+## CL-0837
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 12I proves no RH statement, no new RH criterion, no full Weil positivity theorem, no finite approximation convergence theorem, no Level 4 contribution, and establishes no novelty.
+
