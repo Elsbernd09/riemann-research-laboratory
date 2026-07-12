@@ -10981,3 +10981,36 @@ R^2m(\tau_N^{(m)}+\pi_N^{(m)}+\chi_N^{(m)}).
 
 **Statement:** Phase 12E proves no RH statement, proves no Level 4 contribution, does not establish novelty, and does not achieve a breakthrough candidate.
 
+
+---
+
+## CL-0820
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12F proves the Mellin involution identity \(\widehat{g^*}(s)=\overline{\widehat g(1-\bar s)}\) under the provisional definitions.
+
+---
+
+## CL-0821
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12F proves the Mellin convolution theorem \(\widehat{a*b}(s)=\widehat a(s)\widehat b(s)\) for the multiplicative convolution convention.
+
+---
+
+## CL-0822
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12F proves \(\widehat{g*g^*}(s)=\widehat g(s)\overline{\widehat g(1-\bar s)}\), hence \(\widehat{g*g^*}(1/2+i\gamma)=|\widehat g(1/2+i\gamma)|^2\).
+
+---
+
+## CL-0823
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 12F proves no RH statement, proves no new RH criterion, proves no Level 4 contribution, establishes no novelty, and leaves primary-source confirmation and sign convention unresolved.
+

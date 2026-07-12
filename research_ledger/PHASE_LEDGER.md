@@ -9133,3 +9133,39 @@ Primary-source confirmation still required.
 
 Prove the Mellin involution and convolution identities.
 
+
+---
+
+## Phase 12F — Mellin Identity Proof
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/level4_candidate/mellin_identity_proof/PHASE_12F_MELLIN_IDENTITY_PROOF.md`
+- `original_results/finite_bombieri_stability/level4_candidate/mellin_identity_proof/MELLIN_IDENTITY_LOCK.md`
+- `original_results/finite_bombieri_stability/level4_candidate/mellin_identity_proof/NEXT_PHASE_12G_SPECTRAL_QW_ALIGNMENT.md`
+- `scripts/audit_phase12f_mellin_identity.py`
+
+### Result
+
+The Mellin involution identity, Mellin convolution theorem, \(F_g\) Mellin product identity, and critical-line square structure were proved under the provisional imported definitions.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No Level 4 contribution yet.
+
+No novelty established.
+
+Primary-source confirmation still required.
+
+### Next target
+
+Derive the provisional spectral form of \(Q_W(g)\).
+
