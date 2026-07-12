@@ -1,0 +1,40 @@
+# Arithmetic Matrix Entries Lock
+
+## Status
+
+ARITHMETIC_MATRIX_ENTRIES_COMPLETE
+
+## Matrix entries
+
+M_IJ_ARITH_DEFINED
+
+\[
+M_{ij}^{arith}=T[\phi_j*\phi_i^*]
+\]
+
+under the coefficient-compatible convention.
+
+## Finite expansion
+
+FINITE_ARITHMETIC_EXPANSION_PROVED
+
+FINITE_PRIME_SUM_IN_MATRIX_ENTRY_PROVED
+
+REDUCED_ARCHIMEDEAN_TERM_IN_MATRIX_ENTRY_PROVED
+
+## Matrix representation
+
+FORMAL_MATRIX_REPRESENTATION_PROVED
+
+\[
+T[g*g^*]=a^*M^{arith}a.
+\]
+
+## Remaining
+
+HERMITIAN_CONVENTION_AUDIT_STILL_REQUIRED
+
+CERTIFIED_INTERVAL_IMPLEMENTATION_STILL_REQUIRED
+
+ARITHMETIC_ONLY_CERTIFICATE_NOT_YET_COMPLETE
+

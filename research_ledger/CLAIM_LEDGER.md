@@ -11525,3 +11525,44 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase 12R proves no RH statement, no new RH criterion, no full Weil positivity theorem, no complete arithmetic-only finite certificate, and establishes no novelty.
 
+
+---
+
+## CL-0884
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12S defines arithmetic matrix entries \(M_{ij}^{arith}=T[\phi_j*\phi_i^*]\) under the coefficient-compatible convention.
+
+---
+
+## CL-0885
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12S proves that each arithmetic matrix entry has a finite expansion using finite prime sums and the reduced archimedean term.
+
+---
+
+## CL-0886
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12S proves the formal matrix representation \(T[g*g^*]=a^*M^{arith}a\) under the chosen entry convention.
+
+---
+
+## CL-0887
+
+**Status:** MISSING UPGRADE
+
+**Statement:** Phase 12S records that Hermitian convention audit and certified interval implementation remain unresolved.
+
+---
+
+## CL-0888
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 12S proves no RH statement, no new RH criterion, no full Weil positivity theorem, no complete arithmetic-only finite certificate, and establishes no novelty.
+

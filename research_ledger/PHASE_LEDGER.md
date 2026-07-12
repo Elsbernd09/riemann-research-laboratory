@@ -9599,3 +9599,37 @@ No novelty established.
 
 Define arithmetic matrix entries.
 
+
+---
+
+## Phase 12S — Arithmetic Matrix Entries
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/level4_candidate/arithmetic_matrix_entries/PHASE_12S_ARITHMETIC_MATRIX_ENTRIES.md`
+- `original_results/finite_bombieri_stability/level4_candidate/arithmetic_matrix_entries/ARITHMETIC_MATRIX_ENTRIES_LOCK.md`
+- `original_results/finite_bombieri_stability/level4_candidate/arithmetic_matrix_entries/NEXT_PHASE_12T_HERMITIAN_AUDIT.md`
+- `scripts/audit_phase12s_arithmetic_matrix_entries.py`
+
+### Result
+
+Arithmetic matrix entries were defined and given finite arithmetic expansions.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No complete arithmetic-only finite certificate.
+
+No novelty established.
+
+### Next target
+
+Hermitian convention audit.
+
