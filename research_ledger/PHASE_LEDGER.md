@@ -9531,3 +9531,37 @@ No novelty established.
 
 Make the compact-support arithmetic tail theorem explicit for finite test classes.
 
+
+---
+
+## Phase 12Q — Compact Support Arithmetic Tail Theorem
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/level4_candidate/compact_support_tail_theorem/PHASE_12Q_COMPACT_SUPPORT_TAIL_THEOREM.md`
+- `original_results/finite_bombieri_stability/level4_candidate/compact_support_tail_theorem/COMPACT_SUPPORT_TAIL_LOCK.md`
+- `original_results/finite_bombieri_stability/level4_candidate/compact_support_tail_theorem/NEXT_PHASE_12R_ARCHIMEDEAN_REDUCTION.md`
+- `scripts/audit_phase12q_compact_support_tail.py`
+
+### Result
+
+The compact-support arithmetic tail theorem was proved. Prime sums are finite on the chosen finite test class and on matrix entries.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No complete arithmetic-only finite certificate.
+
+No novelty established.
+
+### Next target
+
+Reduce and certify the archimedean integral.
+

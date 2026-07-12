@@ -11421,3 +11421,52 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase 12P proves no RH statement, no new RH criterion, no full Weil positivity theorem, no complete arithmetic-only finite certificate, and establishes no novelty.
 
+
+---
+
+## CL-0872
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12Q proves that if the finite test basis has common support \([e^{-B},e^B]\), then \(F_g=g*g^*\) has support contained in \([e^{-2B},e^{2B}]\).
+
+---
+
+## CL-0873
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12Q proves that \(F_g^*\) also has support contained in \([e^{-2B},e^{2B}]\).
+
+---
+
+## CL-0874
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12Q proves the arithmetic prime tail vanishes exactly above \(e^{2B}\) on the finite test class.
+
+---
+
+## CL-0875
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12Q proves that matrix prime entries for basis-pair convolutions are finite sums with the same support cutoff.
+
+---
+
+## CL-0876
+
+**Status:** MISSING UPGRADE
+
+**Statement:** Phase 12Q records that archimedean certification remains the next major arithmetic-side obstacle.
+
+---
+
+## CL-0877
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 12Q proves no RH statement, no new RH criterion, no full Weil positivity theorem, no complete arithmetic-only finite certificate, and establishes no novelty.
+
