@@ -10049,3 +10049,42 @@ Prior-art review not complete.
 
 Primary paper extraction.
 
+
+---
+
+## Phase B5 — Primary Paper Extraction Pack
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_push/phase_b5_primary_paper_extraction/PHASE_B5_PRIMARY_PAPER_EXTRACTION_PACK.md`
+- `breakthrough_push/phase_b5_primary_paper_extraction/templates/EXTRACTION_TEMPLATE.md`
+- `breakthrough_push/phase_b5_primary_paper_extraction/extractions/WEIL_EXTRACTION.md`
+- `breakthrough_push/phase_b5_primary_paper_extraction/extractions/BOMBIERI_LAGARIAS_EXTRACTION.md`
+- `breakthrough_push/phase_b5_primary_paper_extraction/extractions/CONNES_EXTRACTION.md`
+- `breakthrough_push/phase_b5_primary_paper_extraction/extractions/FINITE_GALERKIN_EXTRACTION.md`
+- `breakthrough_push/phase_b5_primary_paper_extraction/extractions/SUZUKI_EXTRACTION.md`
+- `breakthrough_push/phase_b5_primary_paper_extraction/extractions/BURNOL_YOSHIDA_EXTRACTION.md`
+- `breakthrough_push/phase_b5_primary_paper_extraction/PRIMARY_EXTRACTION_STATUS.md`
+- `breakthrough_push/phase_b5_primary_paper_extraction/NEXT_PHASE_B6_BOMBIERI_LAGARIAS_EXTRACTION.md`
+- `scripts/audit_phaseB5_primary_extraction.py`
+
+### Result
+
+The primary paper extraction framework was created.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+Literature review not complete.
+
+### Next target
+
+Bombieri-Lagarias extraction.
+

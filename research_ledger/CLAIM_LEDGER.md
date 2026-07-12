@@ -11962,3 +11962,20 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase B4 records that novelty and breakthrough status are not established.
 
+
+---
+
+## CL-B015
+
+**Status:** EXTRACTION FRAMEWORK COMPLETE
+
+**Statement:** Phase B5 creates the primary paper extraction framework for comparing the project to Weil, Bombieri-Lagarias, Connes, finite Galerkin, Suzuki, and Burnol/Yoshida sources.
+
+---
+
+## CL-B016
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase B5 does not establish novelty or breakthrough; it prepares the primary-source comparison needed to assess those questions.
+
