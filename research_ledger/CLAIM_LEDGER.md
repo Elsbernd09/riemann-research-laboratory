@@ -11904,3 +11904,28 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase B2 does not establish a breakthrough, RH proof, novelty, or certified arithmetic-only matrix.
 
+
+---
+
+## CL-B008
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase B3 proves that the toy arithmetic matrix restricts to the pole-admissible finite subspace by \(M_{\mathrm{toy,adm}}=N^TM_{\mathrm{toy}}N\).
+
+---
+
+## CL-B009
+
+**Status:** IMPLEMENTED IN PROJECT
+
+**Statement:** Phase B3 implements the pole-orthogonal toy arithmetic matrix pipeline and tests Rayleigh interval logic on the restricted matrix.
+
+---
+
+## CL-B010
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase B3 remains a toy floating-point pipeline and does not establish a breakthrough, novelty, RH proof, or certified arithmetic-only matrix.
+

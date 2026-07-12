@@ -9982,3 +9982,37 @@ No certified arithmetic-only matrix.
 
 Admissible toy matrix.
 
+
+---
+
+## Phase B3 — Admissible Toy Matrix
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_push/phase_b3_admissible_toy_matrix/PHASE_B3_ADMISSIBLE_TOY_MATRIX.md`
+- `breakthrough_push/phase_b3_admissible_toy_matrix/ADMISSIBLE_TOY_MATRIX_STATUS.md`
+- `breakthrough_push/phase_b3_admissible_toy_matrix/NEXT_PHASE_B4_PRIOR_ART_COLLISION.md`
+- `breakthrough_push/phase_b3_admissible_toy_matrix/admissible_toy_matrix_certificate.json`
+- `src/level4/admissible_toy_matrix.py`
+- `scripts/audit_phaseB3_admissible_toy_matrix.py`
+
+### Result
+
+The toy arithmetic matrix was restricted to the pole-admissible nullspace and tested with Rayleigh logic.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+No certified arithmetic-only matrix.
+
+### Next target
+
+Prior-art collision.
+

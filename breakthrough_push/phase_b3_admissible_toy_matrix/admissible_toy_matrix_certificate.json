@@ -1,0 +1,119 @@
+{
+  "phase": "B3",
+  "status": "PHASE_B3_ADMISSIBLE_TOY_MATRIX_COMPLETE",
+  "important_boundary": "TOY_FLOATING_POINT_PIPELINE_ONLY",
+  "constraint_matrix_C": [
+    [
+      0.6000002113631859,
+      0.6000002113631857,
+      0.6000002113631858
+    ],
+    [
+      0.37496787285005384,
+      0.6182175077970647,
+      1.019268355024243
+    ]
+  ],
+  "nullspace_basis_N": [
+    [
+      0.5032297641513533
+    ],
+    [
+      -0.8084540449891072
+    ],
+    [
+      0.3052242808377535
+    ]
+  ],
+  "raw_toy_matrix": [
+    [
+      0.0019641027577709247,
+      0.0011910895778789593,
+      -0.005454394377916838
+    ],
+    [
+      0.0011960771462381156,
+      0.0032382579945782197,
+      0.001963774722358834
+    ],
+    [
+      -0.005457189571979493,
+      0.0019719978324014772,
+      0.005338984835675298
+    ]
+  ],
+  "symmetrized_toy_matrix": [
+    [
+      0.0019641027577709247,
+      0.0011935833620585375,
+      -0.005455791974948165
+    ],
+    [
+      0.0011935833620585375,
+      0.0032382579945782197,
+      0.0019678862773801556
+    ],
+    [
+      -0.005455791974948165,
+      0.0019678862773801556,
+      0.005338984835675298
+    ]
+  ],
+  "admissible_restricted_matrix": [
+    [
+      -0.0005070794836258651
+    ]
+  ],
+  "rayleigh_scan": {
+    "restricted_dimension": 1,
+    "interval_matrix": {
+      "n": 1,
+      "entries": [
+        [
+          {
+            "lo": -1.000507079483626,
+            "hi": 0.9994929205163742
+          }
+        ]
+      ]
+    },
+    "results": [
+      {
+        "verdict": "NOT_CERTIFIED_NEGATIVE",
+        "rayleigh_interval": {
+          "lo": -1.000507079483626,
+          "hi": 0.9994929205163742
+        },
+        "vector": [
+          1.0
+        ],
+        "hermitian_residual_contains_zero": true,
+        "hermitian_residual_exact_zero": true
+      },
+      {
+        "verdict": "NOT_CERTIFIED_NEGATIVE",
+        "rayleigh_interval": {
+          "lo": -4.002028317934504,
+          "hi": 3.9979716820654967
+        },
+        "vector": [
+          2.0
+        ],
+        "hermitian_residual_contains_zero": true,
+        "hermitian_residual_exact_zero": true
+      }
+    ],
+    "any_certified_negative_direction": false
+  },
+  "audit_strings": [
+    "PHASE_B3_ADMISSIBLE_TOY_MATRIX_COMPLETE",
+    "TOY_ARITHMETIC_MATRIX_ASSEMBLED_FOR_ADMISSIBLE_TEST",
+    "POLE_CONSTRAINT_MATRIX_USED",
+    "ADMISSIBLE_NULLSPACE_USED",
+    "TOY_ADMISSIBLE_MATRIX_COMPUTED",
+    "TOY_ADMISSIBLE_RAYLEIGH_LOGIC_TESTED",
+    "POLE_ORTHOGONAL_PIPELINE_IMPLEMENTED",
+    "BREAKTHROUGH_NOT_ACHIEVED",
+    "READY_FOR_PHASE_B4_PRIOR_ART_COLLISION"
+  ]
+}
