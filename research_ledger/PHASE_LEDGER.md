@@ -9916,3 +9916,35 @@ No novelty claim.
 
 Ready for professor review.
 
+
+---
+
+## Phase B1 — Provisional Primary-Source Lock
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_push/phase_b1_source_lock/PHASE_B1_PROVISIONAL_SOURCE_LOCK.md`
+- `breakthrough_push/phase_b1_source_lock/SOURCE_LOCK_STATUS.md`
+- `breakthrough_push/phase_b1_source_lock/NEXT_PHASE_B2_ADMISSIBLE_SUBSPACE.md`
+- `scripts/audit_phaseB1_source_lock.py`
+
+### Result
+
+The project imported the key Weil/Bombieri conventions provisionally and identified the missing pole-removal constraints.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+Primary-source extraction still required.
+
+### Next target
+
+Build admissible finite subspace machinery.
+

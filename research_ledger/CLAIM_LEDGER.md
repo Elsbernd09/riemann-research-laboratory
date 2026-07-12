@@ -11846,3 +11846,36 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase 13B marks the project ready for professor review after packaging.
 
+
+---
+
+## CL-B001
+
+**Status:** PROVISIONAL SOURCE IMPORT
+
+**Statement:** Phase B1 imports the Weil star convention, multiplicative convolution convention, Mellin product identity, and positivity condition provisionally from the uploaded source summary.
+
+---
+
+## CL-B002
+
+**Status:** IMPORTANT CORRECTION
+
+**Statement:** Phase B1 identifies pole-removal/admissibility constraints \(\widehat g(0)=0\) and \(\widehat g(1)=0\), which were not enforced in the earlier finite test class.
+
+---
+
+## CL-B003
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase B1 proves that coefficient vectors in the nullspace of the Mellin constraint matrix define finite test functions satisfying the pole-removal constraints.
+
+---
+
+## CL-B004
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase B1 does not establish a breakthrough; primary-source extraction remains required.
+
