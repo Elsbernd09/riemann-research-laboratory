@@ -11051,3 +11051,44 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase 12G proves no RH statement, proves no new RH criterion, proves no Level 4 contribution, establishes no novelty, and leaves primary-source confirmation and sign convention unresolved.
 
+
+---
+
+## CL-0828
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12H proves the negative obstruction detection template: if \(Q_W(g)\le-\eta\) and \(|Q_N(P_Ng)-Q_W(g)|<\eta/2\), then \(Q_N(P_Ng)<-\eta/2\).
+
+---
+
+## CL-0829
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12H proves eventual finite detection assuming \(\varepsilon_N(g)\to0\).
+
+---
+
+## CL-0830
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12H proves uniform finite-class negative detection assuming \(\sup_{g\in\mathcal F_R^{(m)}}|Q_N(P_Ng)-Q_W(g)|\le\varepsilon_N(R,m)<\eta/2\).
+
+---
+
+## CL-0831
+
+**Status:** MISSING HARD THEOREM
+
+**Statement:** Phase 12H records that the finite approximation theorem \(|Q_N(P_Ng)-Q_W(g)|\le\varepsilon_N(g)\to0\) remains unproved.
+
+---
+
+## CL-0832
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 12H proves no RH statement, no new RH criterion, no full Weil positivity theorem, no finite approximation theorem, no Level 4 contribution, and establishes no novelty.
+

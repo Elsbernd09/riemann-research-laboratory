@@ -9207,3 +9207,41 @@ Primary-source confirmation still required.
 
 State the negative obstruction detection template and isolate the finite approximation theorem as the remaining hard target.
 
+
+---
+
+## Phase 12H — Negative Obstruction Detection Template
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/level4_candidate/negative_obstruction_template/PHASE_12H_NEGATIVE_OBSTRUCTION_TEMPLATE.md`
+- `original_results/finite_bombieri_stability/level4_candidate/negative_obstruction_template/NEGATIVE_OBSTRUCTION_LOCK.md`
+- `original_results/finite_bombieri_stability/level4_candidate/negative_obstruction_template/NEXT_PHASE_12I_APPROXIMATION_ERROR_DECOMPOSITION.md`
+- `scripts/audit_phase12h_negative_obstruction_template.py`
+
+### Result
+
+The negative obstruction detection template, eventual finite detection corollary, and uniform finite-class detection theorem were proved.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No full Weil positivity theorem.
+
+No finite approximation theorem.
+
+No Level 4 contribution yet.
+
+No novelty established.
+
+### Next target
+
+Decompose the finite approximation error for \(Q_N(P_Ng)-Q_W(g)\).
+
