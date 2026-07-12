@@ -11780,3 +11780,44 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase 12Z proves no RH statement, no new RH criterion, no full Weil positivity theorem, no complete arithmetic-only finite certificate, and establishes no novelty.
 
+
+---
+
+## CL-0920
+
+**Status:** FINAL AUDIT
+
+**Statement:** Phase 13A identifies finite spectral negative-obstruction detection on concrete finite test classes as the strongest theorem-level result of the Level 4 branch.
+
+---
+
+## CL-0921
+
+**Status:** FINAL AUDIT
+
+**Statement:** Phase 13A records that the arithmetic-side pipeline reached a toy prototype but not a certified arithmetic-only finite certificate.
+
+---
+
+## CL-0922
+
+**Status:** FINAL AUDIT
+
+**Statement:** Phase 13A records that primary-source convention validation, certified quadrature, and prior-art comparison remain required.
+
+---
+
+## CL-0923
+
+**Status:** NOT ACHIEVED
+
+**Statement:** Phase 13A records that RH breakthrough, RH contribution, and novelty have not been established.
+
+---
+
+## CL-0924
+
+**Status:** RECOMMENDATION
+
+**Statement:** Phase 13A recommends stopping theorem-building and creating a professor review package.
+
