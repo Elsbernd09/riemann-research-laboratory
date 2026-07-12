@@ -8683,3 +8683,50 @@ The exact formula remains unlocked.
 
 **Statement:** Phase 8T does not implement a matrix, does not compute eigenvalues, does not prove RH, and does not claim novelty.
 
+
+---
+
+## CL-0560
+
+**Status:** SOURCE FORMULA EXTRACTED
+
+**Statement:** Phase 8U source-extracts the base kernel
+
+\[
+K(x)=\frac{\sin x}{x}
+\]
+
+and scaled notation
+
+\[
+K_t(x)=K(tx).
+\]
+
+---
+
+## CL-0561
+
+**Status:** SOURCE FORMULA EXTRACTED
+
+**Statement:** Phase 8U source-extracts the corrected kernel \(K^*(x,y;t)\) and the matrix kernel relation
+
+\[
+H(x,y;t)=\frac{2tK^*(x,y;t)}{1/4+y^2}.
+\]
+
+The implementation remains blocked until Theorem 8 and the exact finite matrix convention are locked.
+
+---
+
+## CL-0562
+
+**Status:** EIGEN-SYSTEM SKELETON RECORDED
+
+**Statement:** Phase 8U records the coefficient equation
+
+\[
+w_\gamma=\Lambda\sum_{\gamma'\in\Gamma}H(\gamma,\gamma';t)w_{\gamma'}.
+\]
+
+This is a source-level skeleton, not an implemented matrix computation.
+

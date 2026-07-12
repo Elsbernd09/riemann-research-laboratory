@@ -12,9 +12,13 @@
 | Inner product | \(L^2(\mathbb R)\) inner product | \((P,Q)\) | LOCKED |
 | Linear object | \(L[F](x)=\sum_{\gamma\in\Gamma}\int F(x+u)e^{i\gamma u}du\) | \(L\) | LOCKED |
 | Reality lemma | \((L[F],F)\in\mathbb R\) for \(F\in V\) | real quadratic value | PARTIAL |
-| Matrix entries | \(H(\gamma,\gamma';t)\) source-located but formula pending | \(H\) | PARTIAL |
+| Base kernel | \(K(x)=\sin x/x\) | \(K\) | LOCKED |
+| Scaled kernel | \(K_t(x)=K(tx)\) | \(K_t\) | LOCKED |
+| Corrected kernel | \(K^*(x,y;t)\) formula extracted | \(K^*\) | LOCKED |
+| Matrix kernel | \(H(x,y;t)=2tK^*(x,y;t)/(1/4+y^2)\) | \(H\) | PARTIAL_LOCKED |
+| Coefficient equation | \(w_\gamma=\Lambda\sum_{\gamma'}H(\gamma,\gamma';t)w_{\gamma'}\) | eigen-system skeleton | PARTIAL_LOCKED |
 | Truncation parameter | interval half-width \(t\), finite multiset size | \(t,N\) | PARTIAL |
-| Finite matrix | exact definition pending | TBD | UNLOCKED |
+| Finite matrix | exact Section 8 finite matrix convention pending | TBD | UNLOCKED |
 | Theorem 8 | Section 8 eigenvalue theorem, exact statement pending | TBD | PARTIAL |
 | Negative eigenvalue count | exact statement pending | TBD | UNLOCKED |
 | Off-critical zero relationship | high-level source claim only; exact theorem pending | TBD | PARTIAL |
@@ -22,5 +26,5 @@
 
 ## Rule
 
-The implementation permission row may not be changed until the finite matrix entries and Theorem 8 are LOCKED.
+The implementation permission row may not be changed until Theorem 8 and the finite matrix convention are LOCKED.
 

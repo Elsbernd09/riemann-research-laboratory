@@ -2,27 +2,23 @@
 
 ## Immediate next target
 
-Extract the exact formula for the Section 8 finite matrix entries
-
-\[
-H(\gamma,\gamma';t).
-\]
+Extract Bombieri Theorem 8.
 
 ## Why this is next
 
-Phase 8S locked the finite space \(V\), boundary subspace \(V^\circ\), inner product, and source object \(L[F]\).
+Phase 8U source-filled the formula-level \(H\)-kernel data.
 
-The next missing piece is the actual matrix associated to the quadratic/eigenvalue problem.
+The next missing source object is the theorem that explains what the eigenvalues of the finite matrices mean.
 
 ## Required next fields
 
-1. exact displayed formula for \(H(\gamma,\gamma';t)\);
-2. basis ordering;
-3. how \(V^\circ\) removes two dimensions;
-4. exact finite eigenvalue equation;
-5. exact Theorem 8 statement;
-6. multiplicity convention;
-7. negative eigenvalue count formula.
+1. exact Theorem 8 statement;
+2. hypotheses on \(Z\), \(\Gamma\), and \(t\);
+3. odd/even distinction;
+4. zero eigenvalue exclusion or multiplicity statement;
+5. negative eigenvalue count;
+6. relation to zeros failing RH;
+7. exact finite matrix convention.
 
 ## Still forbidden
 
@@ -30,5 +26,5 @@ Do not implement matrices yet.
 
 Do not compute eigenvalues yet.
 
-Do not call any placeholder matrix a Bombieri-Weil truncation.
+Do not call a numerical computation a Bombieri-Weil truncation yet.
 

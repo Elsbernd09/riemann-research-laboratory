@@ -6571,3 +6571,36 @@ No novelty claim.
 
 Fill the H-matrix worksheet from Bombieri Section 8.
 
+
+---
+
+## Phase 8U — Source-Fill H(gamma,gamma';t) Kernel Formula
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/finite_truncations/PHASE_8U_H_KERNEL_SOURCE_EXTRACTION.md`
+- `weil_reconstruction/finite_truncations/H_MATRIX_FORMULA_CARD.md`
+- updated `weil_reconstruction/finite_truncations/H_MATRIX_LOCK_REQUIREMENTS.md`
+- updated `weil_reconstruction/finite_truncations/FINITE_TRUNCATION_TERM_TABLE.md`
+- updated `weil_reconstruction/finite_truncations/NEXT_EXTRACTION_TARGETS.md`
+
+### Result
+
+The formula-level \(H\)-kernel data were source-extracted.
+
+### Boundary
+
+The finite matrix implementation remains blocked.
+
+Eigenvalue computation remains blocked.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Extract Bombieri Theorem 8.
+
