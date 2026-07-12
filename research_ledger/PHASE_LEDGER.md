@@ -9633,3 +9633,37 @@ No novelty established.
 
 Hermitian convention audit.
 
+
+---
+
+## Phase 12T — Hermitian Convention Audit
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/level4_candidate/hermitian_audit/PHASE_12T_HERMITIAN_CONVENTION_AUDIT.md`
+- `original_results/finite_bombieri_stability/level4_candidate/hermitian_audit/HERMITIAN_AUDIT_LOCK.md`
+- `original_results/finite_bombieri_stability/level4_candidate/hermitian_audit/NEXT_PHASE_12U_T_STAR_AUDIT.md`
+- `scripts/audit_phase12t_hermitian_convention.py`
+
+### Result
+
+The coefficient-compatible matrix convention was locked and conditional Hermitian status was proved under \(T[F^*]=\overline{T[F]}\).
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No complete arithmetic-only finite certificate.
+
+No novelty established.
+
+### Next target
+
+Audit the \(T\)-star adjoint symmetry.
+

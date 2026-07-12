@@ -11566,3 +11566,44 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase 12S proves no RH statement, no new RH criterion, no full Weil positivity theorem, no complete arithmetic-only finite certificate, and establishes no novelty.
 
+
+---
+
+## CL-0889
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12T locks the coefficient-compatible arithmetic matrix convention \(M_{ij}^{arith}=T[\phi_j*\phi_i^*]\).
+
+---
+
+## CL-0890
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12T proves that star reverses convolution order under the assumed convolution-star identities.
+
+---
+
+## CL-0891
+
+**Status:** CONDITIONAL THEOREM
+
+**Statement:** Phase 12T proves that \(M^{arith}\) is Hermitian if \(T[F^*]=\overline{T[F]}\).
+
+---
+
+## CL-0892
+
+**Status:** MISSING UPGRADE
+
+**Statement:** Phase 12T records that unconditional Hermitian status requires source validation or direct proof of the \(T\)-star adjoint symmetry.
+
+---
+
+## CL-0893
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 12T proves no RH statement, no new RH criterion, no full Weil positivity theorem, no complete arithmetic-only finite certificate, and establishes no novelty.
+
