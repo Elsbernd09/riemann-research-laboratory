@@ -9627,3 +9627,28 @@ where \(M_{\mathrm{tot}}=\sum_jm_j\). This improves the older sufficient conditi
 
 **Statement:** Phase 10S proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0661
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10T proves Algorithm 10S.1 is sound: if it outputs `CERTIFIED_STABLE`, then under the hypotheses of Theorem 10Q the negative eigenvalue count is preserved.
+
+---
+
+## CL-0662
+
+**Status:** INTERPRETATION NOTE
+
+**Statement:** Phase 10T proves that `NOT_CERTIFIED` does not imply instability. It means only that the current weighted-radius certificate does not prove stability.
+
+---
+
+## CL-0663
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10T proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+
