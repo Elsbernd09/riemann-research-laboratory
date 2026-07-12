@@ -10365,3 +10365,40 @@ as the central missing bridge to RH-relevant finite computation.
 
 **Statement:** Phase 10AN proves no RH statement, falsifies no RH statement, proves no new RH criterion, proves no convergence theorem, and makes no novelty claim.
 
+
+---
+
+## CL-0744
+
+**Status:** EXTRACTION LEDGER
+
+**Statement:** Phase 10AO creates a classical definition extraction ledger classifying objects as known definition, known theorem, project definition, project assumption, or missing.
+
+---
+
+## CL-0745
+
+**Status:** CONTRIBUTION BOTTLENECK IDENTIFIED
+
+**Statement:** Phase 10AO identifies the quantitative convergence theorem
+\[
+|Q_N(P_N^Wf)-Q_W(f)|\leq\varepsilon_N(f)\to0
+\]
+as the central bottleneck for any RH-relevant contribution.
+
+---
+
+## CL-0746
+
+**Status:** MISSING CLASSICAL IMPORTS
+
+**Statement:** Phase 10AO records that the true Weil form, true test-function domain, RH positivity relation, classical approximation maps, and quantitative convergence theorem remain missing.
+
+---
+
+## CL-0747
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10AO proves no RH statement, falsifies no RH statement, proves no new RH criterion, imports no missing classical theorem, proves no convergence theorem, and makes no novelty claim.
+

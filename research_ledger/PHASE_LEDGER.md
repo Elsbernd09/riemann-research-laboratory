@@ -8405,3 +8405,39 @@ No novelty claim.
 
 Extract exact classical definitions and classify each as known theorem, known definition, project definition, project assumption, or missing.
 
+
+---
+
+## Phase 10AO — Classical Definition Extraction Ledger
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/contribution_branch/classical_definition_extraction/PHASE_10AO_CLASSICAL_DEFINITION_EXTRACTION_LEDGER.md`
+- `original_results/finite_bombieri_stability/contribution_branch/classical_definition_extraction/EXTRACTION_STATUS_LOCK.md`
+- `original_results/finite_bombieri_stability/contribution_branch/classical_definition_extraction/NEXT_PHASE_10AP_CONVERGENCE_SKELETON.md`
+- `scripts/audit_phase10ao_classical_definition_extraction.py`
+
+### Result
+
+A classical definition extraction ledger was created and the central convergence bottleneck was identified.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No classical theorem imported.
+
+No convergence theorem proven.
+
+No novelty claim.
+
+### Next target
+
+Build the convergence theorem skeleton.
+
