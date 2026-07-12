@@ -7854,3 +7854,37 @@ No novelty claim.
 
 Update the research note to V4 with the matrix-specific certificate and combined-radius algorithm.
 
+
+---
+
+## Phase 10Y — Research Note V4
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/paper_draft_v4/PHASE_10Y_RESEARCH_NOTE_V4.md`
+- `original_results/finite_bombieri_stability/paper_draft_v4/RESEARCH_NOTE_V4_STATUS.md`
+- `original_results/finite_bombieri_stability/paper_draft_v4/NEXT_BREAKTHROUGH_TRACK_STEPS.md`
+- `scripts/audit_phase10y_research_note_v4.py`
+
+### Result
+
+The research note was updated to include the combined-radius theorem, row-sum certificate, certified algorithm, and correctness proof.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No zeta zeros.
+
+No zeta-case verification.
+
+No novelty claim.
+
+### Next target
+
+Begin the explicit Bombieri-style H-kernel Lipschitz branch.
+

@@ -9796,3 +9796,40 @@ implies negative eigenvalue count stability.
 
 **Statement:** Phase 10X proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0680
+
+**Status:** UPDATED RESEARCH NOTE
+
+**Statement:** Phase 10Y updates the research-note draft to V4, including the matrix-specific row-sum certificate, combined minimum-radius certificate, combined-radius algorithm, and correctness proof.
+
+---
+
+## CL-0681
+
+**Status:** CURRENT STRONGEST FINITE RESULT
+
+**Statement:** The current strongest finite certificate is
+\[
+\mathcal R_{\min}=\min\{\mathcal R_F,\mathcal R_{\mathrm{row}}\}<g_0(M(\Gamma,t)),
+\]
+which implies negative eigenvalue count stability.
+
+---
+
+## CL-0682
+
+**Status:** BREAKTHROUGH TRACK NOTE
+
+**Statement:** Phase 10Y strengthens the paper package but does not establish a breakthrough, RH contribution, or novelty claim.
+
+---
+
+## CL-0683
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10Y proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+
