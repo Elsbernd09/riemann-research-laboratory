@@ -6640,3 +6640,36 @@ No novelty claim.
 
 Create the implementation audit plan for a source-derived H-kernel testbed.
 
+
+---
+
+## Phase 8W — H-Kernel Implementation Audit Plan
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/finite_truncations/PHASE_8W_H_KERNEL_IMPLEMENTATION_AUDIT_PLAN.md`
+- `weil_reconstruction/finite_truncations/H_KERNEL_IMPLEMENTATION_AUDIT_CHECKLIST.md`
+- `weil_reconstruction/finite_truncations/H_KERNEL_IMPLEMENTATION_BOUNDARY.md`
+
+### Result
+
+The implementation audit plan for the source-extracted \(H\)-kernel was created.
+
+### Boundary
+
+No matrix implementation in this phase.
+
+No eigenvalue computation.
+
+No zeta zero experiments.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Implement symbolic \(K,K_t,K^*,H\) functions with sanity checks only.
+

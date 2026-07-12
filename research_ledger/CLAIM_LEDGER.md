@@ -8765,3 +8765,32 @@ The remaining nonzero spectrum is represented using the weighted distinct-\(\gam
 
 **Statement:** Even after Theorem 8 extraction, H-matrix implementation and eigenvalue computation remain denied until code-normalization, repeated-\(\gamma\) handling, Hermitian conversion, and validation tests are specified.
 
+
+---
+
+## CL-0566
+
+**Status:** IMPLEMENTATION AUDIT PLAN
+
+**Statement:** Phase 8W creates the implementation audit plan for the source-extracted \(H\)-kernel.
+
+The next phase may implement symbolic kernel functions \(K,K_t,K^*,H\), but eigenvalue computation remains denied.
+
+---
+
+## CL-0567
+
+**Status:** SYNTHETIC-FIRST RULE
+
+**Statement:** Any future validation of Theorem 8 must first use synthetic finite multisets \(\Gamma\), not zeta zeros.
+
+The zeta limiting transition belongs to Bombieri Sections 10 and 11 and is not yet extracted.
+
+---
+
+## CL-0568
+
+**Status:** IMPLEMENTATION BOUNDARY
+
+**Statement:** Eigenvalue computation, zeta zero experiments, and Bombieri-Weil numerical verification claims remain blocked until symbolic kernel implementation, multiplicity handling, Hermitian convention, and synthetic validation rules are complete.
+
