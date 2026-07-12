@@ -11929,3 +11929,36 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase B3 remains a toy floating-point pipeline and does not establish a breakthrough, novelty, RH proof, or certified arithmetic-only matrix.
 
+
+---
+
+## CL-B011
+
+**Status:** PRIOR-ART WARNING
+
+**Statement:** Phase B4 identifies serious prior-art collision risk with known finite Galerkin/matrix approaches to the Weil form.
+
+---
+
+## CL-B012
+
+**Status:** NOT NOVEL
+
+**Statement:** Phase B4 records that the classical Weil components, multiplicative convolution, Mellin identity, and positivity formulation are not novel.
+
+---
+
+## CL-B013
+
+**Status:** POSSIBLE CONTRIBUTION CANDIDATE
+
+**Statement:** Phase B4 identifies the pole-admissible arithmetic certificate pipeline as a possible contribution candidate if it survives primary-source and prior-art comparison.
+
+---
+
+## CL-B014
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase B4 records that novelty and breakthrough status are not established.
+

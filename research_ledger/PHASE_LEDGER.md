@@ -10016,3 +10016,36 @@ No certified arithmetic-only matrix.
 
 Prior-art collision.
 
+
+---
+
+## Phase B4 — Prior-Art Collision Audit
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_push/phase_b4_prior_art_collision/PHASE_B4_PRIOR_ART_COLLISION.md`
+- `breakthrough_push/phase_b4_prior_art_collision/PRIOR_ART_COLLISION_STATUS.md`
+- `breakthrough_push/phase_b4_prior_art_collision/PRIOR_ART_TABLE.md`
+- `breakthrough_push/phase_b4_prior_art_collision/NEXT_PHASE_B5_PRIMARY_PAPER_EXTRACTION.md`
+- `scripts/audit_phaseB4_prior_art_collision.py`
+
+### Result
+
+Prior-art collision risk was identified, especially with finite Galerkin matrix approaches to the Weil form.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+Prior-art review not complete.
+
+### Next target
+
+Primary paper extraction.
+
