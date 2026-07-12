@@ -11380,3 +11380,44 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase 12O records that the next serious upgrade is an arithmetic-side finite certificate replacing spectral zero truncation.
 
+
+---
+
+## CL-0867
+
+**Status:** ROADMAP COMPLETE
+
+**Statement:** Phase 12P defines the arithmetic-side certificate roadmap and introduces the arithmetic finite object \(Q_X^{arith}(g)\).
+
+---
+
+## CL-0868
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12P proves that compact support of \(g\) implies compact support of \(F_g=g*g^*\), so the prime sum has finitely many nonzero terms.
+
+---
+
+## CL-0869
+
+**Status:** IMPORTANT OBSERVATION
+
+**Statement:** Phase 12P records that for compactly supported finite test classes, the prime tail can be exactly zero above an explicit support cutoff.
+
+---
+
+## CL-0870
+
+**Status:** MISSING UPGRADE
+
+**Statement:** Phase 12P records that archimedean certification, source validation, and complete arithmetic-only finite certification remain unresolved.
+
+---
+
+## CL-0871
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 12P proves no RH statement, no new RH criterion, no full Weil positivity theorem, no complete arithmetic-only finite certificate, and establishes no novelty.
+

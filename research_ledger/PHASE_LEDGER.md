@@ -9497,3 +9497,37 @@ No novelty established.
 
 Build an arithmetic-side certificate roadmap.
 
+
+---
+
+## Phase 12P — Arithmetic-Side Certificate Roadmap
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/level4_candidate/arithmetic_certificate_roadmap/PHASE_12P_ARITHMETIC_CERTIFICATE_ROADMAP.md`
+- `original_results/finite_bombieri_stability/level4_candidate/arithmetic_certificate_roadmap/ARITHMETIC_CERTIFICATE_LOCK.md`
+- `original_results/finite_bombieri_stability/level4_candidate/arithmetic_certificate_roadmap/NEXT_PHASE_12Q_COMPACT_SUPPORT_TAIL_THEOREM.md`
+- `scripts/audit_phase12p_arithmetic_certificate_roadmap.py`
+
+### Result
+
+The arithmetic certificate roadmap was created and the compact-support finite prime-sum theorem was proved.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No complete arithmetic-only finite certificate.
+
+No novelty established.
+
+### Next target
+
+Make the compact-support arithmetic tail theorem explicit for finite test classes.
+
