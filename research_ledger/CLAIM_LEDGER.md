@@ -9947,3 +9947,36 @@ C_0=\frac12+\rho_y.
 
 **Statement:** Phase 10AB proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0696
+
+**Status:** CALCULATOR IMPLEMENTED
+
+**Statement:** Phase 10AC implements a calculator for the computable \(H\)-kernel Lipschitz candidate \(L_H(U,t)\) using the compact-domain majorants from Phase 10AB.
+
+---
+
+## CL-0697
+
+**Status:** COMPUTABLE CONSTANT PACKAGE
+
+**Statement:** Phase 10AC computes \(A_0,A_1,B_0,B_1,C_0,M_0,M_x,M_y,L_x,L_y,L_H\) from compact-domain parameters.
+
+---
+
+## CL-0698
+
+**Status:** TARGET ONLY
+
+**Statement:** Phase 10AC does not complete the full explicit \(H\)-kernel Lipschitz theorem. The theorem integration remains required.
+
+---
+
+## CL-0699
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10AC proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+

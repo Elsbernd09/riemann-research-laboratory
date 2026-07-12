@@ -7990,3 +7990,38 @@ No novelty claim.
 
 Implement the \(L_H(U,t)\) constant calculator.
 
+
+---
+
+## Phase 10AC — \(L_H(U,t)\) Constant Calculator
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `scripts/run_phase10ac_lh_constant_calculator.py`
+- `scripts/audit_phase10ac_lh_calculator.py`
+- `original_results/finite_bombieri_stability/h_kernel_lipschitz/calculator/PHASE_10AC_LH_CONSTANT_CALCULATOR.md`
+- `original_results/finite_bombieri_stability/h_kernel_lipschitz/calculator/LH_CALCULATOR_LOCK.md`
+- `original_results/finite_bombieri_stability/h_kernel_lipschitz/calculator/PHASE_10AC_LH_CALCULATOR_OUTPUT.txt`
+
+### Result
+
+The \(L_H(U,t)\) constant calculator was implemented.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No zeta zeros.
+
+No zeta-case verification.
+
+No novelty claim.
+
+### Next target
+
+State and prove the explicit \(H\)-kernel Lipschitz theorem using the computed \(L_H(U,t)\).
+

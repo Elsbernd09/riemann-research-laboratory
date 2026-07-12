@@ -1,0 +1,80 @@
+PHASE 10AC L_H CONSTANT CALCULATOR OUTPUT
+
+Exact audit phrase: LH_CONSTANT_CALCULATOR
+Exact audit phrase: COMPUTABLE_H_KERNEL_LIPSCHITZ_CONSTANT
+Exact audit phrase: CONCRETE_COMPACT_DOMAIN_MAJORANTS
+
+Formula package:
+  A0 = exp(|t| S)
+  A1 = exp(|t|(S+r))/r
+  B0 = 1/Delta_Y
+  B1 = 2 rho_y / Delta_Y^2
+  C0 = 1/2 + rho_y
+  M0 = A0 + 2|c_t|C0 A0^2
+  Mx = A1 + 2|c_t|C0 A0 A1
+  My = A1 + 2|c_t|(A0^2 + C0 A0 A1)
+  Lx = 2|t|B0 Mx
+  Ly = 2|t|(B1 M0 + B0 My)
+  LH = Lx + Ly
+
+EXAMPLE 1
+  domain={'R': 1.0, 'S': 0.5, 'Ry': 1.0, 'Sy': 0.25, 'delta_y': 0.1, 'buffer_r': 0.25, 't': 1.0}
+  rho_y=1.0307764064044151
+  A0=1.6487212707001282
+  A1=8.4680000664507
+  B0=10.0
+  B1=206.155281280883
+  C0=1.5307764064044151
+  abs_c_t=0.8509181282393216
+  M0=8.730200955146682
+  Mx=44.83919967679975
+  My=49.465270247798415
+  Lx=896.783993535995
+  Ly=4588.859472049764
+  LH=5485.643465585759
+
+EXAMPLE 2
+  domain={'R': 2.0, 'S': 0.75, 'Ry': 1.5, 'Sy': 0.2, 'delta_y': 0.2, 'buffer_r': 0.5, 't': 1.25}
+  rho_y=1.5132745950421556
+  A0=2.553589458062927
+  A1=9.541466363935205
+  B0=5.0
+  B1=75.66372975210777
+  C0=2.0132745950421556
+  abs_c_t=0.7803140716479021
+  M0=23.041827027716565
+  Mx=86.09560039276798
+  My=96.27217422929654
+  Lx=1076.1950049095997
+  Ly=5561.978610916104
+  LH=6638.173615825704
+
+EXAMPLE 3
+  domain={'R': 0.5, 'S': 0.1, 'Ry': 0.5, 'Sy': 0.1, 'delta_y': 0.3, 'buffer_r': 0.25, 't': 0.75}
+  rho_y=0.5099019513592785
+  A0=1.0778841508846315
+  A1=5.200705872673964
+  B0=3.3333333333333335
+  B1=11.331154474650635
+  C0=1.0099019513592786
+  abs_c_t=0.9120573264202129
+  M0=3.2181884095462774
+  Mx=15.527504831722862
+  My=17.646823698055286
+  Lx=77.63752415861431
+  Ly=142.9328034859251
+  LH=220.57032764453942
+
+Interpretation:
+  LH is a computable H-kernel Lipschitz constant candidate from the compact-domain majorant package.
+  This calculator does not by itself complete the final Lipschitz theorem.
+  The next phase must prove integration into the combined-radius stability certificate.
+
+Boundary:
+  This calculator uses no zeta zeros.
+  No RH claim.
+  No novelty claim.
+  This phase does not prove RH.
+  This phase does not falsify RH.
+  This phase does not use zeta zeros.
+  This phase does not claim novelty.
