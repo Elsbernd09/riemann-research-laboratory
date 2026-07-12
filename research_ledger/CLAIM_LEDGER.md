@@ -9119,3 +9119,28 @@ where \(A_{jk}(t)=H_t(\alpha_j,\alpha_k)\) and \(D\) is the multiplicity diagona
 
 **Statement:** Phase 10B proves no RH statement, falsifies no RH statement, uses no zeta zeros, and makes no novelty claim.
 
+
+---
+
+## CL-0604
+
+**Status:** SYMMETRY CLASSES DEFINED
+
+**Statement:** Phase 10C defines finite conjugation-closed, reflection-closed, and quartet-closed multiset classes for the original-result branch.
+
+---
+
+## CL-0605
+
+**Status:** PREFERRED THEOREM CLASS
+
+**Statement:** The initial theorem branch will prefer quartet-closed finite multisets \(\mathcal Q_N\) because they impose the safest finite symmetry assumptions.
+
+---
+
+## CL-0606
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10C proves no RH statement, falsifies no RH statement, uses no zeta zeros, and makes no novelty claim.
+
