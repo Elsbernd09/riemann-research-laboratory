@@ -8559,3 +8559,30 @@ The exact infinite quadratic form, finite truncation model, matrix entries, and 
 
 **Statement:** Classical Weil matrix implementation remains blocked. The next step is extracting the Fourier-side infinite quadratic form before extracting Section 8 finite matrices.
 
+
+---
+
+## CL-0545
+
+**Status:** EXTRACTION WORKSHEET
+
+**Statement:** Phase 8P creates the extraction worksheet for Bombieri's Fourier-side infinite quadratic form.
+
+The exact Fourier transform convention, function space, infinite quadratic form, and eigenvalue problem remain unlocked.
+
+---
+
+## CL-0546
+
+**Status:** IMPLEMENTATION BLOCK
+
+**Statement:** Fourier-side implementation, finite matrix implementation, and eigenvalue computation remain denied until Bombieri Sections 5 and 6 are source-extracted and locked.
+
+---
+
+## CL-0547
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 8P does not implement a matrix, does not compute eigenvalues, does not prove RH, and does not claim novelty.
+

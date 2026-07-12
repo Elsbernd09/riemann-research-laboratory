@@ -6437,3 +6437,36 @@ No novelty claim.
 
 Extract the Fourier-side infinite quadratic form from Bombieri Sections 5 and 6.
 
+
+---
+
+## Phase 8P — Fourier-Side Infinite Quadratic Form Extraction Worksheet
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/fourier_side/PHASE_8P_FOURIER_SIDE_EXTRACTION_WORKSHEET.md`
+- `weil_reconstruction/fourier_side/FOURIER_SIDE_TERM_TABLE.md`
+- `weil_reconstruction/fourier_side/FOURIER_SIDE_DANGER_NOTE.md`
+
+### Result
+
+The project now has a controlled extraction framework for Bombieri's Fourier-side infinite quadratic form.
+
+### Boundary
+
+No Fourier implementation.
+
+No finite matrix implementation.
+
+No eigenvalue computation.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Fill the Fourier-side worksheet from Bombieri Sections 5 and 6.
+
