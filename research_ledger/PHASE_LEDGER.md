@@ -9097,3 +9097,39 @@ No novelty established.
 
 Use external source review to import \(F_g\), \(Q_W\), \(\mathcal D_W\), and the exact positivity theorem.
 
+
+---
+
+## Phase 12E — Provisional Import of \(F_g=g*g^*\)
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/level4_candidate/provisional_fg_import/PHASE_12E_PROVISIONAL_FG_IMPORT.md`
+- `original_results/finite_bombieri_stability/level4_candidate/provisional_fg_import/PROVISIONAL_FG_LOCK.md`
+- `original_results/finite_bombieri_stability/level4_candidate/provisional_fg_import/NEXT_PHASE_12F_MELLIN_IDENTITY_PROOF.md`
+- `scripts/audit_phase12e_provisional_fg_import.py`
+
+### Result
+
+The construction \(F_g=g*g^*\) and provisional quadratic form \(Q_W(g)=T[g*g^*]\) were imported provisionally.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No Level 4 contribution yet.
+
+No novelty established.
+
+Primary-source confirmation still required.
+
+### Next target
+
+Prove the Mellin involution and convolution identities.
+
