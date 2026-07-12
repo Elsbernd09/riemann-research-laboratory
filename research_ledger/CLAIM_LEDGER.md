@@ -10616,3 +10616,20 @@ R^2m(\tau_N^{(m)}+\pi_N^{(m)}+\kappa_N^{(m)}+\chi_N^{(m)}).
 
 **Statement:** Phase 10AU proves no RH statement, falsifies no RH statement, proves no new RH criterion, proves no classical convergence theorem, imports no true Weil form, and makes no novelty claim.
 
+
+---
+
+## CL-0771
+
+**Status:** IMPLEMENTED PROTOTYPE
+
+**Statement:** Phase 10AV implements an interval Gram-entry calculator prototype with midpoint, radius, global \(\chi_N^{(m)}\), matrix-level bound \(m\chi_N^{(m)}\), and certificate hash.
+
+---
+
+## CL-0772
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10AV does not compute the true classical Weil/Bombieri Gram matrix, proves no RH statement, proves no classical convergence theorem, and makes no novelty claim.
+

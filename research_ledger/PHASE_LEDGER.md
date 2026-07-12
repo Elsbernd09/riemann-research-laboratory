@@ -8653,3 +8653,41 @@ No novelty claim.
 
 Implement the interval Gram-entry calculator prototype.
 
+
+---
+
+## Phase 10AV — Interval Gram-Entry Calculator Prototype
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `scripts/run_phase10av_interval_gram_calculator.py`
+- `scripts/audit_phase10av_interval_calculator.py`
+- `original_results/finite_bombieri_stability/contribution_branch/interval_calculator/PHASE_10AV_INTERVAL_GRAM_ENTRY_CALCULATOR_PROTOTYPE.md`
+- `original_results/finite_bombieri_stability/contribution_branch/interval_calculator/INTERVAL_CALCULATOR_LOCK.md`
+- `original_results/finite_bombieri_stability/contribution_branch/interval_calculator/PHASE_10AV_INTERVAL_GRAM_CALCULATOR_OUTPUT.md`
+- `original_results/finite_bombieri_stability/contribution_branch/interval_calculator/PHASE_10AV_INTERVAL_GRAM_CERTIFICATE.json`
+
+### Result
+
+An interval Gram-entry calculator prototype was implemented and audited.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No true classical Weil/Bombieri Gram matrix computed.
+
+No classical convergence theorem proven.
+
+No novelty claim.
+
+### Next target
+
+Integrate certified numerical bounds with the conditional transfer theorem.
+
