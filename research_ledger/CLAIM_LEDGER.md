@@ -8613,3 +8613,46 @@ Exact formulas remain unlocked.
 
 **Statement:** Phase 8Q does not implement a matrix, does not compute eigenvalues, does not prove RH, and does not claim novelty.
 
+
+---
+
+## CL-0551
+
+**Status:** ALGEBRAIC BRIDGE LOCKED
+
+**Statement:** Phase 8R locks the log-coordinate bridge
+
+\[
+x=e^u,
+\qquad
+F(u)=e^{u/2}f(e^u).
+\]
+
+Under this bridge, Bombieri's algebraic involution becomes reflection:
+
+\[
+F^*(u)=F(-u).
+\]
+
+---
+
+## CL-0552
+
+**Status:** CONVOLUTION IDENTITY LOCKED
+
+**Statement:** Under the half-density log-coordinate bridge, multiplicative convolution becomes additive convolution:
+
+\[
+(f*g)(x)
+\quad\longleftrightarrow\quad
+(F*G)(u)=\int_{-\infty}^{\infty}F(u-v)G(v)\,dv.
+\]
+
+---
+
+## CL-0553
+
+**Status:** FOURIER PREPARATION
+
+**Statement:** Phase 8R prepares the Fourier-side extraction by placing the Weil functional in additive log coordinates, but the exact Fourier transform convention, infinite quadratic form, finite matrix entries, and eigenvalue theorems remain unlocked.
+

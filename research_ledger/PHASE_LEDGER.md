@@ -6506,3 +6506,37 @@ No novelty claim.
 
 Extract exact Fourier-side definitions and formulas from Bombieri Sections 5 and 6.
 
+
+---
+
+## Phase 8R — Log-Coordinate Bridge to Fourier Side
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/fourier_side/PHASE_8R_LOG_COORDINATE_BRIDGE.md`
+- `weil_reconstruction/fourier_side/LOG_COORDINATE_IDENTITY_CARD.md`
+- updated `weil_reconstruction/fourier_side/FOURIER_SIDE_TERM_TABLE.md`
+- updated `weil_reconstruction/fourier_side/NEXT_EXTRACTION_TARGETS.md`
+
+### Result
+
+The log-coordinate bridge from multiplicative convolution to additive convolution was locked.
+
+### Boundary
+
+Fourier transform convention remains unlocked.
+
+No matrix implementation.
+
+No eigenvalue computation.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Extract Bombieri's exact Fourier transform convention from Sections 5 and 6.
+
