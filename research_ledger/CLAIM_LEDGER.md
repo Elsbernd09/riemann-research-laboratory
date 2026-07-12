@@ -10832,3 +10832,36 @@ R^2m(\tau_N^{(m)}+\pi_N^{(m)}+\chi_N^{(m)}).
 
 **Statement:** Phase 11E proves no RH statement, falsifies no RH statement, proves no new RH criterion, proves no full classical validation, proves no unconditional classical convergence theorem, establishes no novelty, and establishes no RH contribution.
 
+
+---
+
+## CL-0802
+
+**Status:** LEVEL 4 CANDIDATE BRANCH STARTED
+
+**Statement:** Phase 12A starts the Level 4 breakthrough-candidate branch targeting finite certified detection of an infinite Weil-form obstruction.
+
+---
+
+## CL-0803
+
+**Status:** IMPORT GATE
+
+**Statement:** Phase 12A records that the true Weil form, true test-function domain, approximation map, and truncation/projection bounds remain missing.
+
+---
+
+## CL-0804
+
+**Status:** PROCESS RULE
+
+**Statement:** Phase 12A locks the rule that future phases must import real classical objects, prove real bounds, prove theorems from imported objects, or fail honestly.
+
+---
+
+## CL-0805
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 12A proves no RH statement, proves no Level 4 contribution, imports no full classical object set, establishes no novelty, and does not achieve a breakthrough candidate.
+

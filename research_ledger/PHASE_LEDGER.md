@@ -8956,3 +8956,37 @@ No RH contribution established.
 
 Stop for professor feedback.
 
+
+---
+
+## Phase 12A — Classical Object Import Gate
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/level4_candidate/classical_object_import/PHASE_12A_CLASSICAL_OBJECT_IMPORT_GATE.md`
+- `original_results/finite_bombieri_stability/level4_candidate/classical_object_import/LEVEL4_GATE_LOCK.md`
+- `original_results/finite_bombieri_stability/level4_candidate/classical_object_import/NEXT_PHASE_12B_TRUE_WEIL_FORM_IMPORT.md`
+- `scripts/audit_phase12a_classical_object_gate.py`
+
+### Result
+
+The Level 4 candidate branch was started and the classical object import gate was locked.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No Level 4 contribution yet.
+
+No novelty established.
+
+### Next target
+
+Import the true Weil/Bombieri form and admissible test-function domain.
+
