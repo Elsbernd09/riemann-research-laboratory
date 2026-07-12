@@ -10097,3 +10097,36 @@ n_-(M(\Gamma,t)).
 
 **Statement:** Phase 10AF proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0712
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10AG proves the final explicit \(H\)-kernel certified algorithm is sound: if it outputs `CERTIFIED_STABLE`, then under the stated hypotheses the negative eigenvalue count is preserved.
+
+---
+
+## CL-0713
+
+**Status:** INTERPRETATION NOTE
+
+**Statement:** Phase 10AG proves that `NOT_CERTIFIED` does not imply instability. It means only that the explicit \(H\)-kernel certificate did not prove stability.
+
+---
+
+## CL-0714
+
+**Status:** FINAL EXPLICIT PIPELINE
+
+**Statement:** Phase 10AG completes the finite pipeline from compact-domain \(H\)-kernel data to \(L_H(U,t)\), combined-radius certification, and a theorem-backed stability verdict.
+
+---
+
+## CL-0715
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10AG proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+
