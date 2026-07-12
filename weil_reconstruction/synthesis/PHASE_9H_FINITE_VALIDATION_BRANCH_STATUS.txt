@@ -1,0 +1,41 @@
+PHASE 9H FINITE VALIDATION BRANCH STATUS
+
+BRANCH_STATUS=REPRESENTATION_REPAIR_REQUIRED
+
+What is source-extracted:
+  - Bombieri T[f] functional.
+  - Bombieri Hermitian positivity mechanism.
+  - Section 8 finite approximation skeleton.
+  - H-kernel formula at source-note level.
+  - Bombieri Theorem 8 statement.
+  - Repeated-gamma zero-eigenvalue warning.
+
+What is implemented:
+  - Scalar K, K_t, K*, H kernel functions.
+  - Synthetic Gamma multiset model.
+  - Full multiset matrix assembly.
+  - Distinct weighted matrix assembly.
+  - Synthetic eigenvalue validation attempt with strict gates.
+  - Representation decision workflow.
+
+What is not done:
+  - No zeta zeros used.
+  - No Bombieri Sections 10-11 zeta limiting theorem extracted.
+  - No zeta-case finite truncation claim.
+  - No RH proof.
+  - No novelty claim.
+
+Interpretation:
+  The synthetic finite validation branch exposed a representation/convention issue.
+  This is not a contradiction of Bombieri's theorem.
+  The next technical target would be source-normalization repair.
+
+Recommended stop point:
+  Stop the finite eigenvalue branch here unless continuing into repair.
+  The branch is useful as a carefully documented reconstruction and implementation audit.
+
+Boundary:
+  No zeta zeros used.
+  No RH claim.
+  No novelty claim.
+  No zeta-case Bombieri-Weil verification claim.

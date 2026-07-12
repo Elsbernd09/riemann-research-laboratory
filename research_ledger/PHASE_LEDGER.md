@@ -7004,3 +7004,36 @@ No zeta-case verification claim.
 
 Synthesize Phase 8/9 finite validation branch and decide whether to stop or source-extract Bombieri Sections 10-11.
 
+
+---
+
+## Phase 9H — Finite Validation Branch Synthesis
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `scripts/run_phase9h_branch_synthesis.py`
+- `scripts/audit_phase9h_branch_synthesis.py`
+- `weil_reconstruction/synthesis/PHASE_9H_FINITE_VALIDATION_BRANCH_SYNTHESIS.md`
+- `weil_reconstruction/synthesis/NEXT_OPTIONS_AFTER_PHASE_9H.md`
+- `weil_reconstruction/synthesis/PHASE_9H_FINITE_VALIDATION_BRANCH_STATUS.txt`
+
+### Result
+
+The finite validation branch was synthesized and a clean checkpoint was created.
+
+### Boundary
+
+No zeta zeros used.
+
+No RH proof.
+
+No novelty claim.
+
+No zeta-case verification claim.
+
+### Next target
+
+Stop here, repair representation, or source-extract Bombieri Sections 10-11.
+

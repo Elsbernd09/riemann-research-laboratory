@@ -9042,3 +9042,22 @@ If final synthetic validation was selected, it runs broader synthetic finite val
 
 **Statement:** Phase 9G uses no zeta zeros, proves no RH statement, makes no novelty claim, and makes no zeta-case Bombieri-Weil verification claim.
 
+
+---
+
+## CL-0596
+
+**Status:** BRANCH SYNTHESIS
+
+**Statement:** Phase 9H synthesizes the Bombieri finite \(H\)-matrix / Theorem 8 branch and records the branch status.
+
+The branch remains bounded to source reconstruction and synthetic finite validation or repair.
+
+---
+
+## CL-0597
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 9H uses no zeta zeros, proves no RH statement, makes no novelty claim, and makes no zeta-case Bombieri-Weil verification claim.
+
