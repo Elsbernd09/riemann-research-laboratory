@@ -9023,3 +9023,22 @@ No eigenvalues are computed in Phase 9F.
 
 **Statement:** Phase 9F uses no zeta zeros, proves no RH statement, makes no novelty claim, and makes no zeta-case Bombieri-Weil verification claim.
 
+
+---
+
+## CL-0594
+
+**Status:** TRACK EXECUTION
+
+**Statement:** Phase 9G executes the Phase 9F track-specific specification.
+
+If final synthetic validation was selected, it runs broader synthetic finite validation. If repair was selected, it records a repair execution report and keeps broader validation blocked.
+
+---
+
+## CL-0595
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 9G uses no zeta zeros, proves no RH statement, makes no novelty claim, and makes no zeta-case Bombieri-Weil verification claim.
+

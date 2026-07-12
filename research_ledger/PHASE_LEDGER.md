@@ -6971,3 +6971,36 @@ No novelty claim.
 
 Execute the Phase 9G specification.
 
+
+---
+
+## Phase 9G — Execute Track-Specific Spec
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `scripts/run_phase9g_execute_track_spec.py`
+- `scripts/audit_phase9g_execute_track_spec.py`
+- `weil_reconstruction/eigenvalue_validation/PHASE_9G_EXECUTE_TRACK_SPEC.md`
+- `weil_reconstruction/eigenvalue_validation/PHASE_9G_EXECUTE_TRACK_SPEC_OUTPUT.txt`
+- optional repair execution or final validation output content depending on track
+
+### Result
+
+The Phase 9G track was executed.
+
+### Boundary
+
+No zeta zeros used.
+
+No RH proof.
+
+No novelty claim.
+
+No zeta-case verification claim.
+
+### Next target
+
+Synthesize Phase 8/9 finite validation branch and decide whether to stop or source-extract Bombieri Sections 10-11.
+
