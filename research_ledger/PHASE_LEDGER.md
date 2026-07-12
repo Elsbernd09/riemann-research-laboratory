@@ -6470,3 +6470,39 @@ No novelty claim.
 
 Fill the Fourier-side worksheet from Bombieri Sections 5 and 6.
 
+
+---
+
+## Phase 8Q — Fourier-Side Source Evidence Ledger
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/fourier_side/PHASE_8Q_FOURIER_SIDE_SOURCE_EVIDENCE_LEDGER.md`
+- `weil_reconstruction/fourier_side/FOURIER_SIDE_SOURCE_EVIDENCE_TABLE.md`
+- `weil_reconstruction/fourier_side/FOURIER_EXTRACTION_BLOCKERS.md`
+- updated `weil_reconstruction/fourier_side/FOURIER_SIDE_TERM_TABLE.md`
+
+### Result
+
+The source evidence chain for the Fourier-side program was recorded.
+
+### Boundary
+
+Exact formulas remain unlocked.
+
+No Fourier implementation.
+
+No finite matrix implementation.
+
+No eigenvalue computation.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Extract exact Fourier-side definitions and formulas from Bombieri Sections 5 and 6.
+

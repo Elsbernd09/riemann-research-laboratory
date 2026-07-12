@@ -8586,3 +8586,30 @@ The exact Fourier transform convention, function space, infinite quadratic form,
 
 **Statement:** Phase 8P does not implement a matrix, does not compute eigenvalues, does not prove RH, and does not claim novelty.
 
+
+---
+
+## CL-0548
+
+**Status:** SOURCE EVIDENCE LEDGER
+
+**Statement:** Phase 8Q records the source evidence chain that Bombieri's Fourier transform produces an infinite quadratic form, later finite approximations, finite matrices, and eigenvalue statements.
+
+Exact formulas remain unlocked.
+
+---
+
+## CL-0549
+
+**Status:** IMPLEMENTATION BLOCK
+
+**Statement:** Fourier-side implementation, finite matrix implementation, and eigenvalue computation remain blocked because transform conventions, function spaces, infinite quadratic form, matrix entries, and theorem statements are not yet formula-locked.
+
+---
+
+## CL-0550
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 8Q does not implement a matrix, does not compute eigenvalues, does not prove RH, and does not claim novelty.
+

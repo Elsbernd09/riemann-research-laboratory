@@ -2,15 +2,16 @@
 
 | Object | Exact source expression | Project notation | Status |
 |---|---|---|---|
+| Source evidence chain | Fourier transform gives infinite quadratic form; Section 8 finite approximations | source chain | LOCKED |
 | Fourier transform convention | TBD | TBD | UNLOCKED |
 | Inverse transform convention | TBD | TBD | UNLOCKED |
 | Function space | TBD | TBD | UNLOCKED |
 | Inner product | TBD | TBD | UNLOCKED |
-| Infinite quadratic form | TBD | TBD | UNLOCKED |
-| Eigenvalue problem | TBD | TBD | UNLOCKED |
-| Odd/even decomposition | TBD | TBD | UNLOCKED |
-| Relation to \(T[f*f^*]\) | TBD | TBD | UNLOCKED |
-| Section 8 truncation notation | TBD | TBD | UNLOCKED |
+| Infinite quadratic form | Source-located but formula not extracted | TBD | PARTIAL |
+| Eigenvalue problem | Source-located but formula not extracted | TBD | PARTIAL |
+| Odd/even decomposition | Source-located in Section 8 roadmap only | TBD | PARTIAL |
+| Relation to \(T[f*f^*]\) | Conceptual chain source-located | TBD | PARTIAL |
+| Section 8 truncation notation | Source-located but formula not extracted | TBD | PARTIAL |
 | Implementation permission | DENIED | DENIED | LOCKED |
 
 ## Rule
