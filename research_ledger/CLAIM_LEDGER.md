@@ -12169,3 +12169,44 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase B11 does not compute a certified arithmetic entry and does not establish a breakthrough.
 
+
+---
+
+## CL-B040
+
+**Status:** CERTIFICATION AUDIT
+
+**Statement:** Phase B12 audits the unresolved error gates for upgrading the B11 interval candidate to a certified interval entry.
+
+---
+
+## CL-B041
+
+**Status:** BLOCKER IDENTIFIED
+
+**Statement:** Phase B12 identifies archimedean singularity handling, nested convolution certification, and non-smooth toy basis as major blockers to certification.
+
+---
+
+## CL-B042
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase B12 proves that an interval candidate cannot be certified while any required error source remains unbounded.
+
+---
+
+## CL-B043
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase B12 proves that the triangular toy basis is not sufficient for final \(C_c^\infty\) Weil-test certification.
+
+---
+
+## CL-B044
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase B12 does not certify the interval candidate and does not establish a breakthrough.
+
