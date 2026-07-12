@@ -1,0 +1,54 @@
+{
+  "phase": "12V",
+  "status": "PLACEHOLDER_INTERVAL_MATRIX_CERTIFICATE",
+  "important_boundary": "TRUE_ARITHMETIC_ENTRIES_NOT_YET_COMPUTED",
+  "matrix": {
+    "n": 2,
+    "entries": [
+      [
+        {
+          "lo": -2.01,
+          "hi": -1.99
+        },
+        {
+          "lo": 0.49,
+          "hi": 0.51
+        }
+      ],
+      [
+        {
+          "lo": 0.49,
+          "hi": 0.51
+        },
+        {
+          "lo": 0.99,
+          "hi": 1.01
+        }
+      ]
+    ]
+  },
+  "negative_direction": {
+    "verdict": "CERTIFIED_NEGATIVE_DIRECTION",
+    "rayleigh_interval": {
+      "lo": -2.01,
+      "hi": -1.99
+    },
+    "vector": [
+      1.0,
+      0.0
+    ],
+    "hermitian_residual_contains_zero": true,
+    "hermitian_residual_exact_zero": true
+  },
+  "audit_strings": [
+    "INTERVAL_MATRIX_IMPLEMENTATION_COMPLETE",
+    "REAL_INTERVAL_CLASS_IMPLEMENTED",
+    "INTERVAL_MATRIX_CLASS_IMPLEMENTED",
+    "HERMITIAN_RESIDUAL_INTERVAL_IMPLEMENTED",
+    "RAYLEIGH_INTERVAL_IMPLEMENTED",
+    "NEGATIVE_DIRECTION_CERTIFICATE_LOGIC_IMPLEMENTED",
+    "PLACEHOLDER_ENTRIES_ONLY",
+    "TRUE_ARITHMETIC_ENTRIES_NOT_YET_COMPUTED",
+    "ARITHMETIC_ONLY_CERTIFICATE_NOT_YET_COMPLETE"
+  ]
+}
