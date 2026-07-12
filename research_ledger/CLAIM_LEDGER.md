@@ -12243,3 +12243,28 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase B13 creates a smooth-basis certification plan but does not compute a certified arithmetic entry or establish a breakthrough.
 
+
+---
+
+## CL-B049
+
+**Status:** IMPLEMENTED IN PROJECT
+
+**Statement:** Phase B14 implements the smooth log-bump basis object with value evaluation, support, star support, convolution support, and finite prime cutoff.
+
+---
+
+## CL-B050
+
+**Status:** IMPLEMENTED IN PROJECT
+
+**Statement:** Phase B14 implements a floating prototype convolution evaluator for the smooth \(C_c^\infty\) basis family.
+
+---
+
+## CL-B051
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase B14 does not compute a certified arithmetic entry and does not establish a breakthrough.
+

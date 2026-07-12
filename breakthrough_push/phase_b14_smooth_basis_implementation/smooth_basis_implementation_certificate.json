@@ -1,0 +1,47 @@
+{
+  "phase": "B14",
+  "status": "PHASE_B14_SMOOTH_BASIS_IMPLEMENTATION_COMPLETE",
+  "basis": {
+    "center": 0.0,
+    "width": 0.75,
+    "support_x": [
+      0.4723665527410147,
+      2.117000016612675
+    ],
+    "star_support_x": [
+      0.4723665527410147,
+      2.117000016612675
+    ],
+    "convolution_support_x": [
+      0.22313016014842982,
+      4.481689070338065
+    ],
+    "prime_cutoff": 4,
+    "basis_type": "smooth_log_bump_C_c_infinity"
+  },
+  "support_checks": {
+    "support_lo_less_hi": true,
+    "star_support_lo_less_hi": true,
+    "convolution_support_lo_less_hi": true,
+    "support_contains_1": true,
+    "convolution_support_contains_1": true
+  },
+  "sample_values": {
+    "phi_at_1": 0.36787944117144233,
+    "phi_star_at_1": 0.36787944117144233,
+    "convolution_at_1": 0.10308047105569235
+  },
+  "certification_status": "FLOATING_IMPLEMENTATION_ONLY",
+  "audit_strings": [
+    "PHASE_B14_SMOOTH_BASIS_IMPLEMENTATION_COMPLETE",
+    "SMOOTH_LOG_BUMP_IMPLEMENTED",
+    "SMOOTH_BASIS_SUPPORT_IMPLEMENTED",
+    "STAR_SUPPORT_IMPLEMENTED",
+    "CONVOLUTION_SUPPORT_IMPLEMENTED",
+    "FINITE_PRIME_CUTOFF_IMPLEMENTED",
+    "FLOATING_SMOOTH_CONVOLUTION_PROTOTYPE_IMPLEMENTED",
+    "CERTIFIED_ENTRY_NOT_COMPUTED",
+    "BREAKTHROUGH_NOT_ACHIEVED",
+    "READY_FOR_PHASE_B15_FINAL_BREAKTHROUGH_VERDICT"
+  ]
+}
