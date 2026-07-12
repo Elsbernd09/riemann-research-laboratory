@@ -8842,3 +8842,41 @@ No RH contribution established.
 
 Run the kernel alignment audit.
 
+
+---
+
+## Phase 11B — Kernel Alignment Audit
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/breakthrough_attempt/kernel_alignment_audit/PHASE_11B_KERNEL_ALIGNMENT_AUDIT.md`
+- `original_results/finite_bombieri_stability/breakthrough_attempt/kernel_alignment_audit/KERNEL_ALIGNMENT_LOCK.md`
+- `original_results/finite_bombieri_stability/breakthrough_attempt/kernel_alignment_audit/NEXT_PHASE_11C_SHARPER_TRANSFER.md`
+- `scripts/audit_phase11b_kernel_alignment.py`
+
+### Result
+
+The project finite kernel was shown to symbolically match the extracted finite Bombieri-style kernel. Kernel/model error is zero relative to the extracted kernel.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No full classical validation.
+
+No unconditional classical convergence theorem.
+
+No novelty established.
+
+No RH contribution established.
+
+### Next target
+
+Prove the sharper conditional transfer theorem with \(\kappa_N^{(m)}=0\).
+
