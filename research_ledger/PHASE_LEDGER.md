@@ -9775,3 +9775,39 @@ No novelty established.
 
 Toy arithmetic entry prototype.
 
+
+---
+
+## Phase 12Y — Toy Arithmetic Entry Prototype
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/level4_candidate/toy_entry_prototype/PHASE_12Y_TOY_ARITHMETIC_ENTRY_PROTOTYPE.md`
+- `original_results/finite_bombieri_stability/level4_candidate/toy_entry_prototype/TOY_ENTRY_LOCK.md`
+- `original_results/finite_bombieri_stability/level4_candidate/toy_entry_prototype/NEXT_PHASE_12Z_TOY_MATRIX_PROTOTYPE.md`
+- `original_results/finite_bombieri_stability/level4_candidate/toy_entry_prototype/toy_entry_certificate.json`
+- `src/level4/toy_arithmetic_entry.py`
+- `scripts/audit_phase12y_toy_entry.py`
+
+### Result
+
+A floating-point toy arithmetic entry prototype was implemented and audited.
+
+### Boundary
+
+Floating-point prototype only.
+
+No certified interval entry.
+
+No RH proof.
+
+No complete arithmetic-only finite certificate.
+
+No novelty established.
+
+### Next target
+
+Toy arithmetic matrix prototype.
+

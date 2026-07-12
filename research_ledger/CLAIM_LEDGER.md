@@ -11714,3 +11714,36 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase 12X uses a toy piecewise-smooth basis, not the final theorem-level \(C_c^\infty\) basis, and does not compute true certified arithmetic entries.
 
+
+---
+
+## CL-0912
+
+**Status:** IMPLEMENTED IN PROJECT
+
+**Statement:** Phase 12Y implements a floating-point toy arithmetic entry prototype for \(M_{ij}^{arith}=T[\phi_j*\phi_i^*]\).
+
+---
+
+## CL-0913
+
+**Status:** IMPLEMENTED IN PROJECT
+
+**Statement:** Phase 12Y computes prototype central, star-central, finite prime, constant, archimedean, and final entry components.
+
+---
+
+## CL-0914
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 12Y is a floating-point prototype only and does not prove certified interval entries.
+
+---
+
+## CL-0915
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 12Y proves no RH statement, no new RH criterion, no full Weil positivity theorem, no complete arithmetic-only finite certificate, and establishes no novelty.
+
