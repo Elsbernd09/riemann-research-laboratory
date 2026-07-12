@@ -8303,3 +8303,37 @@ No novelty claim.
 
 Specialize the abstract transfer framework to a Bombieri/Weil-form template.
 
+
+---
+
+## Phase 10AL — Bombieri/Weil Specialization Template
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/contribution_branch/bombieri_weil_template/PHASE_10AL_BOMBIIERI_WEIL_SPECIALIZATION_TEMPLATE.md`
+- `original_results/finite_bombieri_stability/contribution_branch/bombieri_weil_template/SPECIALIZATION_TEMPLATE_LOCK.md`
+- `original_results/finite_bombieri_stability/contribution_branch/bombieri_weil_template/NEXT_MISSING_OBJECTS.md`
+- `scripts/audit_phase10al_bombieri_weil_template.py`
+
+### Result
+
+The abstract finite-to-infinite transfer framework was specialized to a Bombieri/Weil-style template.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No zeta zeros.
+
+No novelty claim.
+
+### Next target
+
+Define a toy-but-honest Weil-form abstraction and list what must be imported from classical theory.
+
