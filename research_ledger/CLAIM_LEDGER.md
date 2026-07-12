@@ -9438,3 +9438,28 @@ n_-(M(\widetilde\Gamma,t))=n_-(M(\Gamma,t)).
 
 **Statement:** Phase 10M uses only synthetic finite examples. It proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0640
+
+**Status:** UPGRADED PROFESSOR DRAFT
+
+**Statement:** Phase 10N upgrades the professor-readable draft to include the support-perturbation stability theorem.
+
+---
+
+## CL-0641
+
+**Status:** LEVEL 3 CANDIDATE
+
+**Statement:** The upgraded draft is a Level 3 candidate because it derives matrix-entry perturbation from support perturbation and local Lipschitz kernel control. Level 3 is not claimed without prior-art review and expert feedback.
+
+---
+
+## CL-0642
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10N proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+

@@ -7471,3 +7471,37 @@ No novelty claim.
 
 Upgrade the professor-readable draft with the support-perturbation theorem.
 
+
+---
+
+## Phase 10N — Upgraded Professor-Readable Draft
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/paper_draft_v2/PHASE_10N_UPGRADED_PROFESSOR_DRAFT.md`
+- `original_results/finite_bombieri_stability/paper_draft_v2/PAPER_DRAFT_V2_STATUS.md`
+- `original_results/finite_bombieri_stability/paper_draft_v2/UPDATED_PROFESSOR_REVIEW_NOTE.md`
+- `scripts/audit_phase10n_upgraded_draft.py`
+
+### Result
+
+The professor-readable draft was upgraded with the support-perturbation theorem.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No zeta zeros.
+
+No zeta-case verification.
+
+No novelty claim.
+
+### Next target
+
+Run prior-art and expert-review readiness audit.
+
