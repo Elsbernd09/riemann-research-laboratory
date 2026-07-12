@@ -9144,3 +9144,32 @@ where \(A_{jk}(t)=H_t(\alpha_j,\alpha_k)\) and \(D\) is the multiplicity diagona
 
 **Statement:** Phase 10C proves no RH statement, falsifies no RH statement, uses no zeta zeros, and makes no novelty claim.
 
+
+---
+
+## CL-0607
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** For the finite normalized matrix \(\mathcal M(\Gamma,t)=D^{1/2}A(t)D^{1/2}\), the matrix is Hermitian if and only if the kernel satisfies
+\[
+H_t(\alpha_j,\alpha_k)=\overline{H_t(\alpha_k,\alpha_j)}
+\]
+on the finite distinct support.
+
+---
+
+## CL-0608
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Under the finite kernel symmetry condition, \(\mathcal M(\Gamma,t)\) is self-adjoint on \(\mathbb C^N\) with the ordinary Euclidean inner product.
+
+---
+
+## CL-0609
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10D proves only a finite-dimensional linear algebra lemma. It proves no RH statement, falsifies no RH statement, uses no zeta zeros, and makes no novelty claim.
+
