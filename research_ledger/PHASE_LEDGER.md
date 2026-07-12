@@ -8025,3 +8025,37 @@ No novelty claim.
 
 State and prove the explicit \(H\)-kernel Lipschitz theorem using the computed \(L_H(U,t)\).
 
+
+---
+
+## Phase 10AD — Explicit H-Kernel Lipschitz Theorem
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/h_kernel_lipschitz/theorem/PHASE_10AD_EXPLICIT_H_KERNEL_LIPSCHITZ_THEOREM.md`
+- `original_results/finite_bombieri_stability/h_kernel_lipschitz/theorem/THEOREM_10AD_LOCK.md`
+- `original_results/finite_bombieri_stability/h_kernel_lipschitz/theorem/PHASE_10AD_STATUS.md`
+- `scripts/audit_phase10ad_explicit_h_lipschitz_theorem.py`
+
+### Result
+
+The explicit finite \(H\)-kernel Lipschitz theorem was proved and connected to the combined-radius stability certificate.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No zeta zeros.
+
+No zeta-case verification.
+
+No novelty claim.
+
+### Next target
+
+Update the research note to V5 with the explicit \(H\)-kernel Lipschitz theorem.
+

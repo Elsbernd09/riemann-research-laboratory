@@ -9980,3 +9980,48 @@ C_0=\frac12+\rho_y.
 
 **Statement:** Phase 10AC proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0700
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10AD proves the explicit finite \(H\)-kernel Lipschitz theorem:
+\[
+|H(x',y';t)-H(x,y;t)|
+\leq
+L_H(U,t)(|x'-x|+|y'-y|).
+\]
+
+---
+
+## CL-0701
+
+**Status:** COMPUTABLE CONSTANT
+
+**Statement:** Phase 10AD locks the computable constant
+\[
+L_H(U,t)=2|t|B_0M_x+2|t|(B_1M_0+B_0M_y).
+\]
+
+---
+
+## CL-0702
+
+**Status:** STABILITY INSERTION
+
+**Statement:** Phase 10AD proves that the abstract \(L_t(U)\) in the combined-radius certificate may be replaced by \(L_H(U,t)\), giving
+\[
+\mathcal R_{\min}(L_H(U,t))<g_0(M(\Gamma,t))
+\]
+as a finite \(H\)-kernel stability certificate.
+
+---
+
+## CL-0703
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10AD proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+
