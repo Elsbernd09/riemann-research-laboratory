@@ -10221,3 +10221,44 @@ n_-(M(\Gamma,t)).
 
 **Statement:** Phase 10AJ proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0727
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10AK proves an abstract positivity transfer theorem: if finite forms \(Q_N(P_Nf)\) converge to an infinite form \(Q(f)\) and are eventually nonnegative, then \(Q(f)\geq0\).
+
+---
+
+## CL-0728
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10AK proves a negative direction detection theorem: if \(Q(f)\leq-\eta\) and finite approximation error is below \(\eta/2\), then finite forms eventually detect negativity.
+
+---
+
+## CL-0729
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10AK proves a certified finite negativity theorem: if a computed finite Hermitian matrix has a Rayleigh quotient below the perturbation margin, then the exact finite form has a true negative direction.
+
+---
+
+## CL-0730
+
+**Status:** CONTRIBUTION TRACK NOTE
+
+**Statement:** Phase 10AK starts the finite-to-infinite transfer branch but is not yet an RH contribution, not a breakthrough, and not a novelty claim.
+
+---
+
+## CL-0731
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10AK proves no RH statement, falsifies no RH statement, proves no new RH criterion, verifies no zeta zeros, and makes no novelty claim.
+
