@@ -9281,3 +9281,39 @@ No novelty established.
 
 Attack the source-normalization/sign-convention term.
 
+
+---
+
+## Phase 12J — Source-Normalization / Sign-Convention Gate
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/level4_candidate/source_normalization_gate/PHASE_12J_SOURCE_NORMALIZATION_GATE.md`
+- `original_results/finite_bombieri_stability/level4_candidate/source_normalization_gate/SOURCE_NORMALIZATION_LOCK.md`
+- `original_results/finite_bombieri_stability/level4_candidate/source_normalization_gate/NEXT_PHASE_12K_PROJECTION_MAP_GATE.md`
+- `scripts/audit_phase12j_source_normalization_gate.py`
+
+### Result
+
+The source-normalization term was conditionally eliminated under exact convention agreement, but primary-source confirmation remains required.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No finite approximation convergence theorem.
+
+No Level 4 contribution yet.
+
+No novelty established.
+
+### Next target
+
+Define or honestly fail to define the finite approximation map \(P_N\).
+

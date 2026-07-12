@@ -11136,3 +11136,36 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase 12I proves no RH statement, no new RH criterion, no full Weil positivity theorem, no finite approximation convergence theorem, no Level 4 contribution, and establishes no novelty.
 
+
+---
+
+## CL-0838
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12J proves that the source-normalization/sign-convention error term \(S_N(g)\) vanishes if the project conventions exactly match the classical Weil/Bombieri conventions.
+
+---
+
+## CL-0839
+
+**Status:** CONDITIONAL ONLY
+
+**Statement:** Phase 12J records that \(S_N(g)=0\) is conditional on primary-source convention agreement; primary-source confirmation remains required.
+
+---
+
+## CL-0840
+
+**Status:** PROVISIONAL BOUND
+
+**Statement:** Phase 12J restores the provisional three-error bound \(\tau+\pi+\chi\) under convention agreement, while retaining the rigorous four-error bound \(\tau+\pi+\sigma+\chi\) before confirmation.
+
+---
+
+## CL-0841
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 12J proves no RH statement, no new RH criterion, no full Weil positivity theorem, no finite approximation convergence theorem, no Level 4 contribution, and establishes no novelty.
+
