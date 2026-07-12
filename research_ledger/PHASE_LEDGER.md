@@ -7647,3 +7647,38 @@ No novelty claim.
 
 Build the certified stability algorithm using the weighted perturbation radius.
 
+
+---
+
+## Phase 10S — Certified Stability Algorithm
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/certified_algorithm/PHASE_10S_CERTIFIED_STABILITY_ALGORITHM.md`
+- `original_results/finite_bombieri_stability/certified_algorithm/ALGORITHM_10S_LOCK.md`
+- `original_results/finite_bombieri_stability/certified_algorithm/PHASE_10S_CERTIFIED_ALGORITHM_OUTPUT.txt`
+- `scripts/run_phase10s_certified_stability_algorithm.py`
+- `scripts/audit_phase10s_certified_algorithm.py`
+
+### Result
+
+The certified stability algorithm was implemented and audited.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No zeta zeros.
+
+No zeta-case verification.
+
+No novelty claim.
+
+### Next target
+
+Prove correctness of the certified stability algorithm and update the research-note draft.
+

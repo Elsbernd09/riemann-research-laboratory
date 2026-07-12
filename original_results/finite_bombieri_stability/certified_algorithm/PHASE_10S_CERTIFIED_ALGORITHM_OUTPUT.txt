@@ -1,0 +1,59 @@
+PHASE 10S CERTIFIED STABILITY ALGORITHM OUTPUT
+
+Algorithm:
+  Weighted Support Stability Certification
+
+Verdicts:
+  CERTIFIED_STABLE
+  NOT_CERTIFIED
+
+Certificate:
+  R(Gamma,Gamma_tilde,t) < g0(M)
+
+Exact audit phrase: CERTIFIED_STABILITY_ALGORITHM
+
+EXAMPLE: certified_stable_weighted_case
+  multiplicities=[10, 1, 1, 1, 1]
+  displacements=[0.001, 0.1, 0.1, 0.1, 0.1]
+  lipschitz=1.0
+  zero_gap=1.35
+  weighted_radius=1.2068471319931122
+  margin=0.14315286800688787
+  verdict=CERTIFIED_STABLE
+  certificate_passes=True
+  meaning=Negative eigenvalue count is certified stable by Theorem 10Q.
+
+EXAMPLE: not_certified_case
+  multiplicities=[10, 1, 1, 1, 1]
+  displacements=[0.08, 0.1, 0.1, 0.1, 0.1]
+  lipschitz=1.0
+  zero_gap=0.75
+  weighted_radius=2.4066574330386117
+  margin=-1.6566574330386117
+  verdict=NOT_CERTIFIED
+  certificate_passes=False
+  meaning=The certificate does not prove stability; the count may still be stable or unstable.
+
+EXAMPLE: zero_displacement_case
+  multiplicities=[3, 2, 1]
+  displacements=[0.0, 0.0, 0.0]
+  lipschitz=5.0
+  zero_gap=0.1
+  weighted_radius=0.0
+  margin=0.1
+  verdict=CERTIFIED_STABLE
+  certificate_passes=True
+  meaning=Negative eigenvalue count is certified stable by Theorem 10Q.
+
+Boundary:
+  This is a finite-dimensional certified stability algorithm.
+  No zeta zeros used.
+  No RH claim.
+  No novelty claim.
+  No zeta-case verification claim.
+
+Exact audit boundary phrases:
+  This algorithm does not prove RH.
+  This algorithm does not falsify RH.
+  This algorithm does not use zeta zeros.
+  This algorithm does not claim novelty.

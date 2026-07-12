@@ -9602,3 +9602,28 @@ where \(M_{\mathrm{tot}}=\sum_jm_j\). This improves the older sufficient conditi
 
 **Statement:** Phase 10R proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0658
+
+**Status:** CERTIFIED ALGORITHM
+
+**Statement:** Phase 10S implements Algorithm 10S.1, Weighted Support Stability Certification, which returns `CERTIFIED_STABLE` if the weighted radius is below the zero spectral gap and `NOT_CERTIFIED` otherwise.
+
+---
+
+## CL-0659
+
+**Status:** INTERPRETATION NOTE**
+
+**Statement:** `CERTIFIED_STABLE` means Theorem 10Q proves negative-count stability. `NOT_CERTIFIED` means stability is not certified, not that instability has been proven.
+
+---
+
+## CL-0660
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10S proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+
