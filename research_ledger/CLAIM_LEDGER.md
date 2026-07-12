@@ -9690,3 +9690,43 @@ n_-(M(\widetilde\Gamma,t))=n_-(M(\Gamma,t)).
 
 **Statement:** Phase 10U proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0668
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10V proves the matrix-specific row/column norm certificate using
+\[
+\|E\|_2\leq\sqrt{\|E\|_1\|E\|_\infty}.
+\]
+
+---
+
+## CL-0669
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10V proves the combined minimum-radius certificate
+\[
+\mathcal R_{\min}=\min\{\mathcal R_F,\mathcal R_{\mathrm{row}}\}<g_0(M)
+\]
+implies negative eigenvalue count stability.
+
+---
+
+## CL-0670
+
+**Status:** BREAKTHROUGH TRACK NOTE
+
+**Statement:** Phase 10V strengthens the certified stability framework by adding a matrix-specific norm bound, but does not establish RH progress, a breakthrough, or novelty.
+
+---
+
+## CL-0671
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10V proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+

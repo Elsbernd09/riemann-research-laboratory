@@ -1,0 +1,64 @@
+PHASE 10V MATRIX-SPECIFIC NORM EXAMPLES OUTPUT
+
+Exact audit phrase: MATRIX_SPECIFIC_NORM_CERTIFICATE
+Exact audit phrase: ROW_SUM_CERTIFICATE
+Exact audit phrase: COMBINED_MINIMUM_RADIUS_CERTIFICATE
+
+Purpose:
+  Compare Frobenius radius and row-sum radius.
+  Use the smaller valid radius for certification.
+
+EXAMPLE: row_radius_sharper_case
+  multiplicities=[1, 1, 1, 1, 1, 1]
+  displacements=[0.02, 0.02, 0.02, 0.02, 0.02, 0.02]
+  L=1.0
+  g0=0.3
+  frobenius_radius=0.23999999999999994
+  row_radius=0.24000000000000002
+  combined_minimum_radius=0.23999999999999994
+  frobenius_passes=True
+  row_passes=True
+  combined_passes=True
+  best_radius=frobenius
+
+EXAMPLE: frobenius_radius_sharper_case
+  multiplicities=[20, 1, 1, 1]
+  displacements=[0.001, 0.15, 0.15, 0.15]
+  L=1.0
+  g0=1.6
+  frobenius_radius=1.8835392217843512
+  row_radius=2.0658775876148097
+  combined_minimum_radius=1.8835392217843512
+  frobenius_passes=False
+  row_passes=False
+  combined_passes=False
+  best_radius=frobenius
+
+EXAMPLE: combined_not_certified_case
+  multiplicities=[10, 5, 2]
+  displacements=[0.1, 0.1, 0.1]
+  L=1.0
+  g0=0.5
+  frobenius_radius=3.400000000000001
+  row_radius=4.308640753373011
+  combined_minimum_radius=3.400000000000001
+  frobenius_passes=False
+  row_passes=False
+  combined_passes=False
+  best_radius=frobenius
+
+Conclusion:
+  The combined certificate is at least as good as either individual certificate.
+  The row-sum radius can be sharper than the Frobenius radius.
+  The Frobenius radius can also be sharper in other cases.
+  The algorithm should compute both and use the smaller valid upper bound.
+
+Boundary:
+  These are synthetic finite examples.
+  No zeta zeros used.
+  No RH claim.
+  No novelty claim.
+  This phase does not prove RH.
+  This phase does not falsify RH.
+  This phase does not use zeta zeros.
+  This phase does not claim novelty.

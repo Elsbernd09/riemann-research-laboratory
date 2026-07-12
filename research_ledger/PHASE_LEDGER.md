@@ -7750,3 +7750,38 @@ No novelty claim.
 
 Begin a matrix-specific norm improvement branch.
 
+
+---
+
+## Phase 10V — Matrix-Specific Norm Improvement Branch
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/matrix_specific_bounds/PHASE_10V_MATRIX_SPECIFIC_NORM_CERTIFICATE.md`
+- `original_results/finite_bombieri_stability/matrix_specific_bounds/THEOREM_10V_LOCK.md`
+- `original_results/finite_bombieri_stability/matrix_specific_bounds/PHASE_10V_MATRIX_SPECIFIC_EXAMPLES_OUTPUT.txt`
+- `scripts/run_phase10v_matrix_specific_examples.py`
+- `scripts/audit_phase10v_matrix_specific_norm.py`
+
+### Result
+
+A row-sum norm certificate and combined minimum-radius certificate were proved.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No zeta zeros.
+
+No zeta-case verification.
+
+No novelty claim.
+
+### Next target
+
+Upgrade the certified algorithm to compute both Frobenius and row-sum radii.
+
