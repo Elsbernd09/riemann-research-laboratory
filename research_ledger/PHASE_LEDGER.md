@@ -10088,3 +10088,40 @@ Literature review not complete.
 
 Bombieri-Lagarias extraction.
 
+
+---
+
+## Phase B6 — Bombieri–Lagarias Primary Extraction
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_push/phase_b6_bombieri_lagarias_extraction/PHASE_B6_BOMBIERI_LAGARIAS_EXTRACTION.md`
+- `breakthrough_push/phase_b6_bombieri_lagarias_extraction/BOMBIERI_LAGARIAS_EXTRACTION_STATUS.md`
+- `breakthrough_push/phase_b6_bombieri_lagarias_extraction/CONVENTION_EXTRACTION_TABLE.md`
+- `breakthrough_push/phase_b6_bombieri_lagarias_extraction/NEXT_PHASE_B7_CONVENTION_RECONCILIATION.md`
+- `scripts/audit_phaseB6_bombieri_lagarias.py`
+
+### Result
+
+The project extracted core conventions from Bombieri–Lagarias and confirmed the convolution-square positivity bridge to Weil's criterion.
+
+### Correction
+
+The explicit-formula constant discrepancy was identified and must be reconciled.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+Pole constraints not fully locked.
+
+### Next target
+
+Convention reconciliation.
+

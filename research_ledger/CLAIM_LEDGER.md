@@ -11979,3 +11979,44 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase B5 does not establish novelty or breakthrough; it prepares the primary-source comparison needed to assess those questions.
 
+
+---
+
+## CL-B017
+
+**Status:** PRIMARY SOURCE EXTRACTION
+
+**Statement:** Phase B6 extracts Bombieri–Lagarias conventions for Mellin transform, involution, multiplicative convolution, explicit formula structure, and convolution-square positivity.
+
+---
+
+## CL-B018
+
+**Status:** CONFIRMED BY PRIMARY SOURCE
+
+**Statement:** Bombieri–Lagarias confirm that the Mellin transform of the convolution-square object has a spectral product that is real and positive on the critical line.
+
+---
+
+## CL-B019
+
+**Status:** CORRECTION REQUIRED
+
+**Statement:** Phase B6 identifies an explicit-formula constant discrepancy: the Bombieri–Lagarias displayed formula uses \((\log\pi+\gamma)f(1)\), while an earlier project form used \((\log4\pi+\gamma)f(1)\).
+
+---
+
+## CL-B020
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase B6 confirms the convolution-square positivity framework is classical and therefore not novel.
+
+---
+
+## CL-B021
+
+**Status:** OPEN GATE
+
+**Statement:** Pole-removal constraints remain plausible but are not fully locked by the Bombieri–Lagarias extraction alone.
+
