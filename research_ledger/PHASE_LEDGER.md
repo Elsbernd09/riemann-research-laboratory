@@ -7436,3 +7436,38 @@ No novelty claim.
 
 Generate support-perturbation examples and stability certificates.
 
+
+---
+
+## Phase 10M — Support-Perturbation Examples and Certificates
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `scripts/run_phase10m_support_perturbation_examples.py`
+- `scripts/audit_phase10m_support_examples.py`
+- `original_results/finite_bombieri_stability/support_perturbation/examples/PHASE_10M_SUPPORT_PERTURBATION_EXAMPLES.md`
+- `original_results/finite_bombieri_stability/support_perturbation/examples/SUPPORT_EXAMPLE_INTERPRETATION_LOCK.md`
+- `original_results/finite_bombieri_stability/support_perturbation/examples/PHASE_10M_SUPPORT_PERTURBATION_EXAMPLES_OUTPUT.txt`
+
+### Result
+
+Synthetic support-perturbation examples and certificates were generated.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No zeta zeros.
+
+No zeta-case verification.
+
+No novelty claim.
+
+### Next target
+
+Upgrade the professor-readable draft with the support-perturbation theorem.
+

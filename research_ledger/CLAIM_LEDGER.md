@@ -9413,3 +9413,28 @@ n_-(M(\widetilde\Gamma,t))=n_-(M(\Gamma,t)).
 
 **Statement:** Phase 10L proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0637
+
+**Status:** SUPPORT-PERTURBATION EXAMPLES
+
+**Statement:** Phase 10M records synthetic finite examples illustrating Theorem 10L, including certified stability, failed certificates, count-change cases, and multiplicity-weight effects.
+
+---
+
+## CL-0638
+
+**Status:** INTERPRETATION NOTE
+
+**Statement:** The Phase 10M examples show that the support-level condition is sufficient, not necessary.
+
+---
+
+## CL-0639
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10M uses only synthetic finite examples. It proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+
