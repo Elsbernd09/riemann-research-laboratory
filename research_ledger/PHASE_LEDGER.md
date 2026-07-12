@@ -10197,3 +10197,37 @@ No certified arithmetic entries computed.
 
 Metadata-only entry object.
 
+
+---
+
+## Phase B9 — Metadata-Only Arithmetic Entry
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_push/phase_b9_metadata_only_entry/PHASE_B9_METADATA_ONLY_ENTRY.md`
+- `breakthrough_push/phase_b9_metadata_only_entry/METADATA_ONLY_ENTRY_STATUS.md`
+- `breakthrough_push/phase_b9_metadata_only_entry/NEXT_PHASE_B10_PROTOTYPE_FLOATING_ENTRY.md`
+- `breakthrough_push/phase_b9_metadata_only_entry/M_00_metadata_only_entry.json`
+- `src/level4/metadata_only_entry.py`
+- `scripts/audit_phaseB9_metadata_only_entry.py`
+
+### Result
+
+The first metadata-only arithmetic entry object was created under Bombieri–Lagarias normalization.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+No certified arithmetic value computed.
+
+### Next target
+
+Prototype floating-point entry under corrected normalization.
+

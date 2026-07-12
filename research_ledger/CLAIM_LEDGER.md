@@ -12086,3 +12086,28 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase B8 does not compute a certified arithmetic entry and does not establish a breakthrough.
 
+
+---
+
+## CL-B030
+
+**Status:** METADATA OBJECT CREATED
+
+**Statement:** Phase B9 creates the first metadata-only arithmetic entry object \(M_{00}^{arith}\) under Bombieri–Lagarias normalization.
+
+---
+
+## CL-B031
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase B9 proves that a metadata-only entry cannot be used in a certified arithmetic matrix.
+
+---
+
+## CL-B032
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase B9 computes no certified arithmetic value and does not establish a breakthrough.
+
