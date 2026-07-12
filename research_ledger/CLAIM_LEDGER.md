@@ -10402,3 +10402,31 @@ as the central bottleneck for any RH-relevant contribution.
 
 **Statement:** Phase 10AO proves no RH statement, falsifies no RH statement, proves no new RH criterion, imports no missing classical theorem, proves no convergence theorem, and makes no novelty claim.
 
+
+---
+
+## CL-0748
+
+**Status:** CONVERGENCE SKELETON
+
+**Statement:** Phase 10AP creates the convergence theorem skeleton for connecting finite Weil/Bombieri-style forms \(Q_N^W(P_N^Wf)\) to the infinite form \(Q_W(f)\).
+
+---
+
+## CL-0749
+
+**Status:** TARGET THEOREM IDENTIFIED
+
+**Statement:** Phase 10AP identifies Target Theorem 10AP-T: a uniform quantitative convergence bound
+\[
+\sup_{f\in\mathcal F}|Q_N^W(P_N^Wf)-Q_W(f)|\leq \varepsilon_N(\mathcal F)\to0.
+\]
+
+---
+
+## CL-0750
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10AP proves no RH statement, falsifies no RH statement, proves no new RH criterion, proves no convergence theorem, and makes no novelty claim.
+
