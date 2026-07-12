@@ -12210,3 +12210,36 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase B12 does not certify the interval candidate and does not establish a breakthrough.
 
+
+---
+
+## CL-B045
+
+**Status:** SMOOTH BASIS PLAN
+
+**Statement:** Phase B13 defines the smooth log-bump basis \(\phi_{c,w}(x)=\psi((\log x-c)/w)\) with \(\psi(u)=\exp(-1/(1-u^2))\) for \(|u|<1\).
+
+---
+
+## CL-B046
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase B13 proves that the smooth log-bump basis belongs to \(C_c^\infty(0,\infty)\).
+
+---
+
+## CL-B047
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase B13 proves the support bound \(\operatorname{supp}(\phi*\phi^*)\subset[e^{-2w},e^{2w}]\).
+
+---
+
+## CL-B048
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase B13 creates a smooth-basis certification plan but does not compute a certified arithmetic entry or establish a breakthrough.
+

@@ -10332,3 +10332,37 @@ The interval candidate remains uncertified.
 
 Smooth basis certification plan.
 
+
+---
+
+## Phase B13 — Smooth Basis Certification Plan
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_push/phase_b13_smooth_basis_certification_plan/PHASE_B13_SMOOTH_BASIS_CERTIFICATION_PLAN.md`
+- `breakthrough_push/phase_b13_smooth_basis_certification_plan/SMOOTH_BASIS_PLAN_STATUS.md`
+- `breakthrough_push/phase_b13_smooth_basis_certification_plan/NEXT_PHASE_B14_SMOOTH_BASIS_IMPLEMENTATION.md`
+- `breakthrough_push/phase_b13_smooth_basis_certification_plan/smooth_basis_plan_certificate.json`
+- `src/level4/smooth_basis_plan.py`
+- `scripts/audit_phaseB13_smooth_basis_plan.py`
+
+### Result
+
+A smooth \(C_c^\infty\) log-bump basis replacement plan was created.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+No certified arithmetic value computed.
+
+### Next target
+
+Smooth basis implementation.
+

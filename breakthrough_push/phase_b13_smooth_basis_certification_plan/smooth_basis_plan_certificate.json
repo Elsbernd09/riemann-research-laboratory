@@ -1,0 +1,36 @@
+{
+  "phase": "B13",
+  "status": "PHASE_B13_SMOOTH_BASIS_CERTIFICATION_PLAN_COMPLETE",
+  "basis_spec": {
+    "center": 0.0,
+    "width": 0.75,
+    "support_x": [
+      0.4723665527410147,
+      2.117000016612675
+    ],
+    "star_support_x": [
+      0.4723665527410147,
+      2.117000016612675
+    ],
+    "convolution_support_x": [
+      0.22313016014842982,
+      4.481689070338065
+    ],
+    "prime_cutoff": 4
+  },
+  "basis_family": "phi_cw(x)=psi((log(x)-c)/w)",
+  "smooth_bump": "psi(u)=exp(-1/(1-u^2)) for |u|<1 and 0 otherwise",
+  "certification_status": "PLAN_AND_FLOATING_PROTOTYPE_ONLY",
+  "audit_strings": [
+    "PHASE_B13_SMOOTH_BASIS_CERTIFICATION_PLAN_COMPLETE",
+    "SMOOTH_BUMP_DEFINED",
+    "LOG_SMOOTH_BASIS_DEFINED",
+    "SMOOTH_BASIS_IN_CC_INFINITY_PROVED",
+    "STAR_SUPPORT_BOUND_PROVED",
+    "CONVOLUTION_SUPPORT_BOUND_PROVED",
+    "FINITE_PRIME_CUTOFF_FROM_SUPPORT_IDENTIFIED",
+    "TRIANGULAR_TOY_BASIS_REPLACEMENT_PLAN_CREATED",
+    "BREAKTHROUGH_NOT_ACHIEVED",
+    "READY_FOR_PHASE_B14_SMOOTH_BASIS_IMPLEMENTATION"
+  ]
+}
