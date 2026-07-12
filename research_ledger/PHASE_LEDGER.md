@@ -10231,3 +10231,37 @@ No certified arithmetic value computed.
 
 Prototype floating-point entry under corrected normalization.
 
+
+---
+
+## Phase B10 — Prototype Floating-Point Arithmetic Entry
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_push/phase_b10_prototype_floating_entry/PHASE_B10_PROTOTYPE_FLOATING_ENTRY.md`
+- `breakthrough_push/phase_b10_prototype_floating_entry/PROTOTYPE_FLOATING_ENTRY_STATUS.md`
+- `breakthrough_push/phase_b10_prototype_floating_entry/NEXT_PHASE_B11_INTERVAL_CANDIDATE_ENTRY.md`
+- `breakthrough_push/phase_b10_prototype_floating_entry/M_00_prototype_floating_entry.json`
+- `src/level4/prototype_floating_entry.py`
+- `scripts/audit_phaseB10_prototype_floating_entry.py`
+
+### Result
+
+The first prototype floating-point arithmetic entry was created under Bombieri–Lagarias normalization.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+No certified arithmetic value computed.
+
+### Next target
+
+Interval candidate entry.
+

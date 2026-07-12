@@ -12111,3 +12111,28 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase B9 computes no certified arithmetic value and does not establish a breakthrough.
 
+
+---
+
+## CL-B033
+
+**Status:** PROTOTYPE COMPUTATION
+
+**Statement:** Phase B10 creates a prototype floating-point \(M_{00}^{arith}\) entry under Bombieri–Lagarias normalization.
+
+---
+
+## CL-B034
+
+**Status:** CORRECTION APPLIED
+
+**Statement:** Phase B10 uses the Bombieri–Lagarias constant term \((\log\pi+\gamma)f(1)\) and does not use the earlier \((\log4\pi+\gamma)f(1)\) project normalization.
+
+---
+
+## CL-B035
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase B10 computes a numerical value but not a certified arithmetic entry and does not establish a breakthrough.
+

@@ -1,0 +1,61 @@
+{
+  "phase": "B10",
+  "status": "PHASE_B10_PROTOTYPE_FLOATING_ENTRY_COMPLETE",
+  "entry_metadata": {
+    "entry_id": "M_00_arith",
+    "basis_i": 0,
+    "basis_j": 0,
+    "source_name": "Bombieri-Lagarias, Complements to Li's Criterion for the Riemann Hypothesis, JNT 77 (1999)",
+    "normalization_label": "bombieri_lagarias_normalization",
+    "mellin_transform": "M[f](s)=int_0^infty f(x)x^(s-1) dx",
+    "involution": "tilde_f(x)=x^(-1) f(1/x)",
+    "conjugation_policy": "project_star_equals_tilde_of_complex_conjugate: f_star = tilde(conj(f))",
+    "convolution": "(f vee g)(x)=int_0^infty f(xy)g(y) dy/y",
+    "constant_term": "-(log(pi)+EulerGamma) f(1)",
+    "pole_constraint_status": "POLE_CONSTRAINTS_PLAUSIBLE_NOT_FULLY_LOCKED",
+    "certification_status": "PROTOTYPE_FLOATING_POINT",
+    "interval_value": null,
+    "error_decomposition": {
+      "prime_sum_error": "NOT_CERTIFIED",
+      "archimedean_quadrature_error": "NOT_CERTIFIED",
+      "convolution_error": "NOT_CERTIFIED",
+      "rounding_error": "NOT_CERTIFIED",
+      "normalization_error": "Bombieri-Lagarias constant used, but full convention still requires review",
+      "pole_constraint_error": "POLE_CONSTRAINTS_PLAUSIBLE_NOT_FULLY_LOCKED"
+    },
+    "quadrature_method": "midpoint floating-point toy quadrature",
+    "prime_cutoff": "finite toy cutoff induced by B=1.2",
+    "archimedean_cutoff": "toy finite cutoff B=1.2",
+    "reviewer_warnings": [
+      "Prototype floating-point only.",
+      "Not interval certified.",
+      "Not a certified arithmetic matrix entry.",
+      "Do not use for RH claims."
+    ]
+  },
+  "components": {
+    "central_component": 0.3710375608714174,
+    "star_central_component": 0.37104588022243845,
+    "prime_component": 0.06010838674522298,
+    "f_at_one": 0.40729342821800146,
+    "bombieri_lagarias_constant_component": -0.7013371065700822,
+    "archimedean_component": -0.09362951745521192,
+    "entry_value": 0.07426746523376265
+  },
+  "entry_is_certified": false,
+  "normalization_check": {
+    "used": "LOG_PI_GAMMA_NORMALIZATION_USED",
+    "not_used": "EARLIER_LOG_4PI_GAMMA_NOT_USED"
+  },
+  "audit_strings": [
+    "PHASE_B10_PROTOTYPE_FLOATING_ENTRY_COMPLETE",
+    "M_00_ARITH_PROTOTYPE_FLOATING_ENTRY_CREATED",
+    "BOMBIERI_LAGARIAS_CONSTANT_USED",
+    "LOG_PI_GAMMA_NORMALIZATION_USED",
+    "EARLIER_LOG_4PI_GAMMA_NOT_USED",
+    "PROTOTYPE_FLOATING_POINT_ENTRY_NOT_CERTIFIED",
+    "NUMERICAL_VALUE_COMPUTED_BUT_NOT_CERTIFIED",
+    "BREAKTHROUGH_NOT_ACHIEVED",
+    "READY_FOR_PHASE_B11_INTERVAL_CANDIDATE_ENTRY"
+  ]
+}
