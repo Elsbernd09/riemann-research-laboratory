@@ -1,0 +1,46 @@
+PHASE 8Z MATRIX ASSEMBLY OUTPUT
+Synthetic finite Gamma cases only.
+Matrices assembled for shape/finiteness/symmetry-residual inspection only.
+No eigenvalues computed.
+No zeta zeros used.
+No RH claim.
+No novelty claim.
+
+CASE: all_real
+  full_size=3
+  distinct_size=3
+  multiplicities={(-2+0j): 1, 0j: 1, (2+0j): 1}
+  repeated_zero_warning_count=0
+  distinct_conjugate_pair_count=0
+  full_shape=(3, 3)
+  weighted_shape=(3, 3)
+  full_entries_finite=True
+  weighted_entries_finite=True
+  full_hermitian_residual_inspection=4.440892e-16
+  weighted_hermitian_residual_inspection=4.440892e-16
+
+CASE: one_nonreal_conjugate_pair
+  full_size=4
+  distinct_size=4
+  multiplicities={(1+0.3j): 1, (1-0.3j): 1, (-1+0.3j): 1, (-1-0.3j): 1}
+  repeated_zero_warning_count=0
+  distinct_conjugate_pair_count=2
+  full_shape=(4, 4)
+  weighted_shape=(4, 4)
+  full_entries_finite=True
+  weighted_entries_finite=True
+  full_hermitian_residual_inspection=4.201162e-01
+  weighted_hermitian_residual_inspection=4.201162e-01
+
+CASE: repeated_real_values
+  full_size=4
+  distinct_size=2
+  multiplicities={(1+0j): 2, (-1+0j): 2}
+  repeated_zero_warning_count=2
+  distinct_conjugate_pair_count=0
+  full_shape=(4, 4)
+  weighted_shape=(2, 2)
+  full_entries_finite=True
+  weighted_entries_finite=True
+  full_hermitian_residual_inspection=0.000000e+00
+  weighted_hermitian_residual_inspection=0.000000e+00

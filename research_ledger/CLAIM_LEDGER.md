@@ -8850,3 +8850,30 @@ Eigenvalue computation remains denied.
 
 **Statement:** Phase 8Y does not assemble matrices, does not compute eigenvalues, does not use zeta zeros, does not prove RH, and does not claim novelty.
 
+
+---
+
+## CL-0575
+
+**Status:** MATRIX ASSEMBLY IMPLEMENTED
+
+**Statement:** Phase 8Z implements synthetic full multiset and distinct weighted \(H\)-matrix assembly helpers for shape, finiteness, multiplicity, and symmetry-residual inspection only.
+
+No eigenvalues are computed and no zeta zeros are used.
+
+---
+
+## CL-0576
+
+**Status:** MULTIPLICITY REPRESENTATION
+
+**Statement:** Phase 8Z distinguishes full multiset matrices \(A_{jk}=H(\gamma_j,\gamma_k;t)\) from distinct weighted matrices \(B_{jk}=H(\gamma_j,\gamma_k;t)m(\gamma_k)\).
+
+---
+
+## CL-0577
+
+**Status:** IMPLEMENTATION BOUNDARY
+
+**Statement:** Eigenvalue computation, zeta-zero experiments, numerical Bombieri-Weil verification claims, RH claims, and novelty claims remain blocked after Phase 8Z.
+

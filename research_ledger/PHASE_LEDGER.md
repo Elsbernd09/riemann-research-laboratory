@@ -6740,3 +6740,36 @@ No novelty claim.
 
 Implement synthetic finite matrix assembly with shape, finiteness, and symmetry checks only.
 
+
+---
+
+## Phase 8Z — Matrix Assembly Without Eigenvalues
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/finite_truncations/h_matrix_assembly.py`
+- `scripts/run_phase8z_matrix_assembly_checks.py`
+- `scripts/audit_phase8z_matrix_assembly.py`
+- `weil_reconstruction/finite_truncations/PHASE_8Z_MATRIX_ASSEMBLY_WITHOUT_EIGENVALUES.md`
+- `weil_reconstruction/finite_truncations/PHASE_8Z_MATRIX_ASSEMBLY_OUTPUT.txt`
+
+### Result
+
+Synthetic \(H\)-matrix assembly was implemented for inspection only.
+
+### Boundary
+
+No eigenvalues computed.
+
+No zeta zeros used.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Create the eigenvalue-validation audit plan before computing any spectra.
+
