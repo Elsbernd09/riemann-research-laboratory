@@ -9370,3 +9370,46 @@ on the finite distinct support.
 
 **Statement:** Phase 10K proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0633
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Under the finite support-perturbation model, if the kernel is locally Lipschitz with constant \(L_t(U)\), support points satisfy \(|\widetilde\alpha_j-\alpha_j|\leq\delta\), both normalized matrices are Hermitian, and
+\[
+2Nm_{\max}L_t(U)\delta<g_0(M(\Gamma,t)),
+\]
+then
+\[
+n_-(M(\widetilde\Gamma,t))=n_-(M(\Gamma,t)).
+\]
+
+---
+
+## CL-0634
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Under the assumptions of Theorem 10L.1, the sufficient maximum support displacement is
+\[
+\delta < \frac{g_0(M(\Gamma,t))}{2Nm_{\max}L_t(U)}.
+\]
+
+---
+
+## CL-0635
+
+**Status:** LEVEL 3 CANDIDATE NOTE
+
+**Statement:** Phase 10L is a stronger Level 3 candidate than the entrywise theorem because it derives matrix-entry perturbation from support perturbation and local kernel Lipschitz control. Level 3 is still not claimed without prior-art review and expert feedback.
+
+---
+
+## CL-0636
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10L proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+
