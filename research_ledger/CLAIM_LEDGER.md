@@ -8656,3 +8656,30 @@ F^*(u)=F(-u).
 
 **Statement:** Phase 8R prepares the Fourier-side extraction by placing the Weil functional in additive log coordinates, but the exact Fourier transform convention, infinite quadratic form, finite matrix entries, and eigenvalue theorems remain unlocked.
 
+
+---
+
+## CL-0557
+
+**Status:** EXTRACTION WORKSHEET
+
+**Statement:** Phase 8T creates the extraction worksheet for Bombieri's Section 8 matrix entries \(H(\gamma,\gamma';t)\) and Theorem 8.
+
+The exact formula remains unlocked.
+
+---
+
+## CL-0558
+
+**Status:** IMPLEMENTATION BLOCK
+
+**Statement:** H-matrix implementation and eigenvalue computation remain denied until the exact source formula, indexing convention, boundary-condition handling, multiplicity convention, and Theorem 8 statement are source-extracted and locked.
+
+---
+
+## CL-0559
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 8T does not implement a matrix, does not compute eigenvalues, does not prove RH, and does not claim novelty.
+

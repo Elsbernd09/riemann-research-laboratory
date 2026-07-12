@@ -6540,3 +6540,34 @@ No novelty claim.
 
 Extract Bombieri's exact Fourier transform convention from Sections 5 and 6.
 
+
+---
+
+## Phase 8T — H-Matrix Entry Extraction Worksheet
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/finite_truncations/PHASE_8T_H_MATRIX_EXTRACTION_WORKSHEET.md`
+- `weil_reconstruction/finite_truncations/H_MATRIX_LOCK_REQUIREMENTS.md`
+- `weil_reconstruction/finite_truncations/THEOREM8_EXTRACTION_TEMPLATE.md`
+
+### Result
+
+The extraction framework for \(H(\gamma,\gamma';t)\) and Theorem 8 was created.
+
+### Boundary
+
+Matrix implementation remains blocked.
+
+Eigenvalue computation remains blocked.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Fill the H-matrix worksheet from Bombieri Section 8.
+
