@@ -6343,3 +6343,34 @@ No novelty claim.
 
 Extract the classical off-critical negative-direction mechanism from Bombieri.
 
+
+---
+
+## Phase 8M — Off-Critical Negative-Direction Extraction
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/negative_directions/PHASE_8M_OFF_CRITICAL_NEGATIVE_DIRECTION_EXTRACTION.md`
+- `weil_reconstruction/negative_directions/NEGATIVE_DIRECTION_MECHANISM_CARD.md`
+- `weil_reconstruction/negative_directions/FINITE_TRUNCATION_LOCK_STATUS.md`
+
+### Result
+
+The off-critical negative-direction mechanism was recorded at statement level.
+
+### Boundary
+
+Finite truncation model remains unlocked.
+
+No matrix implementation.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Source-extract Bombieri's finite truncation construction and matrix entries.
+

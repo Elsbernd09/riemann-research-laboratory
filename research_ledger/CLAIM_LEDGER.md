@@ -8472,3 +8472,38 @@ This identifies the symbolic location where horizontal displacement enters the B
 
 **Statement:** Phase 8L does not prove the converse direction, does not prove RH, does not define a new Weil criterion, and does not implement finite-rank Weil matrices.
 
+
+---
+
+## CL-0536
+
+**Status:** CLASSICAL MECHANISM RECORDED
+
+**Statement:** Phase 8M records the classical off-critical negative-direction mechanism.
+
+On the critical line,
+
+\[
+1-\overline{\rho}=\rho
+\]
+
+and the Hermitian product becomes \(|g(\rho)|^2\). Off the critical line, this square-norm identity fails.
+
+---
+
+## CL-0537
+
+**Status:** SOURCE-LEVEL EXTRACTION
+
+**Statement:** Bombieri's framework is recorded as connecting off-critical zeros to negative eigenvalues in sufficiently large finite truncations under a finite-exception hypothesis.
+
+The exact finite truncation model, matrix entries, and theorem location remain unlocked.
+
+---
+
+## CL-0538
+
+**Status:** IMPLEMENTATION BOUNDARY
+
+**Statement:** Classical Weil matrix implementation and eigenvalue computations remain blocked until Bombieri's finite truncation construction is source-extracted and locked.
+
