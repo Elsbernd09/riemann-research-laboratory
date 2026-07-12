@@ -12053,3 +12053,36 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase B7 keeps pole constraints marked plausible but not fully source-locked.
 
+
+---
+
+## CL-B026
+
+**Status:** SCHEMA CREATED
+
+**Statement:** Phase B8 creates the metadata schema required for future certified arithmetic entries.
+
+---
+
+## CL-B027
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase B8 proves that certified entries require explicit convention, normalization, and error-decomposition metadata.
+
+---
+
+## CL-B028
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase B8 proves that a certified matrix requires all entries to have certified interval-entry status.
+
+---
+
+## CL-B029
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase B8 does not compute a certified arithmetic entry and does not establish a breakthrough.
+

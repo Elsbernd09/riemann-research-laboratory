@@ -1,0 +1,56 @@
+{
+  "phase": "B8",
+  "status": "PHASE_B8_CERTIFIED_ENTRY_METADATA_COMPLETE",
+  "allowed_statuses": [
+    "METADATA_ONLY",
+    "PROTOTYPE_FLOATING_POINT",
+    "INTERVAL_CANDIDATE",
+    "CERTIFIED_INTERVAL_ENTRY"
+  ],
+  "example_metadata_only_entry": {
+    "entry_id": "M_00_arith",
+    "basis_i": 0,
+    "basis_j": 0,
+    "source_name": "Bombieri-Lagarias, Complements to Li's Criterion for the Riemann Hypothesis, JNT 77 (1999)",
+    "normalization_label": "bombieri_lagarias_normalization",
+    "mellin_transform": "M[f](s)=int_0^infty f(x)x^(s-1) dx",
+    "involution": "tilde_f(x)=x^(-1) f(1/x)",
+    "conjugation_policy": "project_star_equals_tilde_of_complex_conjugate: f_star = tilde(conj(f))",
+    "convolution": "(f vee g)(x)=int_0^infty f(xy)g(y) dy/y",
+    "constant_term": "-(log(pi)+EulerGamma) f(1)",
+    "pole_constraint_status": "POLE_CONSTRAINTS_PLAUSIBLE_NOT_FULLY_LOCKED",
+    "certification_status": "METADATA_ONLY",
+    "interval_value": null,
+    "error_decomposition": {
+      "prime_sum_error": null,
+      "archimedean_quadrature_error": null,
+      "convolution_error": null,
+      "rounding_error": null,
+      "normalization_error": null,
+      "pole_constraint_error": null
+    },
+    "quadrature_method": "NOT_COMPUTED",
+    "prime_cutoff": "NOT_COMPUTED",
+    "archimedean_cutoff": "NOT_COMPUTED",
+    "reviewer_warnings": [
+      "Metadata object only; no certified value computed.",
+      "Pole constraints remain plausible but not fully locked.",
+      "Do not use this entry in a certified matrix."
+    ]
+  },
+  "example_is_certified": false,
+  "certified_matrix_rule_example": false,
+  "audit_strings": [
+    "PHASE_B8_CERTIFIED_ENTRY_METADATA_COMPLETE",
+    "CERTIFIED_ENTRY_METADATA_SCHEMA_CREATED",
+    "ENTRY_CERTIFICATION_STATUS_LEVELS_DEFINED",
+    "METADATA_ONLY_STATUS_DEFINED",
+    "PROTOTYPE_FLOATING_POINT_STATUS_DEFINED",
+    "INTERVAL_CANDIDATE_STATUS_DEFINED",
+    "CERTIFIED_INTERVAL_ENTRY_STATUS_DEFINED",
+    "CERTIFIED_MATRIX_REQUIRES_ALL_CERTIFIED_ENTRIES",
+    "NORMALIZATION_REQUIRED_FOR_CERTIFICATION",
+    "BREAKTHROUGH_NOT_ACHIEVED",
+    "READY_FOR_PHASE_B9_METADATA_ONLY_ENTRY"
+  ]
+}
