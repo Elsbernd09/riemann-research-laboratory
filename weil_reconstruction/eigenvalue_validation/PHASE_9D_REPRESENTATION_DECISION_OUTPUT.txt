@@ -1,0 +1,19 @@
+PHASE 9D REPRESENTATION DECISION OUTPUT
+
+PHASE_9C_STATUS=REPRESENTATION_NOT_LOCKED
+NEXT_TRACK=REPRESENTATION_REPAIR_REQUIRED
+Decision: The representation is not locked. The next phase must repair normalization, Hermitian conversion, or multiplicity handling before stronger synthetic validation.
+
+Allowed next actions:
+  - Inspect which candidates failed Hermitian gates.
+  - Compare raw, weighted, and similarity-symmetrized forms.
+  - Re-check source normalization for H(x,y;t).
+  - Re-check multiplicity weighting.
+  - Do not run final validation until repair passes.
+
+Boundary:
+  No new eigenvalues computed in Phase 9D.
+  No zeta zeros used.
+  No RH claim.
+  No novelty claim.
+  No zeta-case Bombieri-Weil verification claim.

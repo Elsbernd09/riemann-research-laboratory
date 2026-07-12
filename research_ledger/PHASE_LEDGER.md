@@ -6869,3 +6869,36 @@ No novelty claim.
 
 Either repair representation normalization or run a final synthetic validation suite, depending on the recorded status.
 
+
+---
+
+## Phase 9D — Representation Decision and Repair Plan
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `scripts/run_phase9d_representation_decision.py`
+- `scripts/audit_phase9d_representation_decision.py`
+- `weil_reconstruction/eigenvalue_validation/PHASE_9D_REPRESENTATION_DECISION_AND_REPAIR_PLAN.md`
+- `weil_reconstruction/eigenvalue_validation/REPRESENTATION_REPAIR_PLAN.md`
+- `weil_reconstruction/eigenvalue_validation/PHASE_9D_REPRESENTATION_DECISION_OUTPUT.txt`
+
+### Result
+
+The Phase 9C representation status was parsed and the next track was recorded.
+
+### Boundary
+
+No new eigenvalues computed.
+
+No zeta zeros used.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Follow the next track recorded in Phase 9D output.
+

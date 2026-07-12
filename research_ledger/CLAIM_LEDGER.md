@@ -8958,3 +8958,30 @@ No new eigenvalues are computed in Phase 9C.
 
 **Statement:** Phase 9C makes no zeta-zero claim, no RH claim, no novelty claim, and no zeta-case Bombieri-Weil verification claim.
 
+
+---
+
+## CL-0587
+
+**Status:** REPRESENTATION DECISION
+
+**Statement:** Phase 9D reads the Phase 9C representation status and records the next track: either final synthetic validation or representation repair.
+
+No new eigenvalues are computed in Phase 9D.
+
+---
+
+## CL-0588
+
+**Status:** REPAIR PLAN
+
+**Statement:** If the representation is not locked, the repair plan targets Hermitian conversion, raw versus weighted convention, similarity transform convention, multiplicity handling, kernel normalization, and numerical tolerance.
+
+---
+
+## CL-0589
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 9D uses no zeta zeros, proves no RH statement, makes no novelty claim, and makes no zeta-case Bombieri-Weil verification claim.
+
