@@ -11257,3 +11257,52 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase 12L proves no RH statement, no new RH criterion, no full Weil positivity theorem, no Level 4 contribution, and establishes no novelty.
 
+
+---
+
+## CL-0852
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12M defines the concrete log-smooth compact basis \(\phi_j(x)=\psi_j(\log x)\) with \(\psi_j\in C_c^\infty(\mathbb R)\).
+
+---
+
+## CL-0853
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12M proves rapid Mellin decay for log-smooth compactly supported basis functions by integration by parts.
+
+---
+
+## CL-0854
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12M proves product Mellin decay for basis pairs evaluated at zeta zeros.
+
+---
+
+## CL-0855
+
+**Status:** CONDITIONAL CLASSICAL INPUT
+
+**Statement:** Phase 12M proves \(\delta_Y^{(m)}\to0\) assuming a classical zero shell-count bound \(Z(k)\le C(1+\log(k+2))\).
+
+---
+
+## CL-0856
+
+**Status:** CONDITIONAL FINITE-CLASS CONVERGENCE
+
+**Statement:** Phase 12M proves spectral truncation convergence on the chosen finite test class under the provisional Weil-form conventions and the zero-count input.
+
+---
+
+## CL-0857
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 12M proves no RH statement, no new RH criterion, no full Weil positivity theorem, no arithmetic-only finite certificate, no Level 4 contribution, and establishes no novelty.
+

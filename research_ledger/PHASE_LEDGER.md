@@ -9389,3 +9389,39 @@ No novelty established.
 
 Choose concrete basis functions and prove Mellin decay estimates.
 
+
+---
+
+## Phase 12M — Concrete Basis Mellin Decay
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/level4_candidate/basis_mellin_decay/PHASE_12M_BASIS_MELLIN_DECAY.md`
+- `original_results/finite_bombieri_stability/level4_candidate/basis_mellin_decay/BASIS_MELLIN_DECAY_LOCK.md`
+- `original_results/finite_bombieri_stability/level4_candidate/basis_mellin_decay/NEXT_PHASE_12N_FINITE_SPECTRAL_DETECTION_THEOREM.md`
+- `scripts/audit_phase12m_basis_mellin_decay.py`
+
+### Result
+
+A concrete log-smooth compact basis was defined, rapid Mellin decay was proved, product Mellin decay was proved, and spectral truncation convergence on the finite test class was proved under the classical zero-count input.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No arithmetic-only finite certificate.
+
+No Level 4 contribution yet.
+
+No novelty established.
+
+### Next target
+
+Combine finite-class spectral convergence with negative obstruction detection.
+
