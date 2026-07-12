@@ -6312,3 +6312,34 @@ No novelty claim.
 
 Build a symbolic positivity mechanism note for Bombieri Theorem 1 using the locked Hermitian convention.
 
+
+---
+
+## Phase 8L — Symbolic Positivity Mechanism Note
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/symbolic/PHASE_8L_SYMBOLIC_POSITIVITY_MECHANISM.md`
+- `weil_reconstruction/symbolic/POSITIVITY_MECHANISM_CARD.md`
+- `weil_reconstruction/symbolic/OFF_CRITICAL_FAILURE_MECHANISM.md`
+
+### Result
+
+The RH-implies-square-norm mechanism was recorded using the source-locked Hermitian star convention.
+
+### Boundary
+
+The converse direction is not proved.
+
+Finite-rank Weil matrices remain blocked.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Extract the classical off-critical negative-direction mechanism from Bombieri.
+

@@ -8425,3 +8425,50 @@ and the zero-side product becomes
 
 **Statement:** Symbolic positivity notes may now use the Hermitian star convention, but finite-rank Weil matrices remain blocked until Bombieri's finite truncation model and matrix entries are source-extracted.
 
+
+---
+
+## CL-0533
+
+**Status:** SYMBOLIC MECHANISM RECORDED
+
+**Statement:** Phase 8L records the RH-implies-positivity mechanism for the Hermitian Bombieri product.
+
+Under RH,
+
+\[
+1-\overline{\rho}=\rho,
+\]
+
+so
+
+\[
+g(\rho)\overline{g(1-\overline{\rho})}
+=
+|g(\rho)|^2.
+\]
+
+---
+
+## CL-0534
+
+**Status:** HORIZONTAL DEFECT INTERFACE
+
+**Statement:** Off the critical line,
+
+\[
+1-\overline{\rho}\ne\rho,
+\]
+
+so the Hermitian zero-side product is no longer automatically a square norm.
+
+This identifies the symbolic location where horizontal displacement enters the Bombieri-Weil positivity mechanism.
+
+---
+
+## CL-0535
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 8L does not prove the converse direction, does not prove RH, does not define a new Weil criterion, and does not implement finite-rank Weil matrices.
+
