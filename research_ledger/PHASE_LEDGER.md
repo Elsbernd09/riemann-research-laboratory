@@ -8371,3 +8371,37 @@ No novelty claim.
 
 Create a classical-import map connecting the toy objects to known Weil/Bombieri objects.
 
+
+---
+
+## Phase 10AN — Classical Import Map
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/contribution_branch/classical_import_map/PHASE_10AN_CLASSICAL_IMPORT_MAP.md`
+- `original_results/finite_bombieri_stability/contribution_branch/classical_import_map/IMPORT_MAP_LOCK.md`
+- `original_results/finite_bombieri_stability/contribution_branch/classical_import_map/NEXT_PHASE_10AO_PLAN.md`
+- `scripts/audit_phase10an_classical_import_map.py`
+
+### Result
+
+A toy-to-classical import map was created.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No convergence theorem.
+
+No novelty claim.
+
+### Next target
+
+Extract exact classical definitions and classify each as known theorem, known definition, project definition, project assumption, or missing.
+

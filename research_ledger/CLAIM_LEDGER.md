@@ -10332,3 +10332,36 @@ as the central missing bridge to RH-relevant finite computation.
 
 **Statement:** Phase 10AM proves no RH statement, falsifies no RH statement, proves no new RH criterion, verifies no zeta zeros, and makes no novelty claim.
 
+
+---
+
+## CL-0740
+
+**Status:** CLASSICAL IMPORT MAP
+
+**Statement:** Phase 10AN maps the toy Weil-form abstraction to the classical Weil/Bombieri objects required for a serious finite-to-infinite contribution attempt.
+
+---
+
+## CL-0741
+
+**Status:** MISSING OBJECTS RECORDED
+
+**Statement:** Phase 10AN records that the test-function space, infinite Weil form, RH relation, approximation maps, classical matrix validation, and convergence theorem remain missing.
+
+---
+
+## CL-0742
+
+**Status:** CONTRIBUTION TRACK NOTE
+
+**Statement:** Phase 10AN does not produce an RH contribution but clarifies the exact missing classical import obligations.
+
+---
+
+## CL-0743
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10AN proves no RH statement, falsifies no RH statement, proves no new RH criterion, proves no convergence theorem, and makes no novelty claim.
+
