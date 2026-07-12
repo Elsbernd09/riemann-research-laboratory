@@ -8931,3 +8931,30 @@ Eigenvalues are computed only for representations passing the Hermitian residual
 
 **Statement:** Phase 9B uses no zeta zeros, proves no RH statement, makes no novelty claim, and does not constitute Bombieri-Weil numerical verification for the zeta-function case.
 
+
+---
+
+## CL-0584
+
+**Status:** REPRESENTATION AUDIT
+
+**Statement:** Phase 9C audits the Phase 9B synthetic eigenvalue output and records whether the current representation is preliminarily lockable or remains unresolved.
+
+No new eigenvalues are computed in Phase 9C.
+
+---
+
+## CL-0585
+
+**Status:** DECISION RULE
+
+**Statement:** The representation status is `PRELIMINARY_SYNTHETIC_LOCK_POSSIBLE` only if all synthetic cases pass the Hermitian gate and match the Theorem 8 target. Otherwise the status is `REPRESENTATION_NOT_LOCKED`.
+
+---
+
+## CL-0586
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 9C makes no zeta-zero claim, no RH claim, no novelty claim, and no zeta-case Bombieri-Weil verification claim.
+

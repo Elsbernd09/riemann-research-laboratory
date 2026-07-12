@@ -6836,3 +6836,36 @@ No zeta-case Bombieri-Weil verification.
 
 Normalize and audit the finite representation if gates fail or counts mismatch.
 
+
+---
+
+## Phase 9C — Representation Normalization Audit
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `scripts/run_phase9c_representation_normalization_audit.py`
+- `scripts/audit_phase9c_representation_normalization.py`
+- `weil_reconstruction/eigenvalue_validation/PHASE_9C_REPRESENTATION_NORMALIZATION_AUDIT.md`
+- `weil_reconstruction/eigenvalue_validation/REPRESENTATION_NORMALIZATION_DECISION_RULE.md`
+- `weil_reconstruction/eigenvalue_validation/PHASE_9C_REPRESENTATION_NORMALIZATION_AUDIT_OUTPUT.txt`
+
+### Result
+
+The Phase 9B output was audited and a representation lock status was recorded.
+
+### Boundary
+
+No new eigenvalues computed.
+
+No zeta zeros used.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Either repair representation normalization or run a final synthetic validation suite, depending on the recorded status.
+

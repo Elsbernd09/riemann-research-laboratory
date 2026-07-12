@@ -1,0 +1,77 @@
+PHASE 9C REPRESENTATION NORMALIZATION AUDIT OUTPUT
+
+Input:
+weil_reconstruction/eigenvalue_validation/PHASE_9B_SYNTHETIC_EIGENVALUE_OUTPUT.txt
+
+Summary:
+  total_cases=5
+  blocked_cases=3
+  passed_gate_cases=2
+  matched_cases=2
+  mismatched_cases=0
+
+REPRESENTATION_LOCK_STATUS=REPRESENTATION_NOT_LOCKED
+Decision: At least one synthetic case was blocked or mismatched. The finite representation is not locked. The next phase must repair normalization, Hermitian conversion, or multiplicity handling before any stronger validation.
+
+Case records:
+- case=all_real
+  blocked=False
+  passed_gate=True
+  matched=True
+  mismatched=False
+  selected_candidate=full_raw
+  residuals:
+    full_raw: 4.440892e-16
+    distinct_weighted_raw: 4.440892e-16
+    distinct_similarity_candidate: 4.440892e-16
+
+- case=one_nonreal_conjugate_pair
+  blocked=True
+  passed_gate=False
+  matched=False
+  mismatched=False
+  selected_candidate=NONE
+  residuals:
+    full_raw: 4.201162e-01
+    distinct_weighted_raw: 4.201162e-01
+    distinct_similarity_candidate: 4.201162e-01
+
+- case=repeated_real_values
+  blocked=False
+  passed_gate=True
+  matched=True
+  mismatched=False
+  selected_candidate=full_raw
+  residuals:
+    full_raw: 0.000000e+00
+    distinct_weighted_raw: 0.000000e+00
+    distinct_similarity_candidate: 0.000000e+00
+
+- case=two_nonreal_conjugate_pairs
+  blocked=True
+  passed_gate=False
+  matched=False
+  mismatched=False
+  selected_candidate=NONE
+  residuals:
+    full_raw: 4.201162e-01
+    distinct_weighted_raw: 4.201162e-01
+    distinct_similarity_candidate: 4.201162e-01
+
+- case=repeated_nonreal_pair
+  blocked=True
+  passed_gate=False
+  matched=False
+  mismatched=False
+  selected_candidate=NONE
+  residuals:
+    full_raw: 2.192617e-01
+    distinct_weighted_raw: 4.385234e-01
+    distinct_similarity_candidate: 4.385234e-01
+
+Boundary:
+  No new eigenvalues computed in Phase 9C.
+  No zeta zeros used.
+  No RH claim.
+  No novelty claim.
+  No zeta-case Bombieri-Weil verification claim.
