@@ -1,0 +1,111 @@
+{
+  "phase": "10AX",
+  "status": "TRANSFER_CERTIFICATE_CALCULATOR_OUTPUT",
+  "certificates": [
+    {
+      "phase": "10AX",
+      "status": "TRANSFER_CERTIFICATE_CALCULATOR",
+      "inputs": {
+        "R": "2",
+        "m": 3,
+        "tau_N_m": "0.001",
+        "pi_N_m": "0.001",
+        "kappa_N_m": "0.001",
+        "chi_N_m": "0.0001",
+        "eta": "0.10"
+      },
+      "computed": {
+        "total_entrywise_error_E_N_m": "0.0031",
+        "transfer_bound_R2_m_E_N_m": "0.0372",
+        "half_eta": "0.05"
+      },
+      "verdicts": {
+        "transfer_certificate": "TRANSFER_BOUND_COMPUTED",
+        "negative_direction_transfer": "NEGATIVE_DIRECTION_TRANSFER_CERTIFIED"
+      },
+      "boundary": {
+        "does_not_prove_RH": true,
+        "does_not_falsify_RH": true,
+        "does_not_prove_new_RH_criterion": true,
+        "does_not_prove_unconditional_classical_convergence": true,
+        "does_not_import_true_Weil_form": true,
+        "does_not_claim_novelty": true
+      },
+      "certificate_sha256": "db42ed491baf9fcb014665226f61e9b0c57ba32aa39096e0c20d6cb04c7b8a27",
+      "example_name": "certified_margin_example"
+    },
+    {
+      "phase": "10AX",
+      "status": "TRANSFER_CERTIFICATE_CALCULATOR",
+      "inputs": {
+        "R": "5",
+        "m": 4,
+        "tau_N_m": "0.01",
+        "pi_N_m": "0.01",
+        "kappa_N_m": "0.01",
+        "chi_N_m": "0.005",
+        "eta": "0.05"
+      },
+      "computed": {
+        "total_entrywise_error_E_N_m": "0.035",
+        "transfer_bound_R2_m_E_N_m": "3.500",
+        "half_eta": "0.025"
+      },
+      "verdicts": {
+        "transfer_certificate": "TRANSFER_BOUND_COMPUTED",
+        "negative_direction_transfer": "NEGATIVE_DIRECTION_TRANSFER_NOT_CERTIFIED"
+      },
+      "boundary": {
+        "does_not_prove_RH": true,
+        "does_not_falsify_RH": true,
+        "does_not_prove_new_RH_criterion": true,
+        "does_not_prove_unconditional_classical_convergence": true,
+        "does_not_import_true_Weil_form": true,
+        "does_not_claim_novelty": true
+      },
+      "certificate_sha256": "967aab967fbd8965d99b30dd1f4c2d3803cae889dfca3fc579c7feba0cdcd038",
+      "example_name": "not_certified_margin_example"
+    },
+    {
+      "phase": "10AX",
+      "status": "TRANSFER_CERTIFICATE_CALCULATOR",
+      "inputs": {
+        "R": "1.5",
+        "m": 2,
+        "tau_N_m": "0.0005",
+        "pi_N_m": "0.0005",
+        "kappa_N_m": "0.0005",
+        "chi_N_m": "0.00005",
+        "eta": null
+      },
+      "computed": {
+        "total_entrywise_error_E_N_m": "0.00155",
+        "transfer_bound_R2_m_E_N_m": "0.0069750"
+      },
+      "verdicts": {
+        "transfer_certificate": "TRANSFER_BOUND_COMPUTED",
+        "negative_direction_transfer": "ETA_NOT_PROVIDED"
+      },
+      "boundary": {
+        "does_not_prove_RH": true,
+        "does_not_falsify_RH": true,
+        "does_not_prove_new_RH_criterion": true,
+        "does_not_prove_unconditional_classical_convergence": true,
+        "does_not_import_true_Weil_form": true,
+        "does_not_claim_novelty": true
+      },
+      "certificate_sha256": "91a7cf7530d2adbf83dcd019ff0ee9a690649dada55338c241d2e71aee07673f",
+      "example_name": "bound_only_example"
+    }
+  ],
+  "exact_audit_strings": [
+    "TRANSFER_CERTIFICATE_CALCULATOR",
+    "TOTAL_ENTRYWISE_ERROR_COMPUTED",
+    "TRANSFER_BOUND_COMPUTED",
+    "NEGATIVE_DIRECTION_TRANSFER_CERTIFIED",
+    "NEGATIVE_DIRECTION_TRANSFER_NOT_CERTIFIED",
+    "CERTIFICATE_SHA256_RECORDED",
+    "UNCONDITIONAL_CLASSICAL_CONVERGENCE_NOT_PROVEN",
+    "NOT_RH_CONTRIBUTION_YET"
+  ]
+}
