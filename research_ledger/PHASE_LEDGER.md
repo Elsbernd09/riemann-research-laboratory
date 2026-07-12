@@ -9948,3 +9948,37 @@ Primary-source extraction still required.
 
 Build admissible finite subspace machinery.
 
+
+---
+
+## Phase B2 — Admissible Finite Subspace Machinery
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_push/phase_b2_admissible_subspace/PHASE_B2_ADMISSIBLE_FINITE_SUBSPACE.md`
+- `breakthrough_push/phase_b2_admissible_subspace/ADMISSIBLE_SUBSPACE_STATUS.md`
+- `breakthrough_push/phase_b2_admissible_subspace/NEXT_PHASE_B3_ADMISSIBLE_TOY_MATRIX.md`
+- `breakthrough_push/phase_b2_admissible_subspace/admissible_subspace_certificate.json`
+- `src/level4/admissible_subspace.py`
+- `scripts/audit_phaseB2_admissible_subspace.py`
+
+### Result
+
+The pole-admissible finite subspace machinery was proved and prototyped.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+No certified arithmetic-only matrix.
+
+### Next target
+
+Admissible toy matrix.
+

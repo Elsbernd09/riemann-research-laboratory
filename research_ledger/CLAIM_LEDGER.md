@@ -11879,3 +11879,28 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase B1 does not establish a breakthrough; primary-source extraction remains required.
 
+
+---
+
+## CL-B005
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase B2 proves that finite matrices restrict to the pole-admissible finite subspace by \(M_{\mathrm{adm}}=N^*MN\), where \(N\) spans the nullspace of the Mellin pole constraint matrix.
+
+---
+
+## CL-B006
+
+**Status:** IMPLEMENTED IN PROJECT
+
+**Statement:** Phase B2 implements prototype Mellin pole constraints, numerical nullspace calculation, and matrix restriction for toy basis functions.
+
+---
+
+## CL-B007
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase B2 does not establish a breakthrough, RH proof, novelty, or certified arithmetic-only matrix.
+

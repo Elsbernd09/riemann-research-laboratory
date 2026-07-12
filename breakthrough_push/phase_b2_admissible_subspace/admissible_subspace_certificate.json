@@ -1,0 +1,44 @@
+{
+  "phase": "B2",
+  "status": "PHASE_B2_ADMISSIBLE_SUBSPACE_COMPLETE",
+  "constraint_matrix_C": [
+    [
+      0.6000002113631859,
+      0.6000002113631857,
+      0.6000002113631858
+    ],
+    [
+      0.37496787285005384,
+      0.6182175077970647,
+      1.019268355024243
+    ]
+  ],
+  "nullspace_basis_N": [
+    [
+      0.5032297641513533
+    ],
+    [
+      -0.8084540449891072
+    ],
+    [
+      0.3052242808377535
+    ]
+  ],
+  "restricted_matrix_Madm": [
+    [
+      0.5464020571407507
+    ]
+  ],
+  "important_boundary": "TOY_NUMERICAL_CONSTRAINTS_ONLY",
+  "audit_strings": [
+    "PHASE_B2_ADMISSIBLE_SUBSPACE_COMPLETE",
+    "POLE_CONSTRAINT_MATRIX_DEFINED",
+    "ADMISSIBLE_NULLSPACE_DEFINED",
+    "ADMISSIBLE_MATRIX_RESTRICTION_PROVED",
+    "M_ADM_EQUALS_N_STAR_M_N",
+    "TOY_MELLIN_CONSTRAINTS_COMPUTED",
+    "TOY_NULLSPACE_COMPUTED",
+    "BREAKTHROUGH_NOT_ACHIEVED",
+    "READY_FOR_PHASE_B3_ADMISSIBLE_TOY_MATRIX"
+  ]
+}
