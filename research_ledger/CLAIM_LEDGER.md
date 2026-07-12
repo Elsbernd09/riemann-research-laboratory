@@ -11306,3 +11306,44 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase 12M proves no RH statement, no new RH criterion, no full Weil positivity theorem, no arithmetic-only finite certificate, no Level 4 contribution, and establishes no novelty.
 
+
+---
+
+## CL-0858
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12N proves one-function finite spectral negative detection: if \(Q_W(g)\le-\eta\) and \(Q_Y(g)\to Q_W(g)\), then \(Q_Y(g)<-\eta/2\) for sufficiently large \(Y\).
+
+---
+
+## CL-0859
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12N proves uniform finite-class spectral negative detection from uniform convergence on \(\mathcal F_R^{(m)}\).
+
+---
+
+## CL-0860
+
+**Status:** CONDITIONAL FINITE-CLASS THEOREM
+
+**Statement:** Phase 12N proves concrete finite-class spectral detection for log-smooth compact basis functions under provisional Weil-form conventions and the classical zero-count input.
+
+---
+
+## CL-0861
+
+**Status:** MISSING UPGRADE
+
+**Statement:** Phase 12N records that an arithmetic-only finite certificate remains unproved.
+
+---
+
+## CL-0862
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 12N proves no RH statement, no new RH criterion, no full Weil positivity theorem, no arithmetic-only finite certificate, and establishes no novelty.
+

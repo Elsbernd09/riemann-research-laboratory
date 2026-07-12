@@ -9425,3 +9425,39 @@ No novelty established.
 
 Combine finite-class spectral convergence with negative obstruction detection.
 
+
+---
+
+## Phase 12N — Finite Spectral Negative-Detection Theorem
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/level4_candidate/finite_spectral_detection/PHASE_12N_FINITE_SPECTRAL_DETECTION_THEOREM.md`
+- `original_results/finite_bombieri_stability/level4_candidate/finite_spectral_detection/FINITE_SPECTRAL_DETECTION_LOCK.md`
+- `original_results/finite_bombieri_stability/level4_candidate/finite_spectral_detection/NEXT_PHASE_12O_BREAKTHROUGH_CANDIDATE_AUDIT.md`
+- `scripts/audit_phase12n_finite_spectral_detection.py`
+
+### Result
+
+Finite spectral negative-obstruction detection was proved on the concrete finite test class under provisional Weil-form conventions and the zero-count input.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No full Weil positivity theorem.
+
+No arithmetic-only finite certificate.
+
+No novelty established.
+
+### Next target
+
+Audit the breakthrough-candidate status honestly.
+
