@@ -11681,3 +11681,36 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase 12W proves no RH statement, no new RH criterion, no full Weil positivity theorem, no complete arithmetic-only finite certificate, and establishes no novelty.
 
+
+---
+
+## CL-0908
+
+**Status:** IMPLEMENTED IN PROJECT
+
+**Statement:** Phase 12X defines and implements a triangular log-coordinate toy basis.
+
+---
+
+## CL-0909
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12X proves compact support for the triangular log-coordinate toy basis.
+
+---
+
+## CL-0910
+
+**Status:** IMPLEMENTED IN PROJECT
+
+**Statement:** Phase 12X implements star evaluation and prototype convolution evaluation for the toy basis.
+
+---
+
+## CL-0911
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 12X uses a toy piecewise-smooth basis, not the final theorem-level \(C_c^\infty\) basis, and does not compute true certified arithmetic entries.
+

@@ -1,0 +1,82 @@
+{
+  "phase": "12X",
+  "status": "TOY_BASIS_PROTOTYPE_COMPLETE",
+  "important_boundary": "TOY_BASIS_ONLY_NOT_FINAL_C_C_INFINITY_BASIS",
+  "basis": [
+    {
+      "type": "TriangularLogBump",
+      "center": -0.25,
+      "width": 0.75,
+      "support_log": [
+        -1.0,
+        0.5
+      ],
+      "support_x": [
+        0.36787944117144233,
+        1.6487212707001282
+      ]
+    },
+    {
+      "type": "TriangularLogBump",
+      "center": 0.25,
+      "width": 0.75,
+      "support_log": [
+        -0.5,
+        1.0
+      ],
+      "support_x": [
+        0.6065306597126334,
+        2.718281828459045
+      ]
+    }
+  ],
+  "sample_convolutions": [
+    {
+      "i": 0,
+      "j": 0,
+      "F_ij_samples": {
+        "0.36787944117144233": 0.04785462026762203,
+        "1.0": 0.4004976726416656,
+        "2.718281828459045": 0.017604897737748235
+      }
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "F_ij_samples": {
+        "0.36787944117144233": 0.0,
+        "1.0": 0.2839026971319854,
+        "2.718281828459045": 0.17219634191705108
+      }
+    },
+    {
+      "i": 1,
+      "j": 0,
+      "F_ij_samples": {
+        "0.36787944117144233": 0.4680764155706406,
+        "1.0": 0.2839037716553945,
+        "2.718281828459045": 0.0
+      }
+    },
+    {
+      "i": 1,
+      "j": 1,
+      "F_ij_samples": {
+        "0.36787944117144233": 0.0788989303365059,
+        "1.0": 0.6603090317502104,
+        "2.718281828459045": 0.029025569368726068
+      }
+    }
+  ],
+  "audit_strings": [
+    "TOY_BASIS_PROTOTYPE_COMPLETE",
+    "TRIANGULAR_LOG_BUMP_DEFINED",
+    "MULTIPLICATIVE_TOY_BASIS_DEFINED",
+    "TOY_BASIS_COMPACT_SUPPORT_PROVED",
+    "STAR_EVALUATOR_IMPLEMENTED",
+    "CONVOLUTION_EVALUATOR_IMPLEMENTED",
+    "TOY_BASIS_ONLY_NOT_FINAL_C_C_INFINITY_BASIS",
+    "TRUE_CERTIFIED_ARITHMETIC_ENTRY_NOT_YET_COMPUTED",
+    "LEVEL4_READY_FOR_TOY_ENTRY_PROTOTYPE"
+  ]
+}

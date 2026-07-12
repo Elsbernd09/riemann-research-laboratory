@@ -9739,3 +9739,39 @@ No novelty established.
 
 Build a toy basis prototype.
 
+
+---
+
+## Phase 12X — Toy Basis Prototype
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/level4_candidate/toy_basis_prototype/PHASE_12X_TOY_BASIS_PROTOTYPE.md`
+- `original_results/finite_bombieri_stability/level4_candidate/toy_basis_prototype/TOY_BASIS_LOCK.md`
+- `original_results/finite_bombieri_stability/level4_candidate/toy_basis_prototype/NEXT_PHASE_12Y_TOY_ENTRY_PROTOTYPE.md`
+- `original_results/finite_bombieri_stability/level4_candidate/toy_basis_prototype/toy_basis_certificate.json`
+- `src/level4/toy_basis.py`
+- `scripts/audit_phase12x_toy_basis.py`
+
+### Result
+
+A computable compactly supported toy basis was implemented.
+
+### Boundary
+
+Toy basis only.
+
+No true certified arithmetic entries computed.
+
+No RH proof.
+
+No complete arithmetic-only finite certificate.
+
+No novelty established.
+
+### Next target
+
+Toy arithmetic entry prototype.
+
