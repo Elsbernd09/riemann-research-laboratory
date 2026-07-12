@@ -11014,3 +11014,40 @@ R^2m(\tau_N^{(m)}+\pi_N^{(m)}+\chi_N^{(m)}).
 
 **Statement:** Phase 12F proves no RH statement, proves no new RH criterion, proves no Level 4 contribution, establishes no novelty, and leaves primary-source confirmation and sign convention unresolved.
 
+
+---
+
+## CL-0824
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12G derives the provisional spectral expression
+\[
+Q_W(g)=\sum_\rho \widehat g(\rho)\overline{\widehat g(1-\bar\rho)}
+\]
+from the provisional explicit-formula convention and the Phase 12F Mellin identity.
+
+---
+
+## CL-0825
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 12G proves the forward implication that RH implies provisional positivity \(Q_W(g)\ge0\) under the imported conventions.
+
+---
+
+## CL-0826
+
+**Status:** NOT PROVED
+
+**Statement:** Phase 12G does not prove the converse direction, does not prove the full Weil criterion, and does not prove finite approximation convergence.
+
+---
+
+## CL-0827
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 12G proves no RH statement, proves no new RH criterion, proves no Level 4 contribution, establishes no novelty, and leaves primary-source confirmation and sign convention unresolved.
+

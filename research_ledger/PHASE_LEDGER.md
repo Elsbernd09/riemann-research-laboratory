@@ -9169,3 +9169,41 @@ Primary-source confirmation still required.
 
 Derive the provisional spectral form of \(Q_W(g)\).
 
+
+---
+
+## Phase 12G — Provisional Spectral \(Q_W\) Alignment
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/level4_candidate/spectral_qw_alignment/PHASE_12G_SPECTRAL_QW_ALIGNMENT.md`
+- `original_results/finite_bombieri_stability/level4_candidate/spectral_qw_alignment/SPECTRAL_QW_LOCK.md`
+- `original_results/finite_bombieri_stability/level4_candidate/spectral_qw_alignment/NEXT_PHASE_12H_NEGATIVE_OBSTRUCTION_TEMPLATE.md`
+- `scripts/audit_phase12g_spectral_qw_alignment.py`
+
+### Result
+
+The provisional spectral expression for \(Q_W(g)\) was derived, and the RH-implies-provisional-positivity direction was proved under the imported conventions.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No full Weil positivity theorem.
+
+No Level 4 contribution yet.
+
+No novelty established.
+
+Primary-source confirmation still required.
+
+### Next target
+
+State the negative obstruction detection template and isolate the finite approximation theorem as the remaining hard target.
+
