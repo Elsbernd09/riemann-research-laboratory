@@ -9569,3 +9569,36 @@ where \(M_{\mathrm{tot}}=\sum_jm_j\). This improves the older sufficient conditi
 
 **Statement:** Phase 10Q proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0654
+
+**Status:** STRICT IMPROVEMENT EXAMPLES
+
+**Statement:** Phase 10R records synthetic examples in which the old worst-case support-stability certificate fails while the sharper Phase 10Q certificate passes.
+
+---
+
+## CL-0655
+
+**Status:** WEIGHTED RADIUS ADVANTAGE
+
+**Statement:** Phase 10R records examples in which both uniform certificates fail while the fully weighted perturbation radius certificate passes.
+
+---
+
+## CL-0656
+
+**Status:** HONEST NON-CERTIFICATION
+
+**Statement:** Phase 10R also records cases where all certificates fail, preserving honest non-certification rather than overclaiming stability.
+
+---
+
+## CL-0657
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10R proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+

@@ -1,0 +1,83 @@
+PHASE 10R STRICT-IMPROVEMENT EXAMPLES OUTPUT
+
+Purpose:
+  Show that the Phase 10Q weighted certificate is strictly stronger than the old Phase 10L worst-case certificate.
+
+Old certificate:
+  2 N m_max L_t(U) delta < g0(M)
+
+New uniform certificate:
+  2 L_t(U) M_tot delta < g0(M)
+
+New weighted certificate:
+  R(Gamma,Gamma_tilde,t) < g0(M)
+
+Exact audit phrase: STRICT_IMPROVEMENT_EXAMPLES
+
+EXAMPLE: old_fails_new_uniform_passes
+  N=5
+  multiplicities=[10, 1, 1, 1, 1]
+  m_max=10
+  m_tot=14
+  L=1.0
+  delta=0.1
+  g0=5.0
+  old_certificate=10.0
+  new_uniform_certificate=2.8000000000000003
+  weighted_radius=2.8000000000000007
+  old_passes=False
+  new_uniform_passes=True
+  weighted_passes=True
+  interpretation=The old worst-case bound fails, but the improved total-multiplicity certificate passes.
+
+EXAMPLE: uniform_fails_weighted_passes
+  N=5
+  multiplicities=[10, 1, 1, 1, 1]
+  m_max=10
+  m_tot=14
+  L=1.0
+  delta=0.1
+  displacements=[0.001, 0.1, 0.1, 0.1, 0.1]
+  g0=1.35
+  old_certificate=10.0
+  new_uniform_certificate=2.8000000000000003
+  weighted_radius=1.2068471319931122
+  old_passes=False
+  new_uniform_passes=False
+  weighted_passes=True
+  interpretation=Both uniform certificates fail, but the actual weighted displacement certificate passes.
+
+EXAMPLE: all_certificates_fail_near_gap
+  N=5
+  multiplicities=[10, 1, 1, 1, 1]
+  m_max=10
+  m_tot=14
+  L=1.0
+  delta=0.1
+  displacements=[0.08, 0.1, 0.1, 0.1, 0.1]
+  g0=0.75
+  old_certificate=10.0
+  new_uniform_certificate=2.8000000000000003
+  weighted_radius=2.4066574330386117
+  old_passes=False
+  new_uniform_passes=False
+  weighted_passes=False
+  interpretation=All certificates fail; the sharper result remains honest and does not over-certify.
+
+Conclusion:
+  The sharper bound is not merely cosmetic.
+  There are cases where the old certificate fails and the new certificate passes.
+  There are also cases where even the sharper certificate fails, preserving honest non-certification.
+
+Boundary:
+  These are synthetic finite examples.
+  No zeta zeros used.
+  No RH claim.
+  No novelty claim.
+  No zeta-case verification claim.
+
+Exact audit boundary phrases:
+  This phase does not prove RH.
+  This phase does not falsify RH.
+  This phase does not use zeta zeros.
+  This phase does not claim novelty.

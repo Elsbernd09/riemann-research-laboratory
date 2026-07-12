@@ -7612,3 +7612,38 @@ No novelty claim.
 
 Create examples showing strict improvement over the old certificate and build a certified stability algorithm.
 
+
+---
+
+## Phase 10R — Strict-Improvement Examples
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `scripts/run_phase10r_strict_improvement_examples.py`
+- `scripts/audit_phase10r_strict_improvement_examples.py`
+- `original_results/finite_bombieri_stability/sharper_bounds/examples/PHASE_10R_STRICT_IMPROVEMENT_EXAMPLES.md`
+- `original_results/finite_bombieri_stability/sharper_bounds/examples/STRICT_IMPROVEMENT_INTERPRETATION_LOCK.md`
+- `original_results/finite_bombieri_stability/sharper_bounds/examples/PHASE_10R_STRICT_IMPROVEMENT_EXAMPLES_OUTPUT.txt`
+
+### Result
+
+Strict-improvement examples were generated for the sharper Phase 10Q certificate.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No zeta zeros.
+
+No zeta-case verification.
+
+No novelty claim.
+
+### Next target
+
+Build the certified stability algorithm using the weighted perturbation radius.
+
