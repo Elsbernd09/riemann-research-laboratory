@@ -7785,3 +7785,38 @@ No novelty claim.
 
 Upgrade the certified algorithm to compute both Frobenius and row-sum radii.
 
+
+---
+
+## Phase 10W — Combined-Radius Certified Stability Algorithm
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/certified_algorithm_v2/PHASE_10W_COMBINED_RADIUS_CERTIFIED_ALGORITHM.md`
+- `original_results/finite_bombieri_stability/certified_algorithm_v2/ALGORITHM_10W_LOCK.md`
+- `original_results/finite_bombieri_stability/certified_algorithm_v2/PHASE_10W_COMBINED_RADIUS_ALGORITHM_OUTPUT.txt`
+- `scripts/run_phase10w_combined_radius_algorithm.py`
+- `scripts/audit_phase10w_combined_radius_algorithm.py`
+
+### Result
+
+The certified stability algorithm was upgraded to compute the Frobenius radius, row-sum radius, and combined minimum radius.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No zeta zeros.
+
+No zeta-case verification.
+
+No novelty claim.
+
+### Next target
+
+Prove correctness of the combined-radius algorithm and update the research note.
+

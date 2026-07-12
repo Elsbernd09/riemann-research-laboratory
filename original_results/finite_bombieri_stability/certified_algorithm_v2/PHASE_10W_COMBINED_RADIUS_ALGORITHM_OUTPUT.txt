@@ -1,0 +1,88 @@
+PHASE 10W COMBINED-RADIUS CERTIFIED ALGORITHM OUTPUT
+
+Exact audit phrase: COMBINED_RADIUS_CERTIFIED_ALGORITHM
+Exact audit phrase: COMBINED_MINIMUM_RADIUS_CERTIFICATE
+
+Verdicts:
+  CERTIFIED_STABLE
+  NOT_CERTIFIED
+
+Radii computed:
+  frobenius_radius
+  row_sum_radius
+  combined_minimum_radius
+
+EXAMPLE: row_sum_certifies
+  multiplicities=[1, 1, 1, 1, 1, 1]
+  displacements=[0.02, 0.02, 0.02, 0.02, 0.02, 0.02]
+  lipschitz=1.0
+  zero_gap=0.3
+  verdict=CERTIFIED_STABLE
+  frobenius_radius=0.23999999999999994
+  row_sum_radius=0.24000000000000002
+  combined_minimum_radius=0.23999999999999994
+  zero_gap=0.3
+  margin=0.06000000000000005
+  best_radius=frobenius
+  certificate_passes=True
+  meaning=Negative eigenvalue count is certified stable by Theorem 10V.3.
+
+EXAMPLE: frobenius_certifies
+  multiplicities=[20, 1, 1, 1]
+  displacements=[0.001, 0.15, 0.15, 0.15]
+  lipschitz=1.0
+  zero_gap=1.6
+  verdict=NOT_CERTIFIED
+  frobenius_radius=1.8835392217843512
+  row_sum_radius=2.0658775876148097
+  combined_minimum_radius=1.8835392217843512
+  zero_gap=1.6
+  margin=-0.2835392217843511
+  best_radius=frobenius
+  certificate_passes=False
+  meaning=The combined-radius certificate does not prove stability; no instability claim is made.
+
+EXAMPLE: not_certified
+  multiplicities=[10, 5, 2]
+  displacements=[0.1, 0.1, 0.1]
+  lipschitz=1.0
+  zero_gap=0.5
+  verdict=NOT_CERTIFIED
+  frobenius_radius=3.400000000000001
+  row_sum_radius=4.308640753373011
+  combined_minimum_radius=3.400000000000001
+  zero_gap=0.5
+  margin=-2.900000000000001
+  best_radius=frobenius
+  certificate_passes=False
+  meaning=The combined-radius certificate does not prove stability; no instability claim is made.
+
+EXAMPLE: zero_displacement
+  multiplicities=[7, 3, 2]
+  displacements=[0.0, 0.0, 0.0]
+  lipschitz=100.0
+  zero_gap=0.01
+  verdict=CERTIFIED_STABLE
+  frobenius_radius=0.0
+  row_sum_radius=0.0
+  combined_minimum_radius=0.0
+  zero_gap=0.01
+  margin=0.01
+  best_radius=tie
+  certificate_passes=True
+  meaning=Negative eigenvalue count is certified stable by Theorem 10V.3.
+
+Conclusion:
+  The combined-radius algorithm computes both Frobenius and row-sum certificates.
+  It certifies stability when either valid radius is below the zero spectral gap.
+  NOT_CERTIFIED does not imply instability.
+
+Boundary:
+  This is a finite-dimensional certified stability algorithm.
+  No zeta zeros used.
+  No RH claim.
+  No novelty claim.
+  This algorithm does not prove RH.
+  This algorithm does not falsify RH.
+  This algorithm does not use zeta zeros.
+  This algorithm does not claim novelty.

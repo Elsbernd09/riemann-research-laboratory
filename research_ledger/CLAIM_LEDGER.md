@@ -9730,3 +9730,36 @@ implies negative eigenvalue count stability.
 
 **Statement:** Phase 10V proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0672
+
+**Status:** CERTIFIED ALGORITHM UPGRADE
+
+**Statement:** Phase 10W upgrades the certified stability algorithm to compute both Frobenius and row-sum radii and use the combined minimum radius.
+
+---
+
+## CL-0673
+
+**Status:** SOUNDNESS NOTE
+
+**Statement:** Phase 10W's algorithm is sound by Theorem 10V.3: if the combined minimum radius is below the zero spectral gap, the negative eigenvalue count is stable.
+
+---
+
+## CL-0674
+
+**Status:** INTERPRETATION NOTE
+
+**Statement:** Phase 10W preserves the interpretation that `NOT_CERTIFIED` means the algorithm did not certify stability, not that instability was proven.
+
+---
+
+## CL-0675
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10W proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+
