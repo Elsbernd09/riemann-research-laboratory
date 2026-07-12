@@ -6804,3 +6804,35 @@ No novelty claim.
 
 Run synthetic finite eigenvalue validation with strict gates.
 
+
+---
+
+## Phase 9B — Synthetic Eigenvalue Validation with Strict Gates
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `scripts/run_phase9b_synthetic_eigenvalue_validation.py`
+- `scripts/audit_phase9b_synthetic_eigenvalue.py`
+- `weil_reconstruction/eigenvalue_validation/PHASE_9B_SYNTHETIC_EIGENVALUE_VALIDATION.md`
+- `weil_reconstruction/eigenvalue_validation/PHASE_9B_SYNTHETIC_EIGENVALUE_OUTPUT.txt`
+
+### Result
+
+Synthetic finite eigenvalue validation was attempted with strict Hermitian gates.
+
+### Boundary
+
+No zeta zeros used.
+
+No RH proof.
+
+No novelty claim.
+
+No zeta-case Bombieri-Weil verification.
+
+### Next target
+
+Normalize and audit the finite representation if gates fail or counts mismatch.
+

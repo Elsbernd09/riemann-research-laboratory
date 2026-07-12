@@ -8904,3 +8904,30 @@ No eigenvalues are computed in this phase.
 
 **Statement:** Zeta-zero experiments, RH claims, novelty claims, and publication-style Bombieri-Weil verification claims remain denied.
 
+
+---
+
+## CL-0581
+
+**Status:** SYNTHETIC EIGENVALUE VALIDATION ATTEMPT
+
+**Statement:** Phase 9B runs synthetic finite eigenvalue validation with strict Hermitian gates.
+
+Eigenvalues are computed only for representations passing the Hermitian residual gate.
+
+---
+
+## CL-0582
+
+**Status:** HONEST FAILURE POLICY
+
+**Statement:** Phase 9B records blocked cases and mismatches honestly. A failed or blocked synthetic case is treated as an implementation/convention issue, not as a mathematical contradiction.
+
+---
+
+## CL-0583
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 9B uses no zeta zeros, proves no RH statement, makes no novelty claim, and does not constitute Bombieri-Weil numerical verification for the zeta-function case.
+

@@ -1,0 +1,69 @@
+PHASE 9B SYNTHETIC EIGENVALUE VALIDATION OUTPUT
+Synthetic finite Gamma cases only.
+Strict Hermitian gate required before eigenvalue computation.
+No zeta zeros used.
+No RH claim.
+No novelty claim.
+
+CASE: all_real
+  expected_distinct_conjugate_pair_count=0
+  repeated_zero_warning_count=0
+  candidate=full_raw hermitian_residual=4.440892e-16
+  candidate=distinct_weighted_raw hermitian_residual=4.440892e-16
+  candidate=distinct_similarity_candidate hermitian_residual=4.440892e-16
+  STRICT_GATE_RESULT=PASSED
+  selected_candidate=full_raw
+  eigenvalues=['6.1501760786e-02', '4.1718403705e-01', '1.7132661044e+00']
+  negative_count=0
+  numerical_zero_count=0
+  theorem8_synthetic_target=0
+  theorem8_synthetic_match=True
+
+CASE: one_nonreal_conjugate_pair
+  expected_distinct_conjugate_pair_count=2
+  repeated_zero_warning_count=0
+  candidate=full_raw hermitian_residual=4.201162e-01
+  candidate=distinct_weighted_raw hermitian_residual=4.201162e-01
+  candidate=distinct_similarity_candidate hermitian_residual=4.201162e-01
+  STRICT_GATE_RESULT=BLOCKED
+  reason=no representation passed Hermitian residual gate
+
+CASE: repeated_real_values
+  expected_distinct_conjugate_pair_count=0
+  repeated_zero_warning_count=2
+  candidate=full_raw hermitian_residual=0.000000e+00
+  candidate=distinct_weighted_raw hermitian_residual=0.000000e+00
+  candidate=distinct_similarity_candidate hermitian_residual=0.000000e+00
+  STRICT_GATE_RESULT=PASSED
+  selected_candidate=full_raw
+  eigenvalues=['-2.6595381412e-17', '0.0000000000e+00', '4.1754627296e-01', '3.2843010513e+00']
+  negative_count=0
+  numerical_zero_count=2
+  theorem8_synthetic_target=0
+  theorem8_synthetic_match=True
+
+CASE: two_nonreal_conjugate_pairs
+  expected_distinct_conjugate_pair_count=4
+  repeated_zero_warning_count=0
+  candidate=full_raw hermitian_residual=4.201162e-01
+  candidate=distinct_weighted_raw hermitian_residual=4.201162e-01
+  candidate=distinct_similarity_candidate hermitian_residual=4.201162e-01
+  STRICT_GATE_RESULT=BLOCKED
+  reason=no representation passed Hermitian residual gate
+
+CASE: repeated_nonreal_pair
+  expected_distinct_conjugate_pair_count=1
+  repeated_zero_warning_count=2
+  candidate=full_raw hermitian_residual=2.192617e-01
+  candidate=distinct_weighted_raw hermitian_residual=4.385234e-01
+  candidate=distinct_similarity_candidate hermitian_residual=4.385234e-01
+  STRICT_GATE_RESULT=BLOCKED
+  reason=no representation passed Hermitian residual gate
+
+SUMMARY
+  any_eigenvalues_computed=True
+  any_failures_or_blocks=True
+  failures_or_blocks_are_logged_honestly=True
+  zeta_zero_experiments=False
+  rh_claim=False
+  novelty_claim=False
