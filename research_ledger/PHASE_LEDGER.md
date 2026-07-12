@@ -6374,3 +6374,34 @@ No novelty claim.
 
 Source-extract Bombieri's finite truncation construction and matrix entries.
 
+
+---
+
+## Phase 8N — Finite Truncation Extraction Worksheet
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/finite_truncations/PHASE_8N_FINITE_TRUNCATION_EXTRACTION_WORKSHEET.md`
+- `weil_reconstruction/finite_truncations/FINITE_TRUNCATION_TERM_TABLE.md`
+- `weil_reconstruction/finite_truncations/FINITE_TRUNCATION_DANGER_NOTE.md`
+
+### Result
+
+The project now has a controlled extraction framework for Bombieri finite truncations.
+
+### Boundary
+
+No matrix implementation.
+
+No eigenvalue computation.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Fill the finite truncation worksheet from the Bombieri source.
+

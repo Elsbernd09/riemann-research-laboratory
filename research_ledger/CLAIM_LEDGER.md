@@ -8507,3 +8507,30 @@ The exact finite truncation model, matrix entries, and theorem location remain u
 
 **Statement:** Classical Weil matrix implementation and eigenvalue computations remain blocked until Bombieri's finite truncation construction is source-extracted and locked.
 
+
+---
+
+## CL-0539
+
+**Status:** EXTRACTION WORKSHEET
+
+**Statement:** Phase 8N creates the finite truncation extraction worksheet for Bombieri's quadratic framework.
+
+The exact infinite quadratic form, finite truncation model, matrix entries, and eigenvalue theorem remain unlocked.
+
+---
+
+## CL-0540
+
+**Status:** IMPLEMENTATION BLOCK
+
+**Statement:** Classical Weil matrix implementation and eigenvalue computations remain denied until the source-derived finite truncation construction is extracted and locked.
+
+---
+
+## CL-0541
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 8N does not implement a matrix, does not compute eigenvalues, does not prove RH, and does not claim novelty.
+
