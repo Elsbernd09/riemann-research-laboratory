@@ -10125,3 +10125,41 @@ Pole constraints not fully locked.
 
 Convention reconciliation.
 
+
+---
+
+## Phase B7 — Convention Reconciliation
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_push/phase_b7_convention_reconciliation/PHASE_B7_CONVENTION_RECONCILIATION.md`
+- `breakthrough_push/phase_b7_convention_reconciliation/CONVENTION_RECONCILIATION_STATUS.md`
+- `breakthrough_push/phase_b7_convention_reconciliation/NEXT_PHASE_B8_CERTIFIED_ENTRY_METADATA.md`
+- `breakthrough_push/phase_b7_convention_reconciliation/convention_certificate.json`
+- `src/level4/conventions.py`
+- `scripts/audit_phaseB7_convention_reconciliation.py`
+
+### Result
+
+Bombieri–Lagarias conventions were reconciled with project notation.
+
+### Correction
+
+Future Bombieri–Lagarias-normalized arithmetic entries must use \((\log\pi+\gamma)f(1)\).
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+No certified arithmetic entries computed.
+
+### Next target
+
+Certified entry metadata.
+

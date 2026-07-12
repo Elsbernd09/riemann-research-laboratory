@@ -12020,3 +12020,36 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Pole-removal constraints remain plausible but are not fully locked by the Bombieri–Lagarias extraction alone.
 
+
+---
+
+## CL-B022
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase B7 proves the compatibility identity \(f^*=\widetilde{\bar f}\) between the project star convention and the Bombieri–Lagarias tilde convention plus complex conjugation.
+
+---
+
+## CL-B023
+
+**Status:** CORRECTION LOCK
+
+**Statement:** Phase B7 requires Bombieri–Lagarias-normalized arithmetic entries to use the constant \((\log\pi+\gamma)f(1)\) unless an explicit transformation to another normalization is proved.
+
+---
+
+## CL-B024
+
+**Status:** METADATA REQUIREMENT
+
+**Statement:** Phase B7 creates mandatory convention metadata for future certified arithmetic entries.
+
+---
+
+## CL-B025
+
+**Status:** OPEN GATE
+
+**Statement:** Phase B7 keeps pole constraints marked plausible but not fully source-locked.
+
