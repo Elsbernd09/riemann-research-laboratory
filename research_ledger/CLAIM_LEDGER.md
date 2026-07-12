@@ -10472,3 +10472,40 @@ if \(|G^{(N)}_{ij}-G^{(\infty)}_{ij}|\leq\delta_N^{(m)}\), then
 
 **Statement:** Phase 10AQ proves no RH statement, falsifies no RH statement, proves no new RH criterion, imports no true Weil form, proves no classical convergence theorem, and makes no novelty claim.
 
+
+---
+
+## CL-0755
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10AR proves that quantitative Gram-entry convergence implies uniform convergence on finite test classes:
+\[
+\sup_{f\in\mathcal F_R^{(m)}}|Q_N^W(P_N^Wf)-Q_W(f)|
+\leq R^2m\delta_N^{(m)}.
+\]
+
+---
+
+## CL-0756
+
+**Status:** ERROR DECOMPOSITION
+
+**Statement:** Phase 10AR decomposes Gram-entry error into truncation, projection, kernel/model, and computational error components.
+
+---
+
+## CL-0757
+
+**Status:** CONTRIBUTION TRACK NOTE
+
+**Statement:** Phase 10AR defines the Gram convergence problem as the next concrete bridge toward finite-to-infinite convergence, but does not prove classical convergence.
+
+---
+
+## CL-0758
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10AR proves no RH statement, falsifies no RH statement, proves no new RH criterion, imports no true Weil form, proves no classical convergence theorem, and makes no novelty claim.
+

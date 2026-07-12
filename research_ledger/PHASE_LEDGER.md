@@ -8511,3 +8511,39 @@ No novelty claim.
 
 Define the finite Gram convergence problem.
 
+
+---
+
+## Phase 10AR — Gram Convergence Problem
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/contribution_branch/gram_convergence_problem/PHASE_10AR_GRAM_CONVERGENCE_PROBLEM.md`
+- `original_results/finite_bombieri_stability/contribution_branch/gram_convergence_problem/GRAM_CONVERGENCE_LOCK.md`
+- `original_results/finite_bombieri_stability/contribution_branch/gram_convergence_problem/NEXT_PHASE_10AS_ERROR_CLASSIFICATION.md`
+- `scripts/audit_phase10ar_gram_convergence.py`
+
+### Result
+
+The Gram convergence problem was defined and decomposed into truncation, projection, kernel/model, and computational error components.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No true Weil form imported.
+
+No classical convergence theorem proven.
+
+No novelty claim.
+
+### Next target
+
+Classify the four Gram error terms.
+
