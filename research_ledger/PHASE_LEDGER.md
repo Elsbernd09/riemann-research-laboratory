@@ -6673,3 +6673,37 @@ No novelty claim.
 
 Implement symbolic \(K,K_t,K^*,H\) functions with sanity checks only.
 
+
+---
+
+## Phase 8X — Symbolic H-Kernel Implementation with Sanity Checks Only
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/finite_truncations/h_kernel_symbolic.py`
+- `scripts/run_phase8x_h_kernel_sanity.py`
+- `weil_reconstruction/finite_truncations/PHASE_8X_SYMBOLIC_H_KERNEL_IMPLEMENTATION.md`
+- `weil_reconstruction/finite_truncations/PHASE_8X_SANITY_OUTPUT.txt`
+
+### Result
+
+Scalar source-derived \(K,K_t,K^*,H\) functions were implemented and sanity checked.
+
+### Boundary
+
+No matrices assembled.
+
+No eigenvalues computed.
+
+No zeta zeros used.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Create the matrix assembly audit plan before any eigenvalue computation.
+

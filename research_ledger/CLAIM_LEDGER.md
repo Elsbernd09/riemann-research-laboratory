@@ -8794,3 +8794,30 @@ The zeta limiting transition belongs to Bombieri Sections 10 and 11 and is not y
 
 **Statement:** Eigenvalue computation, zeta zero experiments, and Bombieri-Weil numerical verification claims remain blocked until symbolic kernel implementation, multiplicity handling, Hermitian convention, and synthetic validation rules are complete.
 
+
+---
+
+## CL-0569
+
+**Status:** SYMBOLIC IMPLEMENTATION
+
+**Statement:** Phase 8X implements scalar source-derived kernel functions \(K,K_t,K^*,H\) with sanity checks only.
+
+No matrices are assembled, no eigenvalues are computed, and no zeta zeros are used.
+
+---
+
+## CL-0570
+
+**Status:** SANITY CHECK
+
+**Statement:** Phase 8X verifies \(K(0)=1\), evenness of \(K\) and \(K_t\), and finite scalar evaluations of \(K^*\) and \(H\) on deterministic synthetic complex samples.
+
+---
+
+## CL-0571
+
+**Status:** IMPLEMENTATION BOUNDARY
+
+**Statement:** Matrix assembly, eigenvalue computation, zeta-zero experiments, Bombieri-Weil numerical verification claims, RH claims, and novelty claims remain blocked after Phase 8X.
+

@@ -1,0 +1,16 @@
+PHASE 8X H-KERNEL SANITY OUTPUT
+K(0)=1: PASS
+K evenness: PASS
+K_t evenness: PASS
+K_star finite synthetic samples: PASS
+H_kernel finite synthetic samples: PASS
+No matrices assembled.
+No eigenvalues computed.
+No zeta zeros used.
+No RH claim.
+No novelty claim.
+
+Conjugation inspection rows only; not theorem claims:
+t=0.75: H(x,y;t)=(0.25179402653087496-0.0011791125518030062j), H(y,x;t)=(0.25179402653087524-0.001179112551802917j), H(x,y)-conj(H(y,x))=(-2.7755575615628914e-16-0.002358225103605923j)
+t=1.0: H(x,y;t)=(0.5479679693408445-0.0047025524910686315j), H(y,x;t)=(0.5479679693408439-0.0047025524910674806j), H(x,y)-conj(H(y,x))=(5.551115123125783e-16-0.009405104982136113j)
+t=2.0: H(x,y;t)=(2.4428048534280586-0.10269385391245196j), H(y,x;t)=(2.4428048534280595-0.10269385391245206j), H(x,y)-conj(H(y,x))=(-8.881784197001252e-16-0.205387707824904j)
