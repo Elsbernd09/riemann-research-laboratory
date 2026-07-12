@@ -8547,3 +8547,37 @@ No novelty claim.
 
 Classify the four Gram error terms.
 
+
+---
+
+## Phase 10AS — Gram Error Classification
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/contribution_branch/gram_error_classification/PHASE_10AS_GRAM_ERROR_CLASSIFICATION.md`
+- `original_results/finite_bombieri_stability/contribution_branch/gram_error_classification/ERROR_CLASSIFICATION_LOCK.md`
+- `original_results/finite_bombieri_stability/contribution_branch/gram_error_classification/NEXT_PHASE_10AT_CONDITIONAL_TRANSFER.md`
+- `scripts/audit_phase10as_gram_error_classification.py`
+
+### Result
+
+The Gram-error components were classified and the conditional transfer theorem target was identified.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No classical convergence theorem proven.
+
+No novelty claim.
+
+### Next target
+
+Prove the conditional Gram-error transfer theorem.
+

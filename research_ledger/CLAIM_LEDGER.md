@@ -10509,3 +10509,36 @@ if \(|G^{(N)}_{ij}-G^{(\infty)}_{ij}|\leq\delta_N^{(m)}\), then
 
 **Statement:** Phase 10AR proves no RH statement, falsifies no RH statement, proves no new RH criterion, imports no true Weil form, proves no classical convergence theorem, and makes no novelty claim.
 
+
+---
+
+## CL-0759
+
+**Status:** ERROR CLASSIFICATION
+
+**Statement:** Phase 10AS classifies the Gram-entry errors into truncation, projection, kernel/model, and computational components.
+
+---
+
+## CL-0760
+
+**Status:** PROJECT-CONTROLLABLE COMPONENT IDENTIFIED
+
+**Statement:** Phase 10AS identifies computational error as project-controllable in principle through certified numerics.
+
+---
+
+## CL-0761
+
+**Status:** CONDITIONAL THEOREM TARGET
+
+**Statement:** Phase 10AS identifies a conditional Gram-error-to-transfer theorem as the next contribution target.
+
+---
+
+## CL-0762
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10AS proves no RH statement, falsifies no RH statement, proves no new RH criterion, proves no classical convergence theorem, and makes no novelty claim.
+
