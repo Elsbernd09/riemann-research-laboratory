@@ -7820,3 +7820,37 @@ No novelty claim.
 
 Prove correctness of the combined-radius algorithm and update the research note.
 
+
+---
+
+## Phase 10X — Combined-Radius Algorithm Correctness Proof
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/certified_algorithm_v2/proofs/PHASE_10X_COMBINED_RADIUS_CORRECTNESS_PROOF.md`
+- `original_results/finite_bombieri_stability/certified_algorithm_v2/proofs/COMBINED_RADIUS_CORRECTNESS_LOCK.md`
+- `original_results/finite_bombieri_stability/certified_algorithm_v2/proofs/PHASE_10X_PROOF_AUDIT_NOTES.md`
+- `scripts/audit_phase10x_combined_radius_correctness.py`
+
+### Result
+
+The combined-radius certified algorithm correctness proof was completed.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No zeta zeros.
+
+No zeta-case verification.
+
+No novelty claim.
+
+### Next target
+
+Update the research note to V4 with the matrix-specific certificate and combined-radius algorithm.
+

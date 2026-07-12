@@ -9763,3 +9763,36 @@ implies negative eigenvalue count stability.
 
 **Statement:** Phase 10W proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0676
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10X proves Algorithm 10W.1 is sound: if it outputs `CERTIFIED_STABLE`, then under the hypotheses of Theorem 10V.3 the negative eigenvalue count is preserved.
+
+---
+
+## CL-0677
+
+**Status:** INTERPRETATION NOTE
+
+**Statement:** Phase 10X proves that `NOT_CERTIFIED` does not imply instability. It means only that the combined-radius certificate did not prove stability.
+
+---
+
+## CL-0678
+
+**Status:** CERTIFIED PIPELINE NOTE
+
+**Statement:** Phase 10X completes a certified finite pipeline from support displacement data to Frobenius and row-sum radii, then to a theorem-backed stability verdict.
+
+---
+
+## CL-0679
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10X proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+
