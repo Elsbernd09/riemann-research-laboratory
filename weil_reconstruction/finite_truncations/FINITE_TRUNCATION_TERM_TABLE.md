@@ -17,14 +17,17 @@
 | Corrected kernel | \(K^*(x,y;t)\) formula extracted | \(K^*\) | LOCKED |
 | Matrix kernel | \(H(x,y;t)=2tK^*(x,y;t)/(1/4+y^2)\) | \(H\) | PARTIAL_LOCKED |
 | Coefficient equation | \(w_\gamma=\Lambda\sum_{\gamma'}H(\gamma,\gamma';t)w_{\gamma'}\) | eigen-system skeleton | PARTIAL_LOCKED |
+| Zero multiplicity convention | \(\sum_\gamma'(m(\gamma)-1)\) zero eigenvalues | repeated-\(\gamma\) zero space | LOCKED |
+| Distinct weighted matrix | \(H(\gamma_j,\gamma_k;t)m(\gamma_k)\) | weighted distinct matrix | PARTIAL_LOCKED |
+| Theorem 8 | negative eigenvalues equal distinct complex conjugate pairs in \(\Gamma\) | finite count theorem | LOCKED_STATEMENT |
 | Truncation parameter | interval half-width \(t\), finite multiset size | \(t,N\) | PARTIAL |
-| Finite matrix | exact Section 8 finite matrix convention pending | TBD | UNLOCKED |
-| Theorem 8 | Section 8 eigenvalue theorem, exact statement pending | TBD | PARTIAL |
-| Negative eigenvalue count | exact statement pending | TBD | UNLOCKED |
-| Off-critical zero relationship | high-level source claim only; exact theorem pending | TBD | PARTIAL |
+| Finite matrix implementation convention | exact code-normalization pending | TBD | UNLOCKED |
+| Negative eigenvalue count | statement locked; implementation pending | count theorem | LOCKED_STATEMENT |
+| Off-critical zero relationship | non-real \(\gamma\) means \(\rho=1/2+i\gamma\) is off critical line | horizontal defect link | LOCKED |
+| Section 10 zeta limit | exact limiting theorem pending | TBD | UNLOCKED |
 | Implementation permission | DENIED | DENIED | LOCKED |
 
 ## Rule
 
-The implementation permission row may not be changed until Theorem 8 and the finite matrix convention are LOCKED.
+The implementation permission row may not be changed until the code-normalization and implementation audit are completed.
 

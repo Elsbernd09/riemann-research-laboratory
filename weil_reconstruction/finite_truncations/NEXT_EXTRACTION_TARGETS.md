@@ -2,29 +2,24 @@
 
 ## Immediate next target
 
-Extract Bombieri Theorem 8.
+Create an implementation audit plan for the source-extracted \(H\)-kernel.
 
-## Why this is next
+## Why implementation is not immediate
 
-Phase 8U source-filled the formula-level \(H\)-kernel data.
+Even though the \(H\)-kernel and Theorem 8 are source-extracted, implementation still requires:
 
-The next missing source object is the theorem that explains what the eigenvalues of the finite matrices mean.
-
-## Required next fields
-
-1. exact Theorem 8 statement;
-2. hypotheses on \(Z\), \(\Gamma\), and \(t\);
-3. odd/even distinction;
-4. zero eigenvalue exclusion or multiplicity statement;
-5. negative eigenvalue count;
-6. relation to zeros failing RH;
-7. exact finite matrix convention.
+1. stable evaluation of \(K(z)=\sin z/z\);
+2. stable evaluation of \(K_t(z)\) for complex \(z\);
+3. repeated-\(\gamma\) handling;
+4. distinct weighted matrix convention;
+5. Hermitian or real-symmetric conversion;
+6. synthetic validation against Theorem 8.
 
 ## Still forbidden
 
-Do not implement matrices yet.
+Do not run eigenvalue experiments yet.
 
-Do not compute eigenvalues yet.
+Do not claim numerical Bombieri-Weil verification yet.
 
-Do not call a numerical computation a Bombieri-Weil truncation yet.
+Do not use zeta zeros yet.
 

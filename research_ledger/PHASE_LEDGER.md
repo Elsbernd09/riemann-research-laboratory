@@ -6604,3 +6604,39 @@ No novelty claim.
 
 Extract Bombieri Theorem 8.
 
+
+---
+
+## Phase 8V — Bombieri Theorem 8 Extraction
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/finite_truncations/PHASE_8V_BOMBIERI_THEOREM8_EXTRACTION.md`
+- `weil_reconstruction/finite_truncations/BOMBIERI_THEOREM8_CARD.md`
+- updated `weil_reconstruction/finite_truncations/THEOREM8_EXTRACTION_TEMPLATE.md`
+- updated `weil_reconstruction/finite_truncations/FINITE_TRUNCATION_TERM_TABLE.md`
+- updated `weil_reconstruction/finite_truncations/H_MATRIX_LOCK_REQUIREMENTS.md`
+- updated `weil_reconstruction/finite_truncations/NEXT_EXTRACTION_TARGETS.md`
+
+### Result
+
+Bombieri Theorem 8 was source-extracted at statement level.
+
+The repeated-\(\gamma\) zero-eigenvalue convention was recorded.
+
+### Boundary
+
+Matrix implementation remains blocked.
+
+Eigenvalue computation remains blocked.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Create the implementation audit plan for a source-derived H-kernel testbed.
+

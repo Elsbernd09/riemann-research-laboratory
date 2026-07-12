@@ -8730,3 +8730,38 @@ w_\gamma=\Lambda\sum_{\gamma'\in\Gamma}H(\gamma,\gamma';t)w_{\gamma'}.
 
 This is a source-level skeleton, not an implemented matrix computation.
 
+
+---
+
+## CL-0563
+
+**Status:** KNOWN THEOREM RECONSTRUCTED
+
+**Statement:** Phase 8V source-extracts Bombieri Theorem 8 at statement level:
+
+The number of negative eigenvalues of \(H(\Gamma;t)\) equals the number of distinct complex conjugate pairs \((\gamma,\overline{\gamma})\) in \(\Gamma\).
+
+This is a known source theorem, not a project-original result.
+
+---
+
+## CL-0564
+
+**Status:** MULTIPLICITY CONVENTION RECORDED
+
+**Statement:** Phase 8V records the nearby Lemma 10 multiplicity convention: repeated elements of \(\Gamma\) contribute zero eigenvalues with multiplicity
+
+\[
+\sum_\gamma'(m(\gamma)-1).
+\]
+
+The remaining nonzero spectrum is represented using the weighted distinct-\(\gamma\) matrix \(H(\gamma_j,\gamma_k;t)m(\gamma_k)\).
+
+---
+
+## CL-0565
+
+**Status:** IMPLEMENTATION BOUNDARY
+
+**Statement:** Even after Theorem 8 extraction, H-matrix implementation and eigenvalue computation remain denied until code-normalization, repeated-\(\gamma\) handling, Hermitian conversion, and validation tests are specified.
+
