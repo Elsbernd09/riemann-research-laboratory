@@ -11607,3 +11607,44 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase 12T proves no RH statement, no new RH criterion, no full Weil positivity theorem, no complete arithmetic-only finite certificate, and establishes no novelty.
 
+
+---
+
+## CL-0894
+
+**Status:** GATE IDENTIFIED
+
+**Statement:** Phase 12U identifies \(T[F^*]=\overline{T[F]}\) as the remaining functional symmetry gate required for unconditional Hermitian status of the arithmetic matrix.
+
+---
+
+## CL-0895
+
+**Status:** CONDITIONAL THEOREM
+
+**Statement:** Phase 12U proves that the \(T\)-star adjoint symmetry implies Hermitian arithmetic matrix status.
+
+---
+
+## CL-0896
+
+**Status:** PARTIAL AUDIT
+
+**Statement:** Phase 12U records a partial termwise audit and identifies the archimedean term as the main unresolved \(T\)-star obstacle.
+
+---
+
+## CL-0897
+
+**Status:** ROUTE NOTE
+
+**Statement:** Phase 12U records two safe routes: a conditional Hermitian route and a direct certified Hermitian residual route.
+
+---
+
+## CL-0898
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 12U proves no RH statement, no new RH criterion, no full Weil positivity theorem, no complete arithmetic-only finite certificate, and establishes no novelty.
+
