@@ -9521,3 +9521,51 @@ n_-(M(\widetilde\Gamma,t))=n_-(M(\Gamma,t)).
 
 **Statement:** Phase 10P proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0650
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10Q proves the weighted support-stability certificate
+\[
+\mathcal R(\Gamma,\widetilde\Gamma,t)<g_0(M(\Gamma,t))
+\]
+where
+\[
+\mathcal R(\Gamma,\widetilde\Gamma,t)
+=
+L_t(U)
+\left(\sum_{j,k}m_jm_k(d_j+d_k)^2\right)^{1/2}.
+\]
+Under this condition, the negative eigenvalue count is preserved.
+
+---
+
+## CL-0651
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10Q proves the sharper uniform-displacement certificate
+\[
+2L_t(U)M_{\mathrm{tot}}\delta<g_0(M(\Gamma,t)),
+\]
+where \(M_{\mathrm{tot}}=\sum_jm_j\). This improves the older sufficient condition \(2Nm_{\max}L_t(U)\delta<g_0(M)\).
+
+---
+
+## CL-0652
+
+**Status:** BREAKTHROUGH TRACK NOTE
+
+**Statement:** Phase 10Q strengthens the support-stability result, but it is not yet a breakthrough, not an RH contribution, and not a novelty claim.
+
+---
+
+## CL-0653
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10Q proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+

@@ -7578,3 +7578,37 @@ No novelty claim.
 
 Send for expert feedback or begin sharper-bound improvement branch.
 
+
+---
+
+## Phase 10Q — Sharper Weighted Support-Stability Bound
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/sharper_bounds/PHASE_10Q_SHARPER_WEIGHTED_SUPPORT_BOUND.md`
+- `original_results/finite_bombieri_stability/sharper_bounds/THEOREM_10Q_LOCK.md`
+- `original_results/finite_bombieri_stability/sharper_bounds/PHASE_10Q_BREAKTHROUGH_TRACK_STATUS.md`
+- `scripts/audit_phase10q_sharper_weighted_bound.py`
+
+### Result
+
+A sharper weighted support-stability theorem was proved.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No zeta zeros.
+
+No zeta-case verification.
+
+No novelty claim.
+
+### Next target
+
+Create examples showing strict improvement over the old certificate and build a certified stability algorithm.
+
