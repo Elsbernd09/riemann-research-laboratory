@@ -10769,3 +10769,33 @@ R^2m(\tau_N^{(m)}+\pi_N^{(m)}+\kappa_N^{(m)}+\chi_N^{(m)}).
 
 **Statement:** Phase 11B does not prove full classical validation of the extracted kernel, does not prove RH, does not prove unconditional classical convergence, does not establish novelty, and does not establish an RH contribution.
 
+
+---
+
+## CL-0792
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 11C proves a sharper conditional transfer theorem under extracted-kernel alignment:
+\[
+\sup_{f\in\mathcal F_R^{(m)}}|Q_N^W(P_N^Wf)-Q_W(f)|
+\leq
+R^2m(\tau_N^{(m)}+\pi_N^{(m)}+\chi_N^{(m)}).
+\]
+
+---
+
+## CL-0793
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 11C proves a sharper negative-direction transfer margin under the three-error bound.
+
+---
+
+## CL-0794
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 11C does not prove RH, does not prove full classical validation, does not prove unconditional classical convergence, does not establish novelty, and does not establish an RH contribution.
+
