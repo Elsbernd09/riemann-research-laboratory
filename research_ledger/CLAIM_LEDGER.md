@@ -10580,3 +10580,39 @@ R^2m(\tau_N^{(m)}+\pi_N^{(m)}+\kappa_N^{(m)}+\chi_N^{(m)}).
 
 **Statement:** Phase 10AT proves no RH statement, falsifies no RH statement, proves no new RH criterion, proves no unconditional classical convergence theorem, imports no true Weil form, and makes no novelty claim.
 
+
+---
+
+## CL-0767
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10AU proves an interval-certified computational error bound: if the exact finite Gram entry lies in a certified interval, then the midpoint error is bounded by the interval radius.
+
+---
+
+## CL-0768
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase 10AU proves a matrix-level numerical error bound:
+\[
+\|\widetilde G^{(N)}-G^{(N),exact}\|_2\leq m\chi_N^{(m)}.
+\]
+
+---
+
+## CL-0769
+
+**Status:** PROJECT-CONTROLLABLE COMPONENT
+
+**Statement:** Phase 10AU gives a rigorous certification model for the computational error term \(C_{ij}^{(N)}\), conditional on valid interval enclosures.
+
+---
+
+## CL-0770
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10AU proves no RH statement, falsifies no RH statement, proves no new RH criterion, proves no classical convergence theorem, imports no true Weil form, and makes no novelty claim.
+

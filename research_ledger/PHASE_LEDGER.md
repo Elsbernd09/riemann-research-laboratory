@@ -8617,3 +8617,39 @@ No novelty claim.
 
 Build the certified numerical error model for the computational error term.
 
+
+---
+
+## Phase 10AU — Certified Numerical Error Model
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `original_results/finite_bombieri_stability/contribution_branch/certified_numerics/PHASE_10AU_CERTIFIED_NUMERICAL_ERROR_MODEL.md`
+- `original_results/finite_bombieri_stability/contribution_branch/certified_numerics/CERTIFIED_NUMERICS_LOCK.md`
+- `original_results/finite_bombieri_stability/contribution_branch/certified_numerics/NEXT_PHASE_10AV_INTERVAL_CALCULATOR.md`
+- `scripts/audit_phase10au_certified_numerics.py`
+
+### Result
+
+A certified numerical error model was proved for the computational error term.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No new RH criterion.
+
+No classical convergence theorem.
+
+No true Weil form imported.
+
+No novelty claim.
+
+### Next target
+
+Implement the interval Gram-entry calculator prototype.
+
