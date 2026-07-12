@@ -1,0 +1,143 @@
+{
+  "phase": "12Z",
+  "status": "TOY_ARITHMETIC_MATRIX_PROTOTYPE_COMPLETE",
+  "important_boundary": "FLOATING_POINT_TOY_PIPELINE_ONLY",
+  "raw_matrix": [
+    [
+      0.0010625065382231513,
+      0.00034622149257605705
+    ],
+    [
+      0.0003434312128862693,
+      0.0017517771298269924
+    ]
+  ],
+  "symmetrized_matrix": [
+    [
+      0.0010625065382231513,
+      0.0003448263527311632
+    ],
+    [
+      0.0003448263527311632,
+      0.0017517771298269924
+    ]
+  ],
+  "interval_radius": 0.5,
+  "interval_matrix": {
+    "n": 2,
+    "entries": [
+      [
+        {
+          "lo": -0.49893749346177685,
+          "hi": 0.5010625065382232
+        },
+        {
+          "lo": -0.49965517364726886,
+          "hi": 0.5003448263527311
+        }
+      ],
+      [
+        {
+          "lo": -0.49965517364726886,
+          "hi": 0.5003448263527311
+        },
+        {
+          "lo": -0.498248222870173,
+          "hi": 0.501751777129827
+        }
+      ]
+    ]
+  },
+  "rayleigh_results": [
+    {
+      "verdict": "NOT_CERTIFIED_NEGATIVE",
+      "rayleigh_interval": {
+        "lo": -0.49893749346177685,
+        "hi": 0.5010625065382232
+      },
+      "vector": [
+        1.0,
+        0.0
+      ],
+      "hermitian_residual_contains_zero": true,
+      "hermitian_residual_exact_zero": true
+    },
+    {
+      "verdict": "NOT_CERTIFIED_NEGATIVE",
+      "rayleigh_interval": {
+        "lo": -0.498248222870173,
+        "hi": 0.501751777129827
+      },
+      "vector": [
+        0.0,
+        1.0
+      ],
+      "hermitian_residual_contains_zero": true,
+      "hermitian_residual_exact_zero": true
+    },
+    {
+      "verdict": "NOT_CERTIFIED_NEGATIVE",
+      "rayleigh_interval": {
+        "lo": -1.9964960636264875,
+        "hi": 2.0035039363735123
+      },
+      "vector": [
+        1.0,
+        1.0
+      ],
+      "hermitian_residual_contains_zero": true,
+      "hermitian_residual_exact_zero": true
+    },
+    {
+      "verdict": "NOT_CERTIFIED_NEGATIVE",
+      "rayleigh_interval": {
+        "lo": -1.997875369037412,
+        "hi": 2.002124630962588
+      },
+      "vector": [
+        1.0,
+        -1.0
+      ],
+      "hermitian_residual_contains_zero": true,
+      "hermitian_residual_exact_zero": true
+    },
+    {
+      "verdict": "NOT_CERTIFIED_NEGATIVE",
+      "rayleigh_interval": {
+        "lo": -1.123154722826589,
+        "hi": 1.126845277173411
+      },
+      "vector": [
+        1.0,
+        0.5
+      ],
+      "hermitian_residual_contains_zero": true,
+      "hermitian_residual_exact_zero": true
+    },
+    {
+      "verdict": "NOT_CERTIFIED_NEGATIVE",
+      "rayleigh_interval": {
+        "lo": -1.122637769882886,
+        "hi": 1.127362230117114
+      },
+      "vector": [
+        0.5,
+        1.0
+      ],
+      "hermitian_residual_contains_zero": true,
+      "hermitian_residual_exact_zero": true
+    }
+  ],
+  "any_certified_negative_direction": false,
+  "audit_strings": [
+    "TOY_ARITHMETIC_MATRIX_PROTOTYPE_COMPLETE",
+    "TOY_ARITHMETIC_MATRIX_ASSEMBLED",
+    "TOY_MATRIX_INTERVAL_WRAPPER_CREATED",
+    "TOY_HERMITIAN_SYMMETRIZATION_PERFORMED",
+    "TOY_RAYLEIGH_INTERVAL_COMPUTED",
+    "TOY_NEGATIVE_DIRECTION_LOGIC_TESTED",
+    "FLOATING_POINT_TOY_PIPELINE_ONLY",
+    "CERTIFIED_ARITHMETIC_MATRIX_NOT_YET_PROVED",
+    "READY_FOR_FINAL_RESULTS_AUDIT"
+  ]
+}
