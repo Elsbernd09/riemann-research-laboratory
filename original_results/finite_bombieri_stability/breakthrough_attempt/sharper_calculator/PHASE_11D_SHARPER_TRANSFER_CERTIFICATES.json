@@ -1,0 +1,113 @@
+{
+  "phase": "11D",
+  "status": "SHARPER_TRANSFER_CERTIFICATE_CALCULATOR_OUTPUT",
+  "assumption": "KAPPA_ZERO_UNDER_EXTRACTED_KERNEL_ALIGNMENT",
+  "certificates": [
+    {
+      "phase": "11D",
+      "status": "SHARPER_TRANSFER_CERTIFICATE_CALCULATOR",
+      "assumption": "KAPPA_ZERO_UNDER_EXTRACTED_KERNEL_ALIGNMENT",
+      "inputs": {
+        "R": "2",
+        "m": 3,
+        "tau_N_m": "0.001",
+        "pi_N_m": "0.001",
+        "chi_N_m": "0.0001",
+        "eta": "0.06"
+      },
+      "computed": {
+        "sharper_total_error_tau_pi_chi": "0.0021",
+        "sharper_transfer_bound_R2_m_tau_pi_chi": "0.0252",
+        "half_eta": "0.03"
+      },
+      "verdicts": {
+        "transfer_certificate": "SHARPER_TRANSFER_BOUND_COMPUTED",
+        "negative_direction_transfer": "SHARPER_NEGATIVE_DIRECTION_TRANSFER_CERTIFIED"
+      },
+      "boundary": {
+        "does_not_prove_RH": true,
+        "does_not_falsify_RH": true,
+        "does_not_prove_new_RH_criterion": true,
+        "does_not_prove_full_classical_validation": true,
+        "does_not_prove_unconditional_classical_convergence": true,
+        "does_not_claim_novelty": true
+      },
+      "certificate_sha256": "aed5a5ea5af12212fd2d747dee46a6669c3c87397f121548629cca199ba4aaac",
+      "example_name": "sharper_certified_margin_example"
+    },
+    {
+      "phase": "11D",
+      "status": "SHARPER_TRANSFER_CERTIFICATE_CALCULATOR",
+      "assumption": "KAPPA_ZERO_UNDER_EXTRACTED_KERNEL_ALIGNMENT",
+      "inputs": {
+        "R": "5",
+        "m": 4,
+        "tau_N_m": "0.01",
+        "pi_N_m": "0.01",
+        "chi_N_m": "0.005",
+        "eta": "0.05"
+      },
+      "computed": {
+        "sharper_total_error_tau_pi_chi": "0.025",
+        "sharper_transfer_bound_R2_m_tau_pi_chi": "2.500",
+        "half_eta": "0.025"
+      },
+      "verdicts": {
+        "transfer_certificate": "SHARPER_TRANSFER_BOUND_COMPUTED",
+        "negative_direction_transfer": "SHARPER_NEGATIVE_DIRECTION_TRANSFER_NOT_CERTIFIED"
+      },
+      "boundary": {
+        "does_not_prove_RH": true,
+        "does_not_falsify_RH": true,
+        "does_not_prove_new_RH_criterion": true,
+        "does_not_prove_full_classical_validation": true,
+        "does_not_prove_unconditional_classical_convergence": true,
+        "does_not_claim_novelty": true
+      },
+      "certificate_sha256": "4a193953f4bfed4478b9b3e614b9d6548ecce722162066f1eb1e8dacc50f5cdc",
+      "example_name": "sharper_not_certified_margin_example"
+    },
+    {
+      "phase": "11D",
+      "status": "SHARPER_TRANSFER_CERTIFICATE_CALCULATOR",
+      "assumption": "KAPPA_ZERO_UNDER_EXTRACTED_KERNEL_ALIGNMENT",
+      "inputs": {
+        "R": "1.5",
+        "m": 2,
+        "tau_N_m": "0.0005",
+        "pi_N_m": "0.0005",
+        "chi_N_m": "0.00005",
+        "eta": null
+      },
+      "computed": {
+        "sharper_total_error_tau_pi_chi": "0.00105",
+        "sharper_transfer_bound_R2_m_tau_pi_chi": "0.0047250"
+      },
+      "verdicts": {
+        "transfer_certificate": "SHARPER_TRANSFER_BOUND_COMPUTED",
+        "negative_direction_transfer": "ETA_NOT_PROVIDED"
+      },
+      "boundary": {
+        "does_not_prove_RH": true,
+        "does_not_falsify_RH": true,
+        "does_not_prove_new_RH_criterion": true,
+        "does_not_prove_full_classical_validation": true,
+        "does_not_prove_unconditional_classical_convergence": true,
+        "does_not_claim_novelty": true
+      },
+      "certificate_sha256": "9c714bd248a1e6e3b2a96cfca8c8649b4400f004526cc8de4a60dcc860b87d91",
+      "example_name": "sharper_bound_only_example"
+    }
+  ],
+  "exact_audit_strings": [
+    "SHARPER_TRANSFER_CERTIFICATE_CALCULATOR",
+    "KAPPA_ZERO_UNDER_EXTRACTED_KERNEL_ALIGNMENT",
+    "SHARPER_TOTAL_ERROR_COMPUTED",
+    "SHARPER_TRANSFER_BOUND_COMPUTED",
+    "SHARPER_NEGATIVE_DIRECTION_TRANSFER_CERTIFIED",
+    "SHARPER_NEGATIVE_DIRECTION_TRANSFER_NOT_CERTIFIED",
+    "CERTIFICATE_SHA256_RECORDED",
+    "FULL_CLASSICAL_VALIDATION_NOT_PROVEN",
+    "NOT_RH_CONTRIBUTION_YET"
+  ]
+}
