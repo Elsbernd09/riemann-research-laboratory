@@ -9463,3 +9463,36 @@ n_-(M(\widetilde\Gamma,t))=n_-(M(\Gamma,t)).
 
 **Statement:** Phase 10N proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0643
+
+**Status:** REVIEW READINESS
+
+**Statement:** Phase 10O records the upgraded support-perturbation stability draft as ready for correctness-focused expert feedback.
+
+---
+
+## CL-0644
+
+**Status:** NOVELTY NOT ESTABLISHED
+
+**Statement:** Phase 10O explicitly records that novelty is not established and requires prior-art comparison and expert review.
+
+---
+
+## CL-0645
+
+**Status:** ADMISSIONS FRAMING LOCK
+
+**Statement:** The project may be framed as rigorous independent research training and a finite spectral-stability note, but not as RH progress, an RH breakthrough, or guaranteed admissions material.
+
+---
+
+## CL-0646
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10O proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+
