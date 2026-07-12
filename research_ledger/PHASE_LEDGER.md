@@ -6773,3 +6773,34 @@ No novelty claim.
 
 Create the eigenvalue-validation audit plan before computing any spectra.
 
+
+---
+
+## Phase 9A — Eigenvalue Validation Audit Plan
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `weil_reconstruction/eigenvalue_validation/PHASE_9A_EIGENVALUE_VALIDATION_AUDIT_PLAN.md`
+- `weil_reconstruction/eigenvalue_validation/EIGENVALUE_VALIDATION_CHECKLIST.md`
+- `weil_reconstruction/eigenvalue_validation/EIGENVALUE_VALIDATION_BOUNDARY.md`
+
+### Result
+
+The eigenvalue validation audit plan was created.
+
+### Boundary
+
+No eigenvalues computed in this phase.
+
+No zeta zeros used.
+
+No RH proof.
+
+No novelty claim.
+
+### Next target
+
+Run synthetic finite eigenvalue validation with strict gates.
+

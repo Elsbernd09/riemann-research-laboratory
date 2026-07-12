@@ -8877,3 +8877,30 @@ No eigenvalues are computed and no zeta zeros are used.
 
 **Statement:** Eigenvalue computation, zeta-zero experiments, numerical Bombieri-Weil verification claims, RH claims, and novelty claims remain blocked after Phase 8Z.
 
+
+---
+
+## CL-0578
+
+**Status:** EIGENVALUE VALIDATION AUDIT PLAN
+
+**Statement:** Phase 9A creates the eigenvalue validation audit plan for synthetic finite \(H\)-matrices.
+
+No eigenvalues are computed in this phase.
+
+---
+
+## CL-0579
+
+**Status:** SYNTHETIC-FIRST PERMISSION
+
+**Statement:** A future phase may compute eigenvalues only on synthetic finite \(\Gamma\)-multisets, with Hermitian residual gates, real-spectrum checks, negative-count tolerances, and honest failure logging.
+
+---
+
+## CL-0580
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Zeta-zero experiments, RH claims, novelty claims, and publication-style Bombieri-Weil verification claims remain denied.
+
