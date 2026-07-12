@@ -7263,3 +7263,38 @@ No novelty claim.
 
 Generate synthetic examples and failure cases for the theorem.
 
+
+---
+
+## Phase 10H — Synthetic Examples and Failure Cases
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `scripts/run_phase10h_synthetic_examples.py`
+- `scripts/audit_phase10h_synthetic_examples.py`
+- `original_results/finite_bombieri_stability/examples/PHASE_10H_SYNTHETIC_EXAMPLES_AND_FAILURE_CASES.md`
+- `original_results/finite_bombieri_stability/examples/EXAMPLE_INTERPRETATION_LOCK.md`
+- `original_results/finite_bombieri_stability/examples/PHASE_10H_SYNTHETIC_EXAMPLES_OUTPUT.txt`
+
+### Result
+
+Synthetic examples and failure cases were generated for the finite stability theorem.
+
+### Boundary
+
+No RH proof.
+
+No RH falsification.
+
+No zeta zeros.
+
+No zeta-case verification.
+
+No novelty claim.
+
+### Next target
+
+Write the professor-readable theorem/proof draft.
+

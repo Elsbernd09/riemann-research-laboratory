@@ -9248,3 +9248,28 @@ on the finite distinct support.
 
 **Statement:** Phase 10G proves a finite-dimensional perturbation stability theorem specialized to the locked finite Bombieri-style matrix class. It proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
 
+
+---
+
+## CL-0619
+
+**Status:** SYNTHETIC EXAMPLES
+
+**Statement:** Phase 10H records synthetic finite examples showing certified stability, certificate failure with stable count, certificate failure with count flip, and a non-diagonal Hermitian stable case.
+
+---
+
+## CL-0620
+
+**Status:** INTERPRETATION NOTE
+
+**Statement:** The Phase 10H examples show that Theorem 10G is a sufficient stability certificate, not a necessary condition.
+
+---
+
+## CL-0621
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10H uses only synthetic finite examples. It proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+

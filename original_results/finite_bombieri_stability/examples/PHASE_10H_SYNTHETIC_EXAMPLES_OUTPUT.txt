@@ -1,0 +1,63 @@
+PHASE 10H SYNTHETIC EXAMPLES OUTPUT
+
+Purpose:
+  Demonstrate the finite stability theorem with stable cases and failure cases.
+
+EXAMPLE: stable_diagonal_case
+  M_eigenvalues=(-2.0, 3.0)
+  perturbed_eigenvalues=(-1.92, 2.95)
+  N=2
+  epsilon=0.1
+  N_epsilon=0.2
+  g0=2.0
+  certificate_passes=True
+  negative_count_before=1
+  negative_count_after=1
+  count_stable=True
+  interpretation=The theorem applies; the negative count is certified stable.
+
+EXAMPLE: certificate_fails_but_count_happens_stable
+  M_eigenvalues=(-0.05, 2.0)
+  perturbed_eigenvalues=(-0.060000000000000005, 2.01)
+  N=2
+  epsilon=0.04
+  N_epsilon=0.08
+  g0=0.05
+  certificate_passes=False
+  negative_count_before=1
+  negative_count_after=1
+  count_stable=True
+  interpretation=The theorem does not certify stability, even though this particular perturbation did not flip the count.
+
+EXAMPLE: count_flip_when_certificate_fails
+  M_eigenvalues=(-0.05, 2.0)
+  perturbed_eigenvalues=(0.020000000000000004, 2.0)
+  N=2
+  epsilon=0.08
+  N_epsilon=0.16
+  g0=0.05
+  certificate_passes=False
+  negative_count_before=1
+  negative_count_after=0
+  count_stable=False
+  interpretation=The theorem does not apply, and the negative count can change.
+
+EXAMPLE: stable_offdiagonal_case
+  M_eigenvalues=(-2.0079872407968904, 3.0079872407968904)
+  perturbed_eigenvalues=(-1.9806638952199473, 2.990663895219947)
+  N=2
+  epsilon=0.05
+  N_epsilon=0.1
+  g0=2.0079872407968904
+  certificate_passes=True
+  negative_count_before=1
+  negative_count_after=1
+  count_stable=True
+  interpretation=The theorem applies to a non-diagonal Hermitian example.
+
+Boundary:
+  These are synthetic finite examples.
+  No zeta zeros used.
+  No RH claim.
+  No novelty claim.
+  No zeta-case verification claim.
