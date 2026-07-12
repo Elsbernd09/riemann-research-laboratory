@@ -9223,3 +9223,28 @@ on the finite distinct support.
 
 **Statement:** Phase 10F proves only a finite-dimensional spectral perturbation result. It proves no RH statement, falsifies no RH statement, uses no zeta zeros, and makes no novelty claim.
 
+
+---
+
+## CL-0616
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** For finite normalized Bombieri-style matrices \(M,\widetilde M\in\mathbb C^{N\times N}\), if both are Hermitian, \(g_0(M)>0\), \(|\widetilde M_{jk}-M_{jk}|\leq\varepsilon\) for all \(j,k\), and \(N\varepsilon<g_0(M)\), then \(n_-(\widetilde M)=n_-(M)\).
+
+---
+
+## CL-0617
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** If the finite kernels satisfy a uniform error bound \(|\widetilde H_t(\alpha_j,\alpha_k)-H_t(\alpha_j,\alpha_k)|\leq\eta\), then the sufficient certificate \(Nm_{\max}\eta<g_0(M)\) implies preservation of the negative eigenvalue count.
+
+---
+
+## CL-0618
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10G proves a finite-dimensional perturbation stability theorem specialized to the locked finite Bombieri-style matrix class. It proves no RH statement, falsifies no RH statement, uses no zeta zeros, verifies no zeta case, and makes no novelty claim.
+
