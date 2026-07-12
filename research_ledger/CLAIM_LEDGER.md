@@ -9061,3 +9061,30 @@ The branch remains bounded to source reconstruction and synthetic finite validat
 
 **Statement:** Phase 9H uses no zeta zeros, proves no RH statement, makes no novelty claim, and makes no zeta-case Bombieri-Weil verification claim.
 
+
+---
+
+## CL-0598
+
+**Status:** ORIGINAL RESULT BRANCH LAUNCHED
+
+**Statement:** Phase 10A launches the original-result branch targeting a finite Bombieri-matrix perturbation stability theorem.
+
+The branch aims first for a professor-readable research note, not an RH proof.
+
+---
+
+## CL-0599
+
+**Status:** ORIGINALITY DISCIPLINE
+
+**Statement:** The project will not claim novelty until the theorem is fully stated, proved, compared against prior art, and reviewed by a qualified expert.
+
+---
+
+## CL-0600
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 10A proves no RH statement, falsifies no RH statement, makes no breakthrough claim, and makes no novelty claim.
+
