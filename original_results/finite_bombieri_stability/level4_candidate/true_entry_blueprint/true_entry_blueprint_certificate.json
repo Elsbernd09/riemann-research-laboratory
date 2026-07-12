@@ -1,0 +1,46 @@
+{
+  "phase": "12W",
+  "status": "TRUE_ARITHMETIC_ENTRY_BLUEPRINT_COMPLETE",
+  "important_boundary": "TRUE_CERTIFIED_NUMERICAL_ENTRIES_NOT_YET_COMPUTED",
+  "support_parameter_B": 1.0,
+  "support_cutoff_M_exp_2B": 7.38905609893065,
+  "archimedean_log_tail_coefficient": 0.27234146891183153,
+  "entry_components": {
+    "central": {
+      "lo": 0.99,
+      "hi": 1.01
+    },
+    "central_star": {
+      "lo": 0.99,
+      "hi": 1.01
+    },
+    "prime": {
+      "lo": 0.39,
+      "hi": 0.41
+    },
+    "constant": {
+      "lo": 0.19,
+      "hi": 0.21
+    },
+    "archimedean": {
+      "lo": 0.29,
+      "hi": 0.31
+    },
+    "entry_interval": {
+      "lo": 1.05,
+      "hi": 1.15
+    }
+  },
+  "formula": "M_ij = central + central_star - prime - constant - archimedean",
+  "audit_strings": [
+    "TRUE_ARITHMETIC_ENTRY_BLUEPRINT_COMPLETE",
+    "M_IJ_TRUE_ENTRY_DECOMPOSITION_DEFINED",
+    "FINITE_PRIME_COMPONENT_INCLUDED",
+    "REDUCED_ARCHIMEDEAN_COMPONENT_INCLUDED",
+    "INTERVAL_ENTRY_FORMULA_DEFINED",
+    "TRUE_CERTIFIED_NUMERICAL_ENTRIES_NOT_YET_COMPUTED",
+    "TOY_BASIS_REQUIRED_NEXT",
+    "ARITHMETIC_ONLY_CERTIFICATE_NOT_YET_COMPLETE",
+    "LEVEL4_BRANCH_READY_FOR_TOY_ENTRY_PROTOTYPE"
+  ]
+}

@@ -11648,3 +11648,36 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase 12U proves no RH statement, no new RH criterion, no full Weil positivity theorem, no complete arithmetic-only finite certificate, and establishes no novelty.
 
+
+---
+
+## CL-0904
+
+**Status:** BLUEPRINT COMPLETE
+
+**Statement:** Phase 12W defines the true arithmetic entry decomposition \(M_{ij}^{arith}=I_{ij}^{0}+I_{ij}^{*,0}-P_{ij}-C_{ij}-A_{ij}\).
+
+---
+
+## CL-0905
+
+**Status:** IMPLEMENTED IN PROJECT
+
+**Statement:** Phase 12W implements a blueprint container for interval arithmetic entry components and the interval combination formula.
+
+---
+
+## CL-0906
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 12W does not compute true certified numerical arithmetic entries; it prepares the exact blueprint for the toy-entry prototype.
+
+---
+
+## CL-0907
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase 12W proves no RH statement, no new RH criterion, no full Weil positivity theorem, no complete arithmetic-only finite certificate, and establishes no novelty.
+
