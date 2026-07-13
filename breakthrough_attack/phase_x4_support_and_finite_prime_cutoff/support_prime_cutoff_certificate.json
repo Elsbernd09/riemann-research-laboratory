@@ -1,0 +1,209 @@
+{
+  "phase": "X4",
+  "status": "PHASE_X4_SUPPORT_AND_FINITE_PRIME_CUTOFF_COMPLETE",
+  "certification_status": "STRUCTURAL_SUPPORT_THEOREM_ONLY_NOT_CERTIFIED_ENTRY",
+  "basis_size": 3,
+  "entry_support_table": [
+    {
+      "i": 0,
+      "j": 0,
+      "phi_i_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "phi_j_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "phi_i_star_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "entry_support": [
+        0.06720551273974977,
+        14.879731724872835
+      ],
+      "finite_prime_cutoff": 14
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "phi_i_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "phi_j_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "phi_i_star_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "entry_support": [
+        0.06720551273974977,
+        14.879731724872835
+      ],
+      "finite_prime_cutoff": 14
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "phi_i_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "phi_j_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "phi_i_star_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "entry_support": [
+        0.06720551273974977,
+        14.879731724872835
+      ],
+      "finite_prime_cutoff": 14
+    },
+    {
+      "i": 1,
+      "j": 0,
+      "phi_i_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "phi_j_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "phi_i_star_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "entry_support": [
+        0.06720551273974977,
+        14.879731724872835
+      ],
+      "finite_prime_cutoff": 14
+    },
+    {
+      "i": 1,
+      "j": 1,
+      "phi_i_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "phi_j_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "phi_i_star_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "entry_support": [
+        0.06720551273974977,
+        14.879731724872835
+      ],
+      "finite_prime_cutoff": 14
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "phi_i_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "phi_j_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "phi_i_star_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "entry_support": [
+        0.06720551273974977,
+        14.879731724872835
+      ],
+      "finite_prime_cutoff": 14
+    },
+    {
+      "i": 2,
+      "j": 0,
+      "phi_i_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "phi_j_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "phi_i_star_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "entry_support": [
+        0.06720551273974977,
+        14.879731724872835
+      ],
+      "finite_prime_cutoff": 14
+    },
+    {
+      "i": 2,
+      "j": 1,
+      "phi_i_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "phi_j_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "phi_i_star_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "entry_support": [
+        0.06720551273974977,
+        14.879731724872835
+      ],
+      "finite_prime_cutoff": 14
+    },
+    {
+      "i": 2,
+      "j": 2,
+      "phi_i_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "phi_j_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "phi_i_star_support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "entry_support": [
+        0.06720551273974977,
+        14.879731724872835
+      ],
+      "finite_prime_cutoff": 14
+    }
+  ],
+  "max_finite_prime_cutoff": 14,
+  "audit_strings": [
+    "PHASE_X4_SUPPORT_AND_FINITE_PRIME_CUTOFF_COMPLETE",
+    "CORRECTED_BASIS_SUPPORT_BOUND_PROVED",
+    "STAR_SUPPORT_BOUND_PROVED",
+    "CONVOLUTION_SUPPORT_BOUND_PROVED",
+    "FINITE_PRIME_CUTOFF_THEOREM_PROVED",
+    "ENTRY_SUPPORT_TABLE_CREATED",
+    "FINITE_PRIME_SUM_GATE_CLOSED_STRUCTURALLY",
+    "CERTIFIED_ENTRY_NOT_COMPUTED",
+    "READY_FOR_PHASE_X5_ARCHIMEDEAN_REMOVABLE_SINGULARITY_THEOREM"
+  ]
+}

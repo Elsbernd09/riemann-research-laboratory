@@ -12408,3 +12408,44 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase X3 implements only a floating prototype and does not compute a certified arithmetic entry.
 
+
+---
+
+## CL-X014
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X4 proves the corrected basis support bound \(\operatorname{supp}(\phi_j)\subset \operatorname{supp}(b_j)\cup\operatorname{supp}(u_0)\cup\operatorname{supp}(u_1)\).
+
+---
+
+## CL-X015
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X4 proves the star support bound \(\operatorname{supp}(\phi_i^*)\subset[U_i^{-1},L_i^{-1}]\).
+
+---
+
+## CL-X016
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X4 proves the multiplicative convolution support bound \(\operatorname{supp}(\phi_j*\phi_i^*)\subset[L_j/U_i,U_j/L_i]\).
+
+---
+
+## CL-X017
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X4 proves the finite prime cutoff theorem \(N_{ij}=\lfloor\max(B_{ij},A_{ij}^{-1})\rfloor\).
+
+---
+
+## CL-X018
+
+**Status:** STRUCTURAL GATE CLOSED
+
+**Statement:** Phase X4 closes the finite-prime-sum gate structurally, but does not compute a certified arithmetic entry.
+

@@ -10543,3 +10543,37 @@ No certified arithmetic entry yet.
 
 Support and finite prime cutoff theorem.
 
+
+---
+
+## Phase X4 — Support and Finite Prime Cutoff Theorem
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_attack/phase_x4_support_and_finite_prime_cutoff/PHASE_X4_SUPPORT_AND_FINITE_PRIME_CUTOFF.md`
+- `breakthrough_attack/phase_x4_support_and_finite_prime_cutoff/SUPPORT_CUTOFF_STATUS.md`
+- `breakthrough_attack/phase_x4_support_and_finite_prime_cutoff/NEXT_PHASE_X5_ARCHIMEDEAN_REMOVABLE_SINGULARITY_THEOREM.md`
+- `breakthrough_attack/phase_x4_support_and_finite_prime_cutoff/support_prime_cutoff_certificate.json`
+- `src/breakthrough_attack/support_prime_cutoff.py`
+- `scripts/audit_phaseX4_support_prime_cutoff.py`
+
+### Result
+
+The support and finite-prime-cutoff theorem was proved and implemented.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+No certified arithmetic entry yet.
+
+### Next target
+
+Archimedean removable singularity theorem.
+
