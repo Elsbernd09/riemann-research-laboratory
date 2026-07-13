@@ -1,0 +1,34 @@
+{
+  "phase": "X2",
+  "status": "PHASE_X2_EXACT_FUNCTIONAL_LOCK_COMPLETE",
+  "lock": {
+    "name": "T_BL",
+    "source_family": "Bombieri-Lagarias",
+    "mellin_transform": "hat_f(s)=int_0^infty f(x)x^(s-1)dx",
+    "tilde_involution": "tilde_f(x)=x^(-1)f(1/x)",
+    "hermitian_star": "f_star(x)=x^(-1)conjugate(f(1/x))",
+    "constant_term": "-(log(pi)+EulerGamma)f(1)",
+    "rejected_constant": "-(log(4*pi)+EulerGamma)f(1)",
+    "official_pole_target": "hat_f(0)=hat_f(1)=0",
+    "sufficient_g_constraint": "hat_g(0)=hat_g(1)=0",
+    "matrix_entry": "M_ij=T_BL[phi_j*phi_i_star]",
+    "certification_goal": "rigorous interval enclosure for each M_ij"
+  },
+  "allowed_constant": "log(pi)+EulerGamma",
+  "rejected_constant_for_locked_branch": "log(4*pi)+EulerGamma",
+  "official_admissibility_target": "f-pole removal",
+  "construction_admissibility_device": "stronger g-pole constraints",
+  "audit_strings": [
+    "PHASE_X2_EXACT_FUNCTIONAL_LOCK_COMPLETE",
+    "BOMBIERI_LAGARIAS_FUNCTIONAL_LOCKED",
+    "LOG_PI_GAMMA_CONSTANT_LOCKED",
+    "LOG_4PI_GAMMA_REJECTED_FOR_LOCKED_BRANCH",
+    "TILDE_INVOLUTION_LOCKED",
+    "HERMITIAN_STAR_DICTIONARY_LOCKED",
+    "F_POLE_REMOVAL_TARGET_LOCKED",
+    "G_POLE_CONSTRAINTS_MARKED_SUFFICIENT_NOT_NECESSARY",
+    "FINITE_ARITHMETIC_MATRIX_TARGET_DEFINED",
+    "CERTIFIED_MATRIX_GAP_TARGET_IDENTIFIED",
+    "READY_FOR_PHASE_X3_BUILT_IN_POLE_CANCELLED_SMOOTH_BASIS"
+  ]
+}

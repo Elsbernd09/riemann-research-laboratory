@@ -12334,3 +12334,36 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase X1 identifies source-locked admissibility as a blocker for a certified finite Weil matrix theorem.
 
+
+---
+
+## CL-X005
+
+**Status:** FUNCTIONAL LOCK
+
+**Statement:** Phase X2 locks the breakthrough attack branch to the Bombieri–Lagarias functional \(T_{BL}\).
+
+---
+
+## CL-X006
+
+**Status:** NORMALIZATION LOCK
+
+**Statement:** Phase X2 locks the constant term to \(\log\pi+\gamma\) and rejects \(\log4\pi+\gamma\) for the locked branch unless a future source-proven transformation is recorded.
+
+---
+
+## CL-X007
+
+**Status:** ADMISSIBILITY LOCK
+
+**Statement:** Phase X2 locks the official pole-removal target on \(f\): \(\widehat f(0)=\widehat f(1)=0\), while marking \(\widehat g(0)=\widehat g(1)=0\) as a sufficient construction device.
+
+---
+
+## CL-X008
+
+**Status:** TARGET DEFINED
+
+**Statement:** Phase X2 defines the certified finite arithmetic matrix target \(M_{ij}=T_{BL}[\phi_j*\phi_i^*]\).
+

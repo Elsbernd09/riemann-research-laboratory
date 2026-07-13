@@ -10475,3 +10475,37 @@ Admissibility not fully source-locked.
 
 Exact functional lock.
 
+
+---
+
+## Phase X2 — Exact Functional Lock
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_attack/phase_x2_exact_functional_lock/PHASE_X2_EXACT_FUNCTIONAL_LOCK.md`
+- `breakthrough_attack/phase_x2_exact_functional_lock/EXACT_FUNCTIONAL_LOCK_STATUS.md`
+- `breakthrough_attack/phase_x2_exact_functional_lock/NEXT_PHASE_X3_BUILT_IN_POLE_CANCELLED_SMOOTH_BASIS.md`
+- `breakthrough_attack/phase_x2_exact_functional_lock/exact_functional_lock_certificate.json`
+- `src/breakthrough_attack/exact_functional_lock.py`
+- `scripts/audit_phaseX2_exact_functional_lock.py`
+
+### Result
+
+The breakthrough attack branch is locked to one exact Bombieri–Lagarias functional.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+No certified matrix yet.
+
+### Next target
+
+Built-in pole-cancelled smooth basis.
+
