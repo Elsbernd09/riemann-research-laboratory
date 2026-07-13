@@ -12301,3 +12301,36 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** The breakthrough-push branch did not achieve a certified arithmetic entry, certified arithmetic matrix, novelty validation, RH proof, or RH disproof.
 
+
+---
+
+## CL-X001
+
+**Status:** SOURCE CONFLICT IDENTIFIED
+
+**Statement:** Phase X1 detects conflicts in star convention, growth conditions, explicit-formula normalization, and pole-cancellation target from the live-search notes.
+
+---
+
+## CL-X002
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X1 proves that if \(\widehat f(s)=\widehat g(s)\widehat g(1-s)\), then \(\widehat g(0)=\widehat g(1)=0\) is sufficient for \(\widehat f(0)=\widehat f(1)=0\).
+
+---
+
+## CL-X003
+
+**Status:** WARNING
+
+**Statement:** Phase X1 proves that requiring both \(\widehat g(0)=0\) and \(\widehat g(1)=0\) may be stronger than necessary if only \(\widehat f(0)=\widehat f(1)=0\) is required.
+
+---
+
+## CL-X004
+
+**Status:** BLOCKER
+
+**Statement:** Phase X1 identifies source-locked admissibility as a blocker for a certified finite Weil matrix theorem.
+

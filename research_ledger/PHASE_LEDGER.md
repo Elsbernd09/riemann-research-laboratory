@@ -10443,3 +10443,35 @@ Professor-review-ready contribution-candidate pathway.
 
 Professor review.
 
+
+---
+
+## Phase X1 — Source-Locked Admissibility Attack
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_attack/phase_x1_source_locked_admissibility/PHASE_X1_SOURCE_LOCKED_ADMISSIBILITY.md`
+- `breakthrough_attack/phase_x1_source_locked_admissibility/ADMISSIBILITY_GATE_STATUS.md`
+- `breakthrough_attack/phase_x1_source_locked_admissibility/NEXT_PHASE_X2_EXACT_FUNCTIONAL_LOCK.md`
+- `scripts/audit_phaseX1_source_locked_admissibility.py`
+
+### Result
+
+The exact admissibility theorem gate was identified.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+Admissibility not fully source-locked.
+
+### Next target
+
+Exact functional lock.
+
