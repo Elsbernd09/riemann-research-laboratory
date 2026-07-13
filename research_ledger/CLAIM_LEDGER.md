@@ -12861,3 +12861,36 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase X20 identifies the remaining gates: raw Mellin moment certification, pointwise convolution certification, archimedean derivative certification, formal outward rounding, prior-art review, and extension beyond one entry.
 
+
+---
+
+## CL-X085
+
+**Status:** MATRIX CANDIDATE CREATED
+
+**Statement:** Phase X21 creates a \(2\times2\) interval matrix certificate candidate from the assembled \(M_{00}\) pipeline.
+
+---
+
+## CL-X086
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X21 proves the entrywise interval matrix assembly theorem.
+
+---
+
+## CL-X087
+
+**Status:** NOT FULLY CERTIFIED
+
+**Statement:** Phase X21 proves that a matrix with synthetic or non-independently certified entries is not a certified finite Weil matrix.
+
+---
+
+## CL-X088
+
+**Status:** NOT A BREAKTHROUGH
+
+**Statement:** Phase X21 does not prove RH or establish a breakthrough; it creates a finite-matrix candidate object only.
+

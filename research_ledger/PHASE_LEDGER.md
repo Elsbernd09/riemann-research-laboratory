@@ -10985,3 +10985,37 @@ No fully certified arithmetic entry yet.
 
 Two-by-two matrix certificate candidate.
 
+
+---
+
+## Phase X21 — Two-by-Two Matrix Certificate Candidate
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_attack/phase_x21_two_by_two_matrix_certificate_candidate/PHASE_X21_TWO_BY_TWO_MATRIX_CERTIFICATE_CANDIDATE.md`
+- `breakthrough_attack/phase_x21_two_by_two_matrix_certificate_candidate/TWO_BY_TWO_MATRIX_STATUS.md`
+- `breakthrough_attack/phase_x21_two_by_two_matrix_certificate_candidate/NEXT_PHASE_X22_FINAL_BREAKTHROUGH_CANDIDATE_VERDICT.md`
+- `breakthrough_attack/phase_x21_two_by_two_matrix_certificate_candidate/two_by_two_matrix_certificate_candidate.json`
+- `src/breakthrough_attack/two_by_two_matrix_certificate_candidate.py`
+- `scripts/audit_phaseX21_two_by_two_matrix.py`
+
+### Result
+
+A \(2\times2\) interval matrix certificate candidate was created.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+No certified finite Weil matrix.
+
+### Next target
+
+Final breakthrough-candidate verdict.
+
