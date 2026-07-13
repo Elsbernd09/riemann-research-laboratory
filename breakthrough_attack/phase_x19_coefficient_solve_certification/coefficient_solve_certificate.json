@@ -1,0 +1,50 @@
+{
+  "phase": "X19",
+  "status": "PHASE_X19_COEFFICIENT_SOLVE_CERTIFICATION_COMPLETE",
+  "certificate": {
+    "basis_id": "demo_phi0_pole_cancelled_basis",
+    "alpha_interval": [
+      "0.7080153935505967",
+      "0.7080153937505967"
+    ],
+    "beta_interval": [
+      "0.1491274633922612",
+      "0.1491274635922612"
+    ],
+    "m0_residual_interval": [
+      "-2.16793956238698338826725E-10",
+      "2.16793749453404341173275E-10"
+    ],
+    "m1_residual_interval": [
+      "-2.341398071021409478079098E-10",
+      "2.341374038834016509920902E-10"
+    ],
+    "m0_residual_contains_zero": true,
+    "m1_residual_contains_zero": true,
+    "m0_residual_width": "4.33587705692102680000000E-10",
+    "m1_residual_width": "4.682772109855425988000000E-10",
+    "raw_moment_integrals_certified": false,
+    "certification_status": "COEFFICIENT_SOLVE_RESIDUAL_CERTIFIED_MOMENT_INTEGRALS_NOT_CERTIFIED",
+    "unresolved_gates": [
+      "raw Mellin moment integral certification",
+      "outward rounding review",
+      "dependency-aware interval solve tightening",
+      "independent verification of pole-cancelled basis construction"
+    ]
+  },
+  "coefficient_residual_algebra_certified": true,
+  "raw_moment_integrals_certified": false,
+  "certified_arithmetic_entry": false,
+  "audit_strings": [
+    "PHASE_X19_COEFFICIENT_SOLVE_CERTIFICATION_COMPLETE",
+    "MELLIN_MOMENT_SYSTEM_RECONSTRUCTED",
+    "COEFFICIENT_INTERVALS_CREATED",
+    "MOMENT_INTERVALS_CREATED",
+    "POLE_RESIDUAL_INTERVALS_CREATED",
+    "RESIDUAL_INTERVAL_ENCLOSURE_PROVED",
+    "COEFFICIENT_SOLVE_RESIDUAL_CERTIFIED_MOMENT_INTEGRALS_NOT_CERTIFIED",
+    "RAW_MELLIN_MOMENT_CERTIFICATION_BLOCKER_IDENTIFIED",
+    "CERTIFIED_ARITHMETIC_ENTRY_NOT_COMPUTED",
+    "READY_FOR_PHASE_X20_OUTWARD_ROUNDING_AND_INTERVAL_AUDIT"
+  ]
+}
