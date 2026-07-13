@@ -12762,3 +12762,36 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase X16 does not compute a fully certified arithmetic entry; it creates the constant-term interval structure but \(F(1)\) remains pointwise-convolution uncertified.
 
+
+---
+
+## CL-X069
+
+**Status:** ARCHIMEDEAN STRUCTURE CREATED
+
+**Statement:** Phase X17 creates the archimedean integral interval-certificate structure using the continuous extension from X5.
+
+---
+
+## CL-X070
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X17 proves the archimedean interval certificate theorem assuming a rigorous bound on \(\|H_F''\|_\infty\).
+
+---
+
+## CL-X071
+
+**Status:** BLOCKER IDENTIFIED
+
+**Statement:** Phase X17 identifies the rigorous archimedean continuous-extension second derivative bound as incomplete.
+
+---
+
+## CL-X072
+
+**Status:** CERTIFICATION INCOMPLETE
+
+**Statement:** Phase X17 does not compute a fully certified arithmetic entry; it creates the archimedean interval-certificate structure but derivative certification remains incomplete.
+

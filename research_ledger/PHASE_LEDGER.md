@@ -10883,3 +10883,37 @@ No fully certified arithmetic entry yet.
 
 Archimedean integral interval certificate.
 
+
+---
+
+## Phase X17 — Archimedean Integral Interval Certificate
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_attack/phase_x17_archimedean_integral_interval_certificate/PHASE_X17_ARCHIMEDEAN_INTEGRAL_INTERVAL_CERTIFICATE.md`
+- `breakthrough_attack/phase_x17_archimedean_integral_interval_certificate/ARCHIMEDEAN_INTEGRAL_STATUS.md`
+- `breakthrough_attack/phase_x17_archimedean_integral_interval_certificate/NEXT_PHASE_X18_ASSEMBLE_FULL_M00_INTERVAL_CERTIFICATE.md`
+- `breakthrough_attack/phase_x17_archimedean_integral_interval_certificate/archimedean_integral_interval_certificate.json`
+- `src/breakthrough_attack/archimedean_integral_interval_certificate.py`
+- `scripts/audit_phaseX17_archimedean_integral.py`
+
+### Result
+
+The archimedean integral interval-certificate structure was created.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+No fully certified arithmetic entry yet.
+
+### Next target
+
+Assemble full M00 interval certificate.
+

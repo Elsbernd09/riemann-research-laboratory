@@ -1,0 +1,32 @@
+{
+  "phase": "X17",
+  "status": "PHASE_X17_ARCHIMEDEAN_INTEGRAL_INTERVAL_CERTIFICATE_COMPLETE",
+  "certificate": {
+    "entry_id": "M_00_archimedean_integral",
+    "integration_interval": [
+      1.0,
+      14.879731724872835
+    ],
+    "n_subintervals": 160,
+    "midpoint_value": -0.05308278540736774,
+    "archimedean_second_derivative_bound_placeholder": "2.561980196343903807779446188E+54",
+    "error_radius": "1.114981796746479345479435809E+52",
+    "interval_lower": "-1.114981796746479345479435809E+52",
+    "interval_upper": "1.114981796746479345479435809E+52",
+    "certification_status": "ARCHIMEDEAN_INTERVAL_CERTIFICATE_DERIVATIVE_BOUND_INCOMPLETE"
+  },
+  "scope": "archimedean integral only",
+  "full_entry_certified": false,
+  "archimedean_derivative_bound_fully_certified": false,
+  "audit_strings": [
+    "PHASE_X17_ARCHIMEDEAN_INTEGRAL_INTERVAL_CERTIFICATE_COMPLETE",
+    "ARCHIMEDEAN_CONTINUOUS_EXTENSION_USED",
+    "ARCHIMEDEAN_SUPPORT_TRUNCATION_CREATED",
+    "ARCHIMEDEAN_INTERVAL_CERTIFICATE_CREATED",
+    "MIDPOINT_QUADRATURE_THEOREM_APPLIED_TO_ARCHIMEDEAN_TERM",
+    "ARCHIMEDEAN_DERIVATIVE_BOUND_INCOMPLETE",
+    "FULL_T_BL_ENTRY_NOT_CERTIFIED",
+    "CERTIFIED_ARITHMETIC_ENTRY_NOT_COMPUTED",
+    "READY_FOR_PHASE_X18_ASSEMBLE_FULL_M00_INTERVAL_CERTIFICATE"
+  ]
+}
