@@ -12548,3 +12548,44 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase X7 assigns certification status `CERTIFICATION_INCOMPLETE` because rigorous second-derivative bounds and outward-rounded interval arithmetic are not yet supplied.
 
+
+---
+
+## CL-X031
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X8 proves the second derivative formula for smooth log-bumps \(\phi(x)=\psi((\log x-c)/w)\).
+
+---
+
+## CL-X032
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X8 proves the corrected basis derivative bound using the triangle inequality.
+
+---
+
+## CL-X033
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X8 proves the second derivative formula for the Hermitian star \(\Phi^*(x)=x^{-1}\Phi(1/x)\).
+
+---
+
+## CL-X034
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X8 proves the convolution second derivative bound reducing \(\|F''\|_\infty\) to \(\|\Phi\|_\infty\), \(\|(\Phi^*)''\|_\infty\), and support endpoints.
+
+---
+
+## CL-X035
+
+**Status:** CERTIFICATION INCOMPLETE
+
+**Statement:** Phase X8 computes heuristic derivative envelopes but does not certify derivative bounds, because primitive interval bump bounds are still missing.
+

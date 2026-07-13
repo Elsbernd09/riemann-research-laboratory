@@ -10679,3 +10679,37 @@ No certified arithmetic entry yet.
 
 Derivative bound certification.
 
+
+---
+
+## Phase X8 — Derivative Bound Certification Reduction
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_attack/phase_x8_derivative_bound_certification/PHASE_X8_DERIVATIVE_BOUND_CERTIFICATION.md`
+- `breakthrough_attack/phase_x8_derivative_bound_certification/DERIVATIVE_BOUND_STATUS.md`
+- `breakthrough_attack/phase_x8_derivative_bound_certification/NEXT_PHASE_X9_PRIMITIVE_INTERVAL_BUMP_BOUNDS.md`
+- `breakthrough_attack/phase_x8_derivative_bound_certification/derivative_bound_certificate.json`
+- `src/breakthrough_attack/derivative_bounds.py`
+- `scripts/audit_phaseX8_derivative_bounds.py`
+
+### Result
+
+Derivative certification was reduced to primitive interval bounds for the smooth bump and its derivatives.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+No certified arithmetic entry yet.
+
+### Next target
+
+Primitive interval bump bounds.
+

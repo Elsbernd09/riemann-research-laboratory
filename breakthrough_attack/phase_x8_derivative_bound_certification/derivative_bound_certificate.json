@@ -1,0 +1,35 @@
+{
+  "phase": "X8",
+  "status": "PHASE_X8_DERIVATIVE_BOUND_CERTIFICATION_COMPLETE",
+  "envelope": {
+    "phi_support": [
+      0.2592402606458915,
+      3.8574255306969745
+    ],
+    "phi_sup_heuristic": 0.36784760865275995,
+    "phi_prime_sup_heuristic": 5.484366442689778,
+    "phi_second_sup_heuristic": 605.5488880417088,
+    "star_support": [
+      0.2592402606458915,
+      3.8574255306969745
+    ],
+    "star_second_sup_heuristic": 465.0559942986607,
+    "convolution_second_bound_heuristic": 1266.9874698012527,
+    "status": "DERIVATIVE_BOUNDS_REDUCED_BUT_NOT_CERTIFIED"
+  },
+  "certification_status": "DERIVATIVE_BOUNDS_REDUCED_BUT_NOT_CERTIFIED",
+  "warning": "Heuristic grid envelopes are not rigorous interval bounds.",
+  "next_blocker": "primitive interval bounds for psi, psi_prime, psi_second",
+  "audit_strings": [
+    "PHASE_X8_DERIVATIVE_BOUND_CERTIFICATION_COMPLETE",
+    "LOG_BUMP_SECOND_DERIVATIVE_FORMULA_PROVED",
+    "CORRECTED_BASIS_DERIVATIVE_BOUND_PROVED",
+    "STAR_SECOND_DERIVATIVE_FORMULA_PROVED",
+    "CONVOLUTION_SECOND_DERIVATIVE_BOUND_PROVED",
+    "DERIVATIVE_BOUND_REDUCTION_CREATED",
+    "HEURISTIC_DERIVATIVE_ENVELOPES_COMPUTED",
+    "DERIVATIVE_BOUNDS_REDUCED_BUT_NOT_CERTIFIED",
+    "CERTIFIED_ENTRY_NOT_COMPUTED",
+    "READY_FOR_PHASE_X9_PRIMITIVE_INTERVAL_BUMP_BOUNDS"
+  ]
+}
