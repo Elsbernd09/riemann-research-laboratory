@@ -10747,3 +10747,37 @@ No certified arithmetic entry yet.
 
 Corrected basis interval derivative bounds.
 
+
+---
+
+## Phase X12 — Star and Convolution Derivative Bounds
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_attack/phase_x12_star_and_convolution_derivative_bounds/PHASE_X12_STAR_AND_CONVOLUTION_DERIVATIVE_BOUNDS.md`
+- `breakthrough_attack/phase_x12_star_and_convolution_derivative_bounds/STAR_CONVOLUTION_DERIVATIVE_STATUS.md`
+- `breakthrough_attack/phase_x12_star_and_convolution_derivative_bounds/NEXT_PHASE_X13_PARTIAL_SINGLE_ENTRY_INTERVAL_CERTIFICATE.md`
+- `breakthrough_attack/phase_x12_star_and_convolution_derivative_bounds/star_convolution_derivative_bounds_certificate.json`
+- `src/breakthrough_attack/star_convolution_derivative_bounds.py`
+- `scripts/audit_phaseX12_star_convolution_derivatives.py`
+
+### Result
+
+Star and convolution derivative-bound machinery was created.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+No fully certified arithmetic entry yet.
+
+### Next target
+
+Partial single-entry interval certificate.
+

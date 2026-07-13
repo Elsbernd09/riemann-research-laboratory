@@ -12622,3 +12622,44 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase X10 creates log-bump interval bounds but does not formally verify them and does not compute a certified arithmetic entry.
 
+
+---
+
+## CL-X048
+
+**Status:** INTERVAL BOUND CREATED
+
+**Statement:** Phase X12 creates an interval bound for the Hermitian-star second derivative \((\Phi^*)''\).
+
+---
+
+## CL-X049
+
+**Status:** INTERVAL BOUND CREATED
+
+**Statement:** Phase X12 creates a convolution second-derivative bound for \(F=\Phi*\Phi^*\).
+
+---
+
+## CL-X050
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X12 proves the interval enclosure theorem for the Hermitian-star second derivative.
+
+---
+
+## CL-X051
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X12 proves the convolution second-derivative bound used for midpoint quadrature certification.
+
+---
+
+## CL-X052
+
+**Status:** CERTIFICATION INCOMPLETE
+
+**Statement:** Phase X12 makes an \(F''\) bound available for quadrature, but coefficient certification and full entry certification remain incomplete.
+
