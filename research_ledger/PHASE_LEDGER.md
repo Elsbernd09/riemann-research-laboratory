@@ -10577,3 +10577,37 @@ No certified arithmetic entry yet.
 
 Archimedean removable singularity theorem.
 
+
+---
+
+## Phase X5 — Archimedean Removable Singularity Theorem
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_attack/phase_x5_archimedean_removable_singularity/PHASE_X5_ARCHIMEDEAN_REMOVABLE_SINGULARITY.md`
+- `breakthrough_attack/phase_x5_archimedean_removable_singularity/ARCHIMEDEAN_SINGULARITY_STATUS.md`
+- `breakthrough_attack/phase_x5_archimedean_removable_singularity/NEXT_PHASE_X6_CERTIFIED_QUADRATURE_THEOREM.md`
+- `breakthrough_attack/phase_x5_archimedean_removable_singularity/archimedean_singularity_certificate.json`
+- `src/breakthrough_attack/archimedean_singularity.py`
+- `scripts/audit_phaseX5_archimedean_singularity.py`
+
+### Result
+
+The removable archimedean singularity theorem was proved and implemented.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+No certified arithmetic entry yet.
+
+### Next target
+
+Certified quadrature theorem.
+

@@ -1,0 +1,47 @@
+{
+  "phase": "X5",
+  "status": "PHASE_X5_ARCHIMEDEAN_REMOVABLE_SINGULARITY_COMPLETE",
+  "locked_integrand": "(F(x)+x^(-1)F(1/x)-2x^(-2)F(1))*x/(x^2-1)",
+  "removable_value": "(3/2)F(1)",
+  "demo_limit_checks": {
+    "0.1": {
+      "left": 1.8063009458832953,
+      "right": 1.2515623897683223,
+      "limit": 1.5,
+      "left_error": 0.30630094588329526,
+      "right_error": -0.24843761023167765
+    },
+    "0.01": {
+      "left": 1.5277898723384942,
+      "right": 1.4727851637060436,
+      "limit": 1.5,
+      "left_error": 0.02778987233849417,
+      "right_error": -0.02721483629395638
+    },
+    "0.001": {
+      "left": 1.5027528773558865,
+      "right": 1.4972528726477012,
+      "limit": 1.5,
+      "left_error": 0.002752877355886474,
+      "right_error": -0.0027471273522987616
+    },
+    "0.0001": {
+      "left": 1.5002750287524624,
+      "right": 1.4997250287472672,
+      "limit": 1.5,
+      "left_error": 0.0002750287524624362,
+      "right_error": -0.0002749712527327919
+    }
+  },
+  "certification_status": "STRUCTURAL_THEOREM_AND_FLOATING_DEMO_ONLY",
+  "audit_strings": [
+    "PHASE_X5_ARCHIMEDEAN_REMOVABLE_SINGULARITY_COMPLETE",
+    "ARCHIMEDEAN_NUMERATOR_CANCELLATION_PROVED",
+    "ARCHIMEDEAN_REMOVABLE_LIMIT_PROVED",
+    "REMOVABLE_VALUE_THREE_HALVES_F_OF_ONE_PROVED",
+    "CONTINUOUS_ARCHIMEDEAN_EXTENSION_DEFINED",
+    "ARCHIMEDEAN_SINGULARITY_GATE_CLOSED_STRUCTURALLY",
+    "CERTIFIED_ENTRY_NOT_COMPUTED",
+    "READY_FOR_PHASE_X6_CERTIFIED_QUADRATURE_THEOREM"
+  ]
+}

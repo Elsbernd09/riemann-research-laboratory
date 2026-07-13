@@ -12449,3 +12449,36 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase X4 closes the finite-prime-sum gate structurally, but does not compute a certified arithmetic entry.
 
+
+---
+
+## CL-X019
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X5 proves that the Bombieri–Lagarias archimedean numerator \(F(x)+\widetilde F(x)-2x^{-2}F(1)\) vanishes at \(x=1\).
+
+---
+
+## CL-X020
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X5 proves that the removable archimedean value at \(x=1\) is \(\frac32F(1)\).
+
+---
+
+## CL-X021
+
+**Status:** STRUCTURAL GATE CLOSED
+
+**Statement:** Phase X5 closes the archimedean singularity gate structurally by defining a continuous extension of the integrand.
+
+---
+
+## CL-X022
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase X5 does not compute a certified arithmetic entry and does not establish a breakthrough.
+
