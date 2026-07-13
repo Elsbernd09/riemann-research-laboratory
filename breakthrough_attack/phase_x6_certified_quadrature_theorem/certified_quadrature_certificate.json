@@ -1,0 +1,32 @@
+{
+  "phase": "X6",
+  "status": "PHASE_X6_CERTIFIED_QUADRATURE_THEOREM_COMPLETE",
+  "theorem": "midpoint error <= (b-a)^3 sup|h''|/(24N^2)",
+  "demo_function": "h(x)=x^2 on [0,1]",
+  "demo_exact_integral": 0.3333333333333333,
+  "demo_midpoint_value": 0.333325,
+  "demo_certificate": {
+    "a": 0.0,
+    "b": 1.0,
+    "n": 100,
+    "q_lower": 0.333325,
+    "q_upper": 0.333325,
+    "second_derivative_bound": 2.0,
+    "error_radius": 8.333333333333334e-06,
+    "certified_interval": [
+      0.33331666666666665,
+      0.3333333333333333
+    ]
+  },
+  "demo_exact_integral_inside_interval": true,
+  "certification_status": "THEOREM_PROVED_PATTERN_READY_BUT_ENTRY_NOT_COMPUTED",
+  "audit_strings": [
+    "PHASE_X6_CERTIFIED_QUADRATURE_THEOREM_COMPLETE",
+    "MIDPOINT_QUADRATURE_ERROR_THEOREM_PROVED",
+    "CERTIFIED_INTEGRAL_ENCLOSURE_THEOREM_PROVED",
+    "ERROR_BOUND_FORMULA_LOCKED",
+    "QUADRATURE_CERTIFICATION_PATTERN_CREATED",
+    "CERTIFIED_ENTRY_NOT_COMPUTED",
+    "READY_FOR_PHASE_X7_SINGLE_ENTRY_CERTIFICATION_PIPELINE"
+  ]
+}

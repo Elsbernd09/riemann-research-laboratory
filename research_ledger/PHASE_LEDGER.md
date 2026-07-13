@@ -10611,3 +10611,37 @@ No certified arithmetic entry yet.
 
 Certified quadrature theorem.
 
+
+---
+
+## Phase X6 — Certified Quadrature Theorem
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_attack/phase_x6_certified_quadrature_theorem/PHASE_X6_CERTIFIED_QUADRATURE_THEOREM.md`
+- `breakthrough_attack/phase_x6_certified_quadrature_theorem/CERTIFIED_QUADRATURE_STATUS.md`
+- `breakthrough_attack/phase_x6_certified_quadrature_theorem/NEXT_PHASE_X7_SINGLE_ENTRY_CERTIFICATION_PIPELINE.md`
+- `breakthrough_attack/phase_x6_certified_quadrature_theorem/certified_quadrature_certificate.json`
+- `src/breakthrough_attack/certified_quadrature.py`
+- `scripts/audit_phaseX6_certified_quadrature.py`
+
+### Result
+
+The certified midpoint quadrature theorem and integral-enclosure theorem were proved and implemented.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+No certified arithmetic entry yet.
+
+### Next target
+
+Single-entry certification pipeline.
+
