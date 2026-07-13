@@ -10815,3 +10815,37 @@ No fully certified arithmetic entry yet.
 
 Prime-side interval certificate.
 
+
+---
+
+## Phase X15 — Prime-Side Interval Certificate
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_attack/phase_x15_prime_side_interval_certificate/PHASE_X15_PRIME_SIDE_INTERVAL_CERTIFICATE.md`
+- `breakthrough_attack/phase_x15_prime_side_interval_certificate/PRIME_SIDE_STATUS.md`
+- `breakthrough_attack/phase_x15_prime_side_interval_certificate/NEXT_PHASE_X16_CONSTANT_TERM_INTERVAL_CERTIFICATE.md`
+- `breakthrough_attack/phase_x15_prime_side_interval_certificate/prime_side_interval_certificate.json`
+- `src/breakthrough_attack/prime_side_interval_certificate.py`
+- `scripts/audit_phaseX15_prime_side_interval.py`
+
+### Result
+
+The finite prime-side interval certificate structure was created.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+No fully certified arithmetic entry yet.
+
+### Next target
+
+Constant-term interval certificate.
+

@@ -12696,3 +12696,36 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase X14 does not compute a fully certified arithmetic entry; prime, constant, archimedean, coefficient, and outward-rounding gates remain.
 
+
+---
+
+## CL-X061
+
+**Status:** PRIME-SIDE STRUCTURE CREATED
+
+**Statement:** Phase X15 creates the finite prime-side interval certificate structure for \(P(F)=\sum_{n\le N}\Lambda(n)(F(n)+\widetilde F(n))\).
+
+---
+
+## CL-X062
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X15 proves the finite prime-side interval summation theorem assuming valid pointwise intervals for \(F(n)\) and \(\widetilde F(n)\).
+
+---
+
+## CL-X063
+
+**Status:** BLOCKER IDENTIFIED
+
+**Statement:** Phase X15 identifies certified pointwise convolution evaluation as the remaining blocker for a fully certified prime side.
+
+---
+
+## CL-X064
+
+**Status:** CERTIFICATION INCOMPLETE
+
+**Statement:** Phase X15 does not compute a fully certified arithmetic entry; it creates the finite prime-side interval structure but pointwise convolution values remain uncertified.
+
