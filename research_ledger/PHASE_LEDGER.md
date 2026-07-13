@@ -10917,3 +10917,37 @@ No fully certified arithmetic entry yet.
 
 Assemble full M00 interval certificate.
 
+
+---
+
+## Phase X18 — Assemble Full M00 Interval Certificate
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_attack/phase_x18_assemble_full_m00_interval_certificate/PHASE_X18_ASSEMBLE_FULL_M00_INTERVAL_CERTIFICATE.md`
+- `breakthrough_attack/phase_x18_assemble_full_m00_interval_certificate/FULL_M00_STATUS.md`
+- `breakthrough_attack/phase_x18_assemble_full_m00_interval_certificate/NEXT_PHASE_X19_COEFFICIENT_SOLVE_CERTIFICATION.md`
+- `breakthrough_attack/phase_x18_assemble_full_m00_interval_certificate/full_m00_interval_certificate.json`
+- `src/breakthrough_attack/assemble_full_m00_interval_certificate.py`
+- `scripts/audit_phaseX18_full_m00_assembly.py`
+
+### Result
+
+A full \(M_{00}\) interval-certificate candidate was assembled from all term-level structures.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+No fully certified arithmetic entry yet.
+
+### Next target
+
+Coefficient-solve certification.
+
