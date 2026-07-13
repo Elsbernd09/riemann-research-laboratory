@@ -10509,3 +10509,37 @@ No certified matrix yet.
 
 Built-in pole-cancelled smooth basis.
 
+
+---
+
+## Phase X3 — Built-In Pole-Cancelled Smooth Basis
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_attack/phase_x3_built_in_pole_cancelled_smooth_basis/PHASE_X3_BUILT_IN_POLE_CANCELLED_SMOOTH_BASIS.md`
+- `breakthrough_attack/phase_x3_built_in_pole_cancelled_smooth_basis/POLE_CANCELLED_BASIS_STATUS.md`
+- `breakthrough_attack/phase_x3_built_in_pole_cancelled_smooth_basis/NEXT_PHASE_X4_SUPPORT_AND_FINITE_PRIME_CUTOFF_THEOREM.md`
+- `breakthrough_attack/phase_x3_built_in_pole_cancelled_smooth_basis/pole_cancelled_basis_certificate.json`
+- `src/breakthrough_attack/pole_cancelled_smooth_basis.py`
+- `scripts/audit_phaseX3_pole_cancelled_basis.py`
+
+### Result
+
+A smooth built-in pole-cancelled basis mechanism was created.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+No certified arithmetic entry yet.
+
+### Next target
+
+Support and finite prime cutoff theorem.
+

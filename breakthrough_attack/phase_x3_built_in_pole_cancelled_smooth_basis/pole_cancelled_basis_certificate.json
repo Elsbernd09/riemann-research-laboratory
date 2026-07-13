@@ -1,0 +1,152 @@
+{
+  "phase": "X3",
+  "status": "PHASE_X3_BUILT_IN_POLE_CANCELLED_SMOOTH_BASIS_COMPLETE",
+  "certification_status": "FLOATING_PROTOTYPE_ONLY_NOT_CERTIFIED",
+  "correction_matrix_strategy": "solve 2x2 Mellin moment system at s=0 and s=1",
+  "basis": [
+    {
+      "raw": {
+        "center": -0.25,
+        "width": 0.3,
+        "support": [
+          0.5769498103804866,
+          1.0512710963760241
+        ]
+      },
+      "corr0": {
+        "center": -1.0,
+        "width": 0.35,
+        "support": [
+          0.2592402606458915,
+          0.522045776761016
+        ]
+      },
+      "corr1": {
+        "center": 1.0,
+        "width": 0.35,
+        "support": [
+          1.9155408290138962,
+          3.8574255306969745
+        ]
+      },
+      "alpha": 0.7080153936505967,
+      "beta": 0.1491274634922612,
+      "support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "basis_type": "built_in_pole_cancelled_smooth_basis_floating_prototype"
+    },
+    {
+      "raw": {
+        "center": 0.0,
+        "width": 0.3,
+        "support": [
+          0.7408182206817179,
+          1.3498588075760032
+        ]
+      },
+      "corr0": {
+        "center": -1.0,
+        "width": 0.35,
+        "support": [
+          0.2592402606458915,
+          0.522045776761016
+        ]
+      },
+      "corr1": {
+        "center": 1.0,
+        "width": 0.35,
+        "support": [
+          1.9155408290138962,
+          3.8574255306969745
+        ]
+      },
+      "alpha": 0.6275551276632283,
+      "beta": 0.22958772947962833,
+      "support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "basis_type": "built_in_pole_cancelled_smooth_basis_floating_prototype"
+    },
+    {
+      "raw": {
+        "center": 0.25,
+        "width": 0.3,
+        "support": [
+          0.951229424500714,
+          1.7332530178673953
+        ]
+      },
+      "corr0": {
+        "center": -1.0,
+        "width": 0.35,
+        "support": [
+          0.2592402606458915,
+          0.522045776761016
+        ]
+      },
+      "corr1": {
+        "center": 1.0,
+        "width": 0.35,
+        "support": [
+          1.9155408290138962,
+          3.8574255306969745
+        ]
+      },
+      "alpha": 0.5242421011019935,
+      "beta": 0.33290075604086383,
+      "support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ],
+      "basis_type": "built_in_pole_cancelled_smooth_basis_floating_prototype"
+    }
+  ],
+  "floating_residual_checks": [
+    {
+      "index": 0,
+      "mellin_at_0_floating_residual": 7.093144821591358e-08,
+      "mellin_at_1_floating_residual": 1.8577231689910776e-08,
+      "abs_residual_max": 7.093144821591358e-08,
+      "support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ]
+    },
+    {
+      "index": 1,
+      "mellin_at_0_floating_residual": 6.280702709981113e-08,
+      "mellin_at_1_floating_residual": 1.643251723058246e-08,
+      "abs_residual_max": 6.280702709981113e-08,
+      "support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ]
+    },
+    {
+      "index": 2,
+      "mellin_at_0_floating_residual": 5.24319406784764e-08,
+      "mellin_at_1_floating_residual": 1.3701627636499175e-08,
+      "abs_residual_max": 5.24319406784764e-08,
+      "support": [
+        0.2592402606458915,
+        3.8574255306969745
+      ]
+    }
+  ],
+  "audit_strings": [
+    "PHASE_X3_BUILT_IN_POLE_CANCELLED_SMOOTH_BASIS_COMPLETE",
+    "RAW_SMOOTH_BUMPS_DEFINED",
+    "CORRECTION_BUMPS_DEFINED",
+    "MELLIN_MOMENT_CORRECTION_MATRIX_DEFINED",
+    "CORRECTED_BASIS_DEFINED",
+    "SMOOTH_COMPACT_SUPPORT_PRESERVED_PROVED",
+    "BUILT_IN_POLE_CANCELLATION_PROVED",
+    "FINITE_COMBINATIONS_POLE_CANCELLED_PROVED",
+    "POLE_CANCELLED_SMOOTH_BASIS_MECHANISM_CREATED",
+    "CERTIFIED_ENTRY_NOT_COMPUTED",
+    "READY_FOR_PHASE_X4_SUPPORT_AND_FINITE_PRIME_CUTOFF_THEOREM"
+  ]
+}

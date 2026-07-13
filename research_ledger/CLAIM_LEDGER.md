@@ -12367,3 +12367,44 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase X2 defines the certified finite arithmetic matrix target \(M_{ij}=T_{BL}[\phi_j*\phi_i^*]\).
 
+
+---
+
+## CL-X009
+
+**Status:** BASIS MECHANISM CREATED
+
+**Statement:** Phase X3 creates a built-in pole-cancelled smooth basis mechanism using two correction bumps and a \(2\times2\) Mellin moment system.
+
+---
+
+## CL-X010
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X3 proves that correction by finite linear combination preserves \(C_c^\infty(0,\infty)\).
+
+---
+
+## CL-X011
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X3 proves that the corrected basis satisfies \(\widehat{\phi_j}(0)=\widehat{\phi_j}(1)=0\) when the correction matrix is invertible.
+
+---
+
+## CL-X012
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X3 proves that finite combinations of corrected basis functions remain pole-cancelled.
+
+---
+
+## CL-X013
+
+**Status:** BOUNDARY NOTE
+
+**Statement:** Phase X3 implements only a floating prototype and does not compute a certified arithmetic entry.
+
