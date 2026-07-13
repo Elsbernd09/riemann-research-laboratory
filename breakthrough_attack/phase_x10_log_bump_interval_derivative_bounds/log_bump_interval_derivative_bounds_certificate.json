@@ -1,0 +1,100 @@
+{
+  "phase": "X10",
+  "status": "PHASE_X10_LOG_BUMP_INTERVAL_DERIVATIVE_BOUNDS_COMPLETE",
+  "certification_status": "LOG_BUMP_INTERVAL_BOUNDS_CREATED_NOT_FORMALLY_VERIFIED",
+  "center": "0.0",
+  "width": "0.75",
+  "bounds": [
+    {
+      "x_interval": {
+        "lo": "0.80",
+        "hi": "0.90"
+      },
+      "u_interval": {
+        "lo": "-0.2975247350856130076883934537",
+        "hi": "-0.1404806875437684016366679744"
+      },
+      "value_interval": {
+        "lo": "0.33383182117196596925115377489526501169868897934581627528220441634811309674802286",
+        "hi": "0.36054729879154521176164518455524379543699812790354309709041502360207761963649633"
+      },
+      "prime_interval": {
+        "lo": "0.1446050397274903579264565157",
+        "hi": "0.4303984550833977413692456111"
+      },
+      "second_interval": {
+        "lo": "-3.799976391315683540446268589",
+        "hi": "-1.432580723104535578938785252"
+      },
+      "midpoint": 0.85,
+      "midpoint_value_inside": true,
+      "midpoint_prime_float_probe_inside": true,
+      "midpoint_second_float_probe_inside": true
+    },
+    {
+      "x_interval": {
+        "lo": "0.95",
+        "hi": "1.05"
+      },
+      "u_interval": {
+        "lo": "-0.06839105918340071123492819232",
+        "hi": "0.06505355222590933742049920561"
+      },
+      "value_interval": {
+        "lo": "0.36615471465406509944211643964244127742727569421432800712105118732531420683114829",
+        "hi": "0.36787944117144232159552377016146086744581113103176783450783680169746149574489980"
+      },
+      "prime_interval": {
+        "lo": "-0.06781002045742328771646695150",
+        "hi": "0.07128894524047527265314135373"
+      },
+      "second_interval": {
+        "lo": "-1.578660115842470753201522630",
+        "hi": "-1.098212133053655984084023852"
+      },
+      "midpoint": 1.0,
+      "midpoint_value_inside": false,
+      "midpoint_prime_float_probe_inside": true,
+      "midpoint_second_float_probe_inside": true
+    },
+    {
+      "x_interval": {
+        "lo": "1.10",
+        "hi": "1.20"
+      },
+      "u_interval": {
+        "lo": "0.1270802397390998133919361643",
+        "hi": "0.2430954090586061682822907002"
+      },
+      "value_interval": {
+        "lo": "0.34548467936438041938581487976633422607520896353139322507449440958831144484933390",
+        "hi": "0.36189018447522938455406913132446606632230219124851343533673873599195162997277533"
+      },
+      "prime_interval": {
+        "lo": "-0.2409008898580440463238694545",
+        "hi": "-0.1007943025487813800404583121"
+      },
+      "second_interval": {
+        "lo": "-1.382295377097220484633467208",
+        "hi": "-0.5915058336392885163371193737"
+      },
+      "midpoint": 1.15,
+      "midpoint_value_inside": true,
+      "midpoint_prime_float_probe_inside": true,
+      "midpoint_second_float_probe_inside": true
+    }
+  ],
+  "warning": "Decimal interval and finite-difference probes are not proof-assistant verification.",
+  "audit_strings": [
+    "PHASE_X10_LOG_BUMP_INTERVAL_DERIVATIVE_BOUNDS_COMPLETE",
+    "LOG_INTERVAL_ENCLOSURE_CREATED",
+    "LOG_BUMP_VALUE_INTERVAL_CREATED",
+    "LOG_BUMP_FIRST_DERIVATIVE_INTERVAL_CREATED",
+    "LOG_BUMP_SECOND_DERIVATIVE_INTERVAL_CREATED",
+    "LOG_BUMP_DERIVATIVE_FORMULAS_PROVED",
+    "LOG_BUMP_INTERVAL_PROPAGATION_PROVED",
+    "LOG_BUMP_INTERVAL_BOUNDS_CREATED_NOT_FORMALLY_VERIFIED",
+    "CERTIFIED_ENTRY_NOT_COMPUTED",
+    "READY_FOR_PHASE_X11_CORRECTED_BASIS_INTERVAL_DERIVATIVE_BOUNDS"
+  ]
+}

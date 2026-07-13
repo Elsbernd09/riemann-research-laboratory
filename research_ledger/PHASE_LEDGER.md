@@ -10713,3 +10713,37 @@ No certified arithmetic entry yet.
 
 Primitive interval bump bounds.
 
+
+---
+
+## Phase X10 — Log-Bump Interval Derivative Bounds
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_attack/phase_x10_log_bump_interval_derivative_bounds/PHASE_X10_LOG_BUMP_INTERVAL_DERIVATIVE_BOUNDS.md`
+- `breakthrough_attack/phase_x10_log_bump_interval_derivative_bounds/LOG_BUMP_INTERVAL_STATUS.md`
+- `breakthrough_attack/phase_x10_log_bump_interval_derivative_bounds/NEXT_PHASE_X11_CORRECTED_BASIS_INTERVAL_DERIVATIVE_BOUNDS.md`
+- `breakthrough_attack/phase_x10_log_bump_interval_derivative_bounds/log_bump_interval_derivative_bounds_certificate.json`
+- `src/breakthrough_attack/log_bump_interval_derivative_bounds.py`
+- `scripts/audit_phaseX10_log_bump_interval_derivatives.py`
+
+### Result
+
+Interval derivative bounds were propagated from primitive bump bounds to log-bumps.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+No certified arithmetic entry yet.
+
+### Next target
+
+Corrected basis interval derivative bounds.
+

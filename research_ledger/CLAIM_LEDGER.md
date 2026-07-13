@@ -12589,3 +12589,36 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase X8 computes heuristic derivative envelopes but does not certify derivative bounds, because primitive interval bump bounds are still missing.
 
+
+---
+
+## CL-X040
+
+**Status:** INTERVAL PROPAGATION CREATED
+
+**Statement:** Phase X10 creates interval derivative bounds for log-bumps from primitive interval bounds for \(\psi,\psi',\psi''\).
+
+---
+
+## CL-X041
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X10 proves the first and second derivative formulas for log-bumps \(\phi(x)=\psi((\log x-c)/w)\).
+
+---
+
+## CL-X042
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X10 proves the interval propagation principle for log-bump derivative bounds.
+
+---
+
+## CL-X043
+
+**Status:** CERTIFICATION INCOMPLETE
+
+**Statement:** Phase X10 creates log-bump interval bounds but does not formally verify them and does not compute a certified arithmetic entry.
+
