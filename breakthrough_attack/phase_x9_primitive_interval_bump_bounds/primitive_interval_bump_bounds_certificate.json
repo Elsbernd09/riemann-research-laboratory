@@ -1,0 +1,130 @@
+{
+  "phase": "X9",
+  "status": "PHASE_X9_PRIMITIVE_INTERVAL_BUMP_BOUNDS_COMPLETE",
+  "certification_status": "PRIMITIVE_INTERVAL_BOUNDS_CREATED_NOT_FORMALLY_VERIFIED",
+  "rounding_model": "Python Decimal directed rounding with conservative interval operations",
+  "bounds": [
+    {
+      "interval": {
+        "lo": "-0.90",
+        "hi": "-0.75"
+      },
+      "psi_interval": {
+        "lo": "0.0051789243705977532951775612453534606538689334069990022863480096120702300398919417",
+        "hi": "0.10170139230422682926306812456755598702031696788932497260649420242926424858967954"
+      },
+      "psi_prime_interval": {
+        "lo": "0.04058585629203137276220782690",
+        "hi": "5.070983549795243564363507596"
+      },
+      "psi_second_interval": {
+        "lo": "-95.47028866961519081679368713",
+        "hi": "246.3189597369932490264909215"
+      },
+      "midpoint": -0.825,
+      "midpoint_psi_inside": true,
+      "midpoint_psi_prime_inside": true,
+      "midpoint_psi_second_inside": true
+    },
+    {
+      "interval": {
+        "lo": "-0.50",
+        "hi": "-0.25"
+      },
+      "psi_interval": {
+        "lo": "0.26359713811572677007903394572153561224091283912888687507010707975442829808889442",
+        "hi": "0.34415378686541239006460604192353780319813576578788232540095413328220197119678408"
+      },
+      "psi_prime_interval": {
+        "lo": "0.1499574830169467847560726447",
+        "hi": "0.6118289544273998045592996302"
+      },
+      "psi_second_interval": {
+        "lo": "-2.743821725224104439077847550",
+        "hi": "0.09571724087041988053549931998"
+      },
+      "midpoint": -0.375,
+      "midpoint_psi_inside": true,
+      "midpoint_psi_prime_inside": true,
+      "midpoint_psi_second_inside": true
+    },
+    {
+      "interval": {
+        "lo": "-0.10",
+        "hi": "0.10"
+      },
+      "psi_interval": {
+        "lo": "0.36418219163361494537769139578875507308447192708653565717903785714931757770139830",
+        "hi": "0.36787944117144232159552377016146086744581113103176783450783680169746149574489980"
+      },
+      "psi_prime_interval": {
+        "lo": "-0.07506977679245838620457581274",
+        "hi": "0.07506977679245838620457581274"
+      },
+      "psi_second_interval": {
+        "lo": "-0.7963477903389346407192885676",
+        "hi": "-0.7131995402804839872250239096"
+      },
+      "midpoint": 0.0,
+      "midpoint_psi_inside": false,
+      "midpoint_psi_prime_inside": true,
+      "midpoint_psi_second_inside": true
+    },
+    {
+      "interval": {
+        "lo": "0.25",
+        "hi": "0.50"
+      },
+      "psi_interval": {
+        "lo": "0.26359713811572677007903394572153561224091283912888687507010707975442829808889442",
+        "hi": "0.34415378686541239006460604192353780319813576578788232540095413328220197119678408"
+      },
+      "psi_prime_interval": {
+        "lo": "-0.6118289544273998045592996302",
+        "hi": "-0.1499574830169467847560726447"
+      },
+      "psi_second_interval": {
+        "lo": "-2.743821725224104439077847550",
+        "hi": "0.09571724087041988053549931998"
+      },
+      "midpoint": 0.375,
+      "midpoint_psi_inside": true,
+      "midpoint_psi_prime_inside": true,
+      "midpoint_psi_second_inside": true
+    },
+    {
+      "interval": {
+        "lo": "0.75",
+        "hi": "0.90"
+      },
+      "psi_interval": {
+        "lo": "0.0051789243705977532951775612453534606538689334069990022863480096120702300398919417",
+        "hi": "0.10170139230422682926306812456755598702031696788932497260649420242926424858967954"
+      },
+      "psi_prime_interval": {
+        "lo": "-5.070983549795243564363507596",
+        "hi": "-0.04058585629203137276220782690"
+      },
+      "psi_second_interval": {
+        "lo": "-95.47028866961519081679368713",
+        "hi": "246.3189597369932490264909215"
+      },
+      "midpoint": 0.825,
+      "midpoint_psi_inside": true,
+      "midpoint_psi_prime_inside": true,
+      "midpoint_psi_second_inside": true
+    }
+  ],
+  "audit_strings": [
+    "PHASE_X9_PRIMITIVE_INTERVAL_BUMP_BOUNDS_COMPLETE",
+    "DECIMAL_INTERVAL_ARITHMETIC_CREATED",
+    "PSI_INTERVAL_BOUND_CREATED",
+    "PSI_PRIME_INTERVAL_BOUND_CREATED",
+    "PSI_SECOND_INTERVAL_BOUND_CREATED",
+    "PRIMITIVE_DERIVATIVE_FORMULAS_PROVED",
+    "INTERVAL_ENCLOSURE_PRINCIPLE_RECORDED",
+    "PRIMITIVE_INTERVAL_BOUNDS_CREATED_NOT_FORMALLY_VERIFIED",
+    "CERTIFIED_ENTRY_NOT_COMPUTED",
+    "READY_FOR_PHASE_X10_LOG_BUMP_INTERVAL_DERIVATIVE_BOUNDS"
+  ]
+}
