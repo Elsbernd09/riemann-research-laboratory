@@ -10849,3 +10849,37 @@ No fully certified arithmetic entry yet.
 
 Constant-term interval certificate.
 
+
+---
+
+## Phase X16 — Constant-Term Interval Certificate
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_attack/phase_x16_constant_term_interval_certificate/PHASE_X16_CONSTANT_TERM_INTERVAL_CERTIFICATE.md`
+- `breakthrough_attack/phase_x16_constant_term_interval_certificate/CONSTANT_TERM_STATUS.md`
+- `breakthrough_attack/phase_x16_constant_term_interval_certificate/NEXT_PHASE_X17_ARCHIMEDEAN_INTEGRAL_INTERVAL_CERTIFICATE.md`
+- `breakthrough_attack/phase_x16_constant_term_interval_certificate/constant_term_interval_certificate.json`
+- `src/breakthrough_attack/constant_term_interval_certificate.py`
+- `scripts/audit_phaseX16_constant_term_interval.py`
+
+### Result
+
+The constant-term interval certificate structure was created.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+No fully certified arithmetic entry yet.
+
+### Next target
+
+Archimedean integral interval certificate.
+

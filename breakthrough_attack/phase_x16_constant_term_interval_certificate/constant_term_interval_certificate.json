@@ -1,0 +1,37 @@
+{
+  "phase": "X16",
+  "status": "PHASE_X16_CONSTANT_TERM_INTERVAL_CERTIFICATE_COMPLETE",
+  "certificate": {
+    "entry_id": "M_00_constant_term",
+    "log_pi_gamma_interval": [
+      "1.721945550750933099999999999999",
+      "1.721945550750933100000000000001"
+    ],
+    "f_at_one_interval": [
+      "0.04274205892690382",
+      "0.04274405892690382"
+    ],
+    "constant_term_interval": [
+      "-0.07360294209021773680356355895448474405892690382",
+      "-0.07359949819911623493736355895439925794107309618"
+    ],
+    "certification_status": "CONSTANT_TERM_INTERVAL_CERTIFICATE_POINTWISE_CONVOLUTION_NOT_CERTIFIED"
+  },
+  "scope": "constant term only",
+  "full_entry_certified": false,
+  "pointwise_convolution_certified": false,
+  "locked_constant": "log(pi)+EulerGamma",
+  "rejected_constant_for_locked_branch": "log(4*pi)+EulerGamma",
+  "audit_strings": [
+    "PHASE_X16_CONSTANT_TERM_INTERVAL_CERTIFICATE_COMPLETE",
+    "LOG_PI_GAMMA_INTERVAL_CREATED",
+    "F_AT_ONE_INTERVAL_CREATED",
+    "CONSTANT_TERM_INTERVAL_CREATED",
+    "CONSTANT_TERM_INTERVAL_ENCLOSURE_PROVED",
+    "POINTWISE_CONVOLUTION_CERTIFICATION_BLOCKER_IDENTIFIED",
+    "CONSTANT_TERM_CERTIFICATE_POINTWISE_CONVOLUTION_NOT_CERTIFIED",
+    "FULL_T_BL_ENTRY_NOT_CERTIFIED",
+    "CERTIFIED_ARITHMETIC_ENTRY_NOT_COMPUTED",
+    "READY_FOR_PHASE_X17_ARCHIMEDEAN_INTEGRAL_INTERVAL_CERTIFICATE"
+  ]
+}

@@ -12729,3 +12729,36 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase X15 does not compute a fully certified arithmetic entry; it creates the finite prime-side interval structure but pointwise convolution values remain uncertified.
 
+
+---
+
+## CL-X065
+
+**Status:** CONSTANT-TERM STRUCTURE CREATED
+
+**Statement:** Phase X16 creates the constant-term interval certificate structure for \(-(\log\pi+\gamma)F(1)\).
+
+---
+
+## CL-X066
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X16 proves the constant-term interval enclosure theorem assuming valid intervals for \(F(1)\) and \(\log\pi+\gamma\).
+
+---
+
+## CL-X067
+
+**Status:** BLOCKER IDENTIFIED
+
+**Statement:** Phase X16 identifies certified pointwise convolution evaluation of \(F(1)\) as the remaining blocker for a fully certified constant term.
+
+---
+
+## CL-X068
+
+**Status:** CERTIFICATION INCOMPLETE
+
+**Statement:** Phase X16 does not compute a fully certified arithmetic entry; it creates the constant-term interval structure but \(F(1)\) remains pointwise-convolution uncertified.
+
