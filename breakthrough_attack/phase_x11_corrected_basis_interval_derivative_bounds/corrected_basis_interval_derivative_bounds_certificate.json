@@ -1,0 +1,82 @@
+{
+  "phase": "X11",
+  "status": "PHASE_X11_CORRECTED_BASIS_INTERVAL_DERIVATIVE_BOUNDS_COMPLETE",
+  "certification_status": "CORRECTED_BASIS_INTERVAL_BOUNDS_CREATED_COEFFICIENTS_NOT_CERTIFIED",
+  "alpha_interval": {
+    "lo": "0.7080153836505967",
+    "hi": "0.7080154036505967"
+  },
+  "beta_interval": {
+    "lo": "0.1491274534922612",
+    "hi": "0.1491274734922612"
+  },
+  "bounds": [
+    {
+      "x_interval": {
+        "lo": "0.20",
+        "hi": "0.40"
+      },
+      "value_interval": {
+        "lo": "-0.2604643110357546778396948738",
+        "hi": "0E-1000026"
+      },
+      "prime_interval": {
+        "lo": "-1435316690321025397012425.421",
+        "hi": "343283741930580587535543.2059"
+      },
+      "second_interval": {
+        "lo": "-7.909467494114008803528915107E+48",
+        "hi": "1.891702100597656448416310431E+48"
+      }
+    },
+    {
+      "x_interval": {
+        "lo": "0.80",
+        "hi": "1.20"
+      },
+      "value_interval": {
+        "lo": "0E-1000026",
+        "hi": "0.3649193740486789943872539515"
+      },
+      "prime_interval": {
+        "lo": "-760248695934747904973445.5421",
+        "hi": "0E-1000026"
+      },
+      "second_interval": {
+        "lo": "-6.335405799456232541445381102E+36",
+        "hi": "1.583851449864058135361345433E+48"
+      }
+    },
+    {
+      "x_interval": {
+        "lo": "2.00",
+        "hi": "3.50"
+      },
+      "value_interval": {
+        "lo": "-0.05486093161164212835117739092",
+        "hi": "-0.001978807623224742398252697856"
+      },
+      "prime_interval": {
+        "lo": "-2.567369655976046840139954778",
+        "hi": "2.114811839283785192520425491"
+      },
+      "second_interval": {
+        "lo": "-120.9806769671261038523282502",
+        "hi": "160.0295809037770642788388277"
+      }
+    }
+  ],
+  "warning": "Alpha and beta are wrapped numerical coefficients, not certified Mellin-solve intervals.",
+  "audit_strings": [
+    "PHASE_X11_CORRECTED_BASIS_INTERVAL_DERIVATIVE_BOUNDS_COMPLETE",
+    "CORRECTED_BASIS_VALUE_INTERVAL_CREATED",
+    "CORRECTED_BASIS_FIRST_DERIVATIVE_INTERVAL_CREATED",
+    "CORRECTED_BASIS_SECOND_DERIVATIVE_INTERVAL_CREATED",
+    "CORRECTED_BASIS_DERIVATIVE_PROPAGATION_PROVED",
+    "CORRECTED_BASIS_INTERVAL_ENCLOSURE_PROVED",
+    "COEFFICIENT_INTERVAL_WRAPPERS_CREATED",
+    "COEFFICIENT_CERTIFICATION_INCOMPLETE",
+    "CERTIFIED_ENTRY_NOT_COMPUTED",
+    "READY_FOR_PHASE_X12_STAR_AND_CONVOLUTION_DERIVATIVE_BOUNDS"
+  ]
+}
