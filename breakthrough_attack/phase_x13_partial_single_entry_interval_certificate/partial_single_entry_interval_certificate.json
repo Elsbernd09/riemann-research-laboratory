@@ -1,0 +1,38 @@
+{
+  "phase": "X13",
+  "status": "PHASE_X13_PARTIAL_SINGLE_ENTRY_INTERVAL_CERTIFICATE_COMPLETE",
+  "certificate": {
+    "entry_id": "M_00_central_integral",
+    "support": [
+      0.06720551273974977,
+      14.879731724872835
+    ],
+    "n_subintervals": 160,
+    "midpoint_value": 0.00019921689466130503,
+    "f_second_derivative_bound": "2.561980196343903807779446188E+52",
+    "error_radius": "1.355226724001176722410377441E+50",
+    "interval_lower": "-1.355226724001176722410377441E+50",
+    "interval_upper": "1.355226724001176722410377441E+50",
+    "certification_status": "PARTIAL_SINGLE_ENTRY_INTERVAL_CERTIFICATE"
+  },
+  "scope": "central integral term only",
+  "full_entry_certified": false,
+  "unresolved_terms": [
+    "tilde integral",
+    "finite prime side",
+    "constant term",
+    "archimedean continuous-extension integral",
+    "coefficient solve certification",
+    "outward-rounded arithmetic review"
+  ],
+  "audit_strings": [
+    "PHASE_X13_PARTIAL_SINGLE_ENTRY_INTERVAL_CERTIFICATE_COMPLETE",
+    "CENTRAL_INTEGRAL_INTERVAL_CERTIFICATE_CREATED",
+    "MIDPOINT_QUADRATURE_THEOREM_APPLIED_TO_F",
+    "F_SECOND_DERIVATIVE_BOUND_USED",
+    "PARTIAL_SINGLE_ENTRY_INTERVAL_CERTIFICATE_CREATED",
+    "FULL_T_BL_ENTRY_NOT_CERTIFIED",
+    "CERTIFIED_ARITHMETIC_ENTRY_NOT_COMPUTED",
+    "READY_FOR_PHASE_X14_TILDE_INTEGRAL_INTERVAL_CERTIFICATE"
+  ]
+}
