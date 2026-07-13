@@ -1,0 +1,43 @@
+{
+  "phase": "X7",
+  "status": "PHASE_X7_SINGLE_ENTRY_CERTIFICATION_PIPELINE_COMPLETE",
+  "result": {
+    "entry_id": "M_00",
+    "status": "PHASE_X7_SINGLE_ENTRY_CERTIFICATION_PIPELINE_COMPLETE",
+    "entry_support": [
+      0.06720551273974977,
+      14.879731724872835
+    ],
+    "finite_prime_cutoff": 14,
+    "central_integral_prototype": -4.8399457418430006e-05,
+    "tilde_integral_prototype": -4.2355491425445445e-05,
+    "prime_sum_prototype": -0.02181242961999178,
+    "constant_term_prototype": -0.07360122014466698,
+    "archimedean_integral_prototype": -0.052997361226058096,
+    "entry_value_prototype": 0.0011178157525390184,
+    "derivative_bounds_available": false,
+    "certification_status": "CERTIFICATION_INCOMPLETE",
+    "unresolved_blockers": [
+      "rigorous second-derivative bound for F00",
+      "rigorous second-derivative bound for tilde F00",
+      "rigorous second-derivative bound for archimedean continuous extension",
+      "outward-rounded interval arithmetic",
+      "certified convolution enclosure"
+    ]
+  },
+  "locked_functional": "T_BL",
+  "locked_constant": "-(log(pi)+EulerGamma)F(1)",
+  "certification_status": "CERTIFICATION_INCOMPLETE",
+  "audit_strings": [
+    "PHASE_X7_SINGLE_ENTRY_CERTIFICATION_PIPELINE_COMPLETE",
+    "SINGLE_ENTRY_PIPELINE_CREATED",
+    "LOCKED_T_BL_COMPONENTS_ASSEMBLED",
+    "FINITE_PRIME_SIDE_COMPUTABLE_PROVED",
+    "ARCHIMEDEAN_CONTINUOUS_EXTENSION_USED",
+    "QUADRATURE_CERTIFICATION_PATTERN_USED",
+    "CERTIFICATION_INCOMPLETE_STATUS_ASSIGNED",
+    "DERIVATIVE_BOUND_BLOCKER_IDENTIFIED",
+    "CERTIFIED_ENTRY_NOT_COMPUTED",
+    "READY_FOR_PHASE_X8_DERIVATIVE_BOUND_CERTIFICATION"
+  ]
+}
