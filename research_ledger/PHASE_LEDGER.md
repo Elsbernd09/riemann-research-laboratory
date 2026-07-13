@@ -10781,3 +10781,37 @@ No fully certified arithmetic entry yet.
 
 Partial single-entry interval certificate.
 
+
+---
+
+## Phase X14 — Tilde Integral Interval Certificate
+
+Status: COMPLETE
+
+### Artifacts created
+
+- `breakthrough_attack/phase_x14_tilde_integral_interval_certificate/PHASE_X14_TILDE_INTEGRAL_INTERVAL_CERTIFICATE.md`
+- `breakthrough_attack/phase_x14_tilde_integral_interval_certificate/TILDE_INTEGRAL_STATUS.md`
+- `breakthrough_attack/phase_x14_tilde_integral_interval_certificate/NEXT_PHASE_X15_PRIME_SIDE_INTERVAL_CERTIFICATE.md`
+- `breakthrough_attack/phase_x14_tilde_integral_interval_certificate/tilde_integral_interval_certificate.json`
+- `src/breakthrough_attack/tilde_integral_interval_certificate.py`
+- `scripts/audit_phaseX14_tilde_integral_interval.py`
+
+### Result
+
+A partial interval certificate was created for the tilde integral term.
+
+### Boundary
+
+No RH proof.
+
+No breakthrough.
+
+No novelty claim.
+
+No fully certified arithmetic entry yet.
+
+### Next target
+
+Prime-side interval certificate.
+

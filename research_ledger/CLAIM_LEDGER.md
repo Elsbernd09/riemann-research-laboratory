@@ -12663,3 +12663,36 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Phase X12 makes an \(F''\) bound available for quadrature, but coefficient certification and full entry certification remain incomplete.
 
+
+---
+
+## CL-X057
+
+**Status:** PARTIAL CERTIFICATE CREATED
+
+**Statement:** Phase X14 creates a partial interval certificate for the tilde integral term \(\int \widetilde F(x)\,dx\) in the \(M_{00}\) pipeline.
+
+---
+
+## CL-X058
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X14 proves the tilde support theorem \(\operatorname{supp}(\widetilde F)\subset[B^{-1},A^{-1}]\) when \(\operatorname{supp}(F)\subset[A,B]\).
+
+---
+
+## CL-X059
+
+**Status:** PROVED IN PROJECT
+
+**Statement:** Phase X14 proves the tilde integral partial-certificate theorem using midpoint quadrature.
+
+---
+
+## CL-X060
+
+**Status:** CERTIFICATION INCOMPLETE
+
+**Statement:** Phase X14 does not compute a fully certified arithmetic entry; prime, constant, archimedean, coefficient, and outward-rounding gates remain.
+
