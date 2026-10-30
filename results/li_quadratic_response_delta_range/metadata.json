@@ -1,0 +1,36 @@
+{
+  "script": "experiments/li_quadratic_response_delta_range.py",
+  "git_commit": "9834dbcf657054b2eef9fd2b254930eda9f55b06",
+  "python": "3.13.18",
+  "platform": "Linux-6.18.44-fc-v185-x86_64-with-glibc2.39",
+  "mpmath": "1.3.0",
+  "dps": 60,
+  "c_grid": "100 points on [0.1, 10], n = round(c*gamma)",
+  "beyond_matched_scale": [
+    {
+      "k": "0.01",
+      "n": 1,
+      "delta": 0.375,
+      "relative_error": "-0.00116659"
+    },
+    {
+      "k": "0.1",
+      "n": 19,
+      "delta": 0.375,
+      "relative_error": "-0.000327406"
+    },
+    {
+      "k": "1",
+      "n": 199,
+      "delta": 0.375,
+      "relative_error": "0.0508076"
+    },
+    {
+      "k": "3",
+      "n": 599,
+      "delta": 0.375,
+      "relative_error": "0.389531"
+    }
+  ],
+  "seconds": 1.15
+}
