@@ -28,6 +28,9 @@ A statement accompanied by a complete written proof that has survived adversaria
 ### FAILED CLAIM
 A proposed claim invalidated by a counterexample, hidden assumption, circularity, or proof failure.
 
+### UNREFEREED EXTERNAL CLAIM
+A statement asserted with a proof in an outside document that has not been refereed or independently checked by this project. Added 30 October 2026 at the project owner's instruction. Rules: it must be recorded in `docs/EXTERNAL_RESULTS_REGISTER.md` with source, exact statement and date read; it may be used only as an explicitly labelled hypothesis and never as an unstated input to a PROVED IN PROJECT statement; it becomes a KNOWN THEOREM only after publication or independent verification, and a FAILED CLAIM if a flaw is found; no novelty or originality language for the project may rest on it.
+
 ---
 
 # Active Claims
@@ -12935,3 +12938,34 @@ from the provisional explicit-formula convention and the Phase 12F Mellin identi
 
 **Statement:** Remaining gates include Mellin moment certification, pointwise convolution certification, archimedean derivative certification, outward rounding, independent matrix entries, finite-to-Weil transfer, prior-art review, and expert review.
 
+---
+
+## CL-E001
+
+**Status:** UNREFEREED EXTERNAL CLAIM
+
+**Statement:** Every Dirichlet L-function, including the Riemann zeta function, has no zero in the half-plane Re s > 7/8 (OpenAI, "The Quasi-Riemann Hypothesis: A Zero-Free Half-Plane Re s > 7/8", 30 September 2026, Theorem 1.1). Register entry ER-0001. No project result depends on it.
+
+---
+
+## CL-E002
+
+**Status:** UNREFEREED EXTERNAL CLAIM
+
+**Statement:** The same families have no zero in Re s > 11/12 (OpenAI companion paper, 5 October 2026, Theorem 1.1; the 30 September paper's Part I). Register entry ER-0002. The companion describes it as an intermediate step toward CL-E001. No project result depends on it.
+
+---
+
+## CL-E003
+
+**Status:** UNREFEREED EXTERNAL CLAIM
+
+**Statement:** There is an absolute c > 0 with (1 - beta) log q >= c for every real zero beta in (0,1) of every primitive nonprincipal real Dirichlet L-function of conductor q >= 3 (OpenAI, "Uniform exclusion of Landau-Siegel zeros", 1 October 2026, Theorem 1). Register entry ER-0003. No project result depends on it.
+
+---
+
+## CL-E004
+
+**Status:** COMPUTATIONAL OBSERVATION
+
+**Statement:** For one conjugate quartet and the Li kernel, at heights gamma in {14.1347, 21.0220, 100, 1000} and 100 values of n/gamma in [0.1, 10], the error |R - delta^2 chi_n| / (delta^2 A_n), with A_n the amplitude envelope of chi_n, is at most 6.6e-3 for delta up to 3/8, and falls like 1/gamma^2 over these heights. Conditions: 60-digit mpmath, direct evaluation of the Li kernel, `experiments/li_quadratic_response_delta_range.py`, results in `results/li_quadratic_response_delta_range/`. Outside the matched-scale window (n = k gamma^2, gamma = gamma_1, delta = 3/8) the relative error is 5.1% at k = 1 and 39% at k = 3. This is one quartet and a finite grid; it is not a bound on aggregates and does not address any actual zero. Report: `docs/QUADRATIC_RESPONSE_DELTA_RANGE.md`.
