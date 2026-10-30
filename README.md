@@ -29,6 +29,7 @@ The project distinguishes rigorously between:
 - PROJECT CONJECTURE
 - PROVED IN PROJECT
 - FAILED CLAIM
+- UNREFEREED EXTERNAL CLAIM
 
 No claim of originality is permitted without a prior-art audit.
 
